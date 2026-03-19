@@ -2,13 +2,34 @@
 
 [![npm](https://img.shields.io/npm/v/@swiftner/factory-floor)](https://www.npmjs.com/package/@swiftner/factory-floor)
 
-A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that turns your IDE into a startup coach. It won't tell you what to do — it'll ask the questions you're avoiding.
+A startup coach that turns Claude into a thinking partner for prioritization and execution. It won't tell you what to do — it'll ask the questions you're avoiding.
+
+Works with **Claude Code** (CLI/IDE) and **Claude Desktop** (app).
+
+### Claude Code
 
 ```bash
 npx @swiftner/factory-floor
 ```
 
 Installs to `~/.claude/skills/factory-floor/`. Triggers automatically when you talk about priorities, bottlenecks, what to build, or why growth is flat.
+
+### Claude Desktop
+
+1. Open Claude Desktop and create a new **Project**
+2. Set the contents of [`SKILL.md`](SKILL.md) as the project's **Custom Instructions**
+3. Upload these files as **Project Knowledge**:
+   - `stages/pre-revenue.md`
+   - `stages/growth.md`
+   - `stages/scaling.md`
+4. Optionally upload reference files for deeper dives:
+   - `references/jtbd.md`
+   - `references/pillar-goldratt.md`
+   - `references/pillar-maurya.md`
+   - `references/pillar-sharp.md`
+   - `references/estimation.md`
+
+Start a conversation in that project and Claude will run the triage and route to the right stage — the same way the skill works in Claude Code.
 
 ## What it does
 
