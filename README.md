@@ -63,6 +63,7 @@ factory-floor/
 │   ├── pillar-goldratt.md            # Theory of Constraints deep-dive
 │   ├── pillar-maurya.md              # Customer Factory deep-dive
 │   ├── pillar-sharp.md               # Mental & Physical Availability deep-dive
+│   ├── estimation.md                 # Critical Chain estimation, buffer management, fever chart
 │   └── weekly-diagrams.md            # Customer Factory Funnel diagram template
 └── scripts/
     ├── render-diagram.mjs            # Renders .mmd → SVG via beautiful-mermaid

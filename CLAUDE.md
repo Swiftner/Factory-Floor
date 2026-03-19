@@ -15,6 +15,7 @@ A Claude Code skill called **Factory Floor** — a startup operating system for 
 - `pillar-goldratt.md` — Theory of Constraints (Five Focusing Steps, throughput accounting, Little's Law, WIP limits)
 - `pillar-maurya.md` — Customer Factory (Acquisition → Activation → Revenue → Retention → Referral, GOLEAN cycle, constraint identification by startup stage)
 - `pillar-sharp.md` — Mental & Physical Availability (Category Entry Points, distinctiveness vs differentiation, reach vs frequency, the Sharp diagnostic)
+- `estimation.md` — Estimation and timeline management (Critical Chain, CCPM, buffer sizing, fever chart, PERT, cycle time, relay race behavior, why estimates fail)
 - `weekly-diagrams.md` — Customer Factory Funnel diagram template for the weekly constraint review
 
 ### scripts/

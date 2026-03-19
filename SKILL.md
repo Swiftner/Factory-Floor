@@ -10,12 +10,14 @@ description: >
   vs. invest in marketing, managing a small team's workload and focus, breaking
   priorities into tasks, setting WIP limits, managing blockers, tracking progress
   against throughput goals, running a 2-week execution sprint, handling a constraint
-  shift, or any question about startup priorities and execution rhythm. Also trigger
-  when someone mentions "constraint," "bottleneck," "throughput," "WIP," "customer
-  factory," "mental availability," or phrases like "what should we focus on," "we're
-  spread too thin," "should we build this or sell first," "how do I prioritize,"
-  "how do I manage this project," "break this into tasks," or "what should my
-  sprint look like."
+  shift, estimating how long work will take, communicating timelines to stakeholders,
+  or any question about startup priorities and execution rhythm. Also trigger when
+  someone mentions "constraint," "bottleneck," "throughput," "WIP," "customer
+  factory," "mental availability," "estimate," "timeline," "deadline," "buffer,"
+  or phrases like "what should we focus on," "we're spread too thin," "should we
+  build this or sell first," "how do I prioritize," "how do I manage this project,"
+  "break this into tasks," "what should my sprint look like," "how long will this
+  take," or "when will this ship."
 ---
 
 # The Factory Floor
@@ -382,6 +384,67 @@ Track these weekly:
 
 Don't track vanity metrics (tasks completed, story points burned, hours
 logged). They measure motion, not progress.
+
+### Estimate time honestly
+
+Most estimates fail because safety padding gets baked into each task, then
+consumed by procrastination (Student Syndrome) and scope creep (Parkinson's
+Law). Goldratt's fix: **strip safety from individual tasks and pool it into
+a project buffer.**
+
+**The quick protocol:**
+1. Get the **focused estimate** — "How long with no interruptions?" (50%
+   confidence.)
+2. Get the **safe estimate** — "How long with normal life?" (80-90%
+   confidence.)
+3. Use the focused estimate as the task duration.
+4. Pool the difference into a project buffer (sum the gaps, take 50%).
+5. The buffer end date is the only date you commit to externally.
+
+**When to estimate vs. measure vs. time-box:**
+
+| Situation | Method |
+|---|---|
+| Novel work, external commitment | Focused estimates + pooled buffer |
+| Ongoing work with 3+ weeks of data | Cycle time measurement (median and 85th percentile) |
+| Experiments, learning, customer discovery | Time-box at 2 weeks (GOLEAN cycle) |
+| Quick internal sizing | T-shirt: S (hours), M (1-2 days), L (3-5 days). XL = break it down. |
+
+**The two-question filter:** Before estimating anything, ask "Is this work
+on the constraint?" If yes, estimate carefully — getting this wrong has
+maximum impact. If no, T-shirt size it and move on. The exact duration of
+non-constraint work doesn't matter much.
+
+See `references/estimation.md` for the full estimation framework, including
+CCPM, PERT, buffer sizing methods, and the cone of uncertainty.
+
+### Monitor with the fever chart
+
+Track two numbers weekly: **% of work completed** vs. **% of buffer
+consumed.** If buffer consumption is outpacing completion, you're in
+trouble. Three zones:
+
+- **Green (buffer < 1/3 consumed):** On track. Don't fill the slack with
+  scope creep.
+- **Yellow (buffer 1/3 to 2/3 consumed):** Plan a recovery option. Don't
+  panic — the buffer is doing its job.
+- **Red (buffer > 2/3 consumed):** Act now. Cut scope, redirect
+  non-constraint capacity to the critical chain, remove blockers.
+
+At the weekly review, the simplified check: "What % of the work is done?
+What % of our time is gone?" If time is ahead of work, investigate.
+
+### Run the relay race
+
+When someone finishes a task, the next person starts **immediately** — not
+on the scheduled date. In traditional project management, early finishes
+evaporate (the next task starts on its calendar date) while late finishes
+accumulate. The relay race behavior is what makes buffers work: early
+finishes propagate forward, shrinking the buffer less than planned.
+
+Tell the team: "I don't care when individual tasks finish. I care about
+buffer consumption. Start when the predecessor hands off. Work with focus.
+Hand off immediately when done."
 
 ### Handle blockers immediately
 
