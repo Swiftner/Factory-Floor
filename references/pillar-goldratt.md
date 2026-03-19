@@ -1,0 +1,150 @@
+# Pillar 1: The Theory of Constraints (Goldratt) — Reference
+
+## Origin
+
+Eli Goldratt introduced the Theory of Constraints in *The Goal* (1984). The
+core thesis: every system has exactly one constraint at any moment, and the
+system's output is limited entirely by that constraint. Improving anything
+other than the constraint does not improve the system.
+
+## The Five Focusing Steps — Startup Translation
+
+### 1. Identify the Constraint
+
+In manufacturing, the constraint is the machine with the longest queue. In a
+startup, look for these signals:
+
+- **Where does work pile up?** Tickets waiting for engineering? Leads waiting
+  for the founder to demo? Signed customers waiting for onboarding?
+- **Where do downstream stages starve?** Engineering done but nothing to ship
+  because there are no customers? Customers ready but nothing new to show them?
+- **What is the team most often waiting on?** The answer reveals the bottleneck.
+
+Common startup constraints by function:
+
+| Function | Signals it's the constraint |
+|---|---|
+| Sales/Pipeline | Thin pipeline, sparse demos, deals stalling. Engineering and onboarding have spare capacity. |
+| Engineering/Product | Feature requests exceed dev capacity. Sales sells what can't be built. Half-built features accumulate. |
+| Onboarding/Activation | Deals close but customers can't go live. Churn starts before expansion. Support queue grows. |
+| Market/Awareness | Product works well for those who try it, but too few people enter the funnel. Growth is flat despite good retention. |
+
+Important: this is a self-correcting process. If you invest in the wrong area,
+the real constraint stays the same and nothing improves. That's your signal to
+re-identify.
+
+### 2. Exploit the Constraint
+
+Before spending money, squeeze maximum output from the bottleneck:
+
+**If sales is the constraint:**
+- Founder does nothing but sell during selling hours. Zero admin, zero code
+  reviews, zero support.
+- Improve conversion rates before chasing more leads.
+- Tighten ICP. Disqualify faster. Reduce demo prep time.
+- Every minute the constraint spends on non-constraint work = lost throughput
+  for the entire company.
+
+**If engineering is the constraint:**
+- Eliminate context-switching. One task at a time.
+- Pre-package every spec: requirements clarified, designs done, APIs documented.
+  The developer should never wait for information.
+- Automate CI/CD (the software equivalent of SMED setup time reduction).
+- Stop working on non-critical features immediately.
+
+**If onboarding is the constraint:**
+- Templatize onboarding sequences.
+- Build self-serve docs and in-app tutorials.
+- Reduce manual steps per customer.
+- Record walkthroughs once, reuse infinitely.
+
+**If awareness/acquisition is the constraint:**
+- Redirect all available non-constraint capacity toward distribution activities.
+- Create content, build partnerships, attend events, do outreach.
+- Apply Sharp's mental availability framework (see pillar-sharp.md).
+
+### 3. Subordinate Everything Else
+
+This is the hardest step psychologically. The rules:
+
+- Non-constraints must serve the constraint, even when that means they appear
+  underutilized.
+- Idle capacity at a non-constraint is not waste — it's buffer. A highway needs
+  an emergency lane.
+- Non-constraint work that doesn't feed the constraint should stop.
+
+**Subordination matrix example:**
+
+| Current constraint | Founder | Developer | Support/CS person |
+|---|---|---|---|
+| Sales/Pipeline | 100% selling. Nothing else during selling hours. | Build sales tools: demo flow, trial UX, landing pages. Use slack for refactoring/docs. | Create case studies. Pre-package onboarding materials. Write FAQ content. |
+| Engineering | Write specs, do QA, handle support to shield the developer. Slow intake of new work. | Protected focus. One task at a time. All work pre-packaged. | QA testing, bug reporting, documentation, customer workarounds. |
+| Onboarding | Help with onboarding calls. Create training videos. Pause selling if queue is full. | Build onboarding automation: setup wizards, health checks. Reduce manual steps. | Protected focus on activating customers. |
+| Awareness | Content creation, outreach, partnerships, speaking, LinkedIn. | Build distribution assets: SEO pages, integrations directory, API docs. | Collect testimonials, case studies, social proof. |
+
+### 4. Elevate the Constraint
+
+Only after Steps 2 and 3. Now you invest:
+
+- Hire at the constraint. A developer when engineering is the bottleneck. A
+  salesperson when pipeline is the bottleneck. A CSM when onboarding is.
+- Every unit of capacity added at the constraint = throughput of the whole
+  company. An expensive specialist at the bottleneck pays for themselves. A
+  cheap hire at a non-constraint adds cost without adding throughput.
+
+### 5. Repeat (Prevent Inertia)
+
+After elevating, the constraint moves. Goldratt's warning: "Do not allow
+inertia to become the system's constraint." The processes and policies built
+for the old constraint may now be counterproductive.
+
+This is why the weekly constraint review exists. Every week, re-ask: "What is
+our constraint now?" If it has shifted, update subordination roles immediately.
+
+## Throughput Accounting for Startups
+
+Goldratt's three metrics, translated:
+
+| Manufacturing term | Startup equivalent |
+|---|---|
+| **Throughput (T)** | Revenue from happy paying customers. The rate of creating monetizable value. |
+| **Inventory (I)** | WIP — half-built features, unworked leads, unsigned proposals, customers in limbo. |
+| **Operating Expense (OE)** | Everything spent to run: salaries, cloud infra, tools, rent. Essentially fixed in the short term. |
+
+**The decision hierarchy:**
+1. Does this increase T? → Prioritize.
+2. Does this reduce I? → Do it next.
+3. Does this reduce OE? → Nice, but secondary.
+
+Most founders invert this and start with cost-cutting. TOC says maximize T
+first, always. Ash Maurya echoes this: "The idea of throughput accounting is
+flipping cost-cutting on its head and saying the bigger potential is thinking
+about upside potential."
+
+## Little's Law
+
+WIP = Throughput × Lead Time. This is a mathematical identity, not a theory.
+
+If WIP increases and Throughput holds constant, Lead Time must increase. Every
+time you start new work without finishing existing work, you're increasing WIP,
+which extends lead time on everything.
+
+The practical implication: **finishing one thing is always better than starting
+two things.** A team completing one feature per week delivers more value than a
+team with five features "in progress" for three weeks each.
+
+## Context-Switching Tax (Weinberg)
+
+Gerald Weinberg's research: each additional parallel project costs ~20% in lost
+productivity from context-switching.
+
+| Simultaneous projects | % of time available per project | % lost to switching |
+|---|---|---|
+| 1 | 100% | 0% |
+| 2 | 40% | 20% |
+| 3 | 20% | 40% |
+| 4 | 10% | 60% |
+| 5 | 5% | 75% |
+
+For a three-person startup, the practical limit is one active task per person.
+WIP limit = team size.
