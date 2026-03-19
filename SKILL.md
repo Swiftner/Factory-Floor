@@ -60,17 +60,21 @@ questions to triangulate:
 
 0. **Do you have paying customers yet?**
    No revenue, no users, or just friends-and-family → the constraint is
-   **Problem Validation**. Two tests: First, the not-not test — "Is it not
-   okay for your target customer to NOT have this?" If they can shrug and
-   walk away, you don't have authentic demand. Second, the job test — "Can
-   you name the specific job customers hire you to do, in their words, not
-   yours?" If you can't, you're guessing. Stop building. Go observe (not
-   just interview) potential customers in their real context. Watch what
-   they actually do, not what they say they'd do. Look for struggling
-   moments — the specific events that trigger people to seek a solution.
-   Look for workarounds — what they're cobbling together right now. Those
-   signals are more reliable than any survey. See `references/jtbd.md` for
-   the switch interview protocol and 5-minute conversation canvas.
+   **Problem Validation**. Three tests before you write code:
+   - The **not-not test** — "Is it not okay for your target customer to NOT
+     have this?" If they can shrug, you don't have authentic demand.
+   - The **job test** — "Can you name the specific job customers hire you
+     to do, in their words, not yours?" If you can't, you're guessing.
+   - The **Lean Canvas test** — Can you answer Maurya's three riskiest
+     questions: What are the top 3 problems and how do customers solve them
+     today? Will they pay, and have you tested price? What is the simplest
+     thing you could build to test whether you've got the problem right?
+   Stop building. Observe customers in their real context — what they do,
+   not what they say. Look for struggling moments (events that trigger the
+   search) and workarounds (what they cobble together now). Those signals
+   beat any survey. See `references/jtbd.md` for the switch interview
+   protocol and `references/pillar-maurya.md` for the full Lean Canvas
+   questions.
 
 1. **Are enough of the right people finding you each week?**
    Low traffic, thin pipeline, few demos → the constraint is **Acquisition**.
@@ -104,7 +108,7 @@ stage. If they disagree, trust the triage — but investigate the mismatch.
 
 | Stage | Typical constraint | What "exploiting" looks like |
 |---|---|---|
-| Pre-product/market fit | Problem validation — are you solving a real problem? | Observe customers in context, not just interviews. Apply the not-not test. Lean Canvas stress-testing. |
+| Pre-product/market fit | Problem validation — are you solving a real problem? | Observe customers in context. Apply the not-not test. Stress-test the Lean Canvas — especially problem, willingness to pay, and simplest possible solution. |
 | Problem/Solution fit | Activation — can they get value from it? | Onboarding optimization, concierge onboarding, reducing time-to-value. |
 | Product/Market fit | Acquisition — can you repeatably attract the right people? | Channel experiments, pricing, positioning. |
 | Scaling | Retention or Revenue — can you keep them and capture value? | Churn analysis, expansion revenue, pricing optimization. |

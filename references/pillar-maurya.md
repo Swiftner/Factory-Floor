@@ -59,6 +59,35 @@ their current solution? If not, no amount of engineering or marketing matters.
 **Actions:** Customer interviews. Lean Canvas stress-testing. Demo the problem,
 not the solution. Validate willingness to pay before building.
 
+**Maurya's Lean Canvas questions (from *Running Lean*)** — answer these before
+writing a line of code:
+
+1. **Problem:** Can you list the top 3 problems your customer has? How do
+   they solve them today (existing alternatives)?
+2. **Customer segments:** Who has this problem most acutely? Can you name
+   specific people, not just categories?
+3. **Unique value proposition:** Can you state in one sentence why you're
+   different AND worth paying attention to? (Not "better" — different.)
+4. **Solution:** What is the simplest thing you could build to test whether
+   you've got the problem right? (Not the product vision — the smallest
+   test.)
+5. **Channels:** How will these specific customers find you? Where do they
+   already look when this problem hits?
+6. **Revenue streams:** Will they pay? How much? Have you tested price
+   before building? (Maurya: "The right price is a function of the
+   customer, not the product.")
+7. **Cost structure:** What does it cost to acquire, activate, and serve
+   one customer? Can you survive long enough to learn?
+8. **Key metrics:** What is the one number that tells you whether this is
+   working? (Not a dashboard — one number.)
+9. **Unfair advantage:** What can't be easily copied or bought? (Honest
+   answer: most startups don't have one yet. That's fine — but know it.)
+
+The Lean Canvas is not a business plan. It's a set of **hypotheses to
+test**, ordered by risk. Maurya's rule: **test the riskiest assumption
+first.** Usually that's "does anyone have this problem badly enough to
+pay for a solution?" — not "can we build it?"
+
 ### Problem/Solution Fit → Product/Market Fit
 **Typical constraint: Activation.**
 People sign up but don't get value. Time-to-value is too long. The aha moment
