@@ -21,17 +21,13 @@ The skill helps you identify your constraint, exploit it with existing resources
 ## What it does
 
 - **Prioritisation** — "What should we work on?" becomes "What serves the constraint?" Everything else waits.
-- **Weekly constraint review** — A 25-minute operating rhythm with four generated diagrams that make the bottleneck visible.
+- **Weekly constraint review** — A scalable operating rhythm: 10-minute light review for small teams, 25-minute full review with a funnel diagram for larger ones.
 - **Backlog decisions** — Every feature, hire, and initiative evaluated against the current constraint.
 - **Anti-pattern detection** — Spots when you're optimising a non-constraint ("Let's keep everyone busy") or building features when the real problem is acquisition.
 
-## Weekly review diagrams
+## Customer factory funnel
 
-Before each weekly review, the skill generates four diagrams using [beautiful-mermaid](https://github.com/lukilabs/beautiful-mermaid) to make the bottleneck obvious at a glance:
-
-### Customer factory funnel
-
-Where the biggest drop-off is. The constraint node is highlighted red.
+The one diagram that matters. Shows your five macro steps with conversion rates, constraint highlighted red.
 
 ```mermaid
 graph TD
@@ -44,51 +40,7 @@ graph TD
     style AU fill:#ff6b6b,stroke:#c0392b,stroke-width:3px,color:#fff
 ```
 
-### Throughput trend
-
-Weekly throughput (happy paying customers created) with a trendline.
-
-```mermaid
-xychart-beta
-    title "Weekly Throughput: New Paying Customers"
-    x-axis ["W1", "W2", "W3", "W4", "W5", "W6", "W7", "W8"]
-    y-axis "Customers" 0 --> 20
-    bar [5, 7, 6, 8, 4, 9, 7, 10]
-    line [5, 6, 6, 7, 6, 7, 7, 8]
-```
-
-### WIP snapshot
-
-Where work is piling up. The tallest bar is your empirical constraint.
-
-```mermaid
-xychart-beta horizontal
-    title "Work in Progress by Stage"
-    x-axis ["Acquisition", "Activation", "Revenue", "Retention", "Referral"]
-    bar [3, 12, 2, 1, 0]
-```
-
-### Constraint flow state
-
-Expands the bottleneck step into sub-states to show exactly where things stall.
-
-```mermaid
-stateDiagram-v2
-    [*] --> Acquisition: inbound traffic
-    Acquisition --> Activation: 3% convert
-    Activation --> Revenue: 40% activate
-    Revenue --> Retention: 25% pay
-    Retention --> Referral: 85% retain
-
-    state Activation {
-        [*] --> Signup
-        Signup --> Onboarding
-        Onboarding --> FirstValue
-        note right of Onboarding: BOTTLENECK · avg 14 days to first value
-    }
-```
-
-Diagrams render to SVG with a violet/indigo brand palette by default. Pass `--theme brand-light` for a white background variant, or use any of the 15 built-in themes from beautiful-mermaid.
+Renders to SVG via [beautiful-mermaid](https://github.com/lukilabs/beautiful-mermaid) with a violet/indigo palette by default. Pass `--theme brand-light` for a white background variant.
 
 ## Install
 
@@ -110,7 +62,7 @@ factory-floor/
 │   ├── pillar-maurya.md              # Customer Factory deep-dive
 │   ├── pillar-sharp.md               # Mental & Physical Availability deep-dive
 │   ├── tool-setup.md                 # Asana, Linear, Notion, Trello configs
-│   └── weekly-diagrams.md            # Mermaid templates for the four diagrams
+│   └── weekly-diagrams.md            # Customer Factory Funnel diagram template
 └── scripts/
     ├── render-diagram.mjs            # Renders .mmd → SVG via beautiful-mermaid
     └── package.json                  # Declares beautiful-mermaid dependency
@@ -126,7 +78,7 @@ Claude identifies your current constraint in the customer factory and recommends
 
 > "Help me prep for our weekly review"
 
-Claude gathers your metrics, generates the four diagrams, and walks through the 25-minute review format: name the constraint, check throughput, assess buffer and flow, make focus decisions.
+Claude gathers your metrics, generates a funnel diagram, and walks through the review format: name the constraint, check throughput, assess buffer and flow, make focus decisions.
 
 > "We're spread too thin"
 
@@ -138,12 +90,14 @@ Claude evaluates both options against the current constraint. If acquisition is 
 
 ## The weekly review
 
-25 minutes. Every week. Four phases:
+Scales to your team size. Same four phases either way:
 
-1. **Name the constraint** (5 min) — Say it out loud. Has it shifted?
-2. **Throughput check** (5 min) — What moved? What didn't? Why?
-3. **Buffer and flow** (10 min) — Is the constraint fed? Where is work piling up?
-4. **Focus decisions** (5 min) — Top 3 priorities. What are we explicitly *not* doing?
+1. **Name the constraint** — Say it out loud. Has it shifted?
+2. **Throughput check** — What moved? What didn't? Why?
+3. **Where's the pile?** — Is the constraint fed? Where is work accumulating?
+4. **Focus decisions** — Top 3 priorities. What are we explicitly *not* doing?
+
+**Light version** (1-5 people): 10 minutes, no diagrams, standing up. **Full version** (5+): 25 minutes with a funnel diagram.
 
 ## Credits
 
