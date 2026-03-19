@@ -91,7 +91,7 @@ Diagrams render to SVG with a violet/indigo brand palette by default. Pass `--th
 ## Install
 
 ```bash
-npx factory-floor
+npx @swiftner/factory-floor
 ```
 
 That's it. Installs the skill to `~/.claude/skills/factory-floor/` and sets up the diagram renderer.
