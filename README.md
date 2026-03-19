@@ -10,16 +10,18 @@ You're spread too thin. Half your backlog doesn't matter. You're building featur
 
 Every startup has exactly one bottleneck at any moment — one thing that limits how fast you create happy customers. Everything you do either serves that bottleneck or wastes time. Factory Floor helps you find it, fix it, and manage the work that serves it.
 
-Three questions, asked on repeat:
+Four questions, asked on repeat:
 
-1. **Where is the bottleneck?**
-2. **Which step in the customer journey is it stuck at?**
-3. **Is the real problem that nobody knows we exist?**
+1. **What job is the customer hiring us to do?**
+2. **Where is the bottleneck?**
+3. **Which step in the customer journey is it stuck at?**
+4. **Is the real problem that nobody knows we exist?**
 
-Built on Goldratt's [Theory of Constraints](references/pillar-goldratt.md), Maurya's [Customer Factory](references/pillar-maurya.md), and Sharp's [How Brands Grow](references/pillar-sharp.md) — but you don't need to know any of that to use it.
+Built on Christensen's [Jobs To Be Done](references/jtbd.md), Goldratt's [Theory of Constraints](references/pillar-goldratt.md), Maurya's [Customer Factory](references/pillar-maurya.md), and Sharp's [How Brands Grow](references/pillar-sharp.md) — but you don't need to know any of that to use it.
 
 ## What it does
 
+- **Know your job** — Identify what job customers hire you to do, map the forces behind every deal (push, pull, anxiety, habit), and turn every conversation into strategic intelligence with the 5-minute canvas.
 - **Find your bottleneck** — A 5-minute triage that works even without clean funnel data. Covers everything from "we have zero customers" to "we're scaling."
 - **Prioritisation** — "What should we work on?" becomes "What serves the constraint?" Everything else waits.
 - **Project management** — Break priorities into constraint-sized tasks, enforce WIP limits, keep the buffer fed, track throughput instead of activity. Manage the work, not just the strategy.
@@ -63,6 +65,7 @@ factory-floor/
 │   ├── pillar-goldratt.md            # Theory of Constraints deep-dive
 │   ├── pillar-maurya.md              # Customer Factory deep-dive
 │   ├── pillar-sharp.md               # Mental & Physical Availability deep-dive
+│   ├── jtbd.md                       # Jobs To Be Done — forces, interviews, job mapping
 │   ├── estimation.md                 # Critical Chain estimation, buffer management, fever chart
 │   └── weekly-diagrams.md            # Customer Factory Funnel diagram template
 └── scripts/
@@ -102,6 +105,14 @@ Walks you through the transition: reassign subordination roles, update the board
 
 Starts at Question 0: problem validation. Before funnels, before features — are you solving a real problem people will pay for?
 
+> "Why do customers buy from us? Why do deals ghost?"
+
+Maps the four forces (push, pull, anxiety, habit) behind your deals. Reveals what's actually driving purchases and what's killing them.
+
+> "Help me run a switch interview"
+
+Walks you through a 30-60 minute interview that reconstructs the buying decision — uncovering the struggling moment, the forces, and the real competitive set.
+
 ## The weekly review
 
 Scales to your team size. Same four phases either way:
@@ -117,9 +128,13 @@ Scales to your team size. Same four phases either way:
 
 Built on the work of:
 
-- **Eli Goldratt** — *The Goal* (1984). Theory of Constraints.
+- **Clayton Christensen** — *The Innovator's Dilemma* (1997), *Competing Against Luck* (2016). Jobs To Be Done.
+- **Bob Moesta** — *Demand-Side Sales 101* (2020). Forces of progress, switch interviews.
+- **Tony Ulwick** — *Jobs to be Done: Theory to Practice* (2016). Outcome-Driven Innovation.
+- **Eli Goldratt** — *The Goal* (1984), *Critical Chain* (1997). Theory of Constraints.
 - **Ash Maurya** — *Scaling Lean* (2016). Customer Factory.
 - **Byron Sharp** — *How Brands Grow* (2010). Mental and physical availability.
+- **April Dunford** — *Obviously Awesome* (2019). Positioning from JTBD.
 
 ---
 

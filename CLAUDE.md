@@ -15,6 +15,7 @@ A Claude Code skill called **Factory Floor** — a startup operating system for 
 - `pillar-goldratt.md` — Theory of Constraints (Five Focusing Steps, throughput accounting, Little's Law, WIP limits)
 - `pillar-maurya.md` — Customer Factory (Acquisition → Activation → Revenue → Retention → Referral, GOLEAN cycle, constraint identification by startup stage)
 - `pillar-sharp.md` — Mental & Physical Availability (Category Entry Points, distinctiveness vs differentiation, reach vs frequency, the Sharp diagnostic)
+- `jtbd.md` — Jobs To Be Done (forces of progress, switch interviews, 5-minute canvas, Ulwick's job map, opportunity scoring, positioning from JTBD, struggling moments as CEPs)
 - `estimation.md` — Estimation and timeline management (Critical Chain, CCPM, buffer sizing, fever chart, PERT, cycle time, relay race behavior, why estimates fail)
 - `weekly-diagrams.md` — Customer Factory Funnel diagram template for the weekly constraint review
 
@@ -25,6 +26,6 @@ A Claude Code skill called **Factory Floor** — a startup operating system for 
 
 ## Key Relationships
 
-The framework flows in one direction: **Goldratt provides the system-level thinking** (find the constraint, exploit/subordinate/elevate), **Maurya maps it to the startup business model** (customer factory steps as the "machines"), and **Sharp provides the diagnosis when the constraint is at the top of the funnel** (nobody knows you exist).
+The framework flows in one direction: **JTBD provides the strategic intelligence** (what job does the customer hire you to do?), **Goldratt provides the system-level thinking** (find the constraint, exploit/subordinate/elevate), **Maurya maps it to the startup business model** (customer factory steps as the "machines"), and **Sharp provides the diagnosis when the constraint is at the top of the funnel** (nobody knows you exist). JTBD sits underneath the other three — struggling moments are Category Entry Points, the four forces explain why customers flow (or don't) through the factory, and under-served outcomes tell you what to build.
 
 When editing, maintain this hierarchy. Changes to core concepts in one pillar should be checked against the other two for consistency. The `SKILL.md` synthesizes all three — it should never contradict the reference files.

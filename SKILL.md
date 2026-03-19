@@ -11,32 +11,44 @@ description: >
   priorities into tasks, setting WIP limits, managing blockers, tracking progress
   against throughput goals, running a 2-week execution sprint, handling a constraint
   shift, estimating how long work will take, communicating timelines to stakeholders,
-  or any question about startup priorities and execution rhythm. Also trigger when
-  someone mentions "constraint," "bottleneck," "throughput," "WIP," "customer
-  factory," "mental availability," "estimate," "timeline," "deadline," "buffer,"
-  or phrases like "what should we focus on," "we're spread too thin," "should we
-  build this or sell first," "how do I prioritize," "how do I manage this project,"
-  "break this into tasks," "what should my sprint look like," "how long will this
-  take," or "when will this ship."
+  understanding why customers buy or don't buy, mapping jobs to be done, running
+  switch interviews, identifying struggling moments, or any question about startup
+  priorities and execution rhythm. Also trigger when someone mentions "constraint,"
+  "bottleneck," "throughput," "WIP," "customer factory," "mental availability,"
+  "estimate," "timeline," "deadline," "buffer," "jobs to be done," "JTBD,"
+  "struggling moment," "forces of progress," or phrases like "what should we focus
+  on," "we're spread too thin," "should we build this or sell first," "how do I
+  prioritize," "how do I manage this project," "break this into tasks," "what
+  should my sprint look like," "how long will this take," "when will this ship,"
+  "why do customers buy," "why did we lose that deal," or "what job does our
+  product do."
 ---
 
 # The Factory Floor
 
-A startup operating system for shipping value to customers. Two frameworks for
-finding and fixing your bottleneck, one pre-check to keep you honest.
+A startup operating system for shipping value to customers. Three frameworks
+for finding and fixing your bottleneck, one pre-check to keep you honest,
+and the strategic layer that makes them all work: knowing what job your
+customer hires you to do.
 
 ## The Core Insight
 
 Your startup is a system. Like any system, it has exactly one constraint at any
 moment — one thing that limits how fast you create happy customers. Everything
 you do either serves that constraint or wastes time. The entire operating system
-reduces to three questions asked on repeat:
+reduces to four questions asked on repeat:
 
-1. **Where is the bottleneck?** (Goldratt)
-2. **Which step in the customer factory is it stuck at?** (Maurya)
-3. **Is the real problem that they just don't know we exist?** (Sharp)
+1. **What job is the customer hiring us to do?** (JTBD)
+2. **Where is the bottleneck?** (Goldratt)
+3. **Which step in the customer factory is it stuck at?** (Maurya)
+4. **Is the real problem that they just don't know we exist?** (Sharp)
 
-When advising a founder or team, always start from these three questions before
+Question 1 sits underneath the other three. You can't find the constraint if
+you don't know what progress customers are trying to make. You can't fix
+acquisition if you don't know what struggling moment brings people to the
+funnel. You can't build the right features if you're guessing at the job.
+
+When advising a founder or team, always start from these four questions before
 recommending any action.
 
 ---
@@ -48,13 +60,17 @@ questions to triangulate:
 
 0. **Do you have paying customers yet?**
    No revenue, no users, or just friends-and-family → the constraint is
-   **Problem Validation**. Apply the not-not test: "Is it not okay for your
-   target customer to NOT have this?" If they can shrug and walk away, you
-   don't have a problem worth solving — you have a nice-to-have. Stop
-   building. Go observe (not just interview) potential customers in their
-   real context. Watch what they actually do, not what they say they'd do.
-   Validate the problem is real and painful enough to pay for before writing
-   a line of code.
+   **Problem Validation**. Two tests: First, the not-not test — "Is it not
+   okay for your target customer to NOT have this?" If they can shrug and
+   walk away, you don't have authentic demand. Second, the job test — "Can
+   you name the specific job customers hire you to do, in their words, not
+   yours?" If you can't, you're guessing. Stop building. Go observe (not
+   just interview) potential customers in their real context. Watch what
+   they actually do, not what they say they'd do. Look for struggling
+   moments — the specific events that trigger people to seek a solution.
+   Look for workarounds — what they're cobbling together right now. Those
+   signals are more reliable than any survey. See `references/jtbd.md` for
+   the switch interview protocol and 5-minute conversation canvas.
 
 1. **Are enough of the right people finding you each week?**
    Low traffic, thin pipeline, few demos → the constraint is **Acquisition**.
@@ -92,6 +108,70 @@ stage. If they disagree, trust the triage — but investigate the mismatch.
 | Problem/Solution fit | Activation — can they get value from it? | Onboarding optimization, concierge onboarding, reducing time-to-value. |
 | Product/Market fit | Acquisition — can you repeatably attract the right people? | Channel experiments, pricing, positioning. |
 | Scaling | Retention or Revenue — can you keep them and capture value? | Churn analysis, expansion revenue, pricing optimization. |
+
+---
+
+## Know Your Job
+
+Before diagnosing the constraint, make sure you know what job your customer
+hires you to do. If you skip this, every decision downstream — what to
+build, who to target, how to message — is a guess.
+
+**A job is the progress a person is trying to make in a specific situation.**
+Not a feature request. Not a demographic. Not a trend. A job has three
+dimensions: functional (the practical task), emotional (how they want to
+feel), and social (how they want to be perceived). The emotional and social
+dimensions are usually what tips the purchase decision.
+
+### The forces behind every deal
+
+Four forces govern every purchase:
+
+- **Push**: What's painful about the current situation (creates demand)
+- **Pull**: What's attractive about the new solution (creates demand)
+- **Anxiety**: Fear about switching — will it work? what's the risk? (kills demand)
+- **Habit**: Comfort with the status quo — inertia, sunk costs (kills demand)
+
+**A purchase happens only when Push + Pull > Anxiety + Habit.** If you're
+losing deals, don't assume the product is wrong. Check the forces: maybe
+the push is weak (the problem isn't painful enough), or anxiety is high
+(they don't trust you yet), or habit is strong (the old way is "good enough").
+
+Sometimes the highest-leverage move is not a better feature but a better
+guarantee, a simpler onboarding, or a testimonial from someone like them.
+
+### Struggling moments are Category Entry Points
+
+The struggling moment — the specific event that triggers someone to think
+"I need to do something different" — is both the origin of every purchase
+and a Category Entry Point in Sharp's framework. Identify the 3-5 struggling
+moments that repeatedly bring customers to your door. Build mental
+availability by becoming relentlessly associated with those moments.
+
+### The 5-minute canvas
+
+After every meaningful customer or prospect conversation, spend 5 minutes:
+
+```
+JOB:         [What progress are they trying to make?]
+TRIGGER:     [What specific event caused them to look?]
+OLD WAY:     [What are they "hiring" today?]
+─────────────────────────────────────────────────
+PUSH:        [Top struggles with current situation]
+PULL:        [What attracted them to us?]
+ANXIETY:     [What worries them about switching?]
+HABIT:       [What keeps them on the old way?]
+─────────────────────────────────────────────────
+OUTCOME:     [What does success look like in their words?]
+EMOTIONAL:   [How do they want to feel?]
+SOCIAL:      [How do they want to be perceived?]
+```
+
+After 8-12 canvases, you have enough signal to act. Review them in the
+weekly constraint review — do the patterns match your assumptions?
+
+Read `references/jtbd.md` for the full framework: switch interviews, job
+mapping, outcome statements, opportunity scoring, and positioning.
 
 ---
 
@@ -134,6 +214,10 @@ into channels. If a feature creates a new path into your funnel, it serves the
 constraint even when the constraint is awareness. The test: "Will this feature
 bring us new visitors who wouldn't have found us otherwise?" If yes, it's
 distribution work wearing a feature hat. Build it.
+
+Your Category Entry Points are your customers' struggling moments — the
+specific events that trigger them to seek a solution. Map them using JTBD
+interviews, then become the brand associated with those moments.
 
 Read `references/pillar-sharp.md` for the full framework, including Category
 Entry Points and the laws of brand growth.
@@ -662,3 +746,8 @@ your specific tool and these principles will be applied to it.
 | **Not-not test** | "Is it not okay to NOT have this?" If customers can shrug, you don't have demand yet. |
 | **Waking dream** | A founder's internal model of customer reality that feels true but isn't. Cured by observation, not interviews. |
 | **Peanut buttering** | Spreading resources thinly across all priorities instead of concentrating on the constraint. Feels fair. Kills throughput. |
+| **Job (JTBD)** | The progress a customer is trying to make in a specific situation. Has functional, emotional, and social dimensions. |
+| **Struggling moment** | The specific event that triggers someone to seek a solution. Also a Category Entry Point. |
+| **Forces of progress** | Push + Pull (promote switching) vs. Anxiety + Habit (block switching). Purchase happens when promoting > blocking. |
+| **Switch interview** | A 30-60 minute interview reconstructing the buying timeline. Reveals the causal forces behind a purchase or non-purchase. |
+| **Hiring / firing** | Customers "hire" products to do a job and "fire" them when something does it better. The real competitive set is whatever they'd hire instead. |
