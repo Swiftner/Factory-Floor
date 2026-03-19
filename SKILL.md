@@ -46,9 +46,13 @@ questions to triangulate:
 
 0. **Do you have paying customers yet?**
    No revenue, no users, or just friends-and-family → the constraint is
-   **Problem Validation**. Stop building. Interview potential customers.
-   Validate the problem is real and painful enough to pay for. See the
-   Constraint Cascade below for what "exploiting" looks like at this stage.
+   **Problem Validation**. Apply the not-not test: "Is it not okay for your
+   target customer to NOT have this?" If they can shrug and walk away, you
+   don't have a problem worth solving — you have a nice-to-have. Stop
+   building. Go observe (not just interview) potential customers in their
+   real context. Watch what they actually do, not what they say they'd do.
+   Validate the problem is real and painful enough to pay for before writing
+   a line of code.
 
 1. **Are enough of the right people finding you each week?**
    Low traffic, thin pipeline, few demos → the constraint is **Acquisition**.
@@ -82,7 +86,7 @@ stage. If they disagree, trust the triage — but investigate the mismatch.
 
 | Stage | Typical constraint | What "exploiting" looks like |
 |---|---|---|
-| Pre-product/market fit | Problem validation — are you solving a real problem? | Customer interviews, not code. Lean Canvas stress-testing. |
+| Pre-product/market fit | Problem validation — are you solving a real problem? | Observe customers in context, not just interviews. Apply the not-not test. Lean Canvas stress-testing. |
 | Problem/Solution fit | Activation — can they get value from it? | Onboarding optimization, concierge onboarding, reducing time-to-value. |
 | Product/Market fit | Acquisition — can you repeatably attract the right people? | Channel experiments, pricing, positioning. |
 | Scaling | Retention or Revenue — can you keep them and capture value? | Churn analysis, expansion revenue, pricing optimization. |
@@ -442,6 +446,19 @@ Watch for these common violations of constraint thinking:
    just created 7 units of inventory. Slow sales intake or elevate onboarding
    capacity first.
 
+7. **"Customers will love this once they see it."** The waking dream — your
+   internal model of the customer feels true but may not be. If you can't
+   point to observed behavior (not survey responses, not "they said they'd
+   buy it") showing customers can't be indifferent, you may be optimizing a
+   system with no authentic demand. Apply the not-not test before investing
+   further.
+
+8. **"We interviewed 20 people and they all said they'd pay."** People are
+   opaque to themselves. Stated intent is not demand. Watch what customers
+   actually do — their workarounds, their frustrations, where they spend
+   time and money today. Observation beats interviews for validating whether
+   the problem is real.
+
 ---
 
 ## The Weekly Constraint Review
@@ -526,3 +543,6 @@ your specific tool and these principles will be applied to it.
 | **Category Entry Point** | A situation or need that triggers someone to seek a solution in your category. |
 | **WIP** | Work in progress. Inventory. A liability, not an asset. |
 | **Buffer** | Slack capacity or queued work that protects the constraint from starving. |
+| **Authentic demand** | Customers cannot be indifferent — not-having your product is not okay. The precondition for a working customer factory. |
+| **Not-not test** | "Is it not okay to NOT have this?" If customers can shrug, you don't have demand yet. |
+| **Waking dream** | A founder's internal model of customer reality that feels true but isn't. Cured by observation, not interviews. |
