@@ -505,7 +505,9 @@ WIP limits obvious. When helping someone set up their tool:
 - A "buffer" stage before the constraint — 2-3 ready items so the bottleneck
   never starves.
 
-See `references/tool-setup.md` for specific configurations for common tools.
+These principles apply to any tool — Linear, Asana, Notion, Monday, Trello,
+Jira, GitHub Projects, a whiteboard with sticky notes. Ask for help setting up
+your specific tool and these principles will be applied to it.
 
 ---
 

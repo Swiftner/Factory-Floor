@@ -63,7 +63,6 @@ factory-floor/
 │   ├── pillar-goldratt.md            # Theory of Constraints deep-dive
 │   ├── pillar-maurya.md              # Customer Factory deep-dive
 │   ├── pillar-sharp.md               # Mental & Physical Availability deep-dive
-│   ├── tool-setup.md                 # Asana, Linear, Notion, Trello configs
 │   └── weekly-diagrams.md            # Customer Factory Funnel diagram template
 └── scripts/
     ├── render-diagram.mjs            # Renders .mmd → SVG via beautiful-mermaid
