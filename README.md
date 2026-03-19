@@ -1,5 +1,7 @@
 # Factory Floor
 
+[![npm](https://img.shields.io/npm/v/@swiftner/factory-floor)](https://www.npmjs.com/package/@swiftner/factory-floor)
+
 A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that turns your startup into a well-run factory. One constraint at a time.
 
 ## The idea
