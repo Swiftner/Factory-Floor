@@ -9,9 +9,13 @@
     "bin/",
     "SKILL.md",
     "references/",
+    "stages/",
     "scripts/render-diagram.mjs",
     "scripts/package.json"
   ],
+  "engines": {
+    "node": ">=16.7.0"
+  },
   "keywords": [
     "claude-code",
     "skill",

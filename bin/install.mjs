@@ -13,6 +13,7 @@ console.log('Installing Factory Floor skill...\n')
 
 // Copy skill files
 mkdirSync(join(target, 'references'), { recursive: true })
+mkdirSync(join(target, 'stages'), { recursive: true })
 mkdirSync(join(target, 'scripts'), { recursive: true })
 
 const files = [
@@ -20,19 +21,33 @@ const files = [
   'references/pillar-goldratt.md',
   'references/pillar-maurya.md',
   'references/pillar-sharp.md',
-  'references/tool-setup.md',
+  'references/estimation.md',
+  'references/jtbd.md',
   'references/weekly-diagrams.md',
+  'stages/pre-revenue.md',
+  'stages/growth.md',
+  'stages/scaling.md',
   'scripts/render-diagram.mjs',
   'scripts/package.json',
 ]
 
 for (const file of files) {
-  cpSync(join(pkgRoot, file), join(target, file))
+  try {
+    cpSync(join(pkgRoot, file), join(target, file))
+  } catch (err) {
+    console.error(`  Failed to copy ${file}: ${err.message}`)
+    process.exit(1)
+  }
 }
 
 // Install diagram renderer dependencies
 console.log('Installing diagram renderer...')
-execSync('npm install --silent', { cwd: join(target, 'scripts'), stdio: 'inherit' })
+try {
+  execSync('npm install --silent', { cwd: join(target, 'scripts'), stdio: 'inherit' })
+} catch (err) {
+  console.error(`  Failed to install diagram renderer: ${err.message}`)
+  process.exit(1)
+}
 
 console.log(`\n  Installed to ${target}\n`)
 console.log('The skill triggers automatically when you ask Claude Code about')

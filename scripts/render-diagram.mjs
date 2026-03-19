@@ -50,9 +50,15 @@ if (!input) {
   process.exit(1)
 }
 
-const code = input === '-'
-  ? readFileSync('/dev/stdin', 'utf8')
-  : readFileSync(input, 'utf8')
+let code
+try {
+  code = input === '-'
+    ? readFileSync('/dev/stdin', 'utf8')
+    : readFileSync(input, 'utf8')
+} catch (err) {
+  console.error(`Error reading input: ${err.message}`)
+  process.exit(1)
+}
 
 const theme = flags.theme && ALL_THEMES[flags.theme]
   ? { ...ALL_THEMES[flags.theme] }
@@ -60,7 +66,11 @@ const theme = flags.theme && ALL_THEMES[flags.theme]
 
 if (flags.transparent) theme.transparent = true
 
-const svg = renderMermaidSVG(code, { ...theme, padding: 48, nodeSpacing: 32, layerSpacing: 48 })
-
-writeFileSync(output, svg)
-console.log(`Rendered: ${output}`)
+try {
+  const svg = renderMermaidSVG(code, { ...theme, padding: 48, nodeSpacing: 32, layerSpacing: 48 })
+  writeFileSync(output, svg)
+  console.log(`Rendered: ${output}`)
+} catch (err) {
+  console.error(`Error rendering diagram: ${err.message}`)
+  process.exit(1)
+}

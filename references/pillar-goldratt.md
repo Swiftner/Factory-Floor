@@ -40,8 +40,8 @@ principle: make the constraint more productive with existing resources before
 investing new ones. Every minute the constraint spends on non-constraint
 work is lost throughput for the entire company.
 
-See the subordination matrix in `stages/growth.md` for the startup-specific
-translation of what each role does based on the current constraint.
+See the role-by-constraint table in `stages/growth.md` ("What each role does,
+based on the current constraint") for the startup-specific translation.
 
 ### 3. Subordinate Everything Else
 

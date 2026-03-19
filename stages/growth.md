@@ -69,6 +69,52 @@ wearing a feature hat. Build it.
 Read `references/pillar-sharp.md` for the full framework, including the
 laws of brand growth and CEP mapping.
 
+### The Awareness Cadence (when awareness is the constraint)
+
+**Weekly (5 min during the constraint review):**
+
+1. **Did we publish/distribute anything this week?** One piece of content,
+   one outreach batch, one partnership touchpoint — something that puts the
+   brand in front of people who don't know you yet. If the answer is no,
+   that's a problem.
+
+2. **Which CEPs did we cover?** Each piece of content should map to a
+   specific CEP. Track which CEPs you're covering — rotate through your
+   top 5-7.
+
+3. **Reach check.** How many *new* people saw us this week? Not engagement
+   — reach (unique views, impressions, new subscribers). The trend matters
+   more than the number. Flat reach with consistent publishing means you
+   need a new channel.
+
+**Monthly (20 min):**
+
+1. **CEP coverage review.** Which CEPs have you addressed in the last 4
+   weeks? If two or more high-frequency CEPs have had zero coverage,
+   prioritize them next month.
+
+2. **Channel diversity check.** If you're on fewer than 3 channels, you're
+   under-diversified. Add one new channel per quarter until you're at 4-5.
+
+3. **Distinctiveness audit.** Review the last month's content side by side.
+   Does it look and sound like your brand? Distinctiveness compounds only
+   through consistency.
+
+4. **Physical availability spot-check.** Pick one item from the physical
+   availability audit and verify it's still healthy. Rotate quarterly.
+
+**Content cadence guidelines:**
+
+| Team size | Minimum weekly output | Channel target |
+|---|---|---|
+| Solo founder | 1 piece (short-form) | 2 channels |
+| 2-3 people | 2 pieces (1 short + 1 long or outreach batch) | 3 channels |
+| 4-5 people | 3 pieces (mix of short, long, and partnerships) | 4 channels |
+
+The key behavior is **never going dark.** A week with no output is a week
+where memory structures decay. Consistency matters more than quality of
+any individual piece.
+
 ---
 
 ## The System: Goldratt + Maurya
@@ -339,7 +385,7 @@ what the buffer is for.
 JTBD is not a one-time research project. It's a weekly habit.
 
 **After every conversation:** Fill in the 5-minute canvas (see
-`references/jtbd.md`). Every sales call, demo, support ticket, and
+`stages/pre-revenue.md`). Every sales call, demo, support ticket, and
 churn conversation is JTBD data.
 
 **During the weekly review:** Review the week's canvases. Do the forces

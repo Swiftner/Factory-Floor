@@ -37,6 +37,45 @@ Policy constraints are the hardest to fix because they feel like
 
 ---
 
+## Before You Build: The Awareness Check at Scale
+
+The same check from `stages/growth.md` applies here — but the failure mode
+is different. At scale, companies expand into **new segments** where they
+have zero mental availability. The product works in segment A, so the team
+assumes it will sell in segment B. But segment B has never heard of you,
+associates your brand with different (or zero) Category Entry Points, and
+can't find you in their usual channels.
+
+**Run this diagnostic before any growth initiative or segment expansion:**
+
+1. "Do the right people in the target segment know we exist?" If not →
+   invest in reach and CEP coverage for that segment before building
+   segment-specific features.
+2. "Can they find and buy us through their usual channels?" If not → fix
+   physical availability (directories, marketplaces, integrations, pricing
+   transparency) for that segment.
+3. "Are we distinctive enough that they'll remember us?" If not → ensure
+   brand assets are consistent across new channels.
+
+**At scale, also check:** "Are we associated with the right CEPs for this
+new segment?" Re-run the CEP mapping exercise (see `references/pillar-sharp.md`)
+for each new segment. The struggling moments that drive your current customers
+may not match the new audience. Map before you build.
+
+**Quarterly awareness review (1 hour, strategic):**
+
+1. **Full CEP mapping exercise.** Re-score coverage per segment, add new
+   CEPs from JTBD data, retire stale ones.
+2. **Full physical availability audit.** Re-score every dimension, especially
+   for new segments.
+3. **Reach trend.** Plot monthly unique reach across all channels for the
+   last 3 months. Flat or declining despite consistent publishing means
+   channel saturation or CEP-market mismatch.
+4. **Competitive association check.** For your top 3 CEPs per segment,
+   search the way a buyer would. Gaps are where you invest.
+
+---
+
 ## Multi-Team Constraint Work
 
 With multiple teams, constraint identification becomes two layers:
@@ -321,7 +360,8 @@ Interview the onboarding team: "What blocks you?" Three answers:
 but it's caused by a **policy constraint**: the VP of Product controls
 the engineering sprint and prioritizes features over onboarding
 infrastructure. The CTO being the only person who can do security reviews
-is a secondary constraint (bus factor = 1, anti-pattern #9).
+is a secondary constraint — a bus factor of 1 is a throughput ceiling.
+Document it, pair on it, or automate it.
 
 **Step 4: Exploit the policy constraint.**
 
