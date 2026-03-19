@@ -75,12 +75,21 @@ questions to triangulate:
      that many? If your model needs 10,000 customers but the market has
      2,200, no amount of building fixes it. Change the price, the segment,
      or the model — on the napkin, not in code.
+   - The **Mafia Offer** — Before building anything, craft an offer so good
+     customers can't refuse: desired outcome + specific metric + timeframe +
+     price + risk reversal. Test it by asking for real commitment (deposit,
+     pre-order, LOI) — not opinions. If people won't commit to the *offer*,
+     building the product is waste. The MVP is what you build to deliver on
+     a validated offer, not the other way around.
    Stop building. Observe customers in their real context — what they do,
    not what they say. Look for struggling moments (events that trigger the
    search) and workarounds (what they cobble together now). Those signals
-   beat any survey. See `references/jtbd.md` for the switch interview
-   protocol and `references/pillar-maurya.md` for the full Lean Canvas
-   questions.
+   beat any survey. Watch out for the **Innovator's Bias** — falling in
+   love with your solution before validating the problem. Start with
+   existing alternatives (what customers use today), not your idea.
+   See `references/jtbd.md` for the switch interview protocol and
+   `references/pillar-maurya.md` for the full Lean Canvas questions,
+   napkin test, and Mafia Offer template.
 
 1. **Are enough of the right people finding you each week?**
    Low traffic, thin pipeline, few demos → the constraint is **Acquisition**.
@@ -668,6 +677,13 @@ Watch for these common violations of constraint thinking:
    heroism prevents anyone else from helping. Document it, pair on it, or
    automate it. A bus factor of 1 is a throughput ceiling.
 
+10. **"I just need to build it and they'll get it."** The Innovator's Bias —
+    falling in love with your solution before validating the problem. Maurya:
+    "When you've decided you want to build a hammer, everything starts
+    looking like a nail." Intelligence makes it worse, not better. The
+    antidote: start with existing alternatives (what customers use today),
+    not your idea. New problems worth solving come from old solutions.
+
 ---
 
 ## The Weekly Constraint Review
@@ -761,3 +777,6 @@ your specific tool and these principles will be applied to it.
 | **Forces of progress** | Push + Pull (promote switching) vs. Anxiety + Habit (block switching). Purchase happens when promoting > blocking. |
 | **Switch interview** | A 30-60 minute interview reconstructing the buying timeline. Reveals the causal forces behind a purchase or non-purchase. |
 | **Hiring / firing** | Customers "hire" products to do a job and "fire" them when something does it better. The real competitive set is whatever they'd hire instead. |
+| **Innovator's Bias** | Falling in love with your solution before validating the problem. The #1 cause of startup failure. Antidote: start with existing alternatives. |
+| **Mafia Offer** | An offer so good customers can't refuse — tested before building an MVP. Requires real commitment (money), not opinions. |
+| **Napkin test** | 5-minute viability check: goal / revenue per customer = required customers. If market can't support it, change the model. |

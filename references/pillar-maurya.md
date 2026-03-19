@@ -59,6 +59,28 @@ their current solution? If not, no amount of engineering or marketing matters.
 **Actions:** Customer interviews. Lean Canvas stress-testing. Demo the problem,
 not the solution. Validate willingness to pay before building.
 
+**The Innovator's Bias and the Innovator's Gift (from *Running Lean*)**
+
+The **Innovator's Bias** is the #1 contributor to startup failure: falling in
+love with your solution before validating the problem. Maurya: "When you've
+decided you want to build a hammer, everything starts looking like a nail."
+Founders unconsciously invent problems to justify the solution they already
+want to build, then seek just enough evidence to convince themselves they're
+on track. Intelligence makes the bias worse — smart founders rationalize
+more effectively, not more honestly. The bias is "immune to lecture" — you
+can't overcome it through awareness alone. You need systemic countermeasures.
+
+The antidote is the **Innovator's Gift**: the realization that **new problems
+worth solving are created as by-products of old solutions.** To build
+something better, it must be better *relative to* what customers use today.
+The starting point is always the existing alternative — not your idea.
+
+Maurya's prescribed Lean Canvas fill order makes this concrete: start with
+**Existing Alternatives** (what customers use now), then **Problems** (what's
+broken about those alternatives), then everything else. Existing Alternatives
+is the most important Lean Canvas building block — more important than the
+Problem box itself, because without it, you're defining problems in a vacuum.
+
 **Maurya's Lean Canvas questions (from *Running Lean*)** — answer these before
 writing a line of code:
 
@@ -118,6 +140,50 @@ business.
 
 This takes 5 minutes and kills more bad ideas than any amount of customer
 interviews. Do it first.
+
+**The Mafia Offer (Test Before You Build)**
+
+The Mafia Offer is "an offer your customers can't refuse" — tested BEFORE
+you build an MVP. Most founders invert this: they build a product, then try
+to sell it. Maurya's sequence is:
+
+**Problem Discovery → Mafia Offer → MVP**
+
+The Mafia Offer is not the product. It's the *framing* of the outcome you
+deliver — the promise, the price, and the terms — packaged so that a
+rational customer would feel foolish saying no.
+
+**Components:**
+1. **Desired outcome** — What result does the customer get? (Not features.)
+2. **Key metric / promise** — A specific, measurable claim.
+3. **Timeframe** — By when?
+4. **Price** — Must feel like a no-brainer relative to the value.
+5. **Risk reversal** — What happens if you don't deliver? (Guarantee,
+   free pilot, refund.) This removes the customer's downside risk.
+
+**The 3x rule:** The offer must promise at least a 3x improvement over the
+existing alternative on the dimension the customer cares about most. Not 10%
+better — dramatically, obviously better. Anything less won't overcome
+switching costs and inertia.
+
+**Template:** "We help [specific customer segment] achieve [desired outcome]
+within [timeframe], unlike [existing alternative] which [key limitation].
+[Price]. If we don't deliver, [risk reversal]."
+
+**The commitment test:** Present the offer and ask for real commitment — a
+pre-order, a deposit, a letter of intent. Not "would you use this?" (that's
+an opinion). Money or equivalent skin in the game. If people won't commit to
+the *offer*, building the product is waste.
+
+**Why this matters:** You can test desirability with zero code. The Mafia
+Offer is a conversation, a landing page, a one-pager. If the offer doesn't
+compel people to commit, no amount of engineering fixes it. The MVP is what
+you build to *deliver* on a validated offer — not the other way around.
+
+Maurya's sequencing principle: **Desirability → Feasibility → Viability.**
+Test whether people want this (Mafia Offer) before testing whether you can
+build it (MVP) before testing whether the business model works at scale
+(traction metrics).
 
 ### Problem/Solution Fit → Product/Market Fit
 **Typical constraint: Activation.**
