@@ -60,7 +60,7 @@ questions to triangulate:
 
 0. **Do you have paying customers yet?**
    No revenue, no users, or just friends-and-family → the constraint is
-   **Problem Validation**. Three tests before you write code:
+   **Problem Validation**. Four tests before you write code:
    - The **not-not test** — "Is it not okay for your target customer to NOT
      have this?" If they can shrug, you don't have authentic demand.
    - The **job test** — "Can you name the specific job customers hire you
@@ -69,6 +69,12 @@ questions to triangulate:
      questions: What are the top 3 problems and how do customers solve them
      today? Will they pay, and have you tested price? What is the simplest
      thing you could build to test whether you've got the problem right?
+   - The **napkin test** — Can the math work? Set your 3-year minimum
+     success criteria (revenue goal). Divide by annual revenue per customer.
+     That's how many customers you need. Now check: does the market have
+     that many? If your model needs 10,000 customers but the market has
+     2,200, no amount of building fixes it. Change the price, the segment,
+     or the model — on the napkin, not in code.
    Stop building. Observe customers in their real context — what they do,
    not what they say. Look for struggling moments (events that trigger the
    search) and workarounds (what they cobble together now). Those signals

@@ -88,6 +88,37 @@ test**, ordered by risk. Maurya's rule: **test the riskiest assumption
 first.** Usually that's "does anyone have this problem badly enough to
 pay for a solution?" — not "can we build it?"
 
+**The Napkin Test (5-Minute Viability Check)**
+
+Before building anything, do this math on a napkin:
+
+1. **Set your minimum success criteria.** What's the revenue target that
+   makes this worth doing in 3 years? Be honest — not a fantasy, not
+   humble. The number that means the business works.
+
+2. **Calculate annual revenue per customer.** Price x purchase frequency.
+   Round to a clean number. If it's $49/month, call it $600/year.
+
+3. **Divide.** Required customers = Goal / Revenue per customer.
+
+4. **Check the market.** Does your addressable market have that many
+   potential customers? Not the TAM fantasy — the realistic number of
+   people who have the job you're solving, in the segments you can reach.
+
+If Required Customers > Addressable Market, the model is dead. Don't
+build it. Change one of three things: the price (charge more per
+customer), the segment (target a segment that pays more), or the model
+(recurring vs. one-time, platform vs. product).
+
+Maurya's key insight: **your pricing model determines your customers and
+market viability.** A VR platform needing 10,000 developer customers in a
+market of 2,200 is dead on arrival. The same product targeting architects
+at $50K/year needs only 200 firms. Same idea, different model, viable
+business.
+
+This takes 5 minutes and kills more bad ideas than any amount of customer
+interviews. Do it first.
+
 ### Problem/Solution Fit → Product/Market Fit
 **Typical constraint: Activation.**
 People sign up but don't get value. Time-to-value is too long. The aha moment
