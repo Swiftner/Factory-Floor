@@ -158,3 +158,5 @@ Built on the work of:
 - **Byron Sharp** — *How Brands Grow* (2010). Mental and physical availability.
 
 ---
+
+Made by [Swiftner](https://swiftner.com).
