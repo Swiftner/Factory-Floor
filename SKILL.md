@@ -1,17 +1,21 @@
 ---
 name: factory-floor
 description: >
-  A startup operating system for prioritization and project management based on
-  Goldratt's Theory of Constraints, Ash Maurya's Customer Factory, and Byron Sharp's
+  A startup operating system for prioritization, project management, and execution.
+  Combines Goldratt's Theory of Constraints, Maurya's Customer Factory, and Sharp's
   How Brands Grow. Use this skill whenever a founder or startup team needs help with:
   deciding what to work on next, prioritizing a backlog, running a weekly review,
   identifying their current bottleneck, thinking about startup strategy or growth,
   structuring sprints or cycles, evaluating whether to build a feature vs. do sales
-  vs. invest in marketing, managing a small team's workload and focus, or any
-  question about startup priorities and execution rhythm. Also trigger when someone
-  mentions "constraint," "bottleneck," "throughput," "WIP," "customer factory,"
-  "mental availability," or phrases like "what should we focus on," "we're spread
-  too thin," "should we build this or sell first," or "how do I prioritize."
+  vs. invest in marketing, managing a small team's workload and focus, breaking
+  priorities into tasks, setting WIP limits, managing blockers, tracking progress
+  against throughput goals, running a 2-week execution sprint, handling a constraint
+  shift, or any question about startup priorities and execution rhythm. Also trigger
+  when someone mentions "constraint," "bottleneck," "throughput," "WIP," "customer
+  factory," "mental availability," or phrases like "what should we focus on," "we're
+  spread too thin," "should we build this or sell first," "how do I prioritize,"
+  "how do I manage this project," "break this into tasks," or "what should my
+  sprint look like."
 ---
 
 # The Factory Floor
@@ -37,8 +41,14 @@ recommending any action.
 
 ## Triage: Find Your Constraint in 5 Minutes
 
-Most founders don't have clean funnel data. That's fine. Answer these five
+Most founders don't have clean funnel data. That's fine. Answer these
 questions to triangulate:
+
+0. **Do you have paying customers yet?**
+   No revenue, no users, or just friends-and-family → the constraint is
+   **Problem Validation**. Stop building. Interview potential customers.
+   Validate the problem is real and painful enough to pay for. See the
+   Constraint Cascade below for what "exploiting" looks like at this stage.
 
 1. **Are enough of the right people finding you each week?**
    Low traffic, thin pipeline, few demos → the constraint is **Acquisition**.
@@ -66,11 +76,9 @@ questions to triangulate:
 | Onboarding/Activation | Deals close but customers can't go live. Churn starts before expansion. Support queue grows. |
 | Awareness | Product works well for those who try it, but too few people enter the funnel. Growth is flat despite good retention. |
 
----
-
-## The Constraint Cascade
-
-Where the constraint usually lives, based on your stage:
+**Cross-check with your stage.** The triage tells you where the pain is
+*right now*. The table below tells you where it *usually* lives at your
+stage. If they disagree, trust the triage — but investigate the mismatch.
 
 | Stage | Typical constraint | What "exploiting" looks like |
 |---|---|---|
@@ -112,6 +120,14 @@ has the problem you solve.
 - Building features when the constraint is awareness is the exact equivalent of
   optimizing a non-constraint machine on the factory floor. It feels productive.
   It changes nothing about throughput.
+
+**The exception: features that ARE distribution.** Some features directly serve
+acquisition — integrations that get you listed in a partner's marketplace,
+viral sharing mechanics, embeddable widgets, API access that turns customers
+into channels. If a feature creates a new path into your funnel, it serves the
+constraint even when the constraint is awareness. The test: "Will this feature
+bring us new visitors who wouldn't have found us otherwise?" If yes, it's
+distribution work wearing a feature hat. Build it.
 
 Read `references/pillar-sharp.md` for the full framework, including Category
 Entry Points and the laws of brand growth.
@@ -271,6 +287,132 @@ should wait."
 Every initiative should be sized to what the constraint can process. If the
 founder can do 5 demos per week, generating 20 leads per week is waste.
 Generate 7-8 and keep quality high.
+
+---
+
+## The Execution Loop: GOLEAN
+
+Identifying the constraint tells you *where* to focus. GOLEAN (from Maurya's
+*Scaling Lean*) tells you *how to run the sprint*. Use it as a 2-week cycle:
+
+1. **Go** — State the constraint. Set a specific, measurable goal for improving
+   it this cycle. "Increase trial signups from 200/mo to 280/mo" not "work on
+   acquisition."
+
+2. **Observe** — Measure the constraint's current performance. What are the
+   numbers right now? What does the funnel look like? Baseline before you act.
+
+3. **Learn** — Run 1-2 focused experiments that target the constraint. Not
+   five. Not a roadmap. One or two bets, sized to complete within the cycle.
+
+4. **Evaluate** — Did throughput increase? Not "did we ship the thing" — did
+   the constraint actually move? Check the numbers, not the activity log.
+
+5. **Analyze** — What worked? What didn't? Systemize what worked so you don't
+   lose it. Kill what didn't so you don't repeat it.
+
+6. **Next** — If the constraint broke (throughput increased and the bottleneck
+   visibly shifted), identify the new constraint. If not, run another
+   experiment on the same one. Return to Go.
+
+**Cycle length:** 2 weeks. Fast enough to learn, slow enough to execute
+meaningfully. If 2 weeks feels too long for your pace, shorten to 1 week but
+never run more than 2 experiments per cycle.
+
+See `references/pillar-maurya.md` for the full GOLEAN framework.
+
+---
+
+## Managing Projects Against the Constraint
+
+The triage and decision framework tell you *what* to work on. This section
+tells you how to manage that work day-to-day so the constraint stays fed and
+nothing else gets in the way.
+
+### Break priorities into constraint-sized tasks
+
+After the weekly review produces your top 3 priorities, break each one into
+tasks that can be completed in 1-3 days. Every task should pass the constraint
+test: **"Does completing this task directly increase throughput at the
+constraint?"** If the answer is "indirectly" or "eventually," it's not a
+priority task — it's backlog.
+
+**Sizing rule:** If a task will take longer than 3 days, it's too big. Split
+it. Big tasks become WIP. WIP becomes inventory. Inventory is liability.
+
+### WIP limits are non-negotiable
+
+Set your WIP limit to team size. A three-person team has 3 slots for
+in-progress work. That's it. Nobody starts new work until a slot opens. If
+you're blocked on your task, help someone else finish theirs.
+
+When a founder says "but we need to get ahead on X," the answer is: "X is not
+the constraint. Starting X now increases WIP, extends lead time on constraint
+work, and slows throughput. X waits."
+
+### Feed the constraint buffer
+
+Maintain 2-3 tasks that are fully specified, unblocked, and ready to pull in
+the buffer column. The person or process at the constraint should never have
+to wait for their next piece of work. If the buffer drops below 2, that's the
+team's top priority — refill it.
+
+**Who fills the buffer?** Non-constraint team members. This is one of the most
+valuable things an "idle" team member can do: spec work, gather requirements,
+prepare assets, remove blockers — whatever the constraint needs to stay at
+full speed.
+
+### Track throughput, not activity
+
+The board should answer one question at a glance: **"Are we creating happy
+paying customers faster than last week?"**
+
+Track these weekly:
+- **Throughput metric:** The number that measures output at the constraint
+  (trials generated, customers activated, deals closed — depends on where
+  the constraint is).
+- **Cycle time:** How long tasks spend in progress. If cycle time is growing,
+  WIP is creeping up.
+- **Buffer health:** How many ready items sit before the constraint. If it's
+  consistently empty, the constraint is starving.
+
+Don't track vanity metrics (tasks completed, story points burned, hours
+logged). They measure motion, not progress.
+
+### Handle blockers immediately
+
+A blocker on constraint work is an emergency. A blocker on non-constraint work
+is a nuisance. Treat them differently:
+
+- **Constraint blocker:** Drop everything. The founder, the developer, whoever
+  is available — clear it now. Every hour the constraint is blocked is an hour
+  of lost throughput for the entire company.
+- **Non-constraint blocker:** Note it, move on. Work on something else that
+  feeds the constraint. Come back to it when the constraint is fed.
+
+### When the constraint shifts
+
+This is the hardest moment operationally. The weekly review reveals the
+constraint has moved — say, from acquisition to activation. What happens:
+
+1. **Name it explicitly.** "Our constraint has moved from acquisition to
+   activation. Starting now, everything serves activation."
+
+2. **Reassign subordination roles.** Use the subordination matrix. The
+   founder's calendar, the developer's sprint, the CS person's priorities —
+   all shift to serve the new constraint.
+
+3. **Don't abandon the old constraint entirely.** The reason it moved is
+   because you fixed it. Maintain the systems that fixed it (the content
+   calendar, the outreach cadence, whatever) but on autopilot. Don't let it
+   regress.
+
+4. **Expect resistance.** The team built momentum on the old constraint.
+   Shifting feels like waste. It's not. It's the system working. The
+   constraint moved because you succeeded. Now succeed at the next one.
+
+5. **Update the board.** Buffer column, WIP tags, constraint labels — update
+   them in the same meeting. Don't let the tool lag behind the decision.
 
 ---
 

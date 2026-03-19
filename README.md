@@ -2,27 +2,29 @@
 
 [![npm](https://img.shields.io/npm/v/@swiftner/factory-floor)](https://www.npmjs.com/package/@swiftner/factory-floor)
 
-A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that turns your startup into a well-run factory. One constraint at a time.
+A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that helps you stop working on the wrong thing.
 
-## The idea
+## The problem
 
-Your startup is a system. Like any system, it has exactly one bottleneck at any moment — one thing that limits how fast you create happy customers. Everything you do either serves that bottleneck or wastes time.
+You're spread too thin. Half your backlog doesn't matter. You're building features when the real problem is that nobody knows you exist. Your team is busy but throughput is flat.
 
-Factory Floor combines three frameworks into a single operating system:
+Every startup has exactly one bottleneck at any moment — one thing that limits how fast you create happy customers. Everything you do either serves that bottleneck or wastes time. Factory Floor helps you find it, fix it, and manage the work that serves it.
 
-| Framework | What it answers |
-|---|---|
-| **Goldratt's Theory of Constraints** | Where is the bottleneck? |
-| **Maurya's Customer Factory** | Which step in the customer journey is it stuck at? |
-| **Sharp's How Brands Grow** | Is the real problem that nobody knows we exist? |
+Three questions, asked on repeat:
 
-The skill helps you identify your constraint, exploit it with existing resources, subordinate everything else to it, and only then invest in elevating it.
+1. **Where is the bottleneck?**
+2. **Which step in the customer journey is it stuck at?**
+3. **Is the real problem that nobody knows we exist?**
+
+Built on Goldratt's [Theory of Constraints](references/pillar-goldratt.md), Maurya's [Customer Factory](references/pillar-maurya.md), and Sharp's [How Brands Grow](references/pillar-sharp.md) — but you don't need to know any of that to use it.
 
 ## What it does
 
+- **Find your bottleneck** — A 5-minute triage that works even without clean funnel data. Covers everything from "we have zero customers" to "we're scaling."
 - **Prioritisation** — "What should we work on?" becomes "What serves the constraint?" Everything else waits.
+- **Project management** — Break priorities into constraint-sized tasks, enforce WIP limits, keep the buffer fed, track throughput instead of activity. Manage the work, not just the strategy.
+- **Execution sprints** — A 2-week GOLEAN cycle for running focused experiments at the constraint and measuring whether throughput actually moved.
 - **Weekly constraint review** — A scalable operating rhythm: 10-minute light review for small teams, 25-minute full review with a funnel diagram for larger ones.
-- **Backlog decisions** — Every feature, hire, and initiative evaluated against the current constraint.
 - **Anti-pattern detection** — Spots when you're optimising a non-constraint ("Let's keep everyone busy") or building features when the real problem is acquisition.
 
 ## Customer factory funnel
@@ -74,19 +76,31 @@ factory-floor/
 
 > "What should we work on this week?"
 
-Claude identifies your current constraint in the customer factory and recommends work that serves it. Everything else gets explicitly deprioritised.
+Identifies your current constraint and recommends work that serves it. Everything else gets explicitly deprioritised.
+
+> "Help me break this priority into tasks"
+
+Breaks your top priorities into constraint-sized tasks (1-3 days each), sets WIP limits, and fills the buffer so the bottleneck never starves.
 
 > "Help me prep for our weekly review"
 
-Claude gathers your metrics, generates a funnel diagram, and walks through the review format: name the constraint, check throughput, assess buffer and flow, make focus decisions.
+Gathers your metrics, generates a funnel diagram, and walks through the review: name the constraint, check throughput, assess buffer and flow, make focus decisions.
 
 > "We're spread too thin"
 
-Claude diagnoses WIP overload, applies Little's Law and Weinberg's context-switching tax, and recommends what to stop.
+Diagnoses WIP overload, applies Little's Law, and recommends what to stop.
 
 > "Should we build this feature or focus on sales?"
 
-Claude evaluates both options against the current constraint. If acquisition is the bottleneck, the feature waits.
+Evaluates both options against the current constraint. If acquisition is the bottleneck, the feature waits — unless it's a distribution feature.
+
+> "Our constraint just shifted from acquisition to activation — now what?"
+
+Walks you through the transition: reassign subordination roles, update the board, maintain autopilot on the old constraint, and refill the buffer for the new one.
+
+> "We have no customers yet, where do we start?"
+
+Starts at Question 0: problem validation. Before funnels, before features — are you solving a real problem people will pay for?
 
 ## The weekly review
 
