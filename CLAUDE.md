@@ -4,11 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-A Claude Code skill called **Factory Floor** — a startup operating system for prioritization and execution. It combines three intellectual frameworks into one decision system for founders and startup teams.
+A Claude Code skill called **Factory Floor** — a startup operating system for prioritization and execution. It combines Goldratt's constraint thinking with Maurya's customer factory model, using Sharp's brand growth research as a pre-check against the builder's instinct.
 
 ## Architecture
 
-`SKILL.md` is the main skill file. It contains the frontmatter (trigger conditions, description) and the complete framework: the three pillars, the decision framework, the weekly review format, anti-patterns, and vocabulary. This is the file that Claude Code loads when the skill is invoked.
+`SKILL.md` is the main skill file. It contains the frontmatter (trigger conditions, description) and the complete framework: triage questions, constraint cascade, the "Before You Build" pre-check, a worked example, the Goldratt + Maurya system, decision framework, anti-patterns, scalable weekly review (light and full versions), and vocabulary. This is the file that Claude Code loads when the skill is invoked.
 
 ### references/
 
@@ -16,7 +16,7 @@ A Claude Code skill called **Factory Floor** — a startup operating system for 
 - `pillar-maurya.md` — Customer Factory (Acquisition → Activation → Revenue → Retention → Referral, GOLEAN cycle, constraint identification by startup stage)
 - `pillar-sharp.md` — Mental & Physical Availability (Category Entry Points, distinctiveness vs differentiation, reach vs frequency, the Sharp diagnostic)
 - `tool-setup.md` — Configurations for Asana, Linear, Notion, Trello, and whiteboards that make constraints and WIP limits visible
-- `weekly-diagrams.md` — Mermaid diagram templates for weekly constraint review prep (funnel, throughput trend, WIP snapshot, constraint flow state)
+- `weekly-diagrams.md` — Customer Factory Funnel diagram template for the weekly constraint review
 
 ### scripts/
 
