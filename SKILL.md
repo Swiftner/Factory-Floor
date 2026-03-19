@@ -239,6 +239,11 @@ Acquisition → Activation → Revenue → Retention → Referral
 Each step has a conversion rate. The step with the lowest rate relative to your
 goal is your constraint. Fix that one. Ignore the others until it moves.
 
+The factory is linear, but growth has loops. Retained customers refer new
+ones. Content attracts users who generate data that improves the product that
+attracts more users. When you find a reinforcing loop, invest in it — a small
+improvement at any point in the loop accelerates the whole cycle.
+
 **Throughput** = the rate at which you create happy paying customers. Not
 signups, not pageviews — happy customers who achieve their desired outcome
 and pay you for it.
@@ -283,10 +288,12 @@ resources:
 
 ### Step 4: Subordinate non-constraints
 
-Help the team see what they should deliberately NOT work on. Every initiative
-not serving the current constraint should be paused, deprioritized, or killed.
-Say it directly: "Building feature X does not serve your current constraint. It
-should wait."
+Help the team see what they should deliberately NOT work on. The default
+answer to every feature request is **no**. Every initiative not serving the
+current constraint should be paused, deprioritized, or killed. Say it
+directly: "Building feature X does not serve your current constraint. It
+should wait." Don't even track rejected requests — if something truly matters,
+it will keep coming back.
 
 ### Step 5: Size the work
 
@@ -346,6 +353,11 @@ priority task — it's backlog.
 **Sizing rule:** If a task will take longer than 3 days, it's too big. Split
 it. Big tasks become WIP. WIP becomes inventory. Inventory is liability.
 
+**Start from the epicenter.** When breaking down a feature, build the thing
+it cannot function without first. A blog page starts with the post, not the
+sidebar. An onboarding flow starts with the aha moment, not the welcome
+email. Work outward from the core.
+
 ### WIP limits are non-negotiable
 
 Set your WIP limit to team size. A three-person team has 3 slots for
@@ -384,6 +396,16 @@ Track these weekly:
 
 Don't track vanity metrics (tasks completed, story points burned, hours
 logged). They measure motion, not progress.
+
+### Respect the delay
+
+Most constraint work has a feedback delay. A content strategy takes 4-8 weeks
+to show up in acquisition numbers. An onboarding improvement takes 2-3 cohorts
+to show up in activation rates. Founders who don't account for this abandon
+correct strategies too early — they start something on Monday, see no movement
+by Friday, and pivot. Set a minimum evaluation window for each initiative
+(usually one GOLEAN cycle) and don't judge results before it closes. The
+signal is coming. It's just delayed.
 
 ### Estimate time honestly
 
@@ -428,8 +450,10 @@ trouble. Three zones:
   scope creep.
 - **Yellow (buffer 1/3 to 2/3 consumed):** Plan a recovery option. Don't
   panic — the buffer is doing its job.
-- **Red (buffer > 2/3 consumed):** Act now. Cut scope, redirect
-  non-constraint capacity to the critical chain, remove blockers.
+- **Red (buffer > 2/3 consumed):** Act now. Fix time and budget, flex
+  scope — cut features to fit the deadline, never extend the deadline to
+  fit features. Redirect non-constraint capacity to the critical chain,
+  remove blockers. Half a shipped product beats a half-finished one.
 
 At the weekly review, the simplified check: "What % of the work is done?
 What % of our time is gone?" If time is ahead of work, investigate.
