@@ -2,9 +2,9 @@
 import { renderMermaidSVG, THEMES } from 'beautiful-mermaid'
 import { readFileSync, writeFileSync } from 'fs'
 
-// Swiftner brand themes derived from swiftner-hud theme.tsx
-const SWIFTNER = {
-  'swiftner-dark': {
+// Custom brand themes (violet/indigo palette)
+const BRAND = {
+  'brand-dark': {
     bg: '#13194A',      // darkSidebar.950
     fg: '#EDE8FF',      // violet.100
     line: '#444A78',    // darkSidebar.800
@@ -13,7 +13,7 @@ const SWIFTNER = {
     surface: '#3C4168', // darkSidebar.900
     border: '#444A78',  // darkSidebar.800
   },
-  'swiftner-light': {
+  'brand-light': {
     bg: '#FFFFFF',
     fg: '#111111',      // neutralGray.950
     line: '#D1D1D1',    // neutralGray.200
@@ -24,7 +24,7 @@ const SWIFTNER = {
   },
 }
 
-const ALL_THEMES = { ...THEMES, ...SWIFTNER }
+const ALL_THEMES = { ...THEMES, ...BRAND }
 
 const args = process.argv.slice(2)
 const flags = {}
@@ -56,7 +56,7 @@ const code = input === '-'
 
 const theme = flags.theme && ALL_THEMES[flags.theme]
   ? { ...ALL_THEMES[flags.theme] }
-  : { ...SWIFTNER['swiftner-dark'] }
+  : { ...BRAND['brand-dark'] }
 
 if (flags.transparent) theme.transparent = true
 

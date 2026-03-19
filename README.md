@@ -86,14 +86,14 @@ stateDiagram-v2
     }
 ```
 
-Diagrams render to SVG with Swiftner brand colours by default. Pass `--theme swiftner-light` for a white background variant, or use any of the 15 built-in themes from beautiful-mermaid.
+Diagrams render to SVG with a violet/indigo brand palette by default. Pass `--theme brand-light` for a white background variant, or use any of the 15 built-in themes from beautiful-mermaid.
 
 ## Install
 
 Copy the skill to your Claude Code skills directory:
 
 ```bash
-git clone git@github.com:Swiftner/Factory-Floor.git ~/.claude/skills/factory-floor
+git clone <repo-url> ~/.claude/skills/factory-floor
 ```
 
 Install the diagram renderer (one-time):
@@ -158,5 +158,3 @@ Built on the work of:
 - **Byron Sharp** — *How Brands Grow* (2010). Mental and physical availability.
 
 ---
-
-Made by [Swiftner](https://swiftner.com).

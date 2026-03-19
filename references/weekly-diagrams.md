@@ -96,12 +96,12 @@ cd scripts && npm install
 Render any diagram:
 ```bash
 node scripts/render-diagram.mjs funnel.mmd funnel.svg
-node scripts/render-diagram.mjs throughput.mmd throughput.svg --theme swiftner-light
+node scripts/render-diagram.mjs throughput.mmd throughput.svg --theme brand-light
 ```
 
-**Swiftner brand themes (default):**
-- `swiftner-dark` — dark sidebar palette (violet/indigo). Used by default when no `--theme` flag is given.
-- `swiftner-light` — white background with violet accents. Use for docs, slides, or sharing externally.
+**Brand themes (default):**
+- `brand-dark` — dark palette (violet/indigo). Used by default when no `--theme` flag is given.
+- `brand-light` — white background with violet accents. Use for docs, slides, or sharing externally.
 
 **Other themes:** `zinc-dark`, `tokyo-night`, `catppuccin-mocha`, `nord`, `dracula`,
 `github-dark`, `zinc-light`, `tokyo-night-light`, `catppuccin-latte`, `github-light`.
