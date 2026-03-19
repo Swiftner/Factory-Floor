@@ -416,6 +416,79 @@ support tickets already contain JTBD data. For lost deals, ask: "What did
 you go with instead and why?" For churned customers: "What are you using
 now?" The answer reveals the real competitive set.
 
+## Demand Generation vs. Demand Capture
+
+Not all potential customers are at the same stage. JTBD reveals two distinct
+populations, and confusing them is one of the most common go-to-market
+mistakes.
+
+### Demand capture: people already looking
+
+These are buyers who have experienced the struggling moment and are actively
+searching for a solution. They're in the Active Looking or Deciding phases of
+the buying timeline. They type search queries, read comparison pages, request
+demos, and ask peers for recommendations.
+
+**What works:** SEO for problem-specific search terms, review site presence,
+comparison pages, case studies, free trials, fast time-to-value. These are
+physical availability moves (Sharp) — making it easy to find and try you when
+the buyer is ready to act.
+
+**The trap:** Most startups only do demand capture. It's measurable, it
+converts quickly, and it feels like "real" marketing. But the pool of
+active searchers at any moment is tiny compared to the total addressable
+market. If you only capture existing demand, growth is capped by search
+volume.
+
+### Demand generation: people not yet looking
+
+These are the buyers who will experience the struggling moment in the future
+but haven't yet — or have experienced it but haven't escalated from First
+Thought to Active Looking. They're the "light buyers and non-buyers" in
+Sharp's framework. They vastly outnumber active searchers.
+
+**What works:** Content and presence at Category Entry Points, thought
+leadership, community engagement, conference talks, partnerships, distinctive
+brand assets. These are mental availability moves (Sharp) — building memory
+structures so that when the struggling moment eventually fires, your brand
+comes to mind.
+
+**The connection to forces of progress:** Demand generation works by
+amplifying Push (making people aware of the cost of the status quo) and
+building Pull (painting the picture of what progress looks like). A blog
+post that describes a struggling moment the reader hasn't fully articulated
+yet is doing demand generation — it's creating awareness of a problem, not
+capturing intent that already exists.
+
+### The balance
+
+| Situation | Priority |
+|---|---|
+| You have product-market fit but flat growth | Demand generation — the pool of active searchers is tapped. You need to expand the pool by building mental availability. |
+| You have strong awareness but low conversion | Demand capture — people know you exist but can't find, try, or buy easily. Fix physical availability. |
+| Pre-product/market fit | Neither. Validate the job first. |
+| Scaling | Both, in proportion. Typically 60-70% generation, 30-40% capture, as you move up-market. |
+
+### JTBD tells you what to say in both modes
+
+For demand capture, messaging should match the buyer's active search language
+— the words they use when they know they have a problem. These come from
+the Active Looking phase of switch interviews.
+
+For demand generation, messaging should match the struggling moment itself —
+the situation before the search begins. These come from the First Thought
+and Event 1 phases of switch interviews. The buyer isn't looking for a
+solution yet; they're experiencing friction. Your content should name that
+friction in their words and link it to the possibility of progress.
+
+This is why JTBD interviews that reconstruct the full buying timeline (not
+just the purchase decision) are essential. The early phases of the timeline
+give you demand generation material. The later phases give you demand capture
+material. Most teams only mine the later phases and wonder why their content
+doesn't generate new pipeline.
+
+---
+
 ## Hiring and Firing
 
 Every purchase is a switch: hiring something new means firing something

@@ -133,6 +133,54 @@ The practical implication: **finishing one thing is always better than starting
 two things.** A team completing one feature per week delivers more value than a
 team with five features "in progress" for three weeks each.
 
+## Drum-Buffer-Rope (DBR)
+
+Drum-Buffer-Rope is Goldratt's scheduling mechanism for managing flow through
+a system. Where the Five Focusing Steps tell you *what* to do about the
+constraint, DBR tells you *how to pace the whole system* around it.
+
+**Drum:** The constraint sets the pace. It determines the system's maximum
+throughput, so everything runs at the constraint's rhythm. In a startup, if
+engineering is the constraint and can ship one feature per week, the whole
+company operates on a one-feature-per-week drum. Marketing doesn't generate
+leads faster than sales can close them. Sales doesn't close deals faster than
+onboarding can absorb them. The constraint's capacity IS the tempo.
+
+**Buffer:** A time buffer placed in front of the constraint ensures it never
+starves. Work that feeds the constraint should arrive early enough that the
+constraint always has something ready to pull. In practice: 2-3 fully
+specified, unblocked tasks queued before the bottleneck person or process.
+If the buffer runs dry, the constraint sits idle and the entire system loses
+throughput.
+
+**Rope:** A signal that ties the start of new work to the constraint's
+consumption rate. New work enters the system only when the constraint pulls
+it — not when someone upstream is ready to push it. The rope prevents
+overproduction at non-constraints, which would pile up as WIP (inventory)
+without increasing throughput.
+
+### DBR in a startup
+
+| DBR element | Manufacturing | Startup equivalent |
+|---|---|---|
+| Drum | Bottleneck machine's cycle time | The constraint's capacity (demos/week, features/sprint, customers onboarded/week) |
+| Buffer | Queue of parts in front of the bottleneck | 2-3 ready tasks before the constraint; pre-qualified leads before the sales constraint; signed customers queued before onboarding |
+| Rope | Signal to release raw materials | WIP limit — nobody starts new work until the constraint pulls. New leads aren't generated faster than the constraint can process them. |
+
+**The practical rule:** Before starting any new initiative, ask: "Can the
+constraint absorb this?" If engineering can ship one thing per sprint,
+planning three things is creating inventory, not progress. The rope prevents
+this by tying intake to the constraint's actual throughput.
+
+DBR and the Five Focusing Steps work together: the Five Focusing Steps tell
+you WHERE to intervene (identify, exploit, subordinate, elevate). DBR tells
+you how to PACE the system so non-constraints don't overproduce and the
+constraint never starves. The weekly constraint review checks both: is the
+constraint identified correctly (Five Focusing Steps)? Is the buffer healthy
+and is WIP controlled (DBR)?
+
+---
+
 ## Context-Switching Tax (Weinberg)
 
 Gerald Weinberg's research: each additional parallel project costs ~20% in lost

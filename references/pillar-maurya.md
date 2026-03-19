@@ -226,6 +226,84 @@ Maurya's tactical cycle for continuous improvement at the constraint:
 Each cycle should be 2 weeks (a "LEAN sprint"). Fast enough to learn, slow
 enough to execute meaningfully.
 
+## The Referral Loop and Viral Coefficient
+
+The referral step in the customer factory is the only step that creates a
+reinforcing loop — retained happy customers generate new unaware visitors,
+feeding the top of the funnel. When the loop is strong, each cohort of
+customers generates part of the next cohort, reducing the cost of
+acquisition over time.
+
+### The viral coefficient (K)
+
+K = (number of invitations per customer) × (conversion rate of invitations)
+
+- **K > 1:** Viral growth. Each customer generates more than one new customer.
+  The product grows without paid acquisition. Extremely rare — Dropbox,
+  WhatsApp, and early Slack are canonical examples.
+- **K = 0.5 to 1:** Amplified growth. Referrals supplement acquisition but
+  don't sustain it alone. Each dollar of acquisition spend is amplified by
+  word-of-mouth.
+- **K < 0.5:** Referral is negligible. Growth depends entirely on direct
+  acquisition.
+
+Most startups pre-scale have K < 0.3. This is normal. Referral is rarely
+the constraint early — you need enough happy customers to generate meaningful
+referral volume, and you need the rest of the factory working first.
+
+### When to invest in referral
+
+Referral becomes high-leverage when three conditions are met:
+1. **Retention is strong** — customers stay long enough to refer.
+2. **The product delivers the job** — customers achieve their desired outcome
+   and would naturally tell peers.
+3. **The referral mechanism is frictionless** — sharing is built into the
+   product flow, not bolted on as an afterthought.
+
+If any of these is missing, investing in referral programs is premature.
+Fix retention and activation first — a referral from a customer who churns
+in 30 days is negative signal, not growth.
+
+### Types of referral loops
+
+**Word-of-mouth (passive):** Customers mention you in conversation. Not
+engineered. Driven entirely by how well the product delivers the job. The
+strongest form long-term, but slowest to build.
+
+**Inherent virality:** The product requires or benefits from multiple users.
+Collaboration tools, shared workspaces, team messaging. Each user invited is
+a potential new customer. The product IS the referral mechanism.
+
+**Incentivized referral:** Discounts, credits, or features unlocked for
+referring. Effective for boosting K when the base product already generates
+organic referrals. Dangerous when used as a substitute for authentic demand
+— incentivized referrals from unhappy customers create churn, not growth.
+
+**Content as referral:** The product's output is shareable — reports, designs,
+dashboards, summaries. When the output carries your brand and demonstrates
+value, every share is a referral. This is also a "feature that IS
+distribution" (see Sharp's framework).
+
+### The reinforcing loop
+
+When referral works, it creates a compounding cycle:
+
+```
+More customers → More referrals → More acquisition → More customers
+```
+
+A small improvement at any point in this loop accelerates the whole cycle.
+This is why, once retention is solid and the factory is flowing, even modest
+referral improvements can produce outsized growth.
+
+Maurya's caution: the loop is fragile. If retention breaks (customers churn
+before referring), if activation breaks (referred users don't reach the aha
+moment), or if the product stops delivering the job, the loop collapses. The
+referral step depends on every upstream step working. Fix the factory first,
+then amplify with referral.
+
+---
+
 ## The Local vs. Global Optimization Trap
 
 This is the most common mistake Maurya identifies in growing startups. Teams

@@ -63,16 +63,38 @@ How easy it is to find, try, and buy your product when the buyer is ready.
 
 ## Sharp's Laws — Startup Implications
 
-### 1. Growth comes from penetration, not loyalty
+### 1. Growth comes from penetration, not loyalty (Double Jeopardy)
 
 Big brands are big because they have more customers, not because their
 customers buy more often. The loyalty metrics between big and small brands
 barely differ — a phenomenon Sharp calls the "Double Jeopardy Law." Small
 brands suffer twice: fewer buyers AND slightly lower loyalty.
 
-**Startup implication:** Don't over-invest in delighting your 10 power users.
-Invest in reaching the 10,000 people who've never heard of you. Your growth
-ceiling is set by how many people know you exist.
+The Double Jeopardy Law is one of the most replicated findings in marketing
+science. It holds across categories, countries, and decades. The mechanism:
+small brands have fewer memory structures in fewer people's heads, so even
+the people who do buy from them buy slightly less often and feel slightly
+less loyal. Loyalty is largely a function of penetration, not the other way
+around.
+
+**Startup implications:**
+
+- **Don't over-invest in delighting your 10 power users.** Invest in reaching
+  the 10,000 people who've never heard of you. Your growth ceiling is set by
+  how many people know you exist.
+- **Some churn is structural, not a product problem.** Small brands naturally
+  have slightly lower repeat rates. If your churn is in the normal range for
+  your category, the fix is more customers (acquisition), not more retention
+  features. Don't build loyalty programs when you need reach.
+- **You can't loyalty your way to growth.** The data is unambiguous: brands
+  grow by increasing penetration (more buyers), not by increasing purchase
+  frequency among existing buyers. A startup that focuses all energy on
+  upselling and expanding 50 customers instead of acquiring 500 new ones is
+  fighting the math.
+- **Benchmark churn against the category, not against zero.** Every brand
+  loses customers. Sharp's data shows defection rates are remarkably similar
+  across brands in a category. If your churn looks like the category average,
+  the constraint is almost certainly acquisition, not retention.
 
 ### 2. Light buyers and non-buyers are the growth engine
 
@@ -85,7 +107,28 @@ to mind and is easy to access.
 audience, not just the people who match a hyper-specific ideal customer
 profile. Tight ICP for sales qualification, broad reach for awareness.
 
-### 3. Reach > Frequency
+### 3. Duplication of Purchase Law
+
+Brands share customers with other brands roughly in proportion to market
+share. Your customers also buy from competitors — and competitors' customers
+are your potential buyers. There is no such thing as a walled-off loyal
+segment.
+
+**Startup implications:**
+
+- **Your competitors' customers are your market.** Don't differentiate *away*
+  from the category. Compete for the same buyers by being more mentally and
+  physically available.
+- **"Niche" is usually a rationalization for low penetration.** Sharp's data
+  shows that truly niche brands (serving a segment no one else serves) are
+  vanishingly rare. Most small brands are simply small — they serve the same
+  buyers as large brands, just fewer of them.
+- **Category conventions matter.** If every competitor has a free trial and
+  you require a demo call, you're reducing physical availability for the
+  shared buyer pool. Match category hygiene, then differentiate on
+  distinctiveness.
+
+### 4. Reach > Frequency
 
 Being seen once by 1,000 people beats being seen 10 times by 100 people.
 
@@ -93,7 +136,7 @@ Being seen once by 1,000 people beats being seen 10 times by 100 people.
 channel. Don't depend on one partnership. Each new channel = more reach =
 more people who know you exist.
 
-### 4. Distinctiveness > Differentiation
+### 5. Distinctiveness > Differentiation
 
 You don't need to be "the differentiated brand." You need to be the one they
 can recognize. Distinctive brand assets (colors, logo, visual style, tone,
@@ -104,16 +147,30 @@ Consistency beats creativity. A founder who posts with the same visual style,
 tone, and topics every week builds more mental availability than one who
 reinvents their approach monthly.
 
-### 5. Advertising is a weak force
+### 6. Advertising is a weak force — and that's the point
 
 Each exposure nudges the probability of buying up a tiny amount. You can't
 measure any single exposure's impact. But from the brand's perspective, moving
 from 1/500 probability to 2/500 across millions of people doubles sales.
 
-**Startup implication:** Don't expect any single piece of content, ad, or
-outreach to produce immediate results. Consistency and reach are what work.
-Founders who post "10 LinkedIn posts and got no leads" misunderstand the
-mechanism. You're building mental availability, one tiny nudge at a time.
+**Startup implications:**
+
+- **Don't expect any single piece of content, ad, or outreach to produce
+  immediate results.** Founders who post "10 LinkedIn posts and got no leads"
+  misunderstand the mechanism. You're building mental availability, one tiny
+  nudge at a time.
+- **Consistency beats virality.** A viral post gives you a one-time spike that
+  decays. A consistent weekly cadence across 3 channels builds compounding
+  memory structures. The startup that posts every week for a year beats the
+  one that goes viral once and then goes silent.
+- **Continuity > bursts.** Memory decays during gaps. Sharp's data shows
+  brands that advertise continuously maintain mental availability; brands
+  that do big bursts with long gaps lose it between campaigns. For a startup,
+  this means: don't save content for a "launch." Publish steadily.
+- **Measure reach, not engagement.** Engagement metrics (likes, comments)
+  measure the small audience that already knows you. Reach metrics (unique
+  viewers, impressions across channels) measure whether you're expanding
+  mental availability. Optimize for reach.
 
 ## The Sharp Diagnostic for Startups
 
@@ -135,6 +192,207 @@ growth, apply this diagnostic:
 4. **"Are we associated with the right buying situations?"**
    Map your CEPs. For each one, ask: "Would someone in this situation think of
    us?" If not, that's a gap to fill with content, advertising, or positioning.
+
+## The CEP Mapping Exercise
+
+Category Entry Points are the specific situations, needs, or triggers that
+cause someone to think about your product category. Mental availability means
+being the brand linked to those moments. This exercise maps your CEPs
+systematically so you know where you're strong, where you're invisible, and
+where to invest.
+
+### Step 1: List your CEPs (30 min, once)
+
+Pull from three sources:
+
+1. **JTBD interviews / 5-minute canvases.** Every struggling moment you've
+   recorded is a CEP. If you have 8-12 canvases, you already have the raw
+   material.
+2. **Your own experience and observation.** What situations cause someone in
+   your market to start looking for a solution? Think about triggers, not
+   demographics. "Quarterly board meeting reveals pipeline is thin" is a CEP.
+   "VP of Sales" is not.
+3. **Competitor messaging.** What situations do competitors' landing pages,
+   ads, and case studies describe? Those are CEPs they've identified.
+
+Aim for 8-15 CEPs. Fewer means you're too narrow; more means you're listing
+sub-variations. Group similar triggers.
+
+**CEP format:** A short situational phrase in the buyer's language.
+Not "pipeline management" — rather "realized we don't know which deals will
+close this quarter." Not "team productivity" — rather "sprint review showed
+nothing shipped for the second week in a row."
+
+### Step 2: Score your coverage (15 min, quarterly)
+
+For each CEP, score two things:
+
+| CEP | Frequency (how often does this trigger?) | Our association (would they think of us?) |
+|---|---|---|
+| _[situational trigger]_ | High / Medium / Low | Strong / Weak / None |
+
+**Frequency** estimates how often this trigger fires across your market. A
+CEP that happens weekly to thousands of people is more valuable than one
+that happens once a year to a few.
+
+**Association** is honest self-assessment: if someone experienced this trigger
+right now, would your brand come to mind? "Strong" = you've published content,
+run ads, or have testimonials directly addressing this moment. "Weak" = you
+address it tangentially. "None" = you're invisible here.
+
+### Step 3: Prioritize gaps (10 min)
+
+**High-frequency CEPs where your association is Weak or None are your biggest
+opportunities.** These are the moments where lots of potential buyers are
+entering the category and you're not in the consideration set.
+
+Pick 2-3 gaps to close per quarter. For each one, define a concrete action:
+a content piece, a landing page, a case study, a partnership, a conference
+talk — something that puts your brand in front of people experiencing that
+trigger.
+
+### Step 4: Review quarterly
+
+Re-score the table. Did your association strengthen on the CEPs you targeted?
+Add any new CEPs that emerged from recent JTBD data. Remove any that turned
+out to be low-frequency.
+
+---
+
+## The Physical Availability Audit
+
+Physical availability is how easy it is to find, try, and buy your product
+once someone wants to. Mental availability gets you into the consideration
+set; physical availability determines whether the buyer can act on it. Both
+must be present.
+
+### The audit checklist
+
+Score each dimension: Good / Needs work / Missing.
+
+**Findability — can they get to you?**
+
+| Dimension | What to check |
+|---|---|
+| Search terms | Do you rank for the terms a buyer would naturally type when the struggling moment hits? Not your brand name — the problem description. |
+| Review sites & directories | Are you listed on G2, Capterra, Product Hunt, or the relevant vertical directories for your category? Are reviews recent? |
+| Marketplace presence | If your category has marketplaces or app stores (Shopify App Store, Salesforce AppExchange, etc.), are you present? |
+| Comparison pages | When someone searches "[your category] vs [competitor]" or "best [category] tools," do you appear? |
+| Referral paths | Can an existing customer easily share or recommend you? Is there a referral link, a shareable report, an embeddable widget? |
+
+**Trial friction — can they try you?**
+
+| Dimension | What to check |
+|---|---|
+| Signup flow | Can they start in under 2 minutes with no human involvement? Every required field, approval step, or "Contact Sales" gate is friction. |
+| Time to value | How long from signup to the first moment of real value? Measure this in minutes, not days. |
+| Pricing transparency | Is pricing visible on the website? Hidden pricing is a physical availability barrier — buyers who can't assess cost drop out silently. |
+| Free tier / trial | Is there a way to experience the product before committing money? Free trial, freemium tier, sandbox, or interactive demo. |
+
+**Purchase — can they buy easily?**
+
+| Dimension | What to check |
+|---|---|
+| Self-serve purchase | Can they enter a credit card and start paying without a sales call? For SMB and mid-market, this is table stakes. |
+| Integration ease | Do you integrate with the tools already in their stack? Each missing integration is a physical availability gap. |
+| Procurement friction | For enterprise: do you support SSO, SOC 2, standard MSAs, procurement portals? Each missing checkbox is a blocker. |
+
+### Scoring and action
+
+Count the "Needs work" and "Missing" items. If you have more than 3 gaps in
+any section, that section is a constraint on physical availability. Fix the
+highest-frequency gaps first — the ones that affect the most buyers in your
+primary segment.
+
+Run this audit quarterly, or whenever the constraint review reveals that
+acquisition is healthy (people are finding you) but activation is not (they're
+not starting or converting). That pattern often indicates a physical
+availability problem, not a product problem.
+
+---
+
+## Building Mental Availability: The Operational Protocol
+
+The other pillars have concrete weekly routines. This is Sharp's equivalent.
+It turns the principles (reach, consistency, distinctiveness, CEPs) into a
+repeatable cadence for a small team.
+
+### Weekly (5 min during the constraint review, when awareness is the constraint)
+
+1. **Did we publish/distribute anything this week?** One piece of content,
+   one outreach batch, one partnership touchpoint, one community
+   contribution — something that puts the brand in front of people who don't
+   know you yet. If the answer is no, that's a problem. Consistency requires
+   a weekly minimum.
+
+2. **Which CEPs did we cover?** Each piece of content or outreach should map
+   to a specific CEP. "We published a blog post" is activity. "We published
+   a blog post targeting the CEP 'realized our onboarding takes 3 weeks and
+   competitors do it in 3 days'" is strategic. Track which CEPs you're
+   covering over time — you should be rotating through your top 5-7.
+
+3. **Reach check.** How many *new* people saw us this week? Not engagement
+   (likes, comments from existing followers) — reach (unique views,
+   impressions, new subscribers, new trial signups from organic). The number
+   itself matters less than the trend. Flat reach with consistent publishing
+   means you need a new channel.
+
+### Monthly (20 min, standalone or appended to a monthly review)
+
+1. **CEP coverage review.** Pull up the CEP mapping table. Which CEPs have
+   you addressed in the last 4 weeks? Which have gone untouched? If two or
+   more high-frequency CEPs have had zero coverage, prioritize them next
+   month.
+
+2. **Channel diversity check.** List every channel through which new people
+   found you this month (organic search, social, partnerships, events, paid,
+   referral, directories, communities). If you're on fewer than 3 channels,
+   you're under-diversified. Reach requires breadth. Add one new channel per
+   quarter until you're at 4-5.
+
+3. **Distinctiveness audit.** Review the last month's content side by side.
+   Does it look and sound like your brand? Same visual style, same tone, same
+   structural patterns? Or is every piece a one-off? Distinctiveness
+   compounds only through consistency. If you can't tell your content apart
+   from a competitor's, you have a distinctiveness problem.
+
+4. **Physical availability spot-check.** Pick one item from the physical
+   availability audit and verify it's still healthy. Signup flow hasn't
+   degraded. Pricing page is current. G2 reviews are recent. Rotate through
+   the checklist over the course of a quarter.
+
+### Quarterly (1 hour, strategic)
+
+1. **Full CEP mapping exercise** (Steps 1-4 above). Re-score, add new CEPs
+   from JTBD data, retire stale ones.
+
+2. **Full physical availability audit.** Re-score every dimension.
+
+3. **Reach trend.** Plot monthly unique reach across all channels for the
+   last 3 months. Growing, flat, or declining? If flat or declining despite
+   consistent publishing, the issue is either channel saturation (need a new
+   channel) or content-market fit (the CEPs you're targeting aren't resonating
+   — re-check against JTBD data).
+
+4. **Competitive association check.** For your top 3 CEPs, search the way a
+   buyer would. Who shows up? If competitors dominate and you're absent,
+   those CEPs need investment. If you show up, that's a CEP you've won —
+   maintain it and shift effort to weaker ones.
+
+### Content cadence guidelines for small teams
+
+| Team size | Minimum weekly output | Channel target |
+|---|---|---|
+| Solo founder | 1 piece (short-form: LinkedIn post, tweet thread, community comment) | 2 channels |
+| 2-3 people | 2 pieces (1 short-form + 1 long-form or outreach batch) | 3 channels |
+| 4-5 people | 3 pieces (mix of short, long, and distribution partnerships) | 4 channels |
+
+The key behavior is **never going dark.** A week with no output is a week
+where memory structures decay. If capacity is tight, short-form content on
+one channel is better than nothing. The consistency matters more than the
+quality of any individual piece.
+
+---
 
 ## Connecting Sharp to Goldratt and Maurya
 
