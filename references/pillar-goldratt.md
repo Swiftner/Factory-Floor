@@ -35,33 +35,13 @@ re-identify.
 
 ### 2. Exploit the Constraint
 
-Before spending money, squeeze maximum output from the bottleneck:
+Before spending money, squeeze maximum output from the bottleneck. The
+principle: make the constraint more productive with existing resources before
+investing new ones. Every minute the constraint spends on non-constraint
+work is lost throughput for the entire company.
 
-**If sales is the constraint:**
-- Founder does nothing but sell during selling hours. Zero admin, zero code
-  reviews, zero support.
-- Improve conversion rates before chasing more leads.
-- Tighten ICP. Disqualify faster. Reduce demo prep time.
-- Every minute the constraint spends on non-constraint work = lost throughput
-  for the entire company.
-
-**If engineering is the constraint:**
-- Eliminate context-switching. One task at a time.
-- Pre-package every spec: requirements clarified, designs done, APIs documented.
-  The developer should never wait for information.
-- Automate CI/CD (the software equivalent of SMED setup time reduction).
-- Stop working on non-critical features immediately.
-
-**If onboarding is the constraint:**
-- Templatize onboarding sequences.
-- Build self-serve docs and in-app tutorials.
-- Reduce manual steps per customer.
-- Record walkthroughs once, reuse infinitely.
-
-**If awareness/acquisition is the constraint:**
-- Redirect all available non-constraint capacity toward distribution activities.
-- Create content, build partnerships, attend events, do outreach.
-- Apply Sharp's mental availability framework (see pillar-sharp.md).
+See the subordination matrix in `stages/growth.md` for the startup-specific
+translation of what each role does based on the current constraint.
 
 ### 3. Subordinate Everything Else
 
@@ -73,24 +53,15 @@ This is the hardest step psychologically. The rules:
   an emergency lane.
 - Non-constraint work that doesn't feed the constraint should stop.
 
-**Subordination matrix example:**
-
-| Current constraint | Founder | Developer | Support/CS person |
-|---|---|---|---|
-| Sales/Pipeline | 100% selling. Nothing else during selling hours. | Build sales tools: demo flow, trial UX, landing pages. Use slack for refactoring/docs. | Create case studies. Pre-package onboarding materials. Write FAQ content. |
-| Engineering | Write specs, do QA, handle support to shield the developer. Slow intake of new work. | Protected focus. One task at a time. All work pre-packaged. | QA testing, bug reporting, documentation, customer workarounds. |
-| Onboarding | Help with onboarding calls. Create training videos. Pause selling if queue is full. | Build onboarding automation: setup wizards, health checks. Reduce manual steps. | Protected focus on activating customers. |
-| Awareness | Content creation, outreach, partnerships, speaking, LinkedIn. | Build distribution assets: SEO pages, integrations directory, API docs. | Collect testimonials, case studies, social proof. |
-
 ### 4. Elevate the Constraint
 
-Only after Steps 2 and 3. Now you invest:
+Only after Steps 2 and 3. Now you invest: hire at the constraint, buy tools
+for the constraint, outsource non-constraint work to free capacity.
 
-- Hire at the constraint. A developer when engineering is the bottleneck. A
-  salesperson when pipeline is the bottleneck. A CSM when onboarding is.
-- Every unit of capacity added at the constraint = throughput of the whole
-  company. An expensive specialist at the bottleneck pays for themselves. A
-  cheap hire at a non-constraint adds cost without adding throughput.
+Every unit of capacity added at the constraint = throughput of the whole
+company. A hire at a non-constraint adds cost without adding throughput.
+
+See `stages/scaling.md` for detailed guidance on hiring as elevation.
 
 ### 5. Repeat (Prevent Inertia)
 

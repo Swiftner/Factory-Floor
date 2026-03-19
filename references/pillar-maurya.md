@@ -81,109 +81,22 @@ broken about those alternatives), then everything else. Existing Alternatives
 is the most important Lean Canvas building block — more important than the
 Problem box itself, because without it, you're defining problems in a vacuum.
 
-**Maurya's Lean Canvas questions (from *Running Lean*)** — answer these before
-writing a line of code:
+**Maurya's Lean Canvas questions** and the **Napkin Test** are the core
+pre-building tools. See `stages/pre-revenue.md` for the full operational
+versions (the questions to ask and the math to run). The Lean Canvas is a
+set of hypotheses to test, ordered by risk — test the riskiest assumption
+first.
 
-1. **Problem:** Can you list the top 3 problems your customer has? How do
-   they solve them today (existing alternatives)?
-2. **Customer segments:** Who has this problem most acutely? Can you name
-   specific people, not just categories?
-3. **Unique value proposition:** Can you state in one sentence why you're
-   different AND worth paying attention to? (Not "better" — different.)
-4. **Solution:** What is the simplest thing you could build to test whether
-   you've got the problem right? (Not the product vision — the smallest
-   test.)
-5. **Channels:** How will these specific customers find you? Where do they
-   already look when this problem hits?
-6. **Revenue streams:** Will they pay? How much? Have you tested price
-   before building? (Maurya: "The right price is a function of the
-   customer, not the product.")
-7. **Cost structure:** What does it cost to acquire, activate, and serve
-   one customer? Can you survive long enough to learn?
-8. **Key metrics:** What is the one number that tells you whether this is
-   working? (Not a dashboard — one number.)
-9. **Unfair advantage:** What can't be easily copied or bought? (Honest
-   answer: most startups don't have one yet. That's fine — but know it.)
+**The Mafia Offer** — an offer so good customers can't refuse, tested
+BEFORE building an MVP. Maurya's sequence: Problem Discovery → Mafia Offer
+→ MVP. See `stages/pre-revenue.md` for the template and commitment test.
 
-The Lean Canvas is not a business plan. It's a set of **hypotheses to
-test**, ordered by risk. Maurya's rule: **test the riskiest assumption
-first.** Usually that's "does anyone have this problem badly enough to
-pay for a solution?" — not "can we build it?"
-
-**The Napkin Test (5-Minute Viability Check)**
-
-Before building anything, do this math on a napkin:
-
-1. **Set your minimum success criteria.** What's the revenue target that
-   makes this worth doing in 3 years? Be honest — not a fantasy, not
-   humble. The number that means the business works.
-
-2. **Calculate annual revenue per customer.** Price x purchase frequency.
-   Round to a clean number. If it's $49/month, call it $600/year.
-
-3. **Divide.** Required customers = Goal / Revenue per customer.
-
-4. **Check the market.** Does your addressable market have that many
-   potential customers? Not the TAM fantasy — the realistic number of
-   people who have the job you're solving, in the segments you can reach.
-
-If Required Customers > Addressable Market, the model is dead. Don't
-build it. Change one of three things: the price (charge more per
-customer), the segment (target a segment that pays more), or the model
-(recurring vs. one-time, platform vs. product).
-
-Maurya's key insight: **your pricing model determines your customers and
-market viability.** A VR platform needing 10,000 developer customers in a
-market of 2,200 is dead on arrival. The same product targeting architects
-at $50K/year needs only 200 firms. Same idea, different model, viable
-business.
-
-This takes 5 minutes and kills more bad ideas than any amount of customer
-interviews. Do it first.
-
-**The Mafia Offer (Test Before You Build)**
-
-The Mafia Offer is "an offer your customers can't refuse" — tested BEFORE
-you build an MVP. Most founders invert this: they build a product, then try
-to sell it. Maurya's sequence is:
-
-**Problem Discovery → Mafia Offer → MVP**
-
-The Mafia Offer is not the product. It's the *framing* of the outcome you
-deliver — the promise, the price, and the terms — packaged so that a
-rational customer would feel foolish saying no.
-
-**Components:**
-1. **Desired outcome** — What result does the customer get? (Not features.)
-2. **Key metric / promise** — A specific, measurable claim.
-3. **Timeframe** — By when?
-4. **Price** — Must feel like a no-brainer relative to the value.
-5. **Risk reversal** — What happens if you don't deliver? (Guarantee,
-   free pilot, refund.) This removes the customer's downside risk.
-
-**The 3x rule:** The offer must promise at least a 3x improvement over the
-existing alternative on the dimension the customer cares about most. Not 10%
-better — dramatically, obviously better. Anything less won't overcome
-switching costs and inertia.
-
-**Template:** "We help [specific customer segment] achieve [desired outcome]
-within [timeframe], unlike [existing alternative] which [key limitation].
-[Price]. If we don't deliver, [risk reversal]."
-
-**The commitment test:** Present the offer and ask for real commitment — a
-pre-order, a deposit, a letter of intent. Not "would you use this?" (that's
-an opinion). Money or equivalent skin in the game. If people won't commit to
-the *offer*, building the product is waste.
-
-**Why this matters:** You can test desirability with zero code. The Mafia
-Offer is a conversation, a landing page, a one-pager. If the offer doesn't
-compel people to commit, no amount of engineering fixes it. The MVP is what
-you build to *deliver* on a validated offer — not the other way around.
-
-Maurya's sequencing principle: **Desirability → Feasibility → Viability.**
-Test whether people want this (Mafia Offer) before testing whether you can
-build it (MVP) before testing whether the business model works at scale
-(traction metrics).
+**The Innovator's Bias** is the #1 contributor to startup failure: falling
+in love with your solution before validating the problem. The antidote is
+the **Innovator's Gift**: new problems worth solving are created as
+by-products of old solutions. Start with existing alternatives, not your
+idea. Maurya's Lean Canvas fill order makes this concrete: start with
+**Existing Alternatives**, then **Problems**, then everything else.
 
 ### Problem/Solution Fit → Product/Market Fit
 **Typical constraint: Activation.**

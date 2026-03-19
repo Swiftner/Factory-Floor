@@ -312,160 +312,18 @@ something in 2 weeks or the experiment wasn't focused enough.
 
 ---
 
-## Estimation for Startups: The Cheat Sheet
+## Startup Quick Protocols
 
-### The two-question filter
+The operational estimation protocol (quick protocol, two-question filter,
+fever chart, and timeline communication templates) is in the stage files:
 
-Before estimating anything, ask:
+- **`stages/growth.md`** — The quick estimation protocol, two-question
+  filter, fever chart summary, and when-to-estimate table for teams under 10.
+- **`stages/scaling.md`** — Full CCPM method, buffer sizing (50% rule and
+  RSEM), cycle time measurement, and communicating timelines to customers,
+  board, and team.
 
-**"Is this work on the constraint?"**
-
-If YES → estimate carefully. The constraint's capacity determines system
-throughput. Getting this wrong has maximum impact. Use PERT or cycle time.
-Size the buffer explicitly.
-
-If NO → don't estimate precisely. The exact duration of non-constraint
-work doesn't matter much (Goldratt's insight). As long as it finishes
-before the constraint needs it, the timing is fine. Use T-shirt sizing
-at most. Focus estimation effort where it matters.
-
-### The startup estimation protocol
-
-For a small team (2-5 people):
-
-**1. Break work into tasks no larger than 3 days.**
-If a task feels bigger than 3 days, you don't understand it well enough.
-Break it down or do a spike (a short time-boxed investigation) first.
-
-**2. Get the focused estimate.**
-Ask: "How long if you could just focus, no interruptions?" This is close
-to 50% confidence.
-
-**3. Get the safe estimate.**
-Ask: "How long with normal life — interruptions, surprises, things being
-harder than expected?" This is close to 80-90% confidence.
-
-**4. Use the focused estimate as the task duration.**
-Do NOT add safety to the task.
-
-**5. Pool the safety into a project buffer.**
-Take the difference between safe and focused for each task on the critical
-chain. Sum the differences and take 50% for simplicity.
-
-Buffer = 50% x sum(safe_i - focused_i) for each critical chain task
-
-**6. Commit to the buffer end date.**
-This is the ONLY date you tell the customer, the board, or yourself.
-Internal task dates are targets, not commitments.
-
-**7. Track buffer consumption weekly.**
-At each weekly review, plot: % of critical chain complete vs. % of project
-buffer consumed. Use the fever chart (green/yellow/red zones).
-
-### Quick reference: estimation by situation
-
-| Situation | Method | Effort |
-|---|---|---|
-| "Should we do this at all?" | T-shirt size + PERT for constraint tasks | 15 min |
-| "When will this ship?" (novel work) | CCPM: focused estimates + buffer | 30-60 min |
-| "When will this ship?" (ongoing work) | Cycle time data + Monte Carlo | 5 min |
-| "How should we plan the week?" | WIP limits + buffer check | 5 min (in weekly review) |
-| Customer asks for a delivery date | 85th percentile cycle time or buffer end date | 2 min |
-| Experiment / learning work | Time-box at 2 weeks | 0 min |
-
-### The 2x rule (emergency heuristic)
-
-If you have no data, no history, and need a number right now: take your
-gut estimate and multiply by 2. This is crude but empirically decent.
-The planning fallacy and optimism bias typically produce estimates that
-are 50-75% of actual duration. Doubling approximately corrects for this.
-
-Use this ONLY when you truly have no better option. Replace it with cycle
-time measurement as soon as you have 3 weeks of data.
-
----
-
-## Buffer Management: The Fever Chart
-
-The only project tracking that matters in the CCPM framework.
-
-### How it works
-
-Plot two numbers:
-- % of critical chain completed (how much work is done)
-- % of project buffer consumed (how much safety is used)
-
-```
-100% +---------------------------------+
-     |            RED                  |
-     |         Act now.               |
- 67% +- - - - - - - - - - - - - - - - +
-     |          YELLOW                |
-     |      Plan recovery.            |
- 33% +- - - - - - - - - - - - - - - - +
-     |          GREEN                 |
-     |        On track.               |
-  0% +---------------------------------+
-     0%                            100%
-        % of critical chain done
-```
-
-**Green (buffer consumed < 1/3):** Healthy. No action needed. Resist the
-temptation to "use the extra time" on nice-to-haves.
-
-**Yellow (buffer consumed 1/3 to 2/3):** Caution. Develop a recovery plan
-but don't necessarily execute it. Being in yellow is normal — the buffer
-is doing its job.
-
-**Red (buffer consumed > 2/3):** Act now. Execute the recovery plan.
-Common actions:
-- Cut scope to the minimum viable delivery
-- Redirect non-constraint team members to help the critical chain
-- Remove blockers immediately (the founder's job)
-- Communicate the risk to stakeholders with a revised range
-
-### Simplified buffer check for weekly review
-
-At each weekly review, ask two questions:
-
-1. "What percentage of the work is done?"
-2. "What percentage of our time/buffer is gone?"
-
-If #2 > #1, you're consuming buffer faster than completing work — yellow
-or red territory. If #1 > #2, you're ahead — green.
-
----
-
-## Communicating Timelines
-
-### To customers and stakeholders
-
-Never give a point estimate. Always give a range with confidence.
-
-**Template:** "We expect to deliver between [aggressive date] and [buffer
-end date]. Based on our current progress, we're tracking toward [current
-projection]."
-
-If using cycle time data: "Based on our historical throughput, there's a
-50% chance of completing by [date A] and an 85% chance by [date B]."
-
-### To the board / investors
-
-Use throughput metrics, not project timelines:
-- "We shipped X initiatives this month that serve the [constraint]."
-- "Our cycle time for customer-facing work is Y days."
-- "We're in the [green/yellow/red] zone on our current initiative."
-
-### To the team
-
-Communicate buffer status and constraint, not individual task deadlines.
-"We've consumed 40% of our buffer with 60% of the work done — we're
-healthy. Keep the relay race going."
-
-The key behavior: when someone finishes a task, they notify the next
-person immediately and hand off. No waiting for the scheduled start date.
-The "relay race" is the behavioral mechanism that lets early finishes
-propagate instead of evaporating.
+This reference file covers the underlying theory and detailed methods.
 
 ---
 

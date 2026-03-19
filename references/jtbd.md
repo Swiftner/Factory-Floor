@@ -211,27 +211,13 @@ ones.
 
 ## The 5-Minute Post-Conversation Canvas
 
-Every conversation is JTBD data if you listen correctly. After every
-meaningful customer or prospect conversation, spend 5 minutes:
+The canvas template and instructions for using it are in
+`stages/pre-revenue.md`. The weekly rhythm for reviewing canvases is in
+`stages/growth.md` under "JTBD in the Weekly Rhythm."
 
-```
-JOB:         [What progress are they trying to make?]
-TRIGGER:     [What specific event caused them to look?]
-OLD WAY:     [What are they "hiring" today?]
-─────────────────────────────────────────────────
-PUSH:        [Top struggles with current situation]
-PULL:        [What attracted them to us?]
-ANXIETY:     [What worries them about switching?]
-HABIT:       [What keeps them on the old way?]
-─────────────────────────────────────────────────
-OUTCOME:     [What does success look like in their words?]
-EMOTIONAL:   [How do they want to feel?]
-SOCIAL:      [How do they want to be perceived?]
-```
-
-After 5+ canvases, patterns emerge. After 8-12, you have enough signal to
-act. Store these in a shared database or simple spreadsheet. For every
-hour of interview, spend an hour debriefing.
+After 8-12 canvases, you have enough signal to act. Store them in a shared
+database or simple spreadsheet. For every hour of interview, spend an hour
+debriefing.
 
 ## Ulwick's Job Map and Outcome Statements
 
@@ -394,27 +380,10 @@ PRODUCT STRATEGY → Feature prioritization (Ulwick/ODI)
 
 ## The Weekly JTBD Routine
 
-JTBD is not a one-time research project. It's a habit.
-
-**After every conversation**: Fill in the 5-minute canvas. Every sales
-call, demo, support ticket, and churn conversation is JTBD data.
-
-**Weekly** (during the constraint review): Review the week's canvases.
-Update the running Forces Diagram — which pushes, pulls, anxieties, and
-habits keep appearing? Do the patterns match your current messaging?
-
-**Monthly**: Review all canvases. Update the one-page JTBD summary. Ask:
-Have our assumptions about push, pull, anxiety, and habit changed? Should
-our messaging change? Should our constraint diagnosis change?
-
-**After 8-12 canvases**: You have enough signal to act. The patterns will
-reveal whether buyers are hiring you for the job you think — or something
-you haven't imagined yet.
-
-**Mine what you already have**: Lost deal notes, churn conversations, and
-support tickets already contain JTBD data. For lost deals, ask: "What did
-you go with instead and why?" For churned customers: "What are you using
-now?" The answer reveals the real competitive set.
+The operational rhythm for JTBD (after every conversation, weekly, monthly)
+is in `stages/growth.md` under "JTBD in the Weekly Rhythm." The pre-revenue
+version (focused on customer conversations and hypothesis testing) is in
+`stages/pre-revenue.md` under "The Pre-Revenue Weekly Review."
 
 ## Demand Generation vs. Demand Capture
 

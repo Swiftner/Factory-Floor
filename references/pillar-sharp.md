@@ -174,6 +174,9 @@ from 1/500 probability to 2/500 across millions of people doubles sales.
 
 ## The Sharp Diagnostic for Startups
 
+The operational version of this diagnostic (integrated into the constraint
+workflow) is in `stages/growth.md` under "Before You Build Anything."
+
 When a startup has good retention (users who activate tend to stay) but flat
 growth, apply this diagnostic:
 
