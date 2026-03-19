@@ -316,84 +316,13 @@ availability problem, not a product problem.
 
 ## Building Mental Availability: The Operational Protocol
 
-The other pillars have concrete weekly routines. This is Sharp's equivalent.
-It turns the principles (reach, consistency, distinctiveness, CEPs) into a
-repeatable cadence for a small team.
+The weekly, monthly, and quarterly cadences for building mental availability
+live in the stage files where they're used operationally:
 
-### Weekly (5 min during the constraint review, when awareness is the constraint)
-
-1. **Did we publish/distribute anything this week?** One piece of content,
-   one outreach batch, one partnership touchpoint, one community
-   contribution — something that puts the brand in front of people who don't
-   know you yet. If the answer is no, that's a problem. Consistency requires
-   a weekly minimum.
-
-2. **Which CEPs did we cover?** Each piece of content or outreach should map
-   to a specific CEP. "We published a blog post" is activity. "We published
-   a blog post targeting the CEP 'realized our onboarding takes 3 weeks and
-   competitors do it in 3 days'" is strategic. Track which CEPs you're
-   covering over time — you should be rotating through your top 5-7.
-
-3. **Reach check.** How many *new* people saw us this week? Not engagement
-   (likes, comments from existing followers) — reach (unique views,
-   impressions, new subscribers, new trial signups from organic). The number
-   itself matters less than the trend. Flat reach with consistent publishing
-   means you need a new channel.
-
-### Monthly (20 min, standalone or appended to a monthly review)
-
-1. **CEP coverage review.** Pull up the CEP mapping table. Which CEPs have
-   you addressed in the last 4 weeks? Which have gone untouched? If two or
-   more high-frequency CEPs have had zero coverage, prioritize them next
-   month.
-
-2. **Channel diversity check.** List every channel through which new people
-   found you this month (organic search, social, partnerships, events, paid,
-   referral, directories, communities). If you're on fewer than 3 channels,
-   you're under-diversified. Reach requires breadth. Add one new channel per
-   quarter until you're at 4-5.
-
-3. **Distinctiveness audit.** Review the last month's content side by side.
-   Does it look and sound like your brand? Same visual style, same tone, same
-   structural patterns? Or is every piece a one-off? Distinctiveness
-   compounds only through consistency. If you can't tell your content apart
-   from a competitor's, you have a distinctiveness problem.
-
-4. **Physical availability spot-check.** Pick one item from the physical
-   availability audit and verify it's still healthy. Signup flow hasn't
-   degraded. Pricing page is current. G2 reviews are recent. Rotate through
-   the checklist over the course of a quarter.
-
-### Quarterly (1 hour, strategic)
-
-1. **Full CEP mapping exercise** (Steps 1-4 above). Re-score, add new CEPs
-   from JTBD data, retire stale ones.
-
-2. **Full physical availability audit.** Re-score every dimension.
-
-3. **Reach trend.** Plot monthly unique reach across all channels for the
-   last 3 months. Growing, flat, or declining? If flat or declining despite
-   consistent publishing, the issue is either channel saturation (need a new
-   channel) or content-market fit (the CEPs you're targeting aren't resonating
-   — re-check against JTBD data).
-
-4. **Competitive association check.** For your top 3 CEPs, search the way a
-   buyer would. Who shows up? If competitors dominate and you're absent,
-   those CEPs need investment. If you show up, that's a CEP you've won —
-   maintain it and shift effort to weaker ones.
-
-### Content cadence guidelines for small teams
-
-| Team size | Minimum weekly output | Channel target |
-|---|---|---|
-| Solo founder | 1 piece (short-form: LinkedIn post, tweet thread, community comment) | 2 channels |
-| 2-3 people | 2 pieces (1 short-form + 1 long-form or outreach batch) | 3 channels |
-| 4-5 people | 3 pieces (mix of short, long, and distribution partnerships) | 4 channels |
-
-The key behavior is **never going dark.** A week with no output is a week
-where memory structures decay. If capacity is tight, short-form content on
-one channel is better than nothing. The consistency matters more than the
-quality of any individual piece.
+- `stages/growth.md` — "The Awareness Cadence" section (weekly/monthly
+  rhythms, content cadence guidelines by team size)
+- `stages/scaling.md` — "Before You Build: The Awareness Check at Scale"
+  (segment expansion diagnostic, quarterly CEP re-mapping)
 
 ---
 

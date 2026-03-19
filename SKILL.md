@@ -113,8 +113,8 @@ questions to triangulate:
 
 | Stage | Typical constraint | What "exploiting" looks like |
 |---|---|---|
-| Pre-product/market fit | Problem validation | Observe customers. Apply the not-not test. Stress-test the Lean Canvas. |
-| Problem/Solution fit | Activation | Onboarding optimization, concierge onboarding, reducing time-to-value. |
+| Pre-product/market fit | Problem validation | Observe customers. Apply the not-not test. Stress-test the Lean Canvas. → `stages/pre-revenue.md` |
+| Problem/Solution fit | Activation | Onboarding optimization, concierge onboarding, reducing time-to-value. → `stages/growth.md` |
 | Product/Market fit | Acquisition | Channel experiments, pricing, positioning. |
 | Scaling | Retention or Revenue | Churn analysis, expansion revenue, pricing optimization. |
 
@@ -133,6 +133,9 @@ examples, and weekly review format for that stage.**
 - **Team is 10+ people, or $1M+ ARR, or constraint keeps showing up as a
   coordination problem rather than a capacity problem**
   → Read `stages/scaling.md`
+- **If multiple triggers point to different stages**, use this precedence:
+  coordination/policy problems → scaling; paying customers + capacity problems
+  → growth; no paying customers → pre-revenue.
 - **If unsure**, start with `stages/growth.md`
 
 Each stage file is self-contained: it includes the relevant parts of JTBD,
@@ -159,6 +162,9 @@ When a founder asks "what should we work on?", walk them through this:
    be paused, deprioritized, or killed.
 5. **Size to the constraint.** Every initiative should be sized to what the
    constraint can process. Don't generate 20 leads/week if you can demo 5.
+6. **Repeat.** If the constraint has broken (throughput increased and the
+   bottleneck visibly shifted), go back to Step 1. Don't let processes
+   built for the old constraint become the new bottleneck.
 
 ---
 
