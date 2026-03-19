@@ -226,6 +226,23 @@ top priority.
 requirements, prepare assets, remove blockers — whatever the constraint
 needs to stay at full speed.
 
+### Track throughput, not activity
+
+The board should answer one question at a glance: **"Are we creating happy
+paying customers faster than last week?"**
+
+Track these weekly:
+- **Throughput metric:** The number that measures output at the constraint
+  (trials generated, customers activated, deals closed — depends on where
+  the constraint is).
+- **Cycle time:** How long tasks spend in progress. If cycle time is
+  growing, WIP is creeping up.
+- **Buffer health:** How many ready items sit before the constraint. If
+  it's consistently empty, the constraint is starving.
+
+Don't track vanity metrics (tasks completed, story points burned, hours
+logged). They measure motion, not progress.
+
 ### Handle blockers by severity
 
 - **Constraint blocker:** Drop everything. Clear it now. Every hour the

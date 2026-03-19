@@ -88,15 +88,17 @@ set of hypotheses to test, ordered by risk — test the riskiest assumption
 first.
 
 **The Mafia Offer** — an offer so good customers can't refuse, tested
-BEFORE building an MVP. Maurya's sequence: Problem Discovery → Mafia Offer
-→ MVP. See `stages/pre-revenue.md` for the template and commitment test.
+BEFORE building an MVP. Maurya's sequence: **Desirability → Feasibility →
+Viability.** Test whether people want this (Mafia Offer) before testing
+whether you can build it (MVP) before testing whether the business model
+works at scale (traction metrics).
 
-**The Innovator's Bias** is the #1 contributor to startup failure: falling
-in love with your solution before validating the problem. The antidote is
-the **Innovator's Gift**: new problems worth solving are created as
-by-products of old solutions. Start with existing alternatives, not your
-idea. Maurya's Lean Canvas fill order makes this concrete: start with
-**Existing Alternatives**, then **Problems**, then everything else.
+**The 3x rule:** The offer must promise at least a 3x improvement over the
+existing alternative on the dimension the customer cares about most. Not 10%
+better — dramatically, obviously better. Anything less won't overcome
+switching costs and inertia.
+
+See `stages/pre-revenue.md` for the operational template and commitment test.
 
 ### Problem/Solution Fit → Product/Market Fit
 **Typical constraint: Activation.**

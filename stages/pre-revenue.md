@@ -157,12 +157,23 @@ Before building anything, craft an offer so good customers can't refuse:
 Example: "We'll get your new SDRs booking qualified meetings within 2 weeks,
 or you pay nothing."
 
+**The 3x rule:** The offer must promise at least a 3x improvement over the
+existing alternative on the dimension the customer cares about most. Not 10%
+better — dramatically, obviously better. Anything less won't overcome
+switching costs and inertia.
+
+**Template:** "We help [specific customer segment] achieve [desired outcome]
+within [timeframe], unlike [existing alternative] which [key limitation].
+[Price]. If we don't deliver, [risk reversal]."
+
 Test it by asking for **real commitment** — a deposit, a pre-order, a letter
 of intent. Not "would you buy this?" but "here's the invoice." If people
 won't commit to the offer, building the product is waste.
 
 The MVP is what you build to deliver on a validated offer, not the other way
-around. The offer comes first. The product serves it.
+around. The offer comes first. The product serves it. Maurya's sequence:
+**Desirability → Feasibility → Viability.** Test whether people want this
+before testing whether you can build it.
 
 ---
 
