@@ -90,17 +90,11 @@ Diagrams render to SVG with a violet/indigo brand palette by default. Pass `--th
 
 ## Install
 
-Copy the skill to your Claude Code skills directory:
-
 ```bash
-git clone <repo-url> ~/.claude/skills/factory-floor
+npx factory-floor
 ```
 
-Install the diagram renderer (one-time):
-
-```bash
-cd ~/.claude/skills/factory-floor/scripts && npm install
-```
+That's it. Installs the skill to `~/.claude/skills/factory-floor/` and sets up the diagram renderer.
 
 The skill triggers automatically when you ask Claude Code about prioritisation, bottlenecks, weekly reviews, or what to work on next.
 
