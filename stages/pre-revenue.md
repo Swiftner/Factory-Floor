@@ -77,7 +77,7 @@ SOCIAL:      [How do they want to be perceived?]
 After 8-12 canvases, patterns emerge. That's enough signal to act. If the
 patterns don't match your assumptions, change your assumptions — not the data.
 
-Read `references/jtbd.md` for the full framework: switch interviews, job
+See `references/jtbd.md` for the full framework: switch interviews, job
 mapping, outcome statements, opportunity scoring, and positioning.
 
 ---

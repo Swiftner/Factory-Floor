@@ -1,4 +1,4 @@
-# Scaling: $1M+ ARR, 10+ People
+# Scaling: $1M+ ARR or 10+ People
 
 The frameworks still apply. But at this size, the constraint is often not a
 funnel step — it's a decision-making pattern, a coordination failure, or
@@ -271,9 +271,11 @@ the old constraint.
 1. **Name it explicitly.** "Our constraint has moved from X to Y.
    Starting now, everything serves Y."
 
-2. **Reassign subordination roles.** Use the subordination matrix from
-   `stages/growth.md`. At 10+ people, this means updating team-level
-   priorities, not just individual roles.
+2. **Reassign subordination roles.** At 10+ people, this means updating
+   team-level priorities, not just individual roles. The principle:
+   every team that is NOT at the constraint serves the team that IS.
+   Non-constraint teams feed the buffer, remove blockers, and absorb
+   overflow — even if that means they look underutilized.
 
 3. **Don't abandon the old constraint.** The systems that fixed it
    (content calendar, outreach cadence, onboarding automation) go on

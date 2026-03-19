@@ -215,6 +215,11 @@ When a founder says "but we need to get ahead on X," the answer is: "X is
 not the constraint. Starting X now increases WIP, extends lead time on
 constraint work, and slows throughput. X waits."
 
+This is Goldratt's **Drum-Buffer-Rope** in practice: the constraint sets
+the pace (drum), a buffer of ready work sits in front of it, and the rope
+ties new work intake to the constraint's consumption rate. Nobody starts
+new work faster than the constraint can absorb it.
+
 ### Feed the constraint buffer
 
 Maintain 2-3 tasks that are fully specified, unblocked, and ready to pull.
@@ -306,6 +311,20 @@ When someone finishes a task, the next person starts **immediately** — not
 on the scheduled date. Early finishes evaporate in traditional project
 management. In the relay race, they propagate forward.
 
+### Communicate timelines honestly
+
+Never give a point estimate externally. Always give a range.
+
+**To a customer or stakeholder:** "We expect to deliver between [focused
+estimate date] and [buffer end date]." The buffer end date is the only
+commitment.
+
+**To the team:** Communicate buffer status, not individual task deadlines.
+"We've consumed 40% of buffer with 60% of work done — we're healthy."
+
+**If someone demands a single date:** Give the buffer end date. That's
+what the buffer is for.
+
 ---
 
 ## JTBD in the Weekly Rhythm
@@ -313,7 +332,7 @@ management. In the relay race, they propagate forward.
 JTBD is not a one-time research project. It's a weekly habit.
 
 **After every conversation:** Fill in the 5-minute canvas (see
-`stages/pre-revenue.md`). Every sales call, demo, support ticket, and
+`references/jtbd.md`). Every sales call, demo, support ticket, and
 churn conversation is JTBD data.
 
 **During the weekly review:** Review the week's canvases. Do the forces

@@ -211,13 +211,30 @@ ones.
 
 ## The 5-Minute Post-Conversation Canvas
 
-The canvas template and instructions for using it are in
-`stages/pre-revenue.md`. The weekly rhythm for reviewing canvases is in
-`stages/growth.md` under "JTBD in the Weekly Rhythm."
+Every conversation is JTBD data if you listen correctly. After every
+meaningful customer or prospect conversation, spend 5 minutes:
 
-After 8-12 canvases, you have enough signal to act. Store them in a shared
-database or simple spreadsheet. For every hour of interview, spend an hour
-debriefing.
+```
+JOB:         [What progress are they trying to make?]
+TRIGGER:     [What specific event caused them to look?]
+OLD WAY:     [What are they "hiring" today?]
+─────────────────────────────────────────────────
+PUSH:        [Top struggles with current situation]
+PULL:        [What attracted them to us?]
+ANXIETY:     [What worries them about switching?]
+HABIT:       [What keeps them on the old way?]
+─────────────────────────────────────────────────
+OUTCOME:     [What does success look like in their words?]
+EMOTIONAL:   [How do they want to feel?]
+SOCIAL:      [How do they want to be perceived?]
+```
+
+After 5+ canvases, patterns emerge. After 8-12, you have enough signal to
+act. Store them in a shared database or simple spreadsheet. For every hour
+of interview, spend an hour debriefing.
+
+The weekly rhythm for reviewing canvases is in `stages/growth.md` under
+"JTBD in the Weekly Rhythm."
 
 ## Ulwick's Job Map and Outcome Statements
 
