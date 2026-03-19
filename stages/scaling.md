@@ -189,35 +189,25 @@ reporting, partner timelines) that demand honest estimation.
 
 ### Critical Chain Project Management (CCPM)
 
-The full method, for initiatives that matter:
+The full method, for initiatives with external commitments:
 
 1. **Get focused estimates** (50% confidence) for each task. "How long
    with no interruptions?"
-2. **Get safe estimates** (80-90% confidence). "How long with normal life?"
-3. **Use focused estimates as task durations.** Do NOT add safety to tasks.
-4. **Pool the safety into a project buffer.** Sum the differences between
-   safe and focused. Take 50%. Place at the end of the project.
+2. **Use focused estimates as task durations.** Do NOT add safety to tasks.
+3. **Identify the critical chain** — the longest dependent sequence,
+   including resource dependencies (same person can't do two tasks at once).
+4. **Buffer = critical chain × 0.4.** Place at the end of the project.
+   A 30-day chain gets a 12-day buffer. Commit date = day 42.
 5. **Schedule tasks as late as possible.** Reduces WIP, prevents premature
    work.
 6. **Run the relay race.** When a task finishes, the next person starts
    immediately — not on the scheduled date. Early finishes propagate.
 
-### Buffer sizing
-
-**Simple method:** Buffer = 50% of critical chain duration using focused
-estimates. If the chain is 20 days, buffer is 10 days. Commit date = day 30.
-
-**Statistical method (RSEM):** For each task: safety = safe - focused.
-Square each. Sum the squares. Take the square root.
-
-`Buffer = sqrt(sum((safe_i - focused_i)^2))`
-
-RSEM produces smaller, more accurate buffers. Use it for chains of 5+
-tasks. For shorter chains, the 50% rule is fine.
-
-**Capacity shortcut:** If you don't want per-task estimation, plan only
-80% of available hours. In a 40-hour week, commit to 32 hours. The other
-8 are your buffer.
+The 0.4 multiplier works for almost everything. It's the default. For
+initiatives where you need statistical backing (regulated work, board-level
+commitments), also get safe estimates (80-90% confidence) for each task —
+this enables RSEM. See `references/estimation.md` for RSEM, calibration
+exercises, and other buffer sizing methods.
 
 ### The fever chart
 

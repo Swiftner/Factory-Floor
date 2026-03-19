@@ -269,13 +269,20 @@ consumed by procrastination and scope creep. The fix: **strip safety from
 individual tasks and pool it into a project buffer.**
 
 **The quick protocol:**
-1. Get the **focused estimate** — "How long with no interruptions?" (50%
-   confidence.)
-2. Get the **safe estimate** — "How long with normal life?" (80-90%
-   confidence.)
-3. Use the focused estimate as the task duration.
-4. Pool the difference into a project buffer (sum the gaps, take 50%).
+1. Get the **focused estimate** for each task — "How long with no
+   interruptions?" (50% confidence.)
+2. Use the focused estimate as the task duration.
+3. Add up the longest dependent chain of tasks. That's the critical chain.
+4. **Buffer = critical chain × 0.4.** Add this to the end.
 5. The buffer end date is the only date you commit to externally.
+
+That's it. A 20-day chain gets an 8-day buffer. Commit date = day 28.
+Don't overthink the multiplier. 0.4 works for almost everything — it's
+aggressive enough to keep urgency but safe enough to absorb real surprises.
+
+To build this skill over time, use the two-question split (focused + safe
+estimate) from `references/estimation.md` — it trains you to see estimates
+as ranges, not points.
 
 **When to estimate vs. measure vs. time-box:**
 
@@ -289,8 +296,8 @@ individual tasks and pool it into a project buffer.**
 **The two-question filter:** Before estimating anything, ask "Is this work
 on the constraint?" If yes, estimate carefully. If no, T-shirt size it.
 
-See `references/estimation.md` for CCPM, PERT, buffer sizing, and the
-fever chart.
+See `references/estimation.md` for why pooled buffers work, calibration
+exercises, and alternative sizing methods for edge cases.
 
 ### Monitor with the fever chart
 

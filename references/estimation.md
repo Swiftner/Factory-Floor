@@ -117,30 +117,51 @@ Unlike traditional scheduling (start everything as early as possible),
 CCPM schedules tasks to start as late as possible. This reduces WIP,
 prevents premature work, and concentrates effort.
 
-**Step 4: Strip safety from tasks, pool it into buffers.**
+**Step 4: Strip safety from tasks, pool it into a project buffer.**
 
 This is the key innovation. Instead of each task carrying its own padding,
-you aggregate safety into three types of buffers:
+you aggregate safety into a buffer at the end of the project.
 
-- **Project buffer:** Placed at the END of the project (after the last
-  critical chain task, before the delivery date). Sized at 30-50% of the
-  critical chain duration. This protects the commitment date.
+**The default rule: Buffer = critical chain × 0.4.**
+
+A 20-day chain gets an 8-day buffer. Commit date = day 28. This works for
+the vast majority of projects. Use it unless you have a specific reason not
+to.
+
+**Why pooling works:** If you have 10 tasks, each with 2 days of safety,
+that's 20 days of safety scattered across the project. But you don't need
+20 days — statistical aggregation means the overruns on some tasks cancel
+with the underruns on others. A pooled buffer of 8 days protects the
+project better than 20 days scattered across tasks, because the pooled
+buffer actually gets used as a buffer instead of being consumed by Student
+Syndrome and Parkinson's Law.
+
+**Why 0.4?** Goldratt's original recommendation was 50% (0.5), which tends
+to oversize buffers slightly. RSEM (see below) often produces 30-40% for
+typical task distributions. 0.4 sits in the sweet spot: aggressive enough
+to maintain urgency, safe enough to absorb real variance.
+
+**Adjusting the multiplier by uncertainty:**
+
+| Work type | Multiplier | When to use |
+|---|---|---|
+| Well-understood, repeatable | **0.3** | You've done this before — another integration, another landing page, another onboarding sequence. Low variance. |
+| Normal startup work | **0.4** | The default. Most work lives here. |
+| Novel or high-uncertainty | **0.5** | New technology, first time doing it, external dependencies you don't control, regulatory unknowns. |
+
+The multiplier reflects how much you don't know. A team that's built 10
+integrations has tight variance — 0.3 works. A team building their first
+ML pipeline has wide variance — 0.5 is appropriate. When in doubt, use 0.4.
+
+**Other buffer types (for larger projects):**
 
 - **Feeding buffers:** Placed where non-critical paths feed INTO the
-  critical chain. Sized at 30-50% of the feeding chain duration. These
+  critical chain. Sized at 40% of the feeding chain duration. These
   protect critical chain tasks from delays in non-critical work.
 
 - **Resource buffers:** Not time — these are alerts. A heads-up to the
   next person on the critical chain: "Your task is coming up. Be ready."
   In a small team, this is as simple as a Slack message.
-
-**Why pooling works (the statistics):** If you have 10 tasks, each with
-2 days of safety, that's 20 days of safety scattered across the project.
-But you don't need 20 days — statistical aggregation means the overruns
-on some tasks cancel with the underruns on others. A pooled buffer of
-8-10 days protects the project better than 20 days scattered across tasks,
-because the pooled buffer actually gets used as a buffer instead of being
-consumed by Student Syndrome and Parkinson's Law.
 
 **Step 5: Run the project like a relay race.**
 
@@ -162,38 +183,32 @@ Hand off immediately when done."
 Track exactly two numbers: % of critical chain completed, and % of project
 buffer consumed. Plot them on a fever chart.
 
-### Buffer sizing: three methods
+### Buffer sizing
 
-**Method 1: Goldratt's 50% rule (simplest)**
-Buffer = 50% of the critical chain duration using aggressive estimates.
-If the critical chain is 20 days (aggressive), the project buffer is 10
-days. Commitment date = day 30.
+**The default: critical chain × 0.4.** Use this for 90% of projects.
+See Step 4 above for why it works.
 
-This is crude but surprisingly effective. It tends to oversize buffers
-slightly, which is the safe direction to err in.
+**Alternative methods for edge cases:**
 
-**Method 2: Root Square Error Method (RSEM)**
-For each task on the critical chain, calculate: safety = (safe estimate -
-aggressive estimate). Square each safety. Sum the squares. Take the square
-root. That's your buffer.
+**RSEM (Root Square Error Method)** — when you need statistical precision,
+e.g. regulated work or high-stakes external commitments where you need to
+justify the buffer. RSEM requires both estimates per task: the focused
+estimate (50%) and the safe estimate ("how long with normal life?", 80-90%).
+For each task: safety = (safe - focused). Square each. Sum the squares.
+Take the square root.
 
-Buffer = sqrt(sum((safe_i - aggressive_i)^2))
+`Buffer = sqrt(sum((safe_i - focused_i)^2))`
 
-This is statistically better because it accounts for the fact that
-independent task variances don't add linearly — they add as square roots
-(central limit theorem). RSEM produces smaller, more accurate buffers.
+RSEM accounts for the fact that independent task variances don't add
+linearly — they add as square roots (central limit theorem). It typically
+produces buffers in the 30-40% range for normal distributions, which is
+why 0.4 works as a shortcut.
 
-Use RSEM if you have more than 5-6 tasks in the chain. For anything
-smaller, the 50% rule is fine.
-
-**Method 3: The capacity shortcut (plan 80% of capacity)**
-If you don't want to do per-task estimation at all, use the simplest
-possible buffer: plan only 80% of available hours in a week. In a 40-hour
-week, commit to 32 hours of work. The other 8 hours are your buffer.
-
-This absorbs customer emergencies, technical surprises, demos that run
-long, and the general chaos of startup life. Track what consumes the
-buffer weekly — patterns reveal systemic problems worth fixing.
+**Capacity shortcut** — when you don't have a project with a defined chain
+of tasks (ongoing support, ops, mixed ad-hoc work). Plan only 80% of
+available hours. In a 40-hour week, commit to 32 hours. The other 8 are
+your buffer for interrupts, emergencies, and surprises. Track what consumes
+the buffer weekly — patterns reveal systemic problems worth fixing.
 
 ---
 
@@ -312,6 +327,112 @@ something in 2 weeks or the experiment wasn't focused enough.
 
 ---
 
+## Learning to Estimate at 50% Confidence
+
+The entire CCPM system depends on one skill: giving honest 50% confidence
+estimates — the median duration where you'd finish faster half the time and
+slower half the time. Most people can't do this naturally. They give 80-90%
+estimates (padded, safe) and call them "aggressive." The good news: this is
+a learnable skill. Douglas Hubbard (*How to Measure Anything*) reports
+80-90% of people achieve good calibration within a few hours of practice.
+
+### Why people are bad at this by default
+
+When someone says "I think this will take 5 days," that number is almost
+always their 80-90% confidence estimate — padded enough that they'd feel
+comfortable committing to it publicly. Their actual 50% estimate might be
+3 days, but they don't say that because it feels risky.
+
+The problem isn't dishonesty. It's that people don't distinguish between
+"how long will this take?" (which they hear as "what can you commit to?")
+and "what's the median duration?" (which is what CCPM needs). The exercises
+below train you to hear and answer the second question.
+
+### Exercise 1: The two-question split (use every time you estimate)
+
+For each task, always ask two questions:
+
+1. **"How long if you could just focus — no interruptions, no surprises?"**
+   This is close to the 50% estimate.
+2. **"How long with normal life — interruptions, surprises, things being
+   harder than expected?"** This is close to the 80-90% estimate.
+
+The gap between the two numbers is the safety that CCPM strips from the
+task and pools into the buffer. By always asking both, you train yourself
+to see that "my estimate" is not one number — it's a range. The first
+number goes into the schedule. The gap feeds the buffer.
+
+### Exercise 2: The equivalent bet (gut-check any estimate)
+
+After giving a focused estimate, ask yourself: "Would I rather bet $1,000
+that this task finishes in [my estimate] days, or bet $1,000 on a coin
+flip?"
+
+- If you'd take the coin flip → your estimate is too aggressive. Adjust up.
+- If you'd take the task bet → your estimate is too safe. Adjust down.
+- If you're genuinely indifferent → you've found your 50%.
+
+The bet makes the abstract concept of "50% confidence" viscerally concrete.
+Hubbard's research shows that even *pretending* to bet money improves
+calibration.
+
+### Exercise 3: Weekly estimation retrospective (the feedback loop)
+
+This is the most important exercise. Without feedback, you don't improve.
+
+Each week, review all tasks completed:
+
+| Task | 50% estimate | Actual | Early or late? |
+|---|---|---|---|
+| Design onboarding flow | 3 days | 4 days | Late |
+| Build signup page | 2 days | 1.5 days | Early |
+| Write API docs | 1 day | 1 day | On time |
+
+Keep a running tally: **what percentage of tasks finish at or before the
+50% estimate?**
+
+- **40-60% finish early:** You're well-calibrated. The buffer is working.
+- **70%+ finish early:** Your "50% estimates" are actually 80% estimates.
+  You're still hiding safety in the tasks. Push estimates down.
+- **Under 30% finish early:** You're being unrealistically aggressive. Your
+  buffer will be consumed every time. Push estimates up slightly.
+
+Run this for 4-6 weeks and your calibration will tighten significantly.
+The pattern of misses also reveals where your blind spots are — maybe
+you consistently underestimate integration work but nail UI work.
+
+### Exercise 4: The trivia calibration drill (one-time training, 30 min)
+
+This exercise, from Hubbard, trains general calibration using trivia
+questions. It transfers to project estimation because the underlying skill
+— accurately assessing your own uncertainty — is the same.
+
+1. Take 20 general-knowledge questions (e.g., "In what year was the Golden
+   Gate Bridge completed?"). For each, give a range you're 90% sure
+   contains the answer.
+2. Score: how many ranges contain the true answer? If you're calibrated,
+   18 out of 20 should hit.
+3. Most untrained people hit only 10-14 out of 20. They're massively
+   overconfident — their "90% intervals" are really 50-70% intervals.
+4. Apply corrections: widen your ranges using the equivalent bet test.
+   Repeat with 20 new questions.
+5. After 2-4 rounds, most people reach calibration.
+
+Free online tools for this drill:
+- **80,000 Hours Calibration Trainer** — 80000hours.org/calibration-training/
+- **Metaculus** — metaculus.com (real-world forecasting with calibration tracking)
+
+### The key insight
+
+Calibration is not about being right on any individual estimate. It's about
+your estimates being right *in aggregate* — half early, half late, with the
+buffer absorbing the variance. A team where every task finishes "on time"
+is not well-calibrated. They're padding. A team where roughly half finish
+early and half finish late, with the project buffer absorbing the net
+variance, is perfectly calibrated.
+
+---
+
 ## Startup Quick Protocols
 
 The operational estimation protocol (quick protocol, two-question filter,
@@ -319,9 +440,8 @@ fever chart, and timeline communication templates) is in the stage files:
 
 - **`stages/growth.md`** — The quick estimation protocol, two-question
   filter, fever chart summary, and when-to-estimate table for teams under 10.
-- **`stages/scaling.md`** — Full CCPM method, buffer sizing (50% rule and
-  RSEM), cycle time measurement, and communicating timelines to customers,
-  board, and team.
+- **`stages/scaling.md`** — Full CCPM method, buffer sizing, cycle time
+  measurement, and communicating timelines to customers, board, and team.
 
 This reference file covers the underlying theory and detailed methods.
 
@@ -331,6 +451,8 @@ This reference file covers the underlying theory and detailed methods.
 
 ### Essential reading
 - **Eli Goldratt, *Critical Chain* (1997):** The source text for CCPM.
+- **Douglas Hubbard, *How to Measure Anything* (2010):** Calibration
+  training for estimation. Chapter 5 covers the exercises.
 - **Mike Cohn, *Agile Estimating and Planning* (2005):** Practical
   estimation for agile teams.
 
