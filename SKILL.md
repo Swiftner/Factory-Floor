@@ -308,9 +308,11 @@ Generate 7-8 and keep quality high.
 Identifying the constraint tells you *where* to focus. GOLEAN (from Maurya's
 *Scaling Lean*) tells you *how to run the sprint*. Use it as a 2-week cycle:
 
-1. **Go** — State the constraint. Set a specific, measurable goal for improving
-   it this cycle. "Increase trial signups from 200/mo to 280/mo" not "work on
-   acquisition."
+1. **Go** — State the constraint. Set a goal with four numbers: **target**
+   (where you want to be), **baseline** (where you are now), **trend** (which
+   direction it's moving), and **timeframe** (this cycle). Example: "Increase
+   trial signups from 200/mo (baseline, flat trend) to 280/mo by end of
+   cycle." Not "work on acquisition."
 
 2. **Observe** — Measure the constraint's current performance. What are the
    numbers right now? What does the funnel look like? Baseline before you act.
@@ -342,6 +344,24 @@ The triage and decision framework tell you *what* to work on. This section
 tells you how to manage that work day-to-day so the constraint stays fed and
 nothing else gets in the way.
 
+### Check your team's state first
+
+Before planning the sprint, ask: **what state is the team in?**
+
+- **Falling behind** — backlog grows every week, morale dropping. Reduce scope
+  or add capacity before doing anything else. You can't exploit the constraint
+  with a team that's drowning.
+- **Treading water** — critical work gets done but nothing improves. Reduce
+  WIP, consolidate effort, finish things. The fix is focus, not more work.
+- **Repaying debt** — momentum is building, compound improvements emerging.
+  Protect this time. Don't interrupt with new priorities.
+- **Innovating** — low debt, high morale, new value being created. Maintain
+  slack. Prevent over-commitment.
+
+Most startup teams oscillate between the first two states. The goal is to
+climb to repaying debt and stay there. Every time you add WIP or change
+priorities mid-sprint, you push the team back toward treading water.
+
 ### Break priorities into constraint-sized tasks
 
 After the weekly review produces your top 3 priorities, break each one into
@@ -362,7 +382,10 @@ email. Work outward from the core.
 
 Set your WIP limit to team size. A three-person team has 3 slots for
 in-progress work. That's it. Nobody starts new work until a slot opens. If
-you're blocked on your task, help someone else finish theirs.
+you're blocked on your task, help someone else finish theirs. In simulations,
+teams with strong WIP limits finished **200x more projects** than teams
+without them (Larson). This isn't a marginal improvement. It's the difference
+between a working system and a stalled one.
 
 When a founder says "but we need to get ahead on X," the answer is: "X is not
 the constraint. Starting X now increases WIP, extends lead time on constraint
@@ -546,6 +569,11 @@ Watch for these common violations of constraint thinking:
    time and money today. Observation beats interviews for validating whether
    the problem is real.
 
+9. **"Only Alex understands how that works."** If one person is the only one
+   who can do critical work, that person IS the constraint — and their
+   heroism prevents anyone else from helping. Document it, pair on it, or
+   automate it. A bus factor of 1 is a throughput ceiling.
+
 ---
 
 ## The Weekly Constraint Review
@@ -633,3 +661,4 @@ your specific tool and these principles will be applied to it.
 | **Authentic demand** | Customers cannot be indifferent — not-having your product is not okay. The precondition for a working customer factory. |
 | **Not-not test** | "Is it not okay to NOT have this?" If customers can shrug, you don't have demand yet. |
 | **Waking dream** | A founder's internal model of customer reality that feels true but isn't. Cured by observation, not interviews. |
+| **Peanut buttering** | Spreading resources thinly across all priorities instead of concentrating on the constraint. Feels fair. Kills throughput. |
