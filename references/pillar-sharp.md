@@ -1,5 +1,16 @@
 # Pillar 3: Mental & Physical Availability (Byron Sharp) — Reference
 
+## Contents
+- [Origin](#origin)
+- [The Two Availabilities](#the-two-availabilities)
+- [Sharp's Laws — Startup Implications](#sharps-laws)
+- [The Sharp Diagnostic for Startups](#the-sharp-diagnostic)
+- [The CEP Mapping Exercise](#the-cep-mapping-exercise)
+- [The Physical Availability Audit](#the-physical-availability-audit)
+- [Building Mental Availability: The Operational Protocol](#the-operational-protocol)
+- [Connecting Sharp to Goldratt and Maurya](#connecting-sharp-to-goldratt-and-maurya)
+- [Connecting Sharp to Ritson](#connecting-sharp-to-ritson)
+
 ## Origin
 
 Byron Sharp, with the Ehrenberg-Bass Institute at the University of South
@@ -348,34 +359,12 @@ the factory floor. It looks productive. It changes nothing about throughput.
 
 ---
 
-## Connecting Sharp to Ritson: Distinctiveness + Differentiation
+## Connecting Sharp to Ritson
 
 Sharp emphasizes distinctiveness over differentiation. Ritson says: both.
-They're not in conflict — they're complementary.
+They're complementary — distinctiveness gets you noticed, differentiation
+gets you chosen. A brand needs both to grow.
 
-**Distinctiveness** (Sharp's emphasis): The sensory cues that make your
-brand recognizable. Logo, colors, sounds, tone, visual style. When someone
-sees your content without the logo, can they tell it's you?
-
-**Differentiation** (Ritson's emphasis): What you stand for that competitors
-don't. Your positioning. The 2-3 associations you want to own in the
-customer's mind.
-
-**Why both matter:**
-- Distinctiveness answers: "Which one is you?" (recognition)
-- Differentiation answers: "Why should I choose you?" (preference)
-
-A brand with differentiation but no distinctiveness is forgettable. A brand
-with distinctiveness but no differentiation is recognizable but
-interchangeable.
-
-**The startup trap:** Founders focus on differentiation ("we're better
-because...") without building distinctive assets. Result: every pitch
-sounds the same, every website looks the same, no memory structures form.
-
-**Ritson's synthesis:** Pick your distinctive assets early, use them
-relentlessly, AND defend 2-3 positioning associations consistently.
-Distinctiveness gets you noticed. Differentiation gets you chosen.
-
-See `references/pillar-ritson.md` for the full marketing strategy framework:
-STP, positioning discipline, brand codes, and the long vs. short budget rule.
+See `references/pillar-ritson.md` for the full treatment: differentiation
+vs. distinctiveness, brand codes, STP, positioning discipline, and the
+long vs. short budget allocation rule.

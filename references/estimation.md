@@ -1,5 +1,14 @@
 # Estimation — How to Think About Time on a Project
 
+## Contents
+- [Why estimates fail](#why-estimates-fail)
+- [Goldratt's Critical Chain Method](#goldratts-critical-chain-method)
+- [Practical Estimation Techniques](#practical-estimation-techniques)
+- [When to Estimate vs. When to Measure](#when-to-estimate-vs-when-to-measure)
+- [Learning to Estimate at 50% Confidence](#learning-to-estimate-at-50-confidence)
+- [Startup Quick Protocols](#startup-quick-protocols)
+- [Key References](#key-references)
+
 ## Why estimates fail
 
 Before learning how to estimate better, understand why the default approach

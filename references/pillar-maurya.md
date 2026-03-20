@@ -1,5 +1,17 @@
 # Pillar 2: The Customer Factory (Ash Maurya) — Reference
 
+## Contents
+- [Origin](#origin)
+- [The Customer Factory Blueprint](#the-customer-factory-blueprint)
+- [Key Definitions](#key-definitions)
+- [Constraint Identification by Stage](#constraint-identification-by-stage)
+- [The GOLEAN Framework](#the-golean-framework)
+- [The Referral Loop and Viral Coefficient](#the-referral-loop)
+- [The Local vs. Global Optimization Trap](#the-local-vs-global-optimization-trap)
+- [The Premature Optimization Warning](#the-premature-optimization-warning)
+- [Connecting to Goldratt](#connecting-to-goldratt)
+- [Throughput Accounting on the Lean Canvas](#throughput-accounting-on-the-lean-canvas)
+
 ## Origin
 
 Ash Maurya created the Customer Factory model in *Scaling Lean* (2016),

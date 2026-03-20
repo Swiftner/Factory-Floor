@@ -1,5 +1,20 @@
 # Pillar 4: Jobs To Be Done (JTBD) — Reference
 
+## Contents
+- [Origin](#origin)
+- [What a "Job" Is (and Isn't)](#what-a-job-is-and-isnt)
+- [The Three Dimensions of Every Job](#the-three-dimensions)
+- [The Four Forces of Progress](#the-four-forces-of-progress)
+- [The Struggling Moment](#the-struggling-moment)
+- [How to Run Switch Interviews](#how-to-run-switch-interviews)
+- [The 5-Minute Post-Conversation Canvas](#the-5-minute-canvas)
+- [Ulwick's Job Map and Outcome Statements](#ulwicks-job-map)
+- [From JTBD to Positioning](#from-jtbd-to-positioning)
+- [JTBD Feeds Every Factory Floor Pillar](#jtbd-feeds-every-pillar)
+- [The Weekly JTBD Routine](#the-weekly-jtbd-routine)
+- [Demand Generation vs. Demand Capture](#demand-generation-vs-demand-capture)
+- [Hiring and Firing](#hiring-and-firing)
+
 ## Origin
 
 Clayton Christensen introduced Jobs To Be Done theory in *The Innovator's

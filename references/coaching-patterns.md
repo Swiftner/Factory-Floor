@@ -2,6 +2,12 @@
 
 Load this when you need deeper diagnostic questions or coaching guidance.
 
+## Contents
+- [The Question Behind the Question](#the-question-behind-the-question)
+- [Diagnostic Questions by Situation](#diagnostic-questions-by-situation)
+- [Anti-Patterns (Expanded)](#anti-patterns-expanded)
+- [Closing the Loop: From Diagnosis to Experiment](#closing-the-loop)
+
 ---
 
 ## The Question Behind the Question

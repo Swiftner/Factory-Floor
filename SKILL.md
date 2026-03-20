@@ -31,8 +31,8 @@ START
         └─ MRR ≥ $100K OR team ≥ 10 → `stages/scaling.md`
               │
               ▼
-        FUNNEL BREAK SCAN (find the constraint):
-        Ask: "Walk me through your last 10 [signups/demos/deals]. Where did each end up?"
+        FUNNEL BREAK SCAN (if constraint not yet clear):
+        Run the scan from `references/intake.md` — "Walk me through your last 10..."
         │
         ├─ Numbers drop at Acquisition → constraint = awareness/reach
         ├─ Numbers drop at Activation → constraint = onboarding/time-to-value

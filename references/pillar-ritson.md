@@ -1,5 +1,18 @@
 # Pillar 4: Marketing Strategy Discipline (Mark Ritson) — Reference
 
+## Contents
+- [Origin](#origin)
+- [The Sequential Discipline: Diagnosis → Strategy → Tactics](#the-sequential-discipline)
+- [STP: Segmentation, Targeting, Positioning](#stp)
+- [Differentiation + Distinctiveness: Both Matter](#differentiation--distinctiveness)
+- [The Long and the Short: Budget Allocation](#the-long-and-the-short)
+- [Two Associations, Defended Consistently](#two-associations)
+- [Brand Codes: The Palette](#brand-codes)
+- [Market Orientation: The First Discipline](#market-orientation)
+- [Connecting Ritson to the Other Pillars](#connecting-ritson-to-the-other-pillars)
+- [The Ritson Diagnostic for Startups](#the-ritson-diagnostic)
+- [From Diagnosis to Action: The Positioning Sprint](#the-positioning-sprint)
+
 ## Origin
 
 Mark Ritson is a former marketing professor at London Business School and
