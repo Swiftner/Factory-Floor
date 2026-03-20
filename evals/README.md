@@ -57,6 +57,34 @@ Expected: Name the WIP problem directly. Ask for the list. Suggest stopping, not
 
 ---
 
+### Restart
+
+**R1 — Lost all customers, tempted to rebuild**
+> "We had 8 paying customers last year but they all churned. I think we need to rebuild the product from scratch. Where should I start?"
+
+Expected: Don't accept the rebuild premise. Ask why customers left — product failure, fit failure, or sales execution? Push for churned customer interviews before any building.
+
+**R2 — "The market wasn't ready"**
+> "We launched 6 months ago, got some early traction, but everyone dropped off. I think we were just too early. Should we pivot?"
+
+Expected: Challenge "too early" as a common cop-out. Ask who's solving the problem now, even badly. Push for forensics on why the early customers actually left.
+
+---
+
+### Positioning
+
+**PO1 — Everyone is a potential customer**
+> "Our tool works for any company that does sales. We don't want to limit ourselves to a niche. How do we market to everyone?"
+
+Expected: Name "everyone is a customer" as a targeting failure. Push for one segment for 6 months. Route to Ritson's STP framework.
+
+**PO2 — "We need better marketing"**
+> "We have a great product but nobody knows about us. We need to do more marketing. What channels should we use?"
+
+Expected: Don't jump to channels (tactics). Check for positioning first — can they state their position in one sentence? What two associations do they own? Diagnosis before strategy before tactics.
+
+---
+
 ### Scaling
 
 **S1 — Hiring as solution**

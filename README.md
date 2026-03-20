@@ -34,13 +34,18 @@ clawhub install factory-floor
 2. Set the contents of [`SKILL.md`](SKILL.md) as the project's **Custom Instructions**
 3. Upload these files as **Project Knowledge**:
    - `stages/pre-revenue.md`
+   - `stages/restart.md`
    - `stages/growth.md`
    - `stages/scaling.md`
+   - `references/intake.md`
+   - `references/misdiagnoses.md`
+   - `references/coaching-patterns.md`
 4. Optionally upload reference files for deeper dives:
    - `references/jtbd.md`
    - `references/pillar-goldratt.md`
    - `references/pillar-maurya.md`
    - `references/pillar-sharp.md`
+   - `references/pillar-ritson.md`
    - `references/estimation.md`
 
 Start a conversation in that project and Claude will run the triage and route to the right stage — the same way the skill works in Claude Code.
@@ -69,10 +74,11 @@ A quick triage loads the right playbook:
 | Stage | What it covers |
 |---|---|
 | **[Pre-revenue](stages/pre-revenue.md)** | No customers yet? Don't build. Five tests before you write code. Napkin math. The Mafia Offer. A worked example of killing a bad idea in 20 minutes. |
-| **[Growth](stages/growth.md)** | Have customers, small team. Find the constraint, exploit it, run the system. GOLEAN sprints, WIP limits, awareness cadence. Two worked examples. |
-| **[Scaling](stages/scaling.md)** | $1M+ ARR or 10+ people. Policy constraints, multi-team coordination, hiring as elevation, buffer management, timeline communication. |
+| **[Restart](stages/restart.md)** | Had customers, lost them. Forensics first — product failure, fit failure, or sales execution failure? Churned customer interviews. Restart sequence. |
+| **[Growth](stages/growth.md)** | Have customers, small team. Find the constraint, exploit it, run the system. GOLEAN sprints, WIP limits, brand building vs. activation. Two worked examples. |
+| **[Scaling](stages/scaling.md)** | $100K+ MRR or 10+ people. Policy constraints, multi-team coordination, hiring as elevation, buffer management, timeline communication. |
 
-## The four frameworks
+## The five frameworks
 
 Each covers a different blind spot:
 
@@ -84,9 +90,11 @@ Each covers a different blind spot:
 
 **How Brands Grow** (Sharp) — Growth comes from reaching non-buyers, not delighting power users. CEP mapping, physical availability audit, reach over frequency. ([Reference](references/pillar-sharp.md))
 
+**Marketing Strategy Discipline** (Ritson) — Diagnosis before strategy, strategy before tactics. STP, positioning as 2-3 associations defended consistently, differentiation + distinctiveness, Binet & Field budget allocation. ([Reference](references/pillar-ritson.md))
+
 Plus [estimation](references/estimation.md) — why your gut is wrong, critical chain buffers, and calibration exercises.
 
-JTBD sits underneath the other three. You can't find the constraint if you don't know what job the customer hired you to do.
+JTBD sits underneath the other four. You can't find the constraint if you don't know what job the customer hired you to do.
 
 ## Things you can ask
 
@@ -117,6 +125,8 @@ Same structure, scaled to your stage:
 - **Eli Goldratt** — *The Goal*, *Critical Chain*. Theory of Constraints.
 - **Ash Maurya** — *Running Lean*, *Scaling Lean*. Customer Factory, Lean Canvas, Mafia Offer.
 - **Byron Sharp** — *How Brands Grow*. Mental and physical availability.
+- **Mark Ritson** — Mini MBA in Marketing. Marketing strategy discipline, STP, positioning.
+- **Les Binet & Peter Field** — *The Long and the Short of It*. Brand building vs. activation budget allocation.
 - **April Dunford** — *Obviously Awesome*. Positioning from JTBD.
 - **Douglas Hubbard** — *How to Measure Anything*. Estimation calibration.
 
