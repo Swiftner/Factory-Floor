@@ -97,6 +97,7 @@ START
 | Need timeline estimate | `references/estimation.md` |
 | Weekly review | `references/weekly-review.md` |
 | Need coaching questions | `references/coaching-patterns.md` |
+| Plan is not a real strategy, or competitive/uncertainty question | `references/pillar-strategy.md` |
 
 ---
 

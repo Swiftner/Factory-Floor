@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-A Claude Code skill called **Factory Floor** — a startup operating system for prioritization and execution. It combines Goldratt's constraint thinking, Maurya's customer factory model, Sharp's brand growth laws, and Ritson's marketing strategy discipline, with JTBD as the strategic intelligence layer underneath.
+A Claude Code skill called **Factory Floor** — a startup operating system for prioritization and execution. It combines Goldratt's constraint thinking, Maurya's customer factory model, Sharp's brand growth laws, Ritson's marketing strategy discipline, and a strategic reasoning layer (Rumelt, Clausewitz, Dixit & Nalebuff), with JTBD as the strategic intelligence layer underneath.
 
 ## Architecture
 
@@ -35,6 +35,7 @@ Deep-dive concept files. Claude reads these when more detail is needed on a spec
 - `pillar-sharp.md` — Mental & Physical Availability (CEPs, distinctiveness, reach vs frequency, laws of brand growth, CEP mapping exercise, physical availability audit, operational protocol)
 - `pillar-ritson.md` — Marketing Strategy Discipline (Diagnosis → Strategy → Tactics, STP, positioning, differentiation + distinctiveness, Binet & Field budget allocation, brand codes, market orientation, positioning sprint)
 - `jtbd.md` — Jobs To Be Done (forces of progress, switch interviews, Ulwick's job map, opportunity scoring, positioning from JTBD, demand generation vs. capture, hiring/firing)
+- `pillar-strategy.md` — Strategic Thinking (Rumelt's kernel/crux/bad strategy signs, Clausewitz's fog/friction/center of gravity/culminating point, Dixit & Nalebuff's game theory for competitive dynamics)
 - `estimation.md` — Estimation theory (why estimates fail, CCPM method, PERT, cycle time, Monte Carlo, cone of uncertainty, buffer sizing methods)
 - `weekly-review.md` — Weekly review templates by stage
 - `weekly-diagrams.md` — Customer Factory Funnel diagram template for the weekly constraint review

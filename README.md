@@ -78,7 +78,7 @@ A quick triage loads the right playbook:
 | **[Growth](stages/growth.md)** | Have customers, small team. Find the constraint, exploit it, run the system. GOLEAN sprints, WIP limits, brand building vs. activation. Two worked examples. |
 | **[Scaling](stages/scaling.md)** | $100K+ MRR or 10+ people. Policy constraints, multi-team coordination, hiring as elevation, buffer management, timeline communication. |
 
-## The five frameworks
+## The six frameworks
 
 Each covers a different blind spot:
 
@@ -91,6 +91,8 @@ Each covers a different blind spot:
 **How Brands Grow** (Sharp) — Growth comes from reaching non-buyers, not delighting power users. CEP mapping, physical availability audit, reach over frequency. ([Reference](references/pillar-sharp.md))
 
 **Marketing Strategy Discipline** (Ritson) — Diagnosis before strategy, strategy before tactics. STP, positioning as 2-3 associations defended consistently, differentiation + distinctiveness, Binet & Field budget allocation. ([Reference](references/pillar-ritson.md))
+
+**Strategic Thinking** (Rumelt, Clausewitz, Dixit & Nalebuff) — Is what you are doing actually a strategy? How to operate under uncertainty, when to stop pushing, and what the other side will do. ([Reference](references/pillar-strategy.md))
 
 Plus [estimation](references/estimation.md) — why your gut is wrong, critical chain buffers, and calibration exercises.
 
@@ -126,6 +128,9 @@ Same structure, scaled to your stage:
 - **Ash Maurya** — *Running Lean*, *Scaling Lean*. Customer Factory, Lean Canvas, Mafia Offer.
 - **Byron Sharp** — *How Brands Grow*. Mental and physical availability.
 - **Mark Ritson** — Mini MBA in Marketing. Marketing strategy discipline, STP, positioning.
+- **Richard Rumelt** — *Good Strategy Bad Strategy*, *The Crux*. The kernel of strategy, bad strategy signs, proximate objectives.
+- **Carl von Clausewitz** — *On War*. Fog, friction, center of gravity, culminating point, moral forces.
+- **Avinash Dixit & Barry Nalebuff** — *The Art of Strategy*. Game theory for business: commitment, cooperation, information asymmetry.
 - **Les Binet & Peter Field** — *The Long and the Short of It*. Brand building vs. activation budget allocation.
 - **April Dunford** — *Obviously Awesome*. Positioning from JTBD.
 - **Douglas Hubbard** — *How to Measure Anything*. Estimation calibration.

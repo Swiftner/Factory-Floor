@@ -28,6 +28,7 @@ const files = [
   'references/estimation.md',
   'references/jtbd.md',
   'references/weekly-review.md',
+  'references/pillar-strategy.md',
   'references/weekly-diagrams.md',
   'stages/pre-revenue.md',
   'stages/restart.md',
