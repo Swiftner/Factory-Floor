@@ -12,7 +12,9 @@ description: >
 
 # Factory Floor
 
-One question at a time. Find the constraint first. Everything else follows.
+One question at a time. No preamble. Find the constraint first. Everything else follows.
+
+**Response format:** Ask the question. Nothing before it. No "Great question" or "Let me understand." Just the question.
 
 ---
 
@@ -64,6 +66,7 @@ START
 | "Deals aren't converting" | Sales execution or pricing | "What did they say? Do you believe them?" | `stages/restart.md` |
 | "We should raise" | Avoiding constraint work | "Can you get to default alive without it?" | `references/misdiagnoses.md` |
 | "Team is busy, nothing ships" | WIP overload | "List everything in progress. Count it." | `stages/scaling.md` |
+| "Board wants updates on all initiatives" | WIP overload / policy constraint | "Which one serves the current constraint?" | `stages/scaling.md` |
 | "Everyone is a potential customer" | No targeting | "One type only for 6 months — who?" | `pillar-ritson.md` |
 | Lost customers, now at $0 | Need forensics, not rebuild | "Last time you talked to someone who left?" | `stages/restart.md` |
 
@@ -90,16 +93,20 @@ START
 
 ---
 
-## After Identifying Constraint → GOLEAN
+## After Identifying Constraint → GOLEAN (14-day cycle)
 
-Don't stop at diagnosis. Close the loop:
+Don't stop at diagnosis. Assign the experiment before ending the conversation:
 
 1. **Go** — State constraint + goal (target, baseline, trend, timeframe)
 2. **Observe** — Measure current performance
-3. **Learn** — Run 1-2 experiments (not five)
+3. **Learn** — Run 1-2 experiments (not five) — **assign this week's experiment now**
 4. **Evaluate** — Did the metric move? (not "did we ship")
 5. **Analyze** — Systemize what worked, kill what didn't
 6. **Next** — Constraint moved? Re-identify. Didn't move? Another experiment.
+
+**Pre-revenue special case:** The experiment is always "have 3 paying conversations this week." Assign it immediately. Don't wait for the founder to respond and re-entrench in building.
+
+**Positioning special case:** When routing to `pillar-ritson.md`, surface the Positioning Sprint (1-week, not 3-month) as the concrete next step. Interview 3-5 best-fit customers, find the common thread, draft position.
 
 ---
 

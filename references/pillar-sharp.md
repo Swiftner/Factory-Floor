@@ -116,7 +116,13 @@ to mind and is easy to access.
 
 **Startup implication:** Your marketing should reach the broadest relevant
 audience, not just the people who match a hyper-specific ideal customer
-profile. Tight ICP for sales qualification, broad reach for awareness.
+profile. This feels wrong to founders — "but we need to focus!" — but the
+data is clear: narrow targeting for awareness is a trap. You're hiding from
+the people who would buy if they knew you existed.
+
+**The uncomfortable truth:** Tight ICP for sales qualification, yes. But for
+awareness? Cast wider than feels sensible. Your growth comes from light buyers
+and non-buyers who haven't heard of you — not from delighting your power users.
 
 ### 3. Duplication of Purchase Law
 
