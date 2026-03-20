@@ -8,7 +8,7 @@ A Claude Code skill called **Factory Floor** — a startup operating system for 
 
 ## Architecture
 
-The skill is **decision-tree routed**: SKILL.md is a thin router (~110 lines) with a decision tree that identifies the startup's stage and constraint, then instructs Claude to read the appropriate stage file. This keeps context lean — a day-1 founder never sees fever charts, and a year-3 company doesn't re-read the napkin test.
+The skill is **decision-tree routed**: SKILL.md is a thin router (~130 lines) with a decision tree that identifies the startup's stage and constraint, then instructs Claude to read the appropriate stage file. This keeps context lean — a day-1 founder never sees fever charts, and a year-3 company doesn't re-read the napkin test.
 
 ### SKILL.md (the router)
 
@@ -47,11 +47,11 @@ Deep-dive concept files. Claude reads these when more detail is needed on a spec
 
 ## Key Relationships
 
-The framework flows in one direction: **JTBD provides the strategic intelligence** (what job does the customer hire you to do?), **Goldratt provides the system-level thinking** (find the constraint, exploit/subordinate/elevate), **Maurya maps it to the startup business model** (customer factory steps as the "machines"), **Sharp provides the diagnosis when the constraint is at the top of the funnel** (nobody knows you exist), and **Ritson provides the strategic discipline that makes the other frameworks coherent** (diagnosis before strategy, strategy before tactics).
+The framework flows in one direction: **JTBD provides the strategic intelligence** (what job does the customer hire you to do?), **Goldratt provides the system-level thinking** (find the constraint, exploit/subordinate/elevate), **Maurya maps it to the startup business model** (customer factory steps as the "machines"), **Sharp provides the diagnosis when the constraint is at the top of the funnel** (nobody knows you exist), **Ritson provides the strategic discipline that makes the other frameworks coherent** (diagnosis before strategy, strategy before tactics), and **Rumelt, Clausewitz, and Dixit & Nalebuff provide the strategic reasoning layer** (is this actually a strategy? how to operate under uncertainty, and what the other side will do).
 
-JTBD sits underneath the other four — struggling moments are Category Entry Points, the four forces explain why customers flow (or don't) through the factory, and under-served outcomes tell you what to build.
+JTBD sits underneath the other five — struggling moments are Category Entry Points, the four forces explain why customers flow (or don't) through the factory, and under-served outcomes tell you what to build.
 
-When editing, maintain this hierarchy. Changes to core concepts in one pillar should be checked against the others for consistency. The stage files synthesize all five pillars — they should never contradict the reference files.
+When editing, maintain this hierarchy. Changes to core concepts in one pillar should be checked against the others for consistency. The stage files synthesize all six pillars — they should never contradict the reference files.
 
 ## Content Ownership
 
