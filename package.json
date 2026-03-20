@@ -1,7 +1,7 @@
 {
   "name": "@swiftner/factory-floor",
-  "version": "3.1.1",
-  "description": "A Claude Code skill for startup prioritisation using Theory of Constraints, Customer Factory, How Brands Grow, and Marketing Strategy Discipline",
+  "version": "3.4.1",
+  "description": "A Claude Code skill for startup prioritisation using Theory of Constraints, Customer Factory, How Brands Grow, Marketing Strategy Discipline, and Strategic Thinking",
   "bin": {
     "factory-floor": "bin/install.mjs"
   },

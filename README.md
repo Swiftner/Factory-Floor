@@ -46,6 +46,7 @@ clawhub install factory-floor
    - `references/pillar-maurya.md`
    - `references/pillar-sharp.md`
    - `references/pillar-ritson.md`
+   - `references/pillar-strategy.md`
    - `references/estimation.md`
 
 Start a conversation in that project and Claude will run the triage and route to the right stage — the same way the skill works in Claude Code.
@@ -96,7 +97,7 @@ Each covers a different blind spot:
 
 Plus [estimation](references/estimation.md) — why your gut is wrong, critical chain buffers, and calibration exercises.
 
-JTBD sits underneath the other four. You can't find the constraint if you don't know what job the customer hired you to do.
+JTBD sits underneath the other five. You can't find the constraint if you don't know what job the customer hired you to do.
 
 ## Things you can ask
 
