@@ -11,6 +11,7 @@ frameworks — they shape *how you think*, not *what you do*.
 - [Clausewitz: On War](#clausewitz-on-war)
 - [Dixit & Nalebuff: The Art of Strategy](#dixit--nalebuff-the-art-of-strategy)
 - [Connecting to the Other Pillars](#connecting-to-the-other-pillars)
+- [Alignment Replaces Control](#alignment-replaces-control)
 
 ---
 
@@ -467,9 +468,64 @@ above the operational frameworks:
 | Adverse selection | Pricing tiers, hiring, free tiers | Why uniform terms attract the wrong people |
 | First-mover data | "Before You Build" check | 47% of first movers fail — defensibility matters |
 
+---
+
+## Alignment Replaces Control
+
+This is the principle that connects everything above.
+
+Clausewitz showed that fog and friction make centralized control
+impossible. You cannot see everything, plans break on contact with
+reality, and the commander who tries to control every decision becomes
+the bottleneck. The military solution: **mission command**
+(Auftragstaktik) — tell people the intent, not the steps. When
+everyone understands the purpose, they can act without permission.
+
+The startup version: a founder who has clearly named the constraint,
+the guiding policy, and the job-to-be-done gives the team everything
+they need to make good autonomous decisions. A founder who has not
+done that work ends up approving every feature, reviewing every deal,
+and attending every meeting — not because the team is weak, but
+because nobody else knows the intent.
+
+**Naming the constraint is an alignment act.** When the whole team
+knows "our constraint is activation — people sign up but do not come
+back after day one," every person can evaluate their own work: "Does
+this serve activation?" They do not need to ask. When the constraint
+is unnamed, everything feels equally important, and every decision
+routes through the founder.
+
+**How the existing frameworks create alignment:**
+
+| Framework | Alignment mechanism |
+|-----------|-------------------|
+| Goldratt (subordination) | Everyone knows what the constraint is and orients to it |
+| Rumelt (guiding policy) | Guardrails that constrain without micromanaging |
+| Rumelt (proximate objectives) | Leader absorbs complexity, team gets solvable problems |
+| Ritson (positioning) | Two associations — everyone knows what we stand for |
+| JTBD (job statement) | One sentence that tells the team what customers hire us for |
+| GOLEAN (experiment) | The experiment is assigned, then the founder gets out of the way |
+| Weekly review | Regular checkpoint where the constraint is re-confirmed or shifted |
+| WIP limits | Structural limit that prevents drift without requiring oversight |
+
+**The anti-pattern:** The founder who says "I need to be involved in
+everything" usually has an alignment problem, not a delegation
+problem. The fix is not "trust your team more" — it is "name the
+constraint, state the guiding policy, assign the experiment, and
+get out of the way." Alignment enables autonomy. Without it, control
+is the only option, and control does not scale.
+
+**Coaching move:** When a founder is the bottleneck, do not start with
+delegation. Start with: "Can everyone on your team name the current
+constraint? Can they state who you are building for and why? If not —
+that is the problem. Not their capability. Your clarity."
+
+---
+
 **The hierarchy:** JTBD tells you what job the customer hires you for.
 Goldratt tells you where the system is stuck. Maurya maps the startup
 machine. Sharp and Ritson handle awareness and marketing strategy.
 Rumelt, Clausewitz, and Dixit & Nalebuff tell you whether what you
 are doing is actually a strategy, how to operate when you cannot see
-clearly, and what the other side will do.
+clearly, and what the other side will do. And alignment is the
+mechanism that lets all of it work without the founder in the room.
