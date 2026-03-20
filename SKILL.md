@@ -46,11 +46,11 @@ START
         CONSTRAINT IDENTIFIED → Work it. But first check:
         │
         └─ Is constraint work blocked by strategic confusion?
-              • They can't explain why someone would choose them (yes → pillar-ritson.md)
-              • They're trying to serve everyone (yes → pillar-ritson.md)
-              • "More marketing" but no position (yes → pillar-ritson.md)
+              • They can't explain why someone would choose them (yes → references/pillar-ritson.md)
+              • They're trying to serve everyone (yes → references/pillar-ritson.md)
+              • "More marketing" but no position (yes → references/pillar-ritson.md)
               │
-              └─ If no blockers → Run GOLEAN experiment cycle (see pillar-maurya.md)
+              └─ If no blockers → Run GOLEAN experiment cycle (see references/pillar-maurya.md)
 ```
 
 ---
@@ -61,13 +61,13 @@ START
 |---------|-------------------|-------|----------------|
 | "Feedback is positive" but no sales | Activation or no real demand | "How many said 'I'd pay right now'?" | `stages/pre-revenue.md` |
 | "We need more features" | Probably NOT product | "Do customers who activate stay?" | `references/misdiagnoses.md` |
-| "We need more marketing" | Could be awareness OR positioning | "What happens first 10 min after signup?" | `pillar-sharp.md` or `pillar-ritson.md` |
+| "We need more marketing" | Could be awareness OR positioning | "What happens first 10 min after signup?" | `references/pillar-sharp.md` or `references/pillar-ritson.md` |
 | "Pipeline is thin" | Acquisition or positioning | "Are people who reach out the right profile?" | `stages/growth.md` |
 | "Deals aren't converting" | Sales execution or pricing | "What did they say? Do you believe them?" | `stages/restart.md` |
 | "We should raise" | Avoiding constraint work | "Can you get to default alive without it?" | `references/misdiagnoses.md` |
 | "Team is busy, nothing ships" | WIP overload | "List everything in progress. Count it." | `stages/scaling.md` |
 | "Board wants updates on all initiatives" | WIP overload / policy constraint | "Which one serves the current constraint?" | `stages/scaling.md` |
-| "Everyone is a potential customer" | No targeting | "One type only for 6 months — who?" | `pillar-ritson.md` |
+| "Everyone is a potential customer" | No targeting | "One type only for 6 months — who?" | `references/pillar-ritson.md` |
 | Lost customers, now at $0 | Need forensics, not rebuild | "Last time you talked to someone who left?" | `stages/restart.md` |
 
 ---
@@ -106,7 +106,7 @@ Don't stop at diagnosis. Assign the experiment before ending the conversation:
 
 **Pre-revenue special case:** The experiment is always "have 3 paying conversations this week." Assign it immediately. Don't wait for the founder to respond and re-entrench in building.
 
-**Positioning special case:** When routing to `pillar-ritson.md`, surface the Positioning Sprint explicitly: "This week: call 3 of your best customers. Ask what they'd tell a colleague about you. Write down their exact words. That's your position." Don't leave them in diagnostic limbo.
+**Positioning special case:** When routing to `references/pillar-ritson.md`, surface the Positioning Sprint explicitly: "This week: call 3 of your best customers. Ask what they'd tell a colleague about you. Write down their exact words. That's your position." Don't leave them in diagnostic limbo.
 
 **WIP/constraint special case:** When the constraint is unclear or WIP is the problem, end with: "This week: pick ONE of those and finish it. Nothing else starts until it ships. Tell me which one you picked."
 
