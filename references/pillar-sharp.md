@@ -1,25 +1,13 @@
 # Pillar 3: Mental & Physical Availability (Byron Sharp) — Reference
 
 ## Contents
-- [Origin](#origin)
 - [The Two Availabilities](#the-two-availabilities)
 - [Sharp's Laws — Startup Implications](#sharps-laws)
 - [The Sharp Diagnostic for Startups](#the-sharp-diagnostic)
 - [The CEP Mapping Exercise](#the-cep-mapping-exercise)
 - [The Physical Availability Audit](#the-physical-availability-audit)
 - [Building Mental Availability: The Operational Protocol](#the-operational-protocol)
-- [Connecting Sharp to Goldratt and Maurya](#connecting-sharp-to-goldratt-and-maurya)
-- [Connecting Sharp to Ritson](#connecting-sharp-to-ritson)
-
-## Origin
-
-Byron Sharp, with the Ehrenberg-Bass Institute at the University of South
-Australia, published *How Brands Grow* (2010) based on decades of empirical
-brand data. The book demolished several marketing orthodoxies and replaced
-them with evidence-based laws of brand growth.
-
-The core thesis for startups: **most potential customers don't know you exist.
-That's the constraint.**
+- [Connecting to Other Pillars](#connecting-to-other-pillars)
 
 ## The Two Availabilities
 
@@ -46,8 +34,8 @@ you're invisible — regardless of how good your product is.
 **How to increase mental availability:**
 - Be consistently present where your buyers spend attention (content, events,
   communities, partnerships).
-- Reach broadly. Sharp: "Successful advertising reaches millions of consumers
-  who have a very low probability of buying next week or month."
+- Reach broadly. Successful advertising reaches millions of consumers
+  who have a very low probability of buying next week or month.
 - Build distinctive brand assets (logo, colors, tone, tagline) that are easy
   to recognize and hard to confuse with competitors.
 - Associate your brand with as many relevant CEPs as possible.
@@ -77,16 +65,8 @@ How easy it is to find, try, and buy your product when the buyer is ready.
 ### 1. Growth comes from penetration, not loyalty (Double Jeopardy)
 
 Big brands are big because they have more customers, not because their
-customers buy more often. The loyalty metrics between big and small brands
-barely differ — a phenomenon Sharp calls the "Double Jeopardy Law." Small
-brands suffer twice: fewer buyers AND slightly lower loyalty.
-
-The Double Jeopardy Law is one of the most replicated findings in marketing
-science. It holds across categories, countries, and decades. The mechanism:
-small brands have fewer memory structures in fewer people's heads, so even
-the people who do buy from them buy slightly less often and feel slightly
-less loyal. Loyalty is largely a function of penetration, not the other way
-around.
+customers buy more often. Small brands suffer twice: fewer buyers AND
+slightly lower loyalty.
 
 **Startup implications:**
 
@@ -165,10 +145,6 @@ tone, and topics every week builds more mental availability than one who
 reinvents their approach monthly.
 
 ### 6. Advertising is a weak force — and that's the point
-
-Each exposure nudges the probability of buying up a tiny amount. You can't
-measure any single exposure's impact. But from the brand's perspective, moving
-from 1/500 probability to 2/500 across millions of people doubles sales.
 
 **Startup implications:**
 
@@ -343,34 +319,6 @@ live in the stage files where they're used operationally:
 
 ---
 
-## Connecting Sharp to Goldratt and Maurya
+## Connecting to Other Pillars
 
-Sharp's insight maps directly to the customer factory:
-
-- **Mental availability** is the input rate of the customer factory. It
-  determines how many unaware visitors become aware visitors.
-- **Physical availability** is the friction coefficient at the Acquisition and
-  Activation steps.
-- When the customer factory's constraint is at the top of the funnel
-  (Acquisition), Sharp's framework provides the specific diagnosis and remedy.
-
-Goldratt would say: "If nobody knows you exist, awareness IS your constraint.
-Exploit it (use existing channels more effectively), subordinate to it (the
-whole team creates content and distribution), then elevate it (invest in paid
-reach, hire marketing)."
-
-The common founder mistake — building another feature when the constraint is
-awareness — is the exact equivalent of optimizing a non-constraint machine on
-the factory floor. It looks productive. It changes nothing about throughput.
-
----
-
-## Connecting Sharp to Ritson
-
-Sharp emphasizes distinctiveness over differentiation. Ritson says: both.
-They're complementary — distinctiveness gets you noticed, differentiation
-gets you chosen. A brand needs both to grow.
-
-See `references/pillar-ritson.md` for the full treatment: differentiation
-vs. distinctiveness, brand codes, STP, positioning discipline, and the
-long vs. short budget allocation rule.
+Mental availability = input rate of the customer factory. Physical availability = friction at Acquisition and Activation. When the factory's constraint is at the top of the funnel, this framework provides the diagnosis and remedy. See `references/pillar-ritson.md` for how distinctiveness and differentiation work together.

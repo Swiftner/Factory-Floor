@@ -1,7 +1,6 @@
 # Pillar 4: Marketing Strategy Discipline (Mark Ritson) — Reference
 
 ## Contents
-- [Origin](#origin)
 - [The Sequential Discipline: Diagnosis → Strategy → Tactics](#the-sequential-discipline)
 - [STP: Segmentation, Targeting, Positioning](#stp)
 - [Differentiation + Distinctiveness: Both Matter](#differentiation--distinctiveness)
@@ -9,27 +8,8 @@
 - [Two Associations, Defended Consistently](#two-associations)
 - [Brand Codes: The Palette](#brand-codes)
 - [Market Orientation: The First Discipline](#market-orientation)
-- [Connecting Ritson to the Other Pillars](#connecting-ritson-to-the-other-pillars)
 - [The Ritson Diagnostic for Startups](#the-ritson-diagnostic)
 - [From Diagnosis to Action: The Positioning Sprint](#the-positioning-sprint)
-
-## Origin
-
-Mark Ritson is a former marketing professor at London Business School and
-Melbourne Business School who has taught brand strategy to MBA students and
-executives for over two decades. He was the in-house professor for LVMH for
-13 years and now runs the Mini MBA in Marketing. His weekly column for
-Marketing Week has run since 2009.
-
-Ritson's core contribution: the **discipline of marketing strategy itself**.
-While Sharp provides the laws of brand growth and Maurya provides the
-customer factory model, Ritson provides the sequential process that makes
-strategy coherent.
-
-The thesis: **Most marketers have never had a strategic day in their lives.**
-They jump from tactic to tactic, chasing shiny objects (blockchain, AI, VR),
-without ever doing the diagnostic and strategic work that makes tactics
-meaningful.
 
 ---
 
@@ -41,31 +21,13 @@ wasted marketing effort.
 
 ### Phase 1: Diagnosis
 
-Before any strategy, you must understand the market. This is not optional
-and cannot be rushed.
+Understand the market before making strategy. This cannot be rushed.
 
-**What diagnosis includes:**
-- **Market research** — both qualitative (ethnography, interviews, focus
-  groups) and quantitative (surveys, brand tracking)
-- **Segmentation** — mapping the market into distinct groups based on
-  needs, behaviors, and attitudes
-- **Competitive landscape** — who else serves these segments, how they
-  position, what they own
-- **Brand perception audit** — what associations exist in customers' minds
-  right now
+**Diagnosis includes:** market research (qual + quant), segmentation, competitive landscape, brand perception audit.
 
-**Ritson's first law:** The moment you start getting paid to work for a
-company, it becomes impossible to see the product the way customers see it.
-Market orientation — the discipline of accepting that you're in the dark —
-must precede any research. Without it, research is done for show, not for
-insight.
+**The first discipline:** Accept that you cannot see the product the way customers see it. Create a vacuum of market orientation — make the team understand they don't know what customers think. Without this, research is done for show.
 
-**The vacuum principle:** Create a vacuum of market orientation first. Make
-the team understand they don't know what customers think. Only then will
-research be used, not ignored.
-
-**Timing:** Diagnosis should start 3-4 months before strategy is needed.
-The lag is the price of doing it right.
+**Timing:** Start 3-4 months before strategy is needed.
 
 ### Phase 2: Strategy
 
@@ -82,7 +44,7 @@ Each question has a "won't" side: who we won't target, what we won't stand
 for, what we won't chase this year. The choices you make *not* to pursue
 are more numerous than what you pursue — that's what makes it strategy.
 
-**Ritson's rule:** A 12-month planning cycle. No longer. Finance can plan
+A 12-month planning cycle. No longer. Finance can plan
 5 years out; marketing cannot. Markets shift too fast. Set objectives for
 the next 12 months, then re-diagnose.
 
@@ -91,21 +53,15 @@ the next 12 months, then re-diagnose.
 Only after diagnosis and strategy come tactics. Tactics are the executions:
 campaigns, content, channels, creative, pricing actions, distribution moves.
 
-Most marketers start here. They skip diagnosis ("we know our customers")
-and strategy ("we just need to get the word out") and go straight to
-tactics. The result: activity without direction.
+Most marketers skip diagnosis and strategy and go straight to tactics. The result: activity without direction.
 
-**Multiplicative relationship:** Ritson describes diagnosis, strategy, and
-tactics as multiplicative, not additive. A brilliant tactic built on zero
-strategy produces zero. A mediocre tactic built on solid diagnosis and
-sharp strategy outperforms.
+Diagnosis, strategy, and tactics are multiplicative. A brilliant tactic on zero strategy produces zero.
 
 ---
 
 ## STP: Segmentation, Targeting, Positioning
 
-The core of the strategy phase. Most marketers conflate these or skip
-segmentation entirely. Ritson insists on the sequence.
+The core of the strategy phase.
 
 ### Segmentation (diagnosis phase, not strategy)
 
@@ -117,15 +73,6 @@ reference to your brand. It's part of diagnosis, not strategy.
   attitudes, or occasions
 - Each segment should be internally homogeneous and externally distinct
 - A good segmentation typically yields 6-10 segments
-
-**What segmentation is NOT:**
-- Describing your ideal customer (that's targeting, not segmentation)
-- Defining personas for your product (that assumes the answer)
-- Demographics alone (age/income rarely explain behavior)
-
-**Common mistake:** Marketers say "our segment is..." before they've mapped
-the full market. That's not segmentation. That's guessing who you want to
-sell to.
 
 **Proper segmentation:**
 1. Research the full market (quant + qual)
@@ -146,7 +93,7 @@ a strategic choice, made after segmentation is complete.
 - Competitive intensity (who else is targeting this segment)
 - Alignment with brand (does this segment want what you do well?)
 
-**Ritson's rule:** You cannot target all segments. If you try, you target
+You cannot target all segments. If you try, you target
 none. The choice of what NOT to pursue is what makes targeting strategic.
 
 **For startups:** Targeting should be narrow at first. As you grow, you
@@ -157,7 +104,7 @@ can expand. But the discipline is the same: choose, don't spray.
 Positioning is **what you want to stand for in the minds of your target
 customers**. It's the mental real estate you're claiming.
 
-**Ritson's positioning rules:**
+**Positioning rules:**
 
 1. **A position is NOT a tagline.** It's the 2-4 associations you want to
    own in the customer's mind.
@@ -186,8 +133,8 @@ just post-call review."
 
 ## Differentiation + Distinctiveness: Both Matter
 
-This is Ritson's synthesis of the Sharp vs. traditional debate. Sharp says
-distinctiveness > differentiation. Ritson says: **you need both**.
+Sharp says
+distinctiveness > differentiation. **You need both.**
 
 ### Differentiation
 
@@ -241,7 +188,7 @@ better because...") without building distinctive assets. Result: every
 pitch sounds the same, every website looks the same, no memory structures
 form.
 
-**Ritson's advice:** Pick your distinctive assets early and use them
+Pick your distinctive assets early and use them
 relentlessly. Consistency compounds. A founder who posts with the same
 visual style, tone, and topics every week builds more mental availability
 than one who reinvents their approach monthly.
@@ -250,7 +197,7 @@ than one who reinvents their approach monthly.
 
 ## The Long and the Short: Budget Allocation
 
-This is Binet & Field's research, which Ritson champions. It addresses how
+Binet & Field's research on how
 to split marketing investment between brand building and sales activation.
 
 ### Two types of marketing investment
@@ -306,7 +253,7 @@ different metrics, different time horizon.
 
 ## Two Associations, Defended Consistently
 
-This is Ritson's practical positioning discipline.
+Practical positioning discipline.
 
 **The rule:** Pick 2 associations. Maybe 3. Absolutely no more than 4.
 Defend them consistently for years.
@@ -334,7 +281,7 @@ chose not to. That choice is strategy.
 
 ## Brand Codes: The Palette
 
-Ritson's term for distinctive assets, drawn from his LVMH work. A brand
+Distinctive assets. A brand
 "paints with a palette of codes" — the sensory identifiers that trigger
 recognition.
 
@@ -378,16 +325,6 @@ You don't have budget for brand tracking and code testing. But you can:
 Before any of this works, the team must accept that **they cannot see
 the product the way customers see it**.
 
-**Ritson's first law:** The moment you start working for a company, you
-lose the ability to see it clearly. You know too much. You care too much.
-Your assumptions fill in for customer reality.
-
-**Market orientation is:**
-- Accepting you're in the dark
-- Being genuinely curious about what customers think (not defensive)
-- Using research to see, not to confirm
-- Updating beliefs when data contradicts them
-
 **How to build it:**
 - Get out into the field. Watch customers. Shut up and listen.
 - Run qual first. Let customers tell you what's important before you
@@ -397,35 +334,7 @@ Your assumptions fill in for customer reality.
 - Kill the phrase "we know our customers." Replace it with "what do our
   customers actually think?"
 
----
-
-## Connecting Ritson to the Other Pillars
-
-**Sharp** provides the laws of brand growth: mental/physical availability,
-distinctiveness, reach > frequency, light buyers as the growth engine.
-
-**Maurya** provides the customer factory model: acquisition → activation →
-revenue → retention → referral, with throughput as the key metric.
-
-**Goldratt** provides constraint thinking: identify the bottleneck, exploit
-it, subordinate everything else, elevate when needed.
-
-**Ritson** provides the strategic discipline that sits above all three:
-- Diagnosis before strategy, strategy before tactics
-- STP as a rigorous sequence
-- Positioning as 2-3 associations, defended consistently
-- Differentiation + distinctiveness as complementary
-- Long vs. short budget allocation
-- Market orientation as the prerequisite
-
-Without Ritson's discipline, the other frameworks become tactics without
-direction. Sharp tells you to build mental availability — but which CEPs?
-Maurya tells you to optimize the factory — but for which segment?
-Goldratt tells you to find the constraint — but what if the constraint is
-strategic clarity itself?
-
-Ritson's contribution is the *process* that makes the other frameworks
-strategic.
+Coach the team to stay in the dark until research illuminates. Without market orientation, every other framework becomes self-confirmation.
 
 ---
 
@@ -450,7 +359,7 @@ a clear constraint, check for strategic clarity:
    they don't know or it's 100% activation — budget imbalance.
 
 These questions surface whether the problem is *execution* (the other
-pillars) or *strategy* (Ritson's domain). Fix strategy first.
+pillars) or *strategy* (this domain). Fix strategy first.
 
 ---
 

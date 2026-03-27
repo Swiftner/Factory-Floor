@@ -7,92 +7,30 @@
 - [When to Estimate vs. When to Measure](#when-to-estimate-vs-when-to-measure)
 - [Learning to Estimate at 50% Confidence](#learning-to-estimate-at-50-confidence)
 - [Startup Quick Protocols](#startup-quick-protocols)
-- [Key References](#key-references)
 
 ## Why estimates fail
 
-Before learning how to estimate better, understand why the default approach
-is structurally broken. There are four forces working against you, and they
-don't cancel each other out — they compound.
+Four forces compound against you:
 
-### Force 1: Student Syndrome
+1. **Student Syndrome** — Given generous time, people start late. A
+   10-day estimate for 5-day work means starting on day 6 with zero buffer.
+2. **Parkinson's Law** — Work expands to fill time available. Safety
+   padding gets consumed by the task itself.
+3. **Early/late asymmetry** — Early finishes evaporate (next task starts
+   on schedule). Late finishes propagate. Over a chain, projects can only
+   get later.
+4. **Planning fallacy** — People systematically plan for the best case
+   and treat it as expected case.
 
-Named by Goldratt. When people are given generous time for a task, they
-don't start early — they start late. A developer given 10 days for a 5-day
-task doesn't begin on day 1 and finish on day 5 with 5 days to spare. They
-begin on day 6. Now the 5-day task has zero buffer. Any surprise — a sick
-day, a dependency, a harder-than-expected problem — blows the deadline.
-
-This isn't laziness. It's rational human behavior. When a deadline feels
-far away, other urgent things take priority. The "safe" estimate created
-the illusion of slack, and the illusion consumed the reality.
-
-### Force 2: Parkinson's Law
-
-"Work expands to fill the time available for its completion." (Cyril
-Northcote Parkinson, 1955.)
-
-If the project plan says a task takes 5 days, it takes 5 days — even when
-the real work is 3 days. The remaining 2 days get filled with polishing,
-scope creep, gold-plating, or just a slower pace. Nobody reports a task
-as "done early" because (a) there's no incentive to, (b) it might mean
-they estimated wrong, and (c) the next task isn't ready to start anyway.
-
-The result: safety time embedded in individual task estimates is consumed
-by the tasks themselves, not available to protect the project.
-
-### Force 3: The asymmetry of early and late
-
-This is the mathematical killer. In traditional scheduling:
-- If Task A finishes 2 days early, Task B does NOT start 2 days early.
-  It starts on its scheduled date. The 2-day gain is wasted.
-- If Task A finishes 2 days late, Task B DOES start 2 days late.
-  The 2-day loss propagates.
-
-Early finishes evaporate. Late finishes accumulate. Over a chain of tasks,
-the project can only get later, never earlier. This is why padding every
-task with safety doesn't protect the project — the math only flows one
-direction.
-
-### Force 4: The planning fallacy
-
-Daniel Kahneman and Amos Tversky identified this in 1979. People
-systematically underestimate the time required to complete tasks, even
-when they have direct experience with similar tasks running over. This
-isn't corrected by awareness — knowing about the planning fallacy doesn't
-fix it. Kahneman called it "one of the most robust findings in the
-psychology of judgment."
-
-The planning fallacy combines with optimism bias: we imagine the best-case
-scenario for our task and treat it as the expected case. We plan for the
-version where nothing goes wrong, dependencies arrive on time, and we
-don't get interrupted.
-
-Douglas Hofstadter captured this recursion: "It always takes longer than
-you expect, even when you take into account Hofstadter's Law."
-
-### The combined effect
-
-When you ask someone to estimate a task, four things happen simultaneously:
-1. They add safety (padding for uncertainty)
-2. Student Syndrome wastes the safety upfront (late start)
-3. Parkinson's Law consumes any remaining safety (work expands)
-4. The planning fallacy means their "aggressive" estimate was already
-   optimistic
-
-The net result: individual task estimates with embedded safety produce
+**Combined effect:** Individual task estimates with embedded safety produce
 projects that are BOTH padded AND late. The safety exists on paper but
 not in practice.
-
-This is why Goldratt built a completely different system.
 
 ---
 
 ## Goldratt's Critical Chain Method
 
-Critical Chain Project Management (CCPM) was introduced by Eli Goldratt in
-his 1997 book *Critical Chain*. It applies the Theory of Constraints to
-project scheduling. The core insight: **stop protecting individual tasks
+CCPM applies constraint thinking to project scheduling. The core insight: **stop protecting individual tasks
 and start protecting the project.**
 
 ### The method in six steps
@@ -342,8 +280,8 @@ The entire CCPM system depends on one skill: giving honest 50% confidence
 estimates — the median duration where you'd finish faster half the time and
 slower half the time. Most people can't do this naturally. They give 80-90%
 estimates (padded, safe) and call them "aggressive." The good news: this is
-a learnable skill. Douglas Hubbard (*How to Measure Anything*) reports
-80-90% of people achieve good calibration within a few hours of practice.
+a learnable skill. 80-90% of people achieve good calibration within a few
+hours of practice.
 
 ### Why people are bad at this by default
 
@@ -371,21 +309,7 @@ task and pools into the buffer. By always asking both, you train yourself
 to see that "my estimate" is not one number — it's a range. The first
 number goes into the schedule. The gap feeds the buffer.
 
-### Exercise 2: The equivalent bet (gut-check any estimate)
-
-After giving a focused estimate, ask yourself: "Would I rather bet $1,000
-that this task finishes in [my estimate] days, or bet $1,000 on a coin
-flip?"
-
-- If you'd take the coin flip → your estimate is too aggressive. Adjust up.
-- If you'd take the task bet → your estimate is too safe. Adjust down.
-- If you're genuinely indifferent → you've found your 50%.
-
-The bet makes the abstract concept of "50% confidence" viscerally concrete.
-Hubbard's research shows that even *pretending* to bet money improves
-calibration.
-
-### Exercise 3: Weekly estimation retrospective (the feedback loop)
+### Exercise 2: Weekly estimation retrospective (the feedback loop)
 
 This is the most important exercise. Without feedback, you don't improve.
 
@@ -410,27 +334,6 @@ Run this for 4-6 weeks and your calibration will tighten significantly.
 The pattern of misses also reveals where your blind spots are — maybe
 you consistently underestimate integration work but nail UI work.
 
-### Exercise 4: The trivia calibration drill (one-time training, 30 min)
-
-This exercise, from Hubbard, trains general calibration using trivia
-questions. It transfers to project estimation because the underlying skill
-— accurately assessing your own uncertainty — is the same.
-
-1. Take 20 general-knowledge questions (e.g., "In what year was the Golden
-   Gate Bridge completed?"). For each, give a range you're 90% sure
-   contains the answer.
-2. Score: how many ranges contain the true answer? If you're calibrated,
-   18 out of 20 should hit.
-3. Most untrained people hit only 10-14 out of 20. They're massively
-   overconfident — their "90% intervals" are really 50-70% intervals.
-4. Apply corrections: widen your ranges using the equivalent bet test.
-   Repeat with 20 new questions.
-5. After 2-4 rounds, most people reach calibration.
-
-Free online tools for this drill:
-- **80,000 Hours Calibration Trainer** — 80000hours.org/calibration-training/
-- **Metaculus** — metaculus.com (real-world forecasting with calibration tracking)
-
 ### The key insight
 
 Calibration is not about being right on any individual estimate. It's about
@@ -453,33 +356,3 @@ fever chart, and timeline communication templates) is in the stage files:
   measurement, and communicating timelines to customers, board, and team.
 
 This reference file covers the underlying theory and detailed methods.
-
----
-
-## Key References
-
-### Essential reading
-- **Eli Goldratt, *Critical Chain* (1997):** The source text for CCPM.
-- **Douglas Hubbard, *How to Measure Anything* (2010):** Calibration
-  training for estimation. Chapter 5 covers the exercises.
-- **Mike Cohn, *Agile Estimating and Planning* (2005):** Practical
-  estimation for agile teams.
-
-### Deeper dives
-- **Steve McConnell, *Software Estimation: Demystifying the Black Art*
-  (2006):** Comprehensive treatment of estimation science and the cone
-  of uncertainty.
-- **Daniel Kahneman, *Thinking, Fast and Slow* (2011):** Chapter on the
-  planning fallacy.
-- **Vasco Duarte, *No Estimates* (2016):** The case for replacing
-  estimation with throughput measurement.
-
-### Key concepts index
-- **Student Syndrome:** Goldratt, *Critical Chain*, Chapter 13.
-- **Parkinson's Law:** Cyril Northcote Parkinson, *The Economist*, 1955.
-- **Planning Fallacy:** Kahneman & Tversky, 1979.
-- **Hofstadter's Law:** Douglas Hofstadter, *Gödel, Escher, Bach*, 1979.
-- **Cone of Uncertainty:** Barry Boehm, 1981; Steve McConnell, 2006.
-- **Little's Law:** WIP = Throughput x Lead Time. John Little, 1961.
-- **Relay Race behavior:** Goldratt, *Critical Chain*.
-- **Fever Chart:** CCPM buffer monitoring tool. Goldratt, *Critical Chain*.

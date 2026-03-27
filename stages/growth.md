@@ -1,16 +1,10 @@
 # Growth: Post-Revenue Through ~$1M ARR
 
-You have paying customers. The customer factory exists. Now you need to find
-its constraint, exploit it, and run the system — not build random features.
-
 ---
 
 ## If You Don't Have Numbers
 
-Most startups at this stage are flying on instinct and Stripe dashboards.
-That's fine for the triage — use the signals table in SKILL.md. But if the
-signals are ambiguous, **your first constraint-serving action is to instrument
-the funnel.**
+**If the signals are ambiguous, your first constraint-serving action is to instrument the funnel.**
 
 Set up tracking for:
 - New trials or signups per week
@@ -27,16 +21,10 @@ then use it.
 
 ## Before You Build Anything
 
-This is the check that saves startups from their own instincts.
-
 When a founder says "we need to build feature X," ask first: **"Is the real
 problem that not enough people know you exist?"**
 
-Sharp's research across decades of brand data shows that most potential
-customers don't know you exist. When your product works (users who try it
-stay) but growth is flat, the answer is almost never another feature. It's
-**mental availability** — the probability your brand comes to mind when
-someone has the problem you solve.
+When users who try your product stay but growth is flat, the answer is almost never another feature. It's **mental availability** — the probability your brand comes to mind when someone has the problem you solve.
 
 **Run this diagnostic before any growth initiative:**
 
@@ -47,11 +35,6 @@ someone has the problem you solve.
    friction, pricing transparency, marketplace presence.
 3. "Are we distinctive enough to be remembered?" If no → invest in brand
    assets (visual identity, tone, tagline), not features.
-
-**This isn't binary.** You may have awareness in one channel and be invisible
-in others. You may be known to one segment but not the one that matters most.
-The question isn't just "do people know us?" but "do the right people know
-us, on the right channels, associated with the right struggling moments?"
 
 Map your Category Entry Points — the 3-5 struggling moments that trigger
 buying behavior. For each one, ask: "Would someone in this situation think
@@ -69,12 +52,7 @@ wearing a feature hat. Build it.
 Read `references/pillar-sharp.md` for the full framework, including the
 laws of brand growth and CEP mapping.
 
-### Brand Building vs. Activation: Know the Difference
-
-When the constraint is awareness, you're doing **brand building**. When the
-constraint is conversion, you're doing **activation**. These are different
-types of work with different metrics and different time horizons. Don't
-confuse them.
+### Brand Building vs. Activation
 
 **Brand building (long-term):**
 - Builds mental availability over time
@@ -88,20 +66,11 @@ confuse them.
 - Measure: clicks, demos booked, trials started, conversions
 - Examples: "book a demo" ads, retargeting, promos, direct outreach
 
-**The budget rule (Binet & Field):** For established brands, ~60% brand
+**Budget rule:** For established brands, ~60% brand
 building, ~40% activation. For early startups, the ratio shifts toward
 activation (you need revenue now), but don't go 100% activation. Even
 10-20% brand investment builds memory structures that make future activation
 cheaper.
-
-**Why this matters:** Founders who run 100% activation see short-term
-metrics that look fine. But they're harvesting demand without replenishing
-it. Long-term growth stalls. When you finally try brand building, it takes
-months to show up — and by then, you've burned runway on activation that
-kept getting more expensive.
-
-When awareness is the constraint, measure reach, not clicks. You're building
-memory structures, not harvesting demand. Different work, different metrics.
 
 See `references/pillar-ritson.md` for the full long vs. short framework.
 
@@ -147,9 +116,7 @@ See `references/pillar-ritson.md` for the full long vs. short framework.
 | 2-3 people | 2 pieces (1 short + 1 long or outreach batch) | 3 channels |
 | 4-5 people | 3 pieces (mix of short, long, and partnerships) | 4 channels |
 
-The key behavior is **never going dark.** A week with no output is a week
-where memory structures decay. Consistency matters more than quality of
-any individual piece.
+**Never go dark.** Consistency matters more than quality of any individual piece.
 
 ---
 
@@ -186,24 +153,12 @@ any individual piece.
 
 ### The Customer Factory (Maurya)
 
-Every business is a **customer factory** — a system that takes in unaware
-visitors and turns them into happy customers:
-
 ```
 Acquisition → Activation → Revenue → Retention → Referral
 ```
 
 Each step has a conversion rate. The step with the lowest rate relative to
 your goal is your constraint. Fix that one. Ignore the others until it moves.
-
-The factory is linear, but growth has loops. Retained customers refer new
-ones. Content attracts users who generate data that improves the product
-that attracts more users. When you find a reinforcing loop, invest in it —
-a small improvement at any point in the loop accelerates the whole cycle.
-
-**Throughput** = the rate at which you create happy paying customers. Not
-signups, not pageviews — happy customers who achieve their desired outcome
-and pay you for it.
 
 **Key rules:**
 
@@ -266,10 +221,6 @@ Before planning the sprint, ask: **what state is the team in?**
 - **Innovating** — low debt, high morale, new value being created. Maintain
   slack. Prevent over-commitment.
 
-Most startup teams oscillate between the first two states. Every time you
-add WIP or change priorities mid-sprint, you push the team back toward
-treading water.
-
 ### Break priorities into constraint-sized tasks
 
 After the weekly review produces your top 3 priorities, break each one into
@@ -291,16 +242,11 @@ Set your WIP limit to team size. A three-person team has 3 slots for
 in-progress work. That's it. Nobody starts new work until a slot opens.
 If you're blocked, help someone else finish theirs. In simulations, teams
 with strong WIP limits finished **200x more projects** than teams without
-them (Larson).
+them.
 
 When a founder says "but we need to get ahead on X," the answer is: "X is
 not the constraint. Starting X now increases WIP, extends lead time on
 constraint work, and slows throughput. X waits."
-
-This is Goldratt's **Drum-Buffer-Rope** in practice: the constraint sets
-the pace (drum), a buffer of ready work sits in front of it, and the rope
-ties new work intake to the constraint's consumption rate. Nobody starts
-new work faster than the constraint can absorb it.
 
 ### Feed the constraint buffer
 
@@ -346,11 +292,7 @@ one GOLEAN cycle) and don't judge results before it closes.
 
 ### Estimate time honestly
 
-Most estimates fail because safety padding gets baked into each task, then
-consumed by procrastination and scope creep. The fix: **strip safety from
-individual tasks and pool it into a project buffer.**
-
-**The quick protocol:**
+**The quick protocol** (strip safety from tasks, pool into project buffer):
 1. Get the **focused estimate** for each task — "How long with no
    interruptions?" (50% confidence.)
 2. Use the focused estimate as the task duration.
@@ -358,13 +300,8 @@ individual tasks and pool it into a project buffer.**
 4. **Buffer = critical chain × 0.4.** Add this to the end.
 5. The buffer end date is the only date you commit to externally.
 
-That's it. A 20-day chain gets an 8-day buffer. Commit date = day 28.
-Don't overthink the multiplier. 0.4 works for almost everything — it's
-aggressive enough to keep urgency but safe enough to absorb real surprises.
-
-To build this skill over time, use the two-question split (focused + safe
-estimate) from `references/estimation.md` — it trains you to see estimates
-as ranges, not points.
+A 20-day chain gets an 8-day buffer. Commit date = day 28. 0.4 works
+for almost everything.
 
 **When to estimate vs. measure vs. time-box:**
 
@@ -417,8 +354,6 @@ what the buffer is for.
 ---
 
 ## JTBD in the Weekly Rhythm
-
-JTBD is not a one-time research project. It's a weekly habit.
 
 **After every conversation:** Fill in the 5-minute canvas (see
 `stages/pre-revenue.md`). Every sales call, demo, support ticket, and
@@ -549,22 +484,6 @@ See `references/weekly-review.md` — Growth section. Run it now.
 
 ---
 
-## Applying This to Tools
-
-This framework is tool-agnostic. When setting up your tool:
-
-- The board should show where work piles up (the constraint is visible).
-- Every task should be taggable by which constraint it serves.
-- WIP limits should be visible in column/section names.
-- Weekly review metrics should be accessible in under 2 minutes.
-- A "buffer" stage before the constraint — 2-3 ready items so the
-  bottleneck never starves.
-
-These principles apply to Linear, Asana, Notion, Monday, Trello, Jira,
-GitHub Projects, a whiteboard with sticky notes.
-
----
-
 ## When to Graduate
 
 You're ready for `stages/scaling.md` when:
@@ -576,5 +495,3 @@ You're ready for `stages/scaling.md` when:
   disagree on the diagnosis, or the triage points to a funnel step but
   fixing it doesn't move throughput.
 
-Until then, stay here. This stage's tools handle most startups through
-product-market fit and early scaling.

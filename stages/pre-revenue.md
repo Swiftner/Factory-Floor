@@ -1,8 +1,5 @@
 # Pre-Revenue: Day 1 Through First Paying Customer
 
-You don't have a customer factory yet. You have a hypothesis. Everything in
-this file is about testing that hypothesis before you build the wrong thing.
-
 ---
 
 ## Know Your Job First
@@ -20,9 +17,7 @@ a feature request. Not a demographic. Not a trend. A job has three dimensions:
 - **Social** — how they want to be perceived ("be seen by leadership as
   data-driven and innovative")
 
-The emotional and social dimensions usually tip the purchase decision. Most
-founders only articulate the functional dimension. That's why their messaging
-falls flat.
+Probe all three dimensions. Founders default to functional only.
 
 If you can't state the job in one sentence, **that is your constraint.** Stop
 building and start observing.
@@ -46,10 +41,7 @@ guarantee, a simpler onboarding, or a testimonial from someone like them.
 
 ### Struggling moments
 
-The struggling moment — the specific event that triggers someone to think
-"I need to do something different" — is the origin of every purchase. Not
-general dissatisfaction. A concrete event: the quarterly report reveals a
-metric dropped, a key person quits, leadership asks uncomfortable questions.
+The struggling moment is the concrete event that triggers someone to seek a new solution — a metric drops, a key person quits, leadership asks uncomfortable questions.
 
 Identify the 3-5 struggling moments that bring customers to your door. These
 are also your Category Entry Points (Sharp) — the situations where your brand
@@ -103,7 +95,7 @@ haven't listened closely enough.
 
 ### 3. The Lean Canvas Test
 
-Answer Maurya's riskiest questions:
+Answer these questions, ordered by risk:
 
 1. **Problem:** Top 3 problems. How do customers solve them today?
 2. **Customer segments:** Who has this most acutely? Name specific people.
@@ -121,9 +113,7 @@ Answer Maurya's riskiest questions:
 9. **Unfair advantage:** What can't be easily copied? (Most startups don't
    have one yet. That's fine — but know it.)
 
-The Lean Canvas is not a business plan. It's a set of **hypotheses to test**,
-ordered by risk. Test the riskiest assumption first. Usually that's "does
-anyone have this problem badly enough to pay?" — not "can we build it?"
+Test the riskiest assumption first — usually "does anyone have this problem badly enough to pay?"
 
 ### 4. The Napkin Test
 
@@ -140,13 +130,9 @@ If Required Customers > Addressable Market, the model is dead. Don't build
 it. Change the price (charge more), the segment (target one that pays more),
 or the model (recurring vs. one-time, platform vs. product).
 
-Maurya's key insight: **your pricing model determines your customers and
-market viability.** A VR platform needing 10,000 developers in a market of
+**Your pricing model determines your customers and market viability.** A VR platform needing 10,000 developers in a market of
 2,200 is dead on arrival. The same product targeting architects at $50K/year
 needs only 200 firms. Same idea, different model, viable business.
-
-This takes 5 minutes and kills more bad ideas than any amount of customer
-interviews. Do it first.
 
 ### 5. The Mafia Offer
 
@@ -181,7 +167,7 @@ of intent. Not "would you buy this?" but "here's the invoice." If people
 won't commit to the offer, building the product is waste.
 
 The MVP is what you build to deliver on a validated offer, not the other way
-around. The offer comes first. The product serves it. Maurya's sequence:
+around. The offer comes first. The product serves it. Sequence:
 **Desirability → Feasibility → Viability.** Test whether people want this
 before testing whether you can build it.
 
@@ -203,10 +189,6 @@ Your job at this stage is **observation, not construction.**
 - **Beware the Innovator's Bias.** When you've decided you want to build a
   hammer, everything looks like a nail. Start with existing alternatives
   (what customers use today), not your idea.
-
-People are opaque to themselves. Stated intent is not demand. "Would you
-pay for this?" is not data. Observation beats interviews for validating
-whether the problem is real.
 
 ---
 
@@ -297,5 +279,3 @@ You're ready for `stages/growth.md` when:
 - At least one person committed to the Mafia Offer (or equivalent signal
   of real demand).
 
-Until then, stay here. Building before you've graduated is the #1 way
-startups waste their runway.

@@ -23,10 +23,6 @@ tell you?"
 If they say "we haven't really talked to them" — that's the first task.
 Before outreach, before building, before hiring: talk to churned customers.
 
-Churned customer interviews are the highest-ROI conversations a founder
-in restart can have. They already trusted you enough to pay. They've thought
-about why it didn't work. They'll tell you, if you ask.
-
 ---
 
 ## Restart forensics: four questions to answer
@@ -108,11 +104,7 @@ That profile is your restart target. Not your original hypothesis. The data.
 
 ## Restart is not a reset
 
-The temptation at this stage is to treat it like starting over — new
-positioning, new segment, new product direction. Resist this unless the
-forensics clearly point there. Most restarts fail not because the idea was
-wrong but because the founder abandoned the signal before extracting the
-lesson.
+Do not treat this like starting over unless the forensics clearly point there.
 
 What you have that pre-revenue founders don't:
 - Proof that someone found it valuable enough to pay
@@ -153,20 +145,12 @@ Once you've answered the four forensics questions:
 
 ---
 
-## What not to do
+## Anti-patterns
 
-- **Don't rebuild before you've run the forensics.** The temptation after
-  losing customers is to fix the product. Maybe the product is fine. Find
-  out first.
-- **Don't pitch to the same people who already said no.** Unless you have
-  something genuinely different to say. "We've improved" is not enough.
-  "We now do X specifically for companies like yours" is.
-- **Don't raise to buy time.** Raising on zero revenue to fund a rebuild
-  is usually runway consumption, not leverage. Unless you have a clear
-  thesis from the forensics that justifies the bet.
-- **Don't expand the target.** Founders in restart often think the problem
-  was that the ICP was too narrow. Usually it's the opposite — it was too
-  broad. Narrow down to the customers who got the most value.
+- Rebuilding before running forensics — the product may be fine
+- Pitching the same people who said no, without a genuinely different message
+- Raising on zero revenue to fund a rebuild — usually runway consumption, not leverage
+- Expanding the target — the ICP was almost certainly too broad, not too narrow
 
 ---
 

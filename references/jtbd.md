@@ -17,35 +17,11 @@
 
 ## Origin
 
-Clayton Christensen introduced Jobs To Be Done theory in *The Innovator's
-Solution* (2003) and fully developed it in *Competing Against Luck* (2016).
-The core thesis: **people don't buy products. They hire them to make progress
-in a specific situation.** If the product does the job well, they hire it
-again. If it fails, they fire it and look for something else.
+People don't buy products — they hire them to make progress in a specific situation. If the product does the job, they hire it again. If it fails, they fire it.
 
-Christensen estimated that 75-85% of new products fail because they don't
-target a job people are actually trying to get done.
+## What a "Job" Is
 
-The milkshake study is the canonical example. Christensen's team observed
-that nearly half of all milkshakes sold before 8:30 a.m. — bought by solo
-commuters. The job: occupy a long, boring commute and stave off hunger
-until lunch. The competition wasn't other milkshakes — it was bananas (gone
-in 2 minutes), bagels (messy while driving), and boredom.
-
-## What a "Job" Is (and Isn't)
-
-**A job IS:**
-- The progress a person is trying to make in a specific circumstance
-- Stable over time (jobs don't change even when technology does)
-- Solution-agnostic (defined independently from any product)
-- Situational — the same person has different jobs in different contexts
-
-**A job IS NOT:**
-- A trend ("people want AI")
-- A high-level need ("security")
-- A specific solution ("use Slack")
-- An activity ("generate reports" — that's what they do, not why)
-- A demographic trait ("millennials want...")
+A job is the progress a person is trying to make in a specific circumstance. It is stable over time, solution-agnostic, and situational.
 
 **The right level of abstraction test:**
 1. It is not a trend or buzzword
@@ -67,23 +43,21 @@ I'm responsible for."
 as innovative and data-driven. Be recognized by my team as someone who
 equips them for success."
 
-Bob Moesta emphasizes that **jobs are far more emotional than functional.**
+**Jobs are far more emotional than functional.**
 The functional job is table stakes. The emotional and social dimensions tip
 the decision. Most teams over-index on functional and neglect emotional and
 social — which is where differentiation and premium pricing live.
 
 ## The Four Forces of Progress
 
-Bob Moesta and Chris Spiek developed the Forces of Progress to explain why
-people switch solutions — or why they don't, even when something better
-exists. This is the causal mechanism behind every purchase decision.
+The Forces of Progress explain why people switch solutions — or don't, even when something better exists.
 
 ### Two forces promote switching
 
 **Push of the current situation:** Whatever creates discomfort with the
 status quo. It has nothing to do with the new product — it's entirely about
-what's going wrong now. Moesta: "Almost all change starts with a push. You
-might not know what to do, but you know what you're doing isn't working."
+what's going wrong now. Almost all change starts with a push. You might not
+know what to do, but you know what you're doing isn't working.
 
 **Pull of the new solution:** The magnetism of something better — the
 promise of a life where the problem is solved. Pull is about the imagined
@@ -94,10 +68,9 @@ necessarily create more pull; it can increase anxiety.
 
 **Anxiety of the new solution:** Fear, uncertainty, and risk about
 switching. "Will it actually work? Can our team support it? Is this company
-going to exist in a year?" Alan Klement distinguishes two types:
-*anticipatory anxiety* (fear while deciding) and *anticipated anxiety*
-(fear while using). According to Forrester, 86% of B2B buying processes
-stall — anxiety, not budget, is usually the cause.
+going to exist in a year?" Two types: *anticipatory anxiety* (fear while
+deciding) and *anticipated anxiety* (fear while using). 86% of B2B buying
+processes stall — anxiety, not budget, is usually the cause.
 
 **Habit of the present:** The comfort and inertia of the current way.
 Switching costs are real. "We've invested in X already." "The team knows
@@ -140,7 +113,7 @@ behavior, then become relentlessly associated with those moments.**
 
 ## How to Run Switch Interviews
 
-Bob Moesta's Switch Interview technique reconstructs the full story of a
+The Switch Interview technique reconstructs the full story of a
 buying decision — not what people *think* they want, but what actually
 *caused* them to act.
 
@@ -189,9 +162,9 @@ the old way?"
 rationalization. Instead: "Tell me more about that." "Give me an example."
 "Help me understand." "What happened next?"
 
-Moesta's insight on negative framing: **"People can expound on 'no' but
-'yes' becomes pablum."** Asking what's hard about something yields rich,
-specific language. Asking what's good yields "It just needs to be easy."
+**People can expound on "no" but "yes" becomes pablum.** Asking what's hard
+about something yields rich, specific language. Asking what's good yields
+"It just needs to be easy."
 
 ### B2B dynamics
 
@@ -206,9 +179,7 @@ Thought to Purchase can span 6-18 months.
 
 ### Sample size
 
-**8-12 interviews** yield reliable patterns. Moesta warns against more:
-"People might think if 10 interviews is good, 30 must be 3 times as great.
-Nope. 3 times worse because there will be that much more noise."
+**8-12 interviews** yield reliable patterns. More than 12 adds noise, not signal.
 
 Interview people who switched (bought or churned) within the **last 90
 days** — memory degrades fast. Stop when new interviews sound like previous
@@ -293,8 +264,7 @@ For each outcome, measure **importance** (how much it matters, 1-10) and
   customers need. Potential disruption opportunities (strip features,
   lower price).
 
-Strategyn claims an 86% success rate across 1,000+ engagements using this
-approach.
+This approach has a high success rate when applied rigorously.
 
 **For startups without survey data**, use a qualitative proxy after 8-12
 switch interviews: stack-rank jobs by (a) how strong is the push? (b) how
@@ -303,14 +273,10 @@ compensatory behaviors (workarounds)? (d) does it pass the not-not test?
 
 ## From JTBD to Positioning
 
-April Dunford's positioning framework (*Obviously Awesome*) starts with
-a question only JTBD can answer: **what were customers using before they
+Positioning starts with a question only JTBD can answer: **what were customers using before they
 hired you?**
 
-Dunford: "I'll say, 'Hey, who's your competitor?' and they'll give me 15
-other startups nobody's ever heard of. But then I go talk to their customers
-and say, 'If these guys got hit by a bus next week, what would you do?'
-And they say, 'We'd go back to our spreadsheet.'"
+The real competitive set is what customers actually used before — not the startups you'd list as competitors. Ask churned or switched customers: "If we disappeared, what would you do?" The answer is usually a spreadsheet or manual process, not a competitor.
 
 ### The five components, in order
 
@@ -329,71 +295,16 @@ And they say, 'We'd go back to our spreadsheet.'"
 3. **Address the anxiety directly** — what worries them about switching.
 4. **Prove it** — numbers, testimonials, specifics.
 
-Jason Fried discovered that Basecamp customers never used the words "project
-management" even though Basecamp had used that phrase for 8 years. **The
+Basecamp customers never used the words "project management" even though
+Basecamp used that phrase for 8 years. **The
 customer's language for the struggling moment is your marketing copy.** Don't
 translate it into your jargon.
 
-## JTBD Feeds Every Factory Floor Pillar
+## How JTBD Connects to Other Pillars
 
-### JTBD → Goldratt (Theory of Constraints)
-
-JTBD reveals *why* the constraint exists, not just *where*. If you don't
-know what job customers hire you for, you can't diagnose why they're not
-flowing through the factory.
-
-Apply Goldratt's steps with JTBD intelligence:
-- **Identify**: JTBD interviews reveal the constraint (anxiety blocking
-  deals? Unclear value prop? Targeting the wrong job?)
-- **Exploit**: Use insights to fix messaging, add testimonials, simplify
-  onboarding — without adding resources
-- **Subordinate**: Everyone works on the one thing JTBD revealed as the
-  blocker
-- **Elevate**: Invest in the specific capabilities JTBD showed as missing
-- **Repeat**: As throughput increases, find the next constraint
-
-### JTBD → Maurya (Customer Factory)
-
-The struggling moment is what triggers someone to **enter the top of the
-factory** (Acquisition). The four forces shape every step:
-
-- **Acquisition**: Struggling moments bring people in
-- **Activation**: Succeeds when the product delivers progress faster than
-  the old way — the "aha moment"
-- **Revenue**: Proportional to the value of the progress being made
-- **Retention**: The product must become the new habit — replacing the old
-  status quo
-- **Referral**: Happens when progress exceeds expectations
-
-Maurya's insight: "Getting hired is only the first step. Unless you can
-quickly deliver value (the aha-moment) and then establish yourself as the
-new status quo (the habit-moment), you could easily find yourself on the
-firing block."
-
-### JTBD → Sharp (Mental & Physical Availability)
-
-Struggling moments **are** Category Entry Points. They define the exact
-situations where mental availability matters. Map your CEPs by mapping
-your customers' struggling moments — they're the same list.
-
-Mental availability = being the brand that comes to mind when the
-struggling moment fires. Physical availability = being easy to find and
-hire when the customer is ready to act.
-
-### The integrated model
-
-```
-JTBD RESEARCH (understand the job)
-    ↓
-STRUGGLING MOMENTS → Category Entry Points (Sharp)
-    ↓                    → Mental availability triggers
-FOUR FORCES → Constraint diagnosis (Goldratt)
-    ↓              → What's blocking throughput?
-POSITIONING → Customer Factory input (Maurya)
-    ↓              → Messaging that fills the funnel
-PRODUCT STRATEGY → Feature prioritization (Ulwick/ODI)
-                     → Build only what serves under-served outcomes
-```
+- **→ Goldratt:** JTBD reveals *why* the constraint exists (anxiety blocking deals? unclear value prop? targeting the wrong job?)
+- **→ Maurya:** Struggling moments trigger factory entry. The four forces shape every step from acquisition through retention.
+- **→ Sharp:** Struggling moments ARE Category Entry Points. Map CEPs by mapping struggling moments — same list.
 
 ## The Weekly JTBD Routine
 

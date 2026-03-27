@@ -10,7 +10,7 @@ frameworks — they shape *how you think*, not *what you do*.
 - [Rumelt: Good Strategy Bad Strategy](#rumelt-good-strategy-bad-strategy)
 - [Clausewitz: On War](#clausewitz-on-war)
 - [Dixit & Nalebuff: The Art of Strategy](#dixit--nalebuff-the-art-of-strategy)
-- [Connecting to the Other Pillars](#connecting-to-the-other-pillars)
+- [Connecting to Other Pillars](#connecting-to-other-pillars)
 - [Alignment Replaces Control](#alignment-replaces-control)
 
 ---
@@ -31,9 +31,6 @@ pillars. If the problem is "we do not have a real strategy," start here.
 ---
 
 ## Rumelt: Good Strategy Bad Strategy
-
-**Source:** Richard Rumelt, *Good Strategy Bad Strategy* (2011) and
-*The Crux* (2022).
 
 ### The Kernel of Strategy
 
@@ -179,10 +176,6 @@ An under-resourced startup must compensate with tighter integration.
 
 ## Clausewitz: On War
 
-**Source:** Carl von Clausewitz, *On War* (1832). Military strategy
-classic whose core concepts translate directly to operating under
-uncertainty with limited resources.
-
 ### Fog of War
 
 Three-quarters of strategic decisions are made under uncertainty.
@@ -252,9 +245,6 @@ rebuild strength.
 Do not spread forces across many objectives. Concentrate everything at
 the decisive point.
 
-**Clausewitz:** "There is no higher and simpler law of strategy than
-keeping one's forces concentrated."
-
 **Startup translation:** The single most violated principle. Founders
 spread across five segments, three channels, four features. PayPal
 succeeded by concentrating on eBay power sellers — tiny, dense market —
@@ -283,9 +273,6 @@ the competitor is overextended.
 Confidence, determination, shared purpose. Often determine outcomes
 more than material resources.
 
-**Clausewitz:** "The physical forces are almost no more than the wooden
-handle, whilst the moral are the noble metal, the real weapon."
-
 **Startup translation:** Founder will is the single most important
 moral force. When the founder loses conviction, everything stops. Small
 wins compound into moral force — this is why the weekly experiment
@@ -309,10 +296,6 @@ whole-picture assessment that builds pattern recognition over time.
 ---
 
 ## Dixit & Nalebuff: The Art of Strategy
-
-**Source:** Avinash Dixit & Barry Nalebuff, *The Art of Strategy* (2008).
-Game theory applied to business decisions — when your outcome depends on
-what the other side does.
 
 ### Look Forward, Reason Backward
 
@@ -432,10 +415,8 @@ Fast-follower advantage applies when:
   obsolete)
 - Customer education is expensive (let the first mover pay for it)
 
-Golder & Tellis (1993): 47% of first movers in new categories failed,
-vs. 8% for fast followers who entered an average of 13 years later.
-Google followed AltaVista. Facebook followed Friendster. iPhone
-followed BlackBerry.
+47% of first movers in new categories failed. Google followed AltaVista.
+Facebook followed Friendster. iPhone followed BlackBerry.
 
 **Coaching move:** "Are you first because you see something others
 do not, or are you first because nobody else thinks this is worth
@@ -443,57 +424,15 @@ doing?" The former is advantage. The latter is a warning.
 
 ---
 
-## Connecting to the Other Pillars
+## Connecting to Other Pillars
 
-These three thinkers provide the *strategic reasoning layer* that sits
-above the operational frameworks:
-
-| Concept | Operational Equivalent | What It Adds |
-|---------|----------------------|--------------|
-| Rumelt's kernel | Ritson's Diagnosis → Strategy → Tactics | Domain-general strategy test |
-| The crux | Goldratt's constraint | Addressability filter |
-| Proximate objectives | GOLEAN experiment | Feasibility test for the next step |
-| Chain-link systems | Subordination | Why improving non-constraints is waste |
-| Bad strategy signs | Misdiagnoses reference | Tests for fluff, goals-as-strategy |
-| Fog of war | Weekly review under uncertainty | Validates that uncertainty is permanent |
-| Friction | WIP limits, CCPM buffers | Why simple plans and fewer initiatives |
-| Center of gravity | The constraint | Same concept, different tradition |
-| Concentration of force | Subordination, WIP limits | The strategic law behind the tactic |
-| Culminating point | When to stop expanding | Framework for disciplined restraint |
-| Moral forces | Team morale, founder will | Human element the metrics miss |
-| Look forward, reason backward | "Before You Build" check | Think through the game tree |
-| Commitment | Pricing, positioning, roadmap | Why keeping options open slows you down |
-| Cooperation in repeated games | Customer/partner relationships | Why burning bridges is strategy error |
-| BATNA | Fundraising, enterprise sales | Strengthen your fallback before negotiating |
-| Adverse selection | Pricing tiers, hiring, free tiers | Why uniform terms attract the wrong people |
-| First-mover data | "Before You Build" check | 47% of first movers fail — defensibility matters |
+The strategic reasoning layer sits above the operational frameworks. Rumelt's kernel maps to Ritson's Diagnosis → Strategy → Tactics. The crux maps to Goldratt's constraint (with an addressability filter). Fog and friction validate WIP limits and buffers. Center of gravity IS the constraint. Concentration of force IS subordination.
 
 ---
 
 ## Alignment Replaces Control
 
-This is the principle that connects everything above.
-
-Clausewitz showed that fog and friction make centralized control
-impossible. You cannot see everything, plans break on contact with
-reality, and the commander who tries to control every decision becomes
-the bottleneck. The military solution: **mission command**
-(Auftragstaktik) — tell people the intent, not the steps. When
-everyone understands the purpose, they can act without permission.
-
-The startup version: a founder who has clearly named the constraint,
-the guiding policy, and the job-to-be-done gives the team everything
-they need to make good autonomous decisions. A founder who has not
-done that work ends up approving every feature, reviewing every deal,
-and attending every meeting — not because the team is weak, but
-because nobody else knows the intent.
-
-**Naming the constraint is an alignment act.** When the whole team
-knows "our constraint is activation — people sign up but do not come
-back after day one," every person can evaluate their own work: "Does
-this serve activation?" They do not need to ask. When the constraint
-is unnamed, everything feels equally important, and every decision
-routes through the founder.
+**Naming the constraint is an alignment act.** When the whole team knows "our constraint is activation — people sign up but do not come back after day one," every person can evaluate their own work: "Does this serve activation?" When the constraint is unnamed, everything feels equally important, and every decision routes through the founder.
 
 **How the existing frameworks create alignment:**
 

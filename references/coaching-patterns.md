@@ -59,47 +59,30 @@ Usually it's imaginary. The product is almost always good enough to sell before 
 ## Anti-Patterns (Expanded)
 
 ### The feature queue as therapy
-Building features feels like progress. It isn't, if customers aren't the constraint.
-Founders retreat to building because selling is scary and building is comfortable.
 **Probe:** "If you shipped this feature tomorrow, how many new customers would it bring?"
 
 ### Talking to friendly users
-Power users tell you what to build next. Churned users tell you why you're losing.
-Friendly users want to help you feel good. Lost customers will tell you the truth.
 **Probe:** "When did you last talk to someone who cancelled or didn't buy?"
 
 ### Optimizing the wrong step
-If acquisition is broken, fixing retention is inventory management.
-You're storing water in a leaking bucket.
 **Probe:** "Which funnel step has the worst conversion rate right now?"
 
 ### The consensus roadmap
-When everyone on the team has to agree on priorities, the constraint wins by committee.
-One person owns the constraint. Others subordinate.
 **Probe:** "Who decides what the team works on this week? One name."
 
 ### Vanity metrics as cover
-Page views, sign-ups, LinkedIn impressions — these feel good but don't pay bills.
 **Probe:** "What's the metric you'd be embarrassed to share with an investor?"
 
 ### Hiring to solve a clarity problem
-If you don't know what you're building, a hire makes it more expensive, not faster.
-Clarity comes before scale. Hire after you've found the constraint, not before.
 **Probe:** "What specifically would this hire do in their first week?"
 
 ### "Everyone is a potential customer"
-Refusing to choose is not strategy; it's avoidance.
-The tighter the targeting, the sharper the message, the faster the learning.
 **Probe:** "If you could only sell to one type of company for 6 months, who would it be?"
 
 ### "Looks cool" as validation
-Social validation feels like demand but isn't.
-"This is interesting" and "keep me posted" are polite rejections.
 **Probe:** "How many people said 'I would pay for this right now'? Not 'I would try it' — pay."
 
 ### Pitching instead of listening
-Founders claim customer discovery but spent 80% of the call talking.
-If you're explaining, you're not learning.
 **Probe:** "In your last customer conversation, what percentage was them talking vs. you?"
 
 ---

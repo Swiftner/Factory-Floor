@@ -1,7 +1,6 @@
 # Pillar 2: The Customer Factory (Ash Maurya) — Reference
 
 ## Contents
-- [Origin](#origin)
 - [The Customer Factory Blueprint](#the-customer-factory-blueprint)
 - [Key Definitions](#key-definitions)
 - [Constraint Identification by Stage](#constraint-identification-by-stage)
@@ -11,17 +10,6 @@
 - [The Premature Optimization Warning](#the-premature-optimization-warning)
 - [Connecting to Goldratt](#connecting-to-goldratt)
 - [Throughput Accounting on the Lean Canvas](#throughput-accounting-on-the-lean-canvas)
-
-## Origin
-
-Ash Maurya created the Customer Factory model in *Scaling Lean* (2016),
-explicitly building on Goldratt's Theory of Constraints. As Maurya puts it:
-"The Theory of Constraints was a key influence — I adapted his focusing steps
-for systems thinking to the business modeling process."
-
-The core idea: treat your business as a factory whose output is happy customers.
-Apply the same constraint-thinking Goldratt used on manufacturing floors to the
-steps of creating, delivering, and capturing value.
 
 ## The Customer Factory Blueprint
 
@@ -51,17 +39,9 @@ lowest throughput relative to your goal is your constraint.
 pageviews. Not MQLs. Happy customers who achieve their desired outcome and
 pay you for it. This is traction.
 
-**Happy customers ≠ customers made happy.** Making customers happy is easy —
-give them stuff for free. Making happy customers means helping them achieve
-results (desired outcomes). Happy customers get you paid.
-
-**Traction** = the rate at which a business model captures monetizable value
-from its customers. Not the same as current revenue. Revenue is a lagging
-indicator. Traction is the leading indicator.
-
 ## Constraint Identification by Stage
 
-Maurya maps the typical constraint to the startup's maturity stage:
+The typical constraint maps to the startup's maturity stage:
 
 ### Pre-Problem/Solution Fit
 **Typical constraint: The problem itself.**
@@ -74,8 +54,8 @@ not the solution. Validate willingness to pay before building.
 **The Innovator's Bias and the Innovator's Gift (from *Running Lean*)**
 
 The **Innovator's Bias** is the #1 contributor to startup failure: falling in
-love with your solution before validating the problem. Maurya: "When you've
-decided you want to build a hammer, everything starts looking like a nail."
+love with your solution before validating the problem. When you've
+decided you want to build a hammer, everything starts looking like a nail.
 Founders unconsciously invent problems to justify the solution they already
 want to build, then seek just enough evidence to convince themselves they're
 on track. Intelligence makes the bias worse — smart founders rationalize
@@ -87,20 +67,20 @@ worth solving are created as by-products of old solutions.** To build
 something better, it must be better *relative to* what customers use today.
 The starting point is always the existing alternative — not your idea.
 
-Maurya's prescribed Lean Canvas fill order makes this concrete: start with
+The prescribed Lean Canvas fill order makes this concrete: start with
 **Existing Alternatives** (what customers use now), then **Problems** (what's
 broken about those alternatives), then everything else. Existing Alternatives
 is the most important Lean Canvas building block — more important than the
 Problem box itself, because without it, you're defining problems in a vacuum.
 
-**Maurya's Lean Canvas questions** and the **Napkin Test** are the core
+**The Lean Canvas questions** and the **Napkin Test** are the core
 pre-building tools. See `stages/pre-revenue.md` for the full operational
 versions (the questions to ask and the math to run). The Lean Canvas is a
 set of hypotheses to test, ordered by risk — test the riskiest assumption
 first.
 
 **The Mafia Offer** — an offer so good customers can't refuse, tested
-BEFORE building an MVP. Maurya's sequence: **Desirability → Feasibility →
+BEFORE building an MVP. The sequence: **Desirability → Feasibility →
 Viability.** Test whether people want this (Mafia Offer) before testing
 whether you can build it (MVP) before testing whether the business model
 works at scale (traction metrics).
@@ -140,7 +120,7 @@ Investigate whether "happy" customers are actually achieving desired outcomes.
 
 ## The GOLEAN Framework
 
-Maurya's tactical cycle for continuous improvement at the constraint:
+The tactical cycle for continuous improvement at the constraint:
 
 - **G**o — Identify the constraint. Set a goal for improving it.
 - **O**bserve — Measure current performance at the constraint.
@@ -223,7 +203,7 @@ A small improvement at any point in this loop accelerates the whole cycle.
 This is why, once retention is solid and the factory is flowing, even modest
 referral improvements can produce outsized growth.
 
-Maurya's caution: the loop is fragile. If retention breaks (customers churn
+The loop is fragile. If retention breaks (customers churn
 before referring), if activation breaks (referred users don't reach the aha
 moment), or if the product stops delivering the job, the loop collapses. The
 referral step depends on every upstream step working. Fix the factory first,
@@ -233,7 +213,7 @@ then amplify with referral.
 
 ## The Local vs. Global Optimization Trap
 
-This is the most common mistake Maurya identifies in growing startups. Teams
+The most common mistake in growing startups. Teams
 optimize their local metrics while system throughput stagnates or declines:
 
 - **Marketing** generates more leads → but leads are lower quality → conversion
@@ -249,7 +229,7 @@ shipped, deals closed).
 
 ## The Premature Optimization Warning
 
-Maurya: "Going fast on everything is a recipe for getting lost faster."
+Going fast on everything is a recipe for getting lost faster.
 
 The counter-intuitive move is slowing down to build a repeatable customer
 factory in stages. Each stage is a smaller version of the next stage. You
@@ -264,27 +244,11 @@ hit a wall.
 
 ## Connecting to Goldratt
 
-Maurya's explicit connection: "How do you know when a constraint is broken?
-When your customer factory throughput goes up as a result of something you
-just did."
-
-The customer factory IS the system. The five macro steps ARE the machines on
-the factory floor. The conversion rates ARE the machine capacities. The
-constraint IS the machine with the lowest throughput relative to demand.
-
-Goldratt's Five Focusing Steps map directly:
-
-| Goldratt step | Customer factory equivalent |
-|---|---|
-| Identify | Which of the 5 steps has the lowest rate relative to goal? |
-| Exploit | Improve that step's conversion with existing resources. |
-| Subordinate | All other teams serve that step. Pause work that doesn't. |
-| Elevate | Invest in that step — hire, buy tools, redesign. |
-| Repeat | Constraint moves to next weakest step. Re-identify. |
+The customer factory IS the system. The five macro steps ARE the machines. The conversion rates ARE the capacities. The constraint IS the step with the lowest throughput relative to demand. Goldratt's Five Focusing Steps apply directly to each factory step.
 
 ## Throughput Accounting on the Lean Canvas
 
-Maurya adapts Goldratt's throughput accounting to the business model:
+Throughput accounting adapted to the business model:
 
 - **Throughput** maps to the Revenue Streams box of the Lean Canvas. Focus on
   maximizing revenue potential (pricing, right customers) before optimizing
@@ -294,6 +258,4 @@ Maurya adapts Goldratt's throughput accounting to the business model:
 - **Inventory** maps to everything in progress but not yet generating revenue:
   features being built, leads being nurtured, customers being onboarded.
 
-Maurya: "Yes, we want to worry about cost-cutting and efficiency, but the
-bigger potential here is thinking about upside potential." This is Goldratt's
-hierarchy (T > I > OE) restated for the startup context.
+The bigger potential is upside (T), not cost-cutting (OE). This is the hierarchy (T > I > OE) in practice.

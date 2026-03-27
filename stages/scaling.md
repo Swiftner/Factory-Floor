@@ -1,9 +1,5 @@
 # Scaling: $1M+ ARR or 10+ People
 
-The frameworks still apply. But at this size, the constraint is often not a
-funnel step — it's a decision-making pattern, a coordination failure, or
-a model that worked at $500K but breaks at $5M.
-
 ---
 
 ## Policy Constraints
@@ -31,9 +27,6 @@ that prevents the team from sustaining focus.
 this policy, what would break?" If the answer is "nothing," remove it.
 If the answer is "something important," find the minimum version of the
 policy that protects what matters without throttling throughput.
-
-Policy constraints are the hardest to fix because they feel like
-"how we do things." They're defended by habit, not logic.
 
 ---
 

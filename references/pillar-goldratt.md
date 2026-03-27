@@ -1,19 +1,11 @@
 # Pillar 1: The Theory of Constraints (Goldratt) — Reference
 
 ## Contents
-- [Origin](#origin)
 - [The Five Focusing Steps — Startup Translation](#the-five-focusing-steps)
 - [Throughput Accounting for Startups](#throughput-accounting)
 - [Little's Law](#littles-law)
 - [Drum-Buffer-Rope (DBR)](#drum-buffer-rope)
-- [Context-Switching Tax (Weinberg)](#context-switching-tax)
-
-## Origin
-
-Eli Goldratt introduced the Theory of Constraints in *The Goal* (1984). The
-core thesis: every system has exactly one constraint at any moment, and the
-system's output is limited entirely by that constraint. Improving anything
-other than the constraint does not improve the system.
+- [Context-Switching Tax](#context-switching-tax)
 
 ## The Five Focusing Steps — Startup Translation
 
@@ -73,9 +65,9 @@ See `stages/scaling.md` for detailed guidance on hiring as elevation.
 
 ### 5. Repeat (Prevent Inertia)
 
-After elevating, the constraint moves. Goldratt's warning: "Do not allow
-inertia to become the system's constraint." The processes and policies built
-for the old constraint may now be counterproductive.
+After elevating, the constraint moves. The processes and policies built
+for the old constraint may now be counterproductive. Do not allow inertia
+to become the constraint.
 
 This is why the weekly constraint review exists. Every week, re-ask: "What is
 our constraint now?" If it has shifted, update subordination roles immediately.
@@ -96,21 +88,13 @@ Goldratt's three metrics, translated:
 3. Does this reduce OE? → Nice, but secondary.
 
 Most founders invert this and start with cost-cutting. TOC says maximize T
-first, always. Ash Maurya echoes this: "The idea of throughput accounting is
-flipping cost-cutting on its head and saying the bigger potential is thinking
-about upside potential."
+first, always. The bigger potential is upside, not efficiency.
 
 ## Little's Law
 
-WIP = Throughput × Lead Time. This is a mathematical identity, not a theory.
+WIP = Throughput × Lead Time. If WIP increases and Throughput holds constant, Lead Time must increase.
 
-If WIP increases and Throughput holds constant, Lead Time must increase. Every
-time you start new work without finishing existing work, you're increasing WIP,
-which extends lead time on everything.
-
-The practical implication: **finishing one thing is always better than starting
-two things.** A team completing one feature per week delivers more value than a
-team with five features "in progress" for three weeks each.
+**Finishing one thing is always better than starting two things.** A team completing one feature per week delivers more value than a team with five features "in progress" for three weeks each.
 
 ## Drum-Buffer-Rope (DBR)
 
@@ -160,9 +144,9 @@ and is WIP controlled (DBR)?
 
 ---
 
-## Context-Switching Tax (Weinberg)
+## Context-Switching Tax
 
-Gerald Weinberg's research: each additional parallel project costs ~20% in lost
+Each additional parallel project costs ~20% in lost
 productivity from context-switching.
 
 | Simultaneous projects | % of time available per project | % lost to switching |
