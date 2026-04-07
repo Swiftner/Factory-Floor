@@ -21,6 +21,7 @@ const files = [
   'references/intake.md',
   'references/misdiagnoses.md',
   'references/coaching-patterns.md',
+  'references/state.md',
   'references/pillar-goldratt.md',
   'references/pillar-maurya.md',
   'references/pillar-sharp.md',
