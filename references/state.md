@@ -12,11 +12,11 @@ Claude writes to state ONLY when one of these triggers fires during the conversa
 |---|---|---|---|
 | 1 | Weekly review complete | Founder ran the weekly review protocol to its end — all stage-specific questions answered AND the "one thing we will NOT do next week" question answered | Append `## YYYY-MM-DD — Weekly review (<stage>)` entry to `.factory/journal.md` with the sub-sections for the founder's current stage |
 | 2 | Experiment committed | Founder explicitly accepts an assigned experiment with affirmative language: "ok I'll do that", "yes, let's run it", "sure, this week", "I'll try that", or similar | Append `## YYYY-MM-DD — Experiment committed` entry to `.factory/journal.md` AND update `## Current experiment` section in `.factory/context.md` |
-| 3 | Diagnosis accepted | Claude named the constraint (in customer-factory vocabulary) AND the founder affirmed explicitly ("yes that's it", "agreed", "makes sense") OR the founder immediately accepted a proposed experiment attacking that constraint (in which case both Diagnosis and Experiment committed writes fire) | Append `## YYYY-MM-DD — Diagnosis` entry to `.factory/journal.md` AND update `## Current constraint` in `.factory/context.md`. Entry MUST include both the founder's initial framing and the actual diagnosis. |
-| 4 | Experiment outcome reported | Founder reports back at or after the experiment's deadline on a prior experiment's results | Append `## YYYY-MM-DD — Experiment outcome` entry to `.factory/journal.md` |
+| 3 | Diagnosis accepted | Claude named the constraint (in customer-factory vocabulary) AND the founder affirmed explicitly ("yes that's it", "agreed", "makes sense") OR the founder immediately accepted a proposed experiment attacking that constraint (in which case both Diagnosis and Experiment committed writes fire) | Append `## YYYY-MM-DD — Diagnosis` entry to `.factory/journal.md` AND update `## Current constraint` in `.factory/context.md`. Entry MUST include both the founder's initial framing and the actual diagnosis. When both Diagnosis and Experiment committed fire from the same exchange, write the Diagnosis entry first, then the Experiment committed entry — both dated today. |
+| 4 | Experiment outcome reported | Founder reports back at or after the experiment's deadline on a prior experiment's results. If the founder's report is ambiguous about which experiment, ask before writing; default assumption is the most recent `## Current experiment` from `context.md`. | Append `## YYYY-MM-DD — Experiment outcome` entry to `.factory/journal.md` |
 | 5 | Experiment killed early | Founder says they stopped an experiment before its deadline | Append `## YYYY-MM-DD — Kill decision` entry to `.factory/journal.md` AND clear `## Current experiment` in `.factory/context.md` (set to empty or "none active") |
 | 6 | Stage transition confirmed | Customer/MRR/team numbers changed enough to shift stage (per thresholds in `SKILL.md` decision tree) AND founder confirms the stage change | Update `## Stage` in `.factory/context.md` AND append `## YYYY-MM-DD — Stage change` entry to `.factory/journal.md` |
-| 7 | Numbers change mentioned | Founder mentions a meaningful number change ("we're at 17 customers now", "MRR doubled this week") | Update `## Numbers` in `.factory/context.md`. **No journal entry** — Numbers churn freely and don't need historical logging. |
+| 7 | Numbers change mentioned | Founder presents a number as a status update (not a passing aside) — e.g., any integer change to customer count, or a >10% change in MRR/ARR, team size changes, runway changes. | Update `## Numbers` in `.factory/context.md`. **No journal entry** — Numbers churn freely and don't need historical logging. |
 
 ### Sub-section templates
 
@@ -122,6 +122,10 @@ After an override, Claude continues coaching normally for the rest of the sessio
 ### Announcement after writing
 
 After writing, Claude says **"Logged."** (one word, not a wall of text) so the founder knows state was updated. Do not list what was written — the file is right there if the founder wants to see it.
+
+### Write failure handling
+
+If a file write fails (disk full, permission denied, directory not writable, etc.), tell the founder exactly what would have been written (in a markdown code block) and continue coaching. Do not retry silently. Do not claim a write succeeded when it didn't.
 
 ## 2. Bootstrap protocol
 
@@ -280,7 +284,7 @@ If `context.md` says `## Stage` is "growth" but the founder says "we just lost a
 
 ### 4.5 `## Numbers` older than 30 days
 
-If `## Numbers` contains a date marker or the most recent journal entry is >30 days ago, re-confirm before routing: *"Your Numbers section says 14 customers, $4.2K MRR — is that still right?"* Update `context.md` if anything changed. Do NOT create a journal entry for the Numbers update — Numbers churn freely.
+If the most recent journal entry is >30 days ago (or the founder has explicitly annotated `## Numbers` with a date marker showing it's stale), re-confirm before routing: *"Your Numbers section says 14 customers, $4.2K MRR — is that still right?"* Update `context.md` if anything changed. Do NOT create a journal entry for the Numbers update — Numbers churn freely.
 
 ### 4.6 Wrong-factory mismatch
 
