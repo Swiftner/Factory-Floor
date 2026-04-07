@@ -508,9 +508,18 @@ Claude *can* parallelize tool calls when explicitly told to; the current SKILL.m
 
 ## 11. Validation strategy
 
-Factory Floor has an `evals/` directory with `agents/grader.md` and `agents/analyzer.md` and an OpenAI evals config (`agents/openai.yaml`). The state layer adds runtime behavior with filesystem side effects, so eval coverage is non-negotiable for bootstrap and override cases.
+Factory Floor has an `evals/` directory with an aspirational `README.md` describing a persona/scenario/judge/runs structure, plus `agents/grader.md` and `agents/analyzer.md` which are grading and analysis agent prompts. `agents/openai.yaml` is the agentskills.io skill manifest (name, icon, tags, color), not an evals config.
 
-### 11.1 New evals to add
+**Current reality:** the eval *framework* (personas/ scenarios/ judges/ runs/ subdirectories, a runner to execute persona↔skill dialogues, judge integration to score responses) does not exist yet. It's described in `evals/README.md` as the intended shape but not implemented.
+
+**Implication for this spec:** we can't write runnable evals because there's nothing to run. Instead we:
+1. **Create scenario fixtures** for the 8 test cases below as markdown files in `evals/scenarios/state-layer/` — one file per scenario with the persona description, opening prompt, expected Claude behaviors, and grading criteria. These become the inputs when someone builds the runner.
+2. **Rely on manual validation** during implementation (run the skill in test directories, confirm behavior matches each scenario's expected behaviors).
+3. **Defer the eval runner itself** to a separate plan. Building persona replay, judge integration, and a runs harness is a substantial project that would double the scope here.
+
+The state layer adds runtime behavior with filesystem side effects, so manual validation of bootstrap, override, and write-trigger behaviors is non-negotiable before merging.
+
+### 11.1 Scenario fixtures to create
 
 1. **Bootstrap eval** — Empty CWD. Run intake. Verify Claude offers bootstrap at the right moment (after funnel break scan or enough fields gathered). On consent, verify `.factory/context.md` and `.factory/journal.md` exist with correct shape, `.gitignore` updated with `.factory/journal.md`.
 2. **Read continuity eval** — Pre-populate `.factory/` with realistic growth-stage state, recent Experiment committed, no Outcome. Trigger skill. Verify Claude opens with "Did the metric move?" pattern, NOT with intake questions.
@@ -535,6 +544,7 @@ Factory Floor has an `evals/` directory with `agents/grader.md` and `agents/anal
 - **Claude Desktop degradation.** The manual workflow for Claude Desktop (founder uploads context.md as project knowledge, auto-write disabled) is honest but second-class. If Claude Desktop ever adds filesystem access, the state layer could work there natively.
 - **Pattern detection across weeks.** Problem E from the brainstorming ("you've named the same constraint 4 weeks running and the metric hasn't moved") is partially absorbed by Diagnosis entries capturing founder framing — Claude can notice patterns when reading the tail. A dedicated "drift detector" is deferred.
 - **Multi-company support.** One `.factory/` per CWD means a consultant with multiple clients uses separate directories. If a meaningful user asks for `~/.factory-floor/<company>/` global state with session-start switching, revisit.
+- **Eval runner framework.** `evals/README.md` describes a persona/scenario/judge/runs framework that doesn't exist yet. This spec captures the 8 state-layer scenarios as fixture files, but there's no runner to execute them. Building the runner (persona replay, judge integration, results aggregation) is a separate project that would let the fixtures become automated regression tests instead of manual validation checklists.
 
 ## 13. Summary of file changes
 
