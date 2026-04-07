@@ -53,7 +53,7 @@ START
         │
         ├─ Numbers drop at Acquisition → constraint = awareness/reach
         ├─ Numbers drop at Activation → constraint = onboarding/time-to-value
-        ├─ Numbers drop at Conversion → constraint = pricing/sales/objections
+        ├─ Numbers drop at Revenue → constraint = pricing/sales/objections
         ├─ Numbers drop at Retention → constraint = product/fit/success
         └─ Can't identify where it breaks → `references/pillar-goldratt.md`
               │
@@ -107,10 +107,10 @@ Read the **last 8 entries** from the bottom on every activation (count `##` head
 
 After loading state, open the conversation by acknowledging where things stand. Pick the first pattern that matches:
 
+- Most recent journal entry is >30 days old → "It's been a while. Has anything shifted — customer count, team, what's broken?"
 - Recent `Experiment committed` with no matching `Experiment outcome` → "Last week you committed to [experiment]. Did the metric move?"
 - Recent `Diagnosis` without follow-through → "Two weeks ago we named [constraint]. What's happened since?"
 - Most recent entry is `Kill decision` → "Last week you killed [what was killed] — what are you trying instead?"
-- Most recent journal entry is >30 days old → "It's been a while. Has anything shifted — customer count, team, what's broken?"
 - Fresh state, nothing pending → "Where do you want to focus today?"
 
 **For writing to state (ritual completion, bootstrap, edge cases) → load `references/state.md`.**
