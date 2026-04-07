@@ -85,3 +85,16 @@ Before routing to a stage file, you should know:
 - What they've tried
 
 If you have these, skip the intake and go straight to triage.
+
+---
+
+## Named protocols you can ask for by name
+
+If you've used Factory Floor before and want to skip ahead, you can invoke any of these directly:
+
+- **"Run the napkin test"** — pre-revenue: math the unit economics on paper before building anything
+- **"Run the five tests"** — pre-revenue: five gates an idea has to pass before you should build
+- **"Run the Mafia Offer protocol"** — pre-revenue: design an offer customers can't refuse, test it before building the MVP
+- **"Run the funnel break scan"** — any stage: walk through your last 10 signups/demos/deals to find where the funnel actually breaks
+- **"Do my weekly review"** — any stage: stage-appropriate review format, 10-25 min depending on stage
+- **"Run the positioning sprint"** — when positioning is the constraint: call 3 best customers, capture their exact words, ship the position
