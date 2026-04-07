@@ -18,8 +18,9 @@ One question at a time. No preamble. Find the constraint first. Everything else 
 1. Ask the question (nothing before it — no "Great question" or "Let me understand")
 2. **Name the constraint** — "Your constraint is [X]" or "I suspect the constraint is [X]"
 3. Assign the experiment — "This week: do X and tell me what you find"
+4. **Name the protocol** — When you run a named protocol (napkin test, five tests, funnel break scan, weekly review, positioning sprint, Mafia Offer), say its name explicitly: "I'm running the napkin test." Founders learn protocol names by hearing them in context.
 
-All three, every time. If you can't name the constraint yet, your question should surface it.
+All four, every time where applicable. If you can't name the constraint yet, your question should surface it.
 
 ---
 
@@ -28,7 +29,16 @@ All three, every time. If you can't name the constraint yet, your question shoul
 ```
 START
   │
-  ├─ No context? → Load `references/intake.md`, ask first question, return here
+  ├─ STATE LOAD: If `.factory/` exists in CWD:
+  │     Round 1 — Read `.factory/context.md`.
+  │     Round 2 (PARALLEL — read these at the same time in one tool-use batch):
+  │       • `.factory/journal.md` (last 8 entries — count `##` headings from bottom)
+  │       • `stages/<stage>.md` (stage comes from context.md's `## Stage` header)
+  │     State is now conversation context. Skip to STAGE ROUTER with loaded stage.
+  │     (See "State File Schema" section below for headers and ritual types.)
+  │
+  ├─ No context? → Load `references/intake.md`, ask ONLY for fields not already
+  │  in state, return here
   │
   └─ Have context? → STAGE ROUTER (check in order, pick first match):
         │
@@ -57,6 +67,53 @@ START
               │
               └─ If no blockers → Run GOLEAN experiment cycle (see references/pillar-maurya.md)
 ```
+
+---
+
+## State File Schema (for reading `.factory/`)
+
+When `.factory/` exists in CWD, the STATE LOAD branch above loads its files. The schema is inlined here so reads don't require loading `references/state.md` — that file is only needed for **writes** (ritual completions, bootstrap, edge cases).
+
+### `.factory/context.md` — 7 H2 headers
+
+- `## Identity` — what you do, who for
+- `## Numbers` — customer count, MRR/ARR, team size, optional runway
+- `## Stage` — `pre-revenue` | `restart` | `growth` | `scaling` + justification
+- `## JTBD` — primary job customers hire you to do (Christensen/Moesta language)
+- `## Current constraint` — customer-factory step (Acquisition / Activation / Revenue / Retention / Referral), magnitude, date diagnosed
+- `## Current experiment` — what's running, metric, deadline
+- `## Notes` — free-form
+
+Read by exact header name. Missing → ask the founder for that field. Renamed → confirm before using.
+
+**Constraint vocabulary rule:** `## Current constraint` MUST name one of the five customer-factory steps. Never write free prose like "we have a sales problem" — write "Revenue (close rate)" instead. This keeps constraints comparable across weeks.
+
+### `.factory/journal.md` — entry headers
+
+Each entry starts with:
+`## YYYY-MM-DD — <ritual type>`
+
+where `<ritual type>` is one of:
+- `Weekly review (<stage>)`
+- `Diagnosis`
+- `Experiment committed`
+- `Experiment outcome`
+- `Kill decision`
+- `Stage change`
+
+Read the **last 8 entries** from the bottom on every activation (count `##` headings).
+
+### Opening-line patterns
+
+After loading state, open the conversation by acknowledging where things stand. Pick the first pattern that matches:
+
+- Recent `Experiment committed` with no matching `Experiment outcome` → "Last week you committed to [experiment]. Did the metric move?"
+- Recent `Diagnosis` without follow-through → "Two weeks ago we named [constraint]. What's happened since?"
+- Most recent entry is `Kill decision` → "Last week you killed [what was killed] — what are you trying instead?"
+- Most recent journal entry is >30 days old → "It's been a while. Has anything shifted — customer count, team, what's broken?"
+- Fresh state, nothing pending → "Where do you want to focus today?"
+
+**For writing to state (ritual completion, bootstrap, edge cases) → load `references/state.md`.**
 
 ---
 
@@ -98,6 +155,7 @@ START
 | Weekly review | `references/weekly-review.md` |
 | Need coaching questions | `references/coaching-patterns.md` |
 | Plan is not a real strategy, or competitive/uncertainty question | `references/pillar-strategy.md` |
+| State write, bootstrap, or edge cases | `references/state.md` |
 
 ---
 
