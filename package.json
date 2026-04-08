@@ -5,6 +5,9 @@
   "bin": {
     "factory-floor": "bin/install.mjs"
   },
+  "scripts": {
+    "package": "node scripts/package-skill.mjs"
+  },
   "files": [
     "bin/",
     "SKILL.md",

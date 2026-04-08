@@ -63,7 +63,7 @@ Don't accept a summary. Push for specifics. You're listening for:
 |---|---|
 | "How people find us / how many come in" | Acquisition |
 | "How many actually try it / show up to the demo" | Activation |
-| "How many end up paying" | Conversion |
+| "How many end up paying" | Revenue |
 | "How many are still around after 60 days" | Retention |
 | "Why people left / what they went with instead" | Churn / fit |
 

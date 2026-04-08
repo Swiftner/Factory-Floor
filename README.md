@@ -40,6 +40,7 @@ clawhub install factory-floor
    - `references/intake.md`
    - `references/misdiagnoses.md`
    - `references/coaching-patterns.md`
+   - `references/state.md`
 4. Optionally upload reference files for deeper dives:
    - `references/jtbd.md`
    - `references/pillar-goldratt.md`
@@ -50,6 +51,8 @@ clawhub install factory-floor
    - `references/estimation.md`
 
 Start a conversation in that project and Claude will run the triage and route to the right stage — the same way the skill works in Claude Code.
+
+**State layer in Claude Desktop.** Claude Code writes `.factory/context.md` and `.factory/journal.md` to your working directory so you don't re-explain yourself each session. Claude Desktop has no filesystem, so the state layer works manually: paste your current `context.md` into the project or the chat at the start of a session, and when Claude suggests a state update (after a diagnosis, experiment, or weekly review), copy the edited version back into your project files. The schema and triggers in `references/state.md` are the same either way.
 
 ## What it does
 

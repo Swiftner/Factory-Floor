@@ -25,7 +25,7 @@ Run the format for their stage. Keep it tight — 10-25 minutes max depending on
 ## Growth (10 min)
 
 **1. Constraint (2 min)**
-- Name the current constraint: acquisition / activation / revenue / retention / flow.
+- Name the current constraint: acquisition / activation / revenue / retention / referral.
 - Did it move this week? Throughput up, down, or flat?
 
 **2. Numbers (3 min)**
