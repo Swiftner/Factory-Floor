@@ -17,6 +17,8 @@ Claude writes to state ONLY when one of these triggers fires during the conversa
 | 5 | Experiment killed early | Founder says they stopped an experiment before its deadline | Append `## YYYY-MM-DD — Kill decision` entry to `.factory/journal.md` AND clear `## Current experiment` in `.factory/context.md` (set to empty or "none active") |
 | 6 | Stage transition confirmed | Customer/MRR/team numbers changed enough to shift stage (per thresholds in `SKILL.md` decision tree) AND founder confirms the stage change | Update `## Stage` in `.factory/context.md` AND append `## YYYY-MM-DD — Stage change` entry to `.factory/journal.md` |
 | 7 | Numbers change mentioned | Founder presents a number as a status update (not a passing aside) — e.g., any integer change to customer count, or a >10% change in MRR/ARR, team size changes, runway changes. | Update `## Numbers` in `.factory/context.md`. **No journal entry** — Numbers churn freely and don't need historical logging. |
+| 8 | Sprint review | Follows an `Experiment outcome` write in the same exchange. Founder explicitly states one of: "persevere", "pivot", or "pause" (or clear equivalent like "keep going", "try something different on the same thing", "move on to the next constraint"). If founder doesn't offer the decision, Claude MUST ask: "So — Persevere (keep iterating on this constraint), Pivot (different experiment on same constraint), or Pause (constraint moved, move on)?" before writing. | Append `## YYYY-MM-DD — Sprint review` entry to `.factory/journal.md`. If decision = Pause AND a new constraint was diagnosed in the same exchange, trigger #3 (Diagnosis) also fires and that entry is written first. |
+| 9 | Coherence check | Claude ran the ritual from `references/coherence-check.md` to its end — all 5 pivotal questions answered AND one action committed. | Append `## YYYY-MM-DD — Coherence check` entry to `.factory/journal.md`. If the committed action is a canvas edit, ALSO update the relevant header in `.factory/context.md` (`## Identity`, `## JTBD`, or `## Current constraint`) per the action. |
 
 ### Sub-section templates
 
@@ -103,6 +105,31 @@ Claude writes to state ONLY when one of these triggers fires during the conversa
 **To:** <new stage>
 **Trigger:** <what changed — first paying customer, crossed $100K MRR, lost all customers, etc.>
 **What changes about how we work:** <brief — the new stage file has the full guidance>
+```
+
+**Sprint review:**
+
+```markdown
+## YYYY-MM-DD — Sprint review
+**Decision:** <Persevere / Pivot / Pause>
+**Constraint (at decision time):** <customer-factory step>
+**Rationale:** <why this decision — one sentence>
+**Next move:**
+  - Persevere → <next experiment on same constraint, with metric + deadline>
+  - Pivot → <different experiment on same constraint, with metric + deadline>
+  - Pause → <what constraint we're moving to, or "refocus via Coherence check">
+```
+
+**Coherence check:**
+
+```markdown
+## YYYY-MM-DD — Coherence check
+**Trigger:** <stage-transition / founder-requested / drift-detector>
+**Tensions found:**
+  - <Pillar A says X, Pillar B says Y — one bullet per tension, max 3>
+**Biggest tension:** <the one we're acting on>
+**Action committed:** <canvas-edit / new-diagnosis / new-experiment + specifics>
+**Canvas fields edited:** <list the `##` headers touched in context.md, or "none">
 ```
 
 ### Founder override rule
