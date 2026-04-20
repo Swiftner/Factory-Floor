@@ -98,3 +98,5 @@ If you've used Factory Floor before and want to skip ahead, you can invoke any o
 - **"Run the funnel break scan"** — any stage: walk through your last 10 signups/demos/deals to find where the funnel actually breaks
 - **"Do my weekly review"** — any stage: stage-appropriate review format, 10-25 min depending on stage
 - **"Run the positioning sprint"** — when positioning is the constraint: call 3 best customers, capture their exact words, ship the position
+- **"Run a Sprint review"** — after an experiment finishes: log the outcome and decide Persevere / Pivot / Pause
+- **"Run a Coherence check"** — any post-pre-revenue stage: stress-test the plan across JTBD, constraint, awareness, positioning, and strategy. Surfaces tensions between pillars, commits to one action.
