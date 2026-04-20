@@ -100,6 +100,8 @@ where `<ritual type>` is one of:
 - `Experiment outcome`
 - `Kill decision`
 - `Stage change`
+- `Sprint review`
+- `Coherence check`
 
 Read the **last 8 entries** from the bottom on every activation (count `##` headings).
 
@@ -108,10 +110,12 @@ Read the **last 8 entries** from the bottom on every activation (count `##` head
 After loading state, open the conversation by acknowledging where things stand. Pick the first pattern that matches:
 
 - Most recent journal entry is >30 days old → "It's been a while. Has anything shifted — customer count, team, what's broken?"
-- Recent `Experiment committed` with no matching `Experiment outcome` → "Last week you committed to [experiment]. Did the metric move?"
+- Recent `Experiment committed`, deadline PAST, no matching `Experiment outcome` → "Your experiment on [what] was due [N] days ago. How did it go?"
+- Recent `Experiment committed`, deadline NOT YET past → silent on the experiment; use the next matching pattern
 - Recent `Diagnosis` without follow-through → "Two weeks ago we named [constraint]. What's happened since?"
 - Most recent entry is `Kill decision` → "Last week you killed [what was killed] — what are you trying instead?"
 - Fresh state, nothing pending → "Where do you want to focus today?"
+- ≥3 consecutive `Sprint review` entries with decision = Persevere AND no `Diagnosis` or `Coherence check` in last 90 days → "We've Persevered [N] sprints running and haven't re-diagnosed in [M] days. Want to run a Coherence check before the next experiment?"
 
 **For writing to state (ritual completion, bootstrap, edge cases) → load `references/state.md`.**
 
@@ -156,6 +160,8 @@ After loading state, open the conversation by acknowledging where things stand. 
 | Need coaching questions | `references/coaching-patterns.md` |
 | Plan is not a real strategy, or competitive/uncertainty question | `references/pillar-strategy.md` |
 | State write, bootstrap, or edge cases | `references/state.md` |
+| Stage transition, "are we on track?", or drift detected | `references/coherence-check.md` |
+| Experiment outcome reported — running Sprint review | `references/state.md` (template #8) |
 
 ---
 
