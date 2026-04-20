@@ -114,6 +114,7 @@ After loading state, open the conversation by acknowledging where things stand. 
 - Recent `Experiment committed`, deadline NOT YET past → silent on the experiment; use the next matching pattern
 - Recent `Diagnosis` without follow-through → "Two weeks ago we named [constraint]. What's happened since?"
 - Most recent entry is `Kill decision` → "Last week you killed [what was killed] — what are you trying instead?"
+- Most recent entry is `Stage change` → "You just moved from [X] to [Y]. Want to run a Coherence check before locking into [Y] habits?"
 - Fresh state, nothing pending → "Where do you want to focus today?"
 - ≥3 consecutive `Sprint review` entries with decision = Persevere AND no `Diagnosis` or `Coherence check` in last 90 days → "We've Persevered [N] sprints running and haven't re-diagnosed in [M] days. Want to run a Coherence check before the next experiment?"
 
