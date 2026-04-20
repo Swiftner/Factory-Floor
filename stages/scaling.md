@@ -392,4 +392,6 @@ were cut because JTBD data showed customers didn't need them.
 
 ## The Full Weekly Review (25 minutes)
 
+**Sprint review runs at experiment deadline, not weekly.** The Full Weekly Review below is cadence; sprint reviews are decision points. See `references/state.md` §1 trigger #8.
+
 See `references/weekly-review.md` — Scaling section. Run it now.

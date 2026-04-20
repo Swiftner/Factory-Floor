@@ -482,9 +482,13 @@ WIP tags shift. The throughput metric changes from "trials generated" to
 
 See `references/weekly-review.md` — Growth section. Run it now.
 
+**Sprint review (at experiment deadline, not weekly):** After each `Experiment outcome`, run the Persevere / Pivot / Pause decision. See `references/state.md` §1 trigger #8.
+
 ---
 
 ## When to Graduate
+
+**Before moving to scaling, run a Coherence check.** 10+ people means policy constraints start dominating; the plan needs to hold up across all pillars. See `references/coherence-check.md`.
 
 You're ready for `stages/scaling.md` when:
 

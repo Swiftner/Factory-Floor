@@ -271,6 +271,8 @@ You don't have funnel metrics yet. Your review is different:
 
 ## When to Graduate
 
+**When you hit graduation criteria, offer a Coherence check before moving to growth.** First-customer transitions are where founders ossify bad assumptions. See `references/coherence-check.md`.
+
 You're ready for `stages/growth.md` when:
 
 - You have paying customers who weren't friends-and-family.

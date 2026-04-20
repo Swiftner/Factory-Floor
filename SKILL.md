@@ -161,7 +161,7 @@ After loading state, open the conversation by acknowledging where things stand. 
 | Plan is not a real strategy, or competitive/uncertainty question | `references/pillar-strategy.md` |
 | State write, bootstrap, or edge cases | `references/state.md` |
 | Stage transition, "are we on track?", or drift detected | `references/coherence-check.md` |
-| Experiment outcome reported — running Sprint review | `references/state.md` (template #8) |
+| Experiment outcome reported — running Sprint review | `references/state.md` §1 trigger #8 |
 
 ---
 
