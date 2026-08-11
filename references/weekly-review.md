@@ -1,83 +1,65 @@
 # Weekly Review
 
-Load when the founder asks for a review, check-in, or wants to go over the week.
-Run the format for their stage.
+**Mindset:** not a status meeting, not a morale exercise. It exists to re-confirm or
+move the constraint and leave with one clear priority. If everyone feels good and
+nothing was named, it failed.
 
-**The mindset:** this is not a status meeting and not a morale exercise. It exists
-to re-confirm or move the constraint and to leave with one clear priority. If
-everyone feels good and nothing was named, the review failed.
+This is **PROCEDURE mode** — run the format, in order, directively. But take each
+number *before* you comment on it. Their read first, then yours.
 
-**Rules:** go in order, don't skip steps · a missing number is recorded as unknown,
-never estimated · keep to the time budget.
+**Rules:** go in order · a missing number is recorded as unknown, never estimated ·
+keep to the time budget.
 
 **Always end with:** *"What is the one thing we will NOT do next week that we might
 be tempted to do?"*
 
 ---
 
-## Pre-revenue (10 min)
+## Pre-revenue — 10 min
 
-**1. Conversations (5 min)**
-- How many real conversations with potential customers this week?
-- What do you know now that you didn't on Monday?
-- Did anything surprise you — good or bad?
+1. **Conversations (5).** How many real ones? What do you know now that you didn't
+   on Monday? Anything surprise you?
+2. **Hypothesis (3).** State it: *"[Customer] struggles with [problem] and will pay
+   for [solution]."* Still believed? What moved it?
+3. **One thing (2).** The single most important thing to **learn or test**. Not build.
 
-**2. Hypothesis check (3 min)**
-- State it in one sentence: *"[Customer] struggles with [problem] and will pay for [solution]."*
-- Still believed? What evidence moved it forward or back?
+## Growth — 10 min
 
-**3. Next week's one thing (2 min)**
-- The single most important thing to **learn or test**. Not build.
+1. **Constraint (2).** Name the step. Did it move — up, down, flat?
+2. **Numbers (3).** Found ___ · Activated ___ · Paid ___ · Churned ___ · Biggest drop-off?
+3. **Work pile (3).** What's in progress? Anything over 2 weeks — why? What shipped?
+4. **Three priorities (2).** Only things serving the constraint. One named owner each.
 
----
+## Scaling — 25 min
 
-## Growth (10 min)
-
-**1. Constraint (2 min)**
-- Name it: acquisition / activation / revenue / retention / referral.
-- Did it move? Throughput up, down, or flat?
-
-**2. Numbers (3 min)**
-- Found: ___ · Activated: ___ · Paid: ___ · Churned: ___
-- Where's the biggest drop-off?
-
-**3. Work pile (3 min)**
-- What's in progress? List it.
-- Anything in progress more than 2 weeks? Why?
-- What actually shipped?
-
-**4. Next week's 3 priorities (2 min)**
-- Only things serving the constraint. One owner each, by name.
+1. **Funnel snapshot (5).** Draw it, mark the biggest drop-off. Same as last week?
+2. **Buffer and flow (5).** Where is work piling up? Where is capacity idle? Anything
+   "almost done" for over 2 weeks?
+3. **Traffic lights (10).** 🟢 on track · 🟡 at risk, needs attention this week ·
+   🔴 stalled, consider killing.
+4. **Policy scan (3).** Any rule that made sense 6 months ago and now slows things
+   down? Usual culprits: approval chains, meeting load, hiring process, release gates.
+5. **Focus (2).** One thing the team rallies around. What does done look like?
 
 ---
 
-## Scaling (25 min)
+## Score last week's predictions
 
-**1. Funnel snapshot (5 min)**
-Draw it: Awareness → Acquisition → Activation → Revenue → Retention. Mark the
-biggest drop-off. Same as last week? (Diagram template below.)
+Every review, before anything else: **pull the open prediction from `context.md` and
+score it.** Was the number right? How confident were they?
 
-**2. Buffer and flow (5 min)**
-- Where is work piling up? Where is capacity idle?
-- Anything "almost done" for more than 2 weeks?
+Quarterly, show the tally — 40–60% right is calibrated, over 70% means they're only
+predicting safe things, under 30% means overconfident. Details →
+`references/playbooks.md`.
 
-**3. Initiative traffic lights (10 min)**
-- 🟢 On track — constraint served, throughput moving
-- 🟡 At risk — behind or blocked, needs attention this week
-- 🔴 Stalled — consider pausing or killing
-
-**4. Policy constraint scan (3 min)**
-- Any rule, process, or habit that made sense 6 months ago and now slows things down?
-- Usual culprits: approval chains, meeting load, hiring process, release gates.
-
-**5. Next week's focus (2 min)**
-- One thing the team rallies around. What does "done" look like?
+This is the part that makes the rest work. Without it the founder is operating in an
+environment that never tells them whether they were right.
 
 ---
 
-## Funnel diagram (scaling review)
+## Funnel diagram
 
-Write as a `.mmd` file, render with `scripts/render-diagram.mjs`.
+Write as `.mmd`, render with `scripts/render-diagram.mjs`.
 
 ```mermaid
 graph TD
@@ -90,18 +72,15 @@ graph TD
     style AU fill:#ff6b6b,stroke:#c0392b,stroke-width:3px,color:#fff
 ```
 
-- Replace the numbers with theirs — actual or estimated.
-- Highlight the constraint node in red (`fill:#ff6b6b,stroke:#c0392b,stroke-width:3px,color:#fff`).
-- Constraint is a conversion rate between steps? Highlight both adjacent nodes.
-- Add a line below naming the constraint in plain language.
-
-**Rendering** (once: `cd scripts && npm install`):
+Replace with their numbers. Highlight the constraint node in red; if the constraint
+is a conversion rate, highlight both adjacent nodes. Add a line naming it in plain
+language.
 
 ```bash
-node scripts/render-diagram.mjs funnel.mmd funnel.svg
-node scripts/render-diagram.mjs funnel.mmd funnel.svg --theme brand-light
+cd scripts && npm install          # once
+node scripts/render-diagram.mjs funnel.mmd funnel.svg [--theme brand-light]
 ```
 
-Themes: `brand-dark` (default), `brand-light`, plus `zinc-dark`, `tokyo-night`,
+Themes: `brand-dark` (default), `brand-light`, `zinc-dark`, `tokyo-night`,
 `catppuccin-mocha`, `nord`, `dracula`, `github-dark`, `zinc-light`,
 `tokyo-night-light`, `catppuccin-latte`, `github-light`.

@@ -8,11 +8,13 @@ A Claude Code skill called **Factory Floor** — a startup operating system for 
 
 ## Architecture
 
-The skill is **decision-tree routed**: SKILL.md is a thin router (~130 lines) with a decision tree that identifies the startup's stage and constraint, then instructs Claude to read the appropriate stage file. This keeps context lean — a day-1 founder never sees fever charts, and a year-3 company doesn't re-read the napkin test.
+The skill is **decision-tree routed**: SKILL.md is a thin router that sorts the request into one of two modes, identifies the startup's stage and constraint, then loads one file. Ten files, ~45KB total. Context stays lean — a day-1 founder never sees fever charts, and a year-3 company doesn't re-read the napkin test.
 
 ### SKILL.md (the router)
 
-Contains: frontmatter, the stance and "never" lists, the four-part response contract, decision tree (stage routing + funnel break scan), symptom → constraint map, reference routing table, GOLEAN + reflexes, the inline state read schema, and the core rule. **After triage, SKILL.md tells Claude to read one of the stage files.**
+Contains: frontmatter, **the two-mode sort**, the order of operations, the feedback rule, the confidence table, the decision tree, candidate hypotheses, the routing table, the cycle and reflexes, and the inline state read schema.
+
+**The two-mode sort is the spine of the skill.** Field experiments on AI advice split by task, not by user: on structured, verifiable work an assistant lifts the least experienced most (+34%); on ambiguous, judgment-dependent work it makes them worse (−8% to −19pp). So PROCEDURE requests get maximum directiveness, JUDGMENT requests get a discriminating test and no prescription. Any new content must declare which mode it serves. When in doubt it is JUDGMENT.
 
 ### The editing principle: assume the model knows the theory
 
@@ -35,38 +37,31 @@ This skill is deliberately opinionated, and the failure mode of opinionated inst
 
 Every strong claim needs its boundary stated. In practice that means:
 
-- **Defaults, not laws.** `SKILL.md` separates the few genuine `Always` rules from `Strong defaults` plus an explicit "break a default when" list. New behavioral rules go in one bucket or the other — never as a bare "never."
+- **Defaults, not laws.** `SKILL.md` keeps only four genuine `Always` rules; everything else bends when the founder explicitly asks for something else. New behavioral rules must say when they don't apply.
 - **Priors, not verdicts.** The nine misdiagnoses in `probes.md` each carry a "it's right when" row. Any new pattern-match needs the same.
 - **Signals, not gates.** Stage thresholds are heuristics; when numbers and symptoms disagree, symptoms win.
 - **Confidence matched to evidence.** "I don't know yet" is a supported output, and the calibration table in `SKILL.md` says when to use it.
-- **Name apparent contradictions and resolve them.** Sharp's "cast wider" vs. Ritson's "target narrowly" is resolved explicitly in both files (different layers: reach vs. targeting). If two pillars appear to conflict, don't leave the model to guess — write the resolution into both.
+- **Name apparent contradictions and resolve them.** If two frameworks appear to conflict, write the resolution down rather than leaving the model to guess.
+- **Directiveness follows the mode, not the founder's distress.** A lost founder should get *more* force on procedure and *less* certainty on diagnosis, both at once.
 
 When adding an opinion, write the sentence that starts "this is wrong when…" If you can't, you don't understand the opinion well enough to include it.
 
 ### stages/
 
-Self-contained operational files — each applies the relevant pillars in place rather than sending Claude to read them separately. Each opens with the mindset for that stage and what to refuse.
+Mindset + refusals + the stage-specific sequence. Each opens with the posture for that stage, what not to accept, and where that bends.
 
-- `pre-revenue.md` — Day 1 to first paying customer. Job statement, 5-minute canvas, the five tests (not-not, job, Lean Canvas, napkin, Mafia Offer), what to do instead of building, solo-founder subordination, weekly review, graduation.
-- `restart.md` — Had customers, lost them. Forensics before anything (product vs. fit vs. sales execution failure), the four forensic questions, restart sequence, anti-patterns, graduation.
-- `growth.md` — Post-revenue to ~$100K MRR, team under 10. Instrumentation, "Before You Build" awareness check, brand vs. activation, awareness cadence, subordination matrix, customer factory, WIP/buffer/estimation, fever chart, JTBD rhythm, graduation.
-- `scaling.md` — $100K+ MRR or 10+ people. Policy constraints, awareness per segment, two-layer constraint work, hiring as elevation, multi-quarter initiatives, business-model constraints, CCPM and timeline communication, handling a constraint shift.
+- `pre-revenue.md` — Day 1 to first paying customer. The job question, the sequence, solo-founder subordination, graduation.
+- `restart.md` — Had customers, lost them. The first question, four forensic questions, the restart sequence, anti-patterns.
+- `growth.md` — Post-revenue to ~$100K MRR, under 10 people. Instrumentation, exploit/subordinate, subordination matrix, WIP and buffer discipline, JTBD rhythm.
+- `scaling.md` — $100K+ MRR or 10+ people. Policy constraints, two-layer constraint work, hiring as elevation, multi-quarter initiatives, constraint shifts.
 
 ### references/
 
-Loaded on demand when the router points at one. Each is stance + protocol for a single pillar — never a summary of the source material.
-
-- `intake.md` — First-conversation questions, vague-answer probes, funnel break scan, named protocols
-- `probes.md` — The question behind the question, nine wrong diagnoses, probes by situation, anti-patterns
-- `pillar-goldratt.md` — Theory of Constraints: identifying it, signals by function, context-switching tax, pacing
-- `pillar-maurya.md` — Customer Factory: canonical vocabulary, constraint by maturity, repeatability, Innovator's Bias, referral gates
-- `pillar-sharp.md` — Mental & physical availability: the four-question diagnostic, CEP mapping exercise, physical availability audit
-- `pillar-ritson.md` — Marketing strategy discipline: the five-question diagnostic, positioning rules, differentiation vs. distinctiveness, budget split, positioning sprint
-- `jtbd.md` — Switch interviews (three layers of language, questions by force, sample size), deciding what to build, JTBD → positioning, demand generation vs. capture
-- `pillar-strategy.md` — Testing whether a plan is a strategy, coaching moves for fog/overextension/competition/negotiation, alignment replaces control
-- `estimation.md` — CCPM method and multipliers, estimate vs. measure vs. time-box, calibrating to 50%
-- `weekly-review.md` — Review format per stage, plus the Customer Factory funnel diagram template and rendering
-- `state.md` — Write triggers, entry templates, bootstrap, edge cases (a machine contract — keep it precise, not terse)
+- `intake.md` — First conversation, vague-answer probes, what's enough to proceed
+- `probes.md` — The question behind the question, nine usually-wrong diagnoses with their "it's right when" row, anti-patterns
+- `playbooks.md` — **Every mechanical procedure in one file.** Funnel scan, napkin test, five tests, Mafia Offer, switch interviews, CEP mapping, physical availability audit, positioning sprint, awareness check, estimation and buffers, premortem, calibration scoring
+- `weekly-review.md` — Format per stage, prediction scoring, funnel diagram
+- `state.md` — Write triggers, templates, bootstrap, edge cases (a machine contract — precise, not terse)
 
 ### scripts/
 
@@ -75,11 +70,11 @@ Loaded on demand when the router points at one. Each is stance + protocol for a 
 
 ## Key Relationships
 
-The framework flows in one direction: **JTBD provides the strategic intelligence** (what job does the customer hire you to do?), **Goldratt provides the system-level thinking** (find the constraint, exploit/subordinate/elevate), **Maurya maps it to the startup business model** (customer factory steps as the "machines"), **Sharp provides the diagnosis when the constraint is at the top of the funnel** (nobody knows you exist), **Ritson provides the strategic discipline that makes the other frameworks coherent** (diagnosis before strategy, strategy before tactics), and **Rumelt, Clausewitz, and Dixit & Nalebuff provide the strategic reasoning layer** (is this actually a strategy? how to operate under uncertainty, and what the other side will do).
+JTBD supplies the intelligence (what job is being hired), Goldratt the system view (one constraint; exploit, subordinate, elevate), Maurya the machine (the five factory steps), Sharp the diagnosis when the break is at the top of the funnel, Ritson the strategic discipline, and Rumelt/Clausewitz/Dixit & Nalebuff the reasoning layer. Struggling moments and Category Entry Points are the same list.
 
-JTBD sits underneath the other five — struggling moments are Category Entry Points, the four forces explain why customers flow (or don't) through the factory, and under-served outcomes tell you what to build.
+The model knows all of it. What the repo owns is the sequence in which those ideas get applied, and the refusal to state a conclusion the numbers don't support.
 
-When editing, maintain this hierarchy. Changes to core concepts in one pillar should be checked against the others for consistency. The stage files synthesize all six pillars — they should never contradict the reference files.
+**Two apparent contradictions are resolved deliberately — keep them resolved.** Sharp's "cast wider" and Ritson's "target narrowly" operate on different dials (reach vs. targeting), stated in `playbooks.md` under the positioning sprint. And "exactly one constraint" bends twice: an existential threat runs alongside, and an oscillating constraint means undiagnosed rather than pick-one.
 
 ## Content Ownership
 
@@ -89,12 +84,12 @@ Duplication is the failure mode this repo drifts toward. Before adding anything,
 
 | Content | Single home |
 |---|---|
-| GOLEAN cycle + reflexes | `SKILL.md` |
-| Response contract, stance, refusals | `SKILL.md` (per-file stance blocks are stage/pillar-specific, not repeats) |
+| Two-mode sort, order of operations, reflexes | `SKILL.md` |
+| Confidence table, feedback rule | `SKILL.md` (per-file mindset blocks are stage-specific, not repeats) |
 | State read schema | `SKILL.md`; writes in `references/state.md` |
-| 5-minute canvas | `stages/pre-revenue.md` |
-| Subordination matrix, fever chart, WIP rules | `stages/growth.md` |
-| Awareness diagnostic (3 questions) | `stages/growth.md`; the per-segment version in `stages/scaling.md` |
-| CEP mapping, physical availability audit | `references/pillar-sharp.md` |
-| Buffer multipliers, calibration | `references/estimation.md` |
-| Weekly review formats + funnel diagram | `references/weekly-review.md` |
+| 5-minute canvas, switch interviews | `references/playbooks.md` |
+| Subordination matrix, WIP rules | `stages/growth.md` |
+| Awareness check, CEP mapping | `references/playbooks.md` |
+| Every mechanical procedure | `references/playbooks.md` |
+| Buffer multipliers, calibration scoring | `references/playbooks.md` |
+| Weekly review formats, prediction scoring, funnel diagram | `references/weekly-review.md` |

@@ -39,15 +39,11 @@ clawhub install factory-floor
    - `stages/scaling.md`
    - `references/intake.md`
    - `references/probes.md`
+   - `references/playbooks.md`
+   - `references/weekly-review.md`
    - `references/state.md`
-4. Optionally upload reference files for deeper dives:
-   - `references/jtbd.md`
-   - `references/pillar-goldratt.md`
-   - `references/pillar-maurya.md`
-   - `references/pillar-sharp.md`
-   - `references/pillar-ritson.md`
-   - `references/pillar-strategy.md`
-   - `references/estimation.md`
+
+That's the whole skill — ten files, about 45KB.
 
 Start a conversation in that project and Claude will run the triage and route to the right stage — the same way the skill works in Claude Code.
 
@@ -81,25 +77,46 @@ A quick triage loads the right playbook:
 | **[Growth](stages/growth.md)** | Have customers, small team. Find the constraint, exploit it, run the system. GOLEAN sprints, WIP limits, brand building vs. activation. |
 | **[Scaling](stages/scaling.md)** | $100K+ MRR or 10+ people. Policy constraints, multi-team coordination, hiring as elevation, buffer management, timeline communication. |
 
-## The six frameworks
+## Two modes
 
-Each covers a different blind spot:
+Field experiments on AI advice disagree about who benefits — until you sort them by
+task. On structured, checkable work an assistant lifts the least experienced people
+most. On ambiguous, judgment-dependent work it makes them worse. Same model, same
+person; the task decides.
 
-**Jobs To Be Done** — Why customers buy (and don't). The four forces behind every deal: push, pull, anxiety, habit. Switch interviews, a 5-minute post-conversation canvas, opportunity scoring. ([Reference](references/jtbd.md))
+So Factory Floor runs in two modes and sorts every question before answering:
 
-**Theory of Constraints** (Goldratt) — Your startup has exactly one bottleneck. Find it, squeeze it, subordinate everything else. Triage, role-by-constraint table, WIP discipline. ([Reference](references/pillar-goldratt.md))
+**Procedure** — funnel arithmetic, the weekly review, napkin math, buffer sizing, WIP
+limits, interview scripts, CEP mapping, the positioning sprint. The answer is
+checkable, so it's maximally directive. No hedging, no options.
 
-**Customer Factory** (Maurya) — Acquisition → Activation → Revenue → Retention → Referral. Which step is broken? GOLEAN cycles, napkin test, Mafia Offer. ([Reference](references/pillar-maurya.md))
+**Judgment** — what your constraint is, whether to pivot, whether this is the right
+segment, why they churned. The answer is a claim about your business that nobody can
+verify, so it won't prescribe. It takes your theory first, then designs the test that
+tells the two of you apart — and names a constraint only when a number supports it.
 
-**How Brands Grow** (Sharp) — Growth comes from reaching non-buyers, not delighting power users. CEP mapping, physical availability audit, reach over frequency. ([Reference](references/pillar-sharp.md))
+Practically: it will be *more* opinionated than most tools about how you work, and
+markedly less confident than most tools about what's wrong with your company.
 
-**Marketing Strategy Discipline** (Ritson) — Diagnosis before strategy, strategy before tactics. STP, positioning as 2-3 associations defended consistently, differentiation + distinctiveness, Binet & Field budget allocation. ([Reference](references/pillar-ritson.md))
+## The prediction ledger
 
-**Strategic Thinking** (Rumelt, Clausewitz, Dixit & Nalebuff) — Is what you are doing actually a strategy? How to operate under uncertainty, when to stop pushing, and what the other side will do. ([Reference](references/pillar-strategy.md))
+Startups are a terrible place to learn, because feedback is slow, noisy and
+confounded — so experience alone never corrects your instincts. Well-prepared and
+poorly-prepared founders turn out to be equally confident.
 
-Plus [estimation](references/estimation.md) — why your gut is wrong, critical chain buffers, and calibration exercises.
+Factory Floor takes your prediction *before* it comments, writes it to
+`.factory/journal.md` with a confidence number, and scores it when the experiment
+returns. Each quarter it shows your hit rate. 40–60% right means you're calibrated;
+above 70% means you're only predicting safe things.
 
-JTBD sits underneath the other five. You can't find the constraint if you don't know what job the customer hired you to do.
+## The frameworks underneath
+
+Jobs To Be Done, Theory of Constraints (Goldratt), the Customer Factory (Maurya),
+How Brands Grow (Sharp), marketing strategy discipline (Ritson), and strategic
+thinking (Rumelt, Clausewitz, Dixit & Nalebuff).
+
+The skill doesn't explain any of them — the model already knows them. It carries the
+procedures, the thresholds, and the posture. That's why it fits in ten short files.
 
 ## Things you can ask
 
