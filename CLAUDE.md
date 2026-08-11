@@ -8,7 +8,7 @@ A Claude Code skill called **Factory Floor** — a startup operating system for 
 
 ## Architecture
 
-The skill is **decision-tree routed**: SKILL.md is a thin router that sorts the request into one of two modes, identifies the startup's stage and constraint, then loads one file. Ten files, ~45KB total. Context stays lean — a day-1 founder never sees fever charts, and a year-3 company doesn't re-read the napkin test.
+The skill is **decision-tree routed**: SKILL.md is a thin router that sorts the request into one of two modes, identifies the startup's stage and constraint, then loads one file. Ten files, ~55KB total. Context stays lean — a day-1 founder never sees fever charts, and a year-3 company doesn't re-read the napkin test.
 
 ### SKILL.md (the router)
 
@@ -80,7 +80,7 @@ The model knows all of it. What the repo owns is the sequence in which those ide
 
 Operational content (what to do, when, how) belongs in stage files. Pillar-specific stance and protocol belongs in references. If content appears in both, the stage file is authoritative for the operational version and the reference is authoritative for the protocol. **Don't duplicate — cross-reference.**
 
-Duplication is the failure mode this repo drifts toward. Before adding anything, grep for it. The GOLEAN cycle, the fever chart thresholds, the "looks cool isn't validation" rule, and the awareness diagnostic have each been written three or more times in past versions; each now has exactly one home:
+Duplication is the failure mode this repo drifts toward. Before adding anything, grep for it. The experiment cycle, the fever chart thresholds, the "looks cool isn't validation" rule, and the awareness diagnostic were each written three or more times in past versions; each now has exactly one home:
 
 | Content | Single home |
 |---|---|

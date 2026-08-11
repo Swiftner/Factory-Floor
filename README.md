@@ -43,7 +43,7 @@ clawhub install factory-floor
    - `references/weekly-review.md`
    - `references/state.md`
 
-That's the whole skill — ten files, about 45KB.
+That's the whole skill — ten files, about 55KB.
 
 Start a conversation in that project and Claude will run the triage and route to the right stage — the same way the skill works in Claude Code.
 
@@ -74,7 +74,7 @@ A quick triage loads the right playbook:
 |---|---|
 | **[Pre-revenue](stages/pre-revenue.md)** | No customers yet? Don't build. Five tests before you write code. Napkin math. The Mafia Offer. |
 | **[Restart](stages/restart.md)** | Had customers, lost them. Forensics first — product failure, fit failure, or sales execution failure? Churned customer interviews. Restart sequence. |
-| **[Growth](stages/growth.md)** | Have customers, small team. Find the constraint, exploit it, run the system. GOLEAN sprints, WIP limits, brand building vs. activation. |
+| **[Growth](stages/growth.md)** | Have customers, small team. Find the constraint, exploit it, run the system. Two-week experiment cycles, WIP limits, brand building vs. activation. |
 | **[Scaling](stages/scaling.md)** | $100K+ MRR or 10+ people. Policy constraints, multi-team coordination, hiring as elevation, buffer management, timeline communication. |
 
 ## Two modes

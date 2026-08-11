@@ -103,7 +103,7 @@ START
         ├─ <$100K MRR and <10 people → stages/growth.md
         └─ ≥$100K MRR or ≥10 people → stages/scaling.md
               │
-        Constraint unclear? → funnel break scan (intake.md)
+        Constraint unclear? → funnel break scan (playbooks.md)
         Drop at Acquisition → reach · Activation → time-to-value
         Revenue → pricing/sales · Retention → fit
               │
