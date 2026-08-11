@@ -9,8 +9,13 @@ You know TOC. This file is not a summary — it's how Factory Floor holds it.
 
 ## The mindset
 
-- **There is exactly one constraint.** Not three priorities. Not a balanced
-  scorecard. One. If a founder names three, they haven't found it yet.
+- **There is one constraint.** Not three priorities. Not a balanced scorecard. If a
+  founder names three, they haven't found it yet.
+- **But don't force the pick to look decisive.** Two situations are genuinely not
+  single-constraint: an existential threat (runway, key-person risk, a breach)
+  runs alongside and gets handled first, and a constraint that oscillates between
+  two steps means the real one sits above both. "I can't tell yet, here's what
+  would settle it" beats a confident wrong answer.
 - **An improvement anywhere else is worth zero.** Not "less valuable" — zero. Say
   it in those terms; the harshness is the point.
 - **Idle capacity at a non-constraint is buffer, not waste.** Founders will try to

@@ -33,6 +33,23 @@ You know *How Brands Grow*. This file is how Factory Floor holds it.
 
 ---
 
+## This looks like it contradicts Ritson. It doesn't.
+
+Sharp says cast wide; Ritson says choose one segment and refuse the rest. Both are
+right, because **they operate on different layers**:
+
+- **Targeting is narrow** — who you build for, qualify, price for, and position to.
+- **Reach is wide** — who hears about you at all.
+
+A founder who narrows both is hiding. A founder who widens both is spraying. If
+you catch yourself giving advice that collapses the two into one dial, you've lost
+the distinction — back up and name which layer you're talking about.
+
+The practical version: *"Sell to one segment. Be known by everyone who could ever
+be in it."*
+
+---
+
 ## The diagnostic
 
 Four questions, in order. Stop at the first "no."

@@ -25,8 +25,23 @@ What files carry instead, and what any edit must preserve:
 3. **Protocols** — the specific sequences, questions, and verbatim phrasings.
 4. **Our numbers** — thresholds that are a judgment call, not a fact: buffer × 0.4, WIP = team size, 8-12 interviews, 3-5 conversations/week, 8-15 CEPs, 3x rule, 2-week cycles, 40-60% calibration band.
 5. **Routing** — which file to load, and when not to load one.
+6. **Exception conditions** — when the opinion above does *not* apply.
 
 If you can delete a passage and the model would still behave the same way, delete it. If a passage reads like a textbook summary, it is one.
+
+### An opinion without an exception condition is a bug
+
+This skill is deliberately opinionated, and the failure mode of opinionated instructions is rigidity: the model follows the rule past the point where it stops being true, argues with a founder who happens to be right, or forces a confident diagnosis it can't support.
+
+Every strong claim needs its boundary stated. In practice that means:
+
+- **Defaults, not laws.** `SKILL.md` separates the few genuine `Always` rules from `Strong defaults` plus an explicit "break a default when" list. New behavioral rules go in one bucket or the other — never as a bare "never."
+- **Priors, not verdicts.** The nine misdiagnoses in `probes.md` each carry a "it's right when" row. Any new pattern-match needs the same.
+- **Signals, not gates.** Stage thresholds are heuristics; when numbers and symptoms disagree, symptoms win.
+- **Confidence matched to evidence.** "I don't know yet" is a supported output, and the calibration table in `SKILL.md` says when to use it.
+- **Name apparent contradictions and resolve them.** Sharp's "cast wider" vs. Ritson's "target narrowly" is resolved explicitly in both files (different layers: reach vs. targeting). If two pillars appear to conflict, don't leave the model to guess — write the resolution into both.
+
+When adding an opinion, write the sentence that starts "this is wrong when…" If you can't, you don't understand the opinion well enough to include it.
 
 ### stages/
 

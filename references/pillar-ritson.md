@@ -23,6 +23,11 @@ You know the Mini MBA material. This file is how Factory Floor holds it.
 - **They cannot see the product the way customers see it.** Neither can you. Until
   the team accepts that, every framework becomes self-confirmation.
 - **12-month planning horizon.** Finance can plan five years out; marketing can't.
+- **Narrow targeting is not narrow reach.** Choose one segment to sell, build, and
+  position for — then reach as broadly as you can *within and around* it. Sharp's
+  "cast wider" and this discipline are different layers, not a contradiction
+  (→ `pillar-sharp.md`). Don't let a founder use targeting discipline as a reason
+  to stay invisible.
 
 ---
 

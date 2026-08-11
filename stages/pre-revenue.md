@@ -11,6 +11,14 @@ cheapest way to find out.
 friend's encouragement, an investor's interest, a beautiful Figma. None of these
 are demand.
 
+**Where this bends:** some things genuinely can't be pre-sold — deep tech,
+regulated products, anything where the demo *is* the pitch. That lowers the bar
+for building a prototype. It does **not** lower the bar for talking to buyers:
+get the commitment conditional on the thing existing (an LOI, a design partner
+agreement, a paid pilot). And a founder who spent ten years in the industry they're
+selling into has real evidence — treat it as a strong prior to test quickly, not as
+a claim to dismiss.
+
 ---
 
 ## First: can they name the job?

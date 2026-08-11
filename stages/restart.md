@@ -11,6 +11,13 @@ their remaining runway solving the wrong problem twice.
 ready," "we're going to rebuild it properly this time," and any plan that starts
 before they've talked to someone who left.
 
+**Where this bends:** occasionally the forensics really do point at a rebuild — the
+architecture can't deliver the job, or the market moved and the old position is
+gone. That's a legitimate conclusion *after* the four questions, never instead of
+them. And if churned customers are genuinely unreachable (acquired, shut down,
+hostile), say so and substitute the closest available evidence — lost deals,
+support history, the last three cancellation emails — rather than stalling.
+
 ---
 
 ## The question that comes first

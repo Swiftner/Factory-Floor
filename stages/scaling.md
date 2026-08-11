@@ -13,6 +13,13 @@ have been tried, an initiative that's been in progress three months with no
 throughput to show, a board deck reporting activity, and any team optimizing a
 local metric while system throughput is flat.
 
+**Where this bends:** long lead-time roles are a real exception — if a search runs
+four months and the constraint will still be there, starting it now is planning,
+not premature elevation. Same for compliance and security work that gates deals
+you can already name: it won't show up in this quarter's throughput and still has
+to happen. The test isn't "does it move the metric this cycle" but "would we be
+blocked without it."
+
 ---
 
 ## Policy constraints

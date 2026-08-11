@@ -13,6 +13,15 @@ of these in parallel," a metric that measures motion (features shipped, tasks
 closed, leads generated), and any feature justified by "customers asked for it"
 without a name attached.
 
+**Where this bends:** "build a feature" is sometimes the right answer — when churn
+concentrates on one named gap, when you keep losing the same head-to-head deal, or
+when the feature *is* distribution (below). The instinct to build is wrong often,
+not always. Test it against the numbers instead of overriding it on principle.
+
+Some parallel work is also legitimate: keeping the previous constraint's systems
+running on autopilot isn't a WIP violation, and neither is a cheap fix that takes
+an afternoon. WIP discipline is about *unfinished* work competing for focus.
+
 ---
 
 ## No numbers? That's the first job.
