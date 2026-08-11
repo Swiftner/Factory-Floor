@@ -1,497 +1,272 @@
-# Growth: Post-Revenue Through ~$1M ARR
+# Growth — Post-Revenue Through ~$100K MRR, Team Under 10
+
+**The mindset:** the product mostly works. The founder's instinct is to make it
+better. That instinct is almost always wrong here. Something upstream of the
+product is capping throughput, and the team is busy enough that nobody has stopped
+to name it.
+
+Your job is to name the one constraint, then make everything else in the company
+visibly subordinate to it — including work people are proud of.
+
+**What you refuse to accept:** a roadmap presented as a strategy, "we're doing all
+of these in parallel," a metric that measures motion (features shipped, tasks
+closed, leads generated), and any feature justified by "customers asked for it"
+without a name attached.
 
 ---
 
-## If You Don't Have Numbers
+## No numbers? That's the first job.
 
-**If the signals are ambiguous, your first constraint-serving action is to instrument the funnel.**
+If the signals are ambiguous, instrumenting the funnel **is** constraint work. You
+can't exploit what you can't measure.
 
-Set up tracking for:
-- New trials or signups per week
-- Activation rate (% who reach the "aha moment")
-- Conversion to paid
-- Monthly churn
+Track four things: new trials/signups per week · activation rate (% reaching the
+aha moment) · conversion to paid · monthly churn.
 
-This IS constraint work. You can't exploit a constraint you can't measure.
-Use whatever tool you have — a spreadsheet updated weekly is enough. Don't
-spend a month building a dashboard. Spend an hour setting up the tracking,
-then use it.
+A weekly spreadsheet is enough. One hour of setup, not a month of dashboard.
 
 ---
 
 ## Before You Build Anything
 
-When a founder says "we need to build feature X," ask first: **"Is the real
-problem that not enough people know you exist?"**
+When they say "we need to build X," ask first:
 
-When users who try your product stay but growth is flat, the answer is almost never another feature. It's **mental availability** — the probability your brand comes to mind when someone has the problem you solve.
+**"Is the real problem that not enough people know you exist?"**
 
-**Run this diagnostic before any growth initiative:**
+If users who try it stay but growth is flat, the answer is almost never a feature.
+It's mental availability.
 
-1. "Do enough of the right people know we exist?" If no → invest in reach,
-   content, partnerships, presence where buyers look. Do NOT build another
-   feature.
-2. "Can they easily find and try/buy us?" If no → fix distribution, signup
-   friction, pricing transparency, marketplace presence.
-3. "Are we distinctive enough to be remembered?" If no → invest in brand
-   assets (visual identity, tone, tagline), not features.
+Run this, in order:
 
-Map your Category Entry Points — the 3-5 struggling moments that trigger
-buying behavior. For each one, ask: "Would someone in this situation think
-of us?" Gaps are where you invest in awareness. Use the 5-minute canvas
-(see `stages/pre-revenue.md`) after every conversation to keep this map
-current.
+1. **"Do enough of the right people know we exist?"** No → reach, content,
+   partnerships, presence where buyers already look. **Do NOT build a feature.**
+2. **"Can they easily find, try, and buy us?"** No → distribution, signup friction,
+   pricing transparency, directories, integrations.
+3. **"Are we distinctive enough to be remembered?"** No → brand assets, used
+   relentlessly and consistently. Not features.
 
-**The exception: features that ARE distribution.** Some features directly
-serve acquisition — integrations that get you listed in a partner's
-marketplace, viral sharing mechanics, embeddable widgets, API access that
-turns customers into channels. The test: "Will this feature bring us new
-visitors who wouldn't have found us otherwise?" If yes, it's distribution
-wearing a feature hat. Build it.
+Then map the 3-5 Category Entry Points — the struggling moments that trigger
+buying — and for each ask: "Would someone in this situation think of us?" Gaps are
+where the money goes. Keep the map current from the 5-minute canvas
+(→ `stages/pre-revenue.md`).
 
-Read `references/pillar-sharp.md` for the full framework, including the
-laws of brand growth and CEP mapping.
+**The one exception — features that ARE distribution.** Integrations that list you
+in a partner's marketplace, sharing mechanics, embeddable widgets, public APIs.
+Test: *"Will this bring us visitors who'd never have found us otherwise?"* Yes →
+build it. It's distribution wearing a feature hat.
 
-### Brand Building vs. Activation
+Deeper → `references/pillar-sharp.md`.
 
-**Brand building (long-term):**
-- Builds mental availability over time
-- Effects take months to materialize
-- Measure: reach, brand awareness, CEP coverage
-- Examples: content that educates, thought leadership, sponsorships, PR
+### Brand vs. activation
 
-**Sales activation (short-term):**
-- Converts existing demand into action
-- Effects visible within days/weeks
-- Measure: clicks, demos booked, trials started, conversions
-- Examples: "book a demo" ads, retargeting, promos, direct outreach
+Brand building compounds mental availability over months; measure reach. Activation
+converts demand that already exists; measure conversions. **Different work,
+different metrics, different horizon — never mix them in one report.**
 
-**Budget rule:** For established brands, ~60% brand
-building, ~40% activation. For early startups, the ratio shifts toward
-activation (you need revenue now), but don't go 100% activation. Even
-10-20% brand investment builds memory structures that make future activation
-cheaper.
+Established brands run ~60/40 brand/activation. Early startups should tilt toward
+activation, but **never go 100% activation.** Even 10-20% brand spend makes every
+future activation dollar cheaper. Founders who skip it wonder in year two why
+acquisition keeps getting more expensive.
 
-See `references/pillar-ritson.md` for the full long vs. short framework.
+### Awareness cadence (when awareness is the constraint)
 
-### The Awareness Cadence (when awareness is the constraint)
+**Weekly, 5 min inside the constraint review:**
 
-**Weekly (5 min during the constraint review):**
+1. Did we publish or distribute anything this week? "No" is a problem.
+2. Which CEPs did it cover? Rotate through your top 5-7.
+3. **Reach** — how many *new* people saw us? Not engagement. Trend beats absolute.
+   Flat reach with consistent publishing means you need a new channel.
 
-1. **Did we publish/distribute anything this week?** One piece of content,
-   one outreach batch, one partnership touchpoint — something that puts the
-   brand in front of people who don't know you yet. If the answer is no,
-   that's a problem.
-
-2. **Which CEPs did we cover?** Each piece of content should map to a
-   specific CEP. Track which CEPs you're covering — rotate through your
-   top 5-7.
-
-3. **Reach check.** How many *new* people saw us this week? Not engagement
-   — reach (unique views, impressions, new subscribers). The trend matters
-   more than the number. Flat reach with consistent publishing means you
-   need a new channel.
-
-**Monthly (20 min):**
-
-1. **CEP coverage review.** Which CEPs have you addressed in the last 4
-   weeks? If two or more high-frequency CEPs have had zero coverage,
-   prioritize them next month.
-
-2. **Channel diversity check.** If you're on fewer than 3 channels, you're
-   under-diversified. Add one new channel per quarter until you're at 4-5.
-
-3. **Distinctiveness audit.** Review the last month's content side by side.
-   Does it look and sound like your brand? Distinctiveness compounds only
-   through consistency.
-
-4. **Physical availability spot-check.** Pick one item from the physical
-   availability audit and verify it's still healthy. Rotate quarterly.
-
-**Content cadence guidelines:**
+**Monthly, 20 min:** CEP coverage over 4 weeks (two high-frequency CEPs at zero
+coverage → next month's priority) · channel count (under 3 is under-diversified;
+add one per quarter toward 4-5) · distinctiveness (put the month's output side by
+side — does it look like one brand?) · one rotating item from the physical
+availability audit.
 
 | Team size | Minimum weekly output | Channel target |
 |---|---|---|
-| Solo founder | 1 piece (short-form) | 2 channels |
-| 2-3 people | 2 pieces (1 short + 1 long or outreach batch) | 3 channels |
-| 4-5 people | 3 pieces (mix of short, long, and partnerships) | 4 channels |
+| Solo | 1 piece (short-form) | 2 |
+| 2-3 | 2 pieces (1 short + 1 long or an outreach batch) | 3 |
+| 4-5 | 3 pieces (short, long, partnership) | 4 |
 
-**Never go dark.** Consistency matters more than quality of any individual piece.
+**Never go dark.** Consistency beats the quality of any single piece.
 
 ---
 
-## The System: Goldratt + Maurya
+## Running the system
 
-### Goldratt's Five Focusing Steps
+### The five steps, applied
 
-1. **Identify** the constraint. Where does work pile up? Where do downstream
-   stages starve?
+Identify → exploit → subordinate → elevate → repeat. The two that founders actually
+fail at:
 
-2. **Exploit** the constraint. Squeeze maximum output without spending money.
-   If sales is the constraint, the founder sells — no admin, no code reviews.
-   If engineering is the constraint, pre-package every spec so the developer
-   never waits.
+**Exploit** means squeezing the constraint with money you haven't spent yet. If
+sales is the constraint, the founder sells — no admin, no code review. If
+engineering is the constraint, every spec arrives pre-packaged so the developer
+never waits.
 
-3. **Subordinate** everything else. Non-constraints serve the constraint,
-   even when that means they look idle. Idle capacity at a non-constraint
-   is buffer, not waste.
+**Subordinate** is the psychologically hard one. Non-constraints serve the
+constraint even when that makes them look idle. **Idle capacity at a non-constraint
+is buffer, not waste.** Expect resistance and name it as normal.
 
-4. **Elevate** the constraint. Only after exploiting and subordinating,
-   invest real resources (hire, buy tools, outsource).
+Only elevate — hire, buy, outsource — after both. And when you elevate, the
+constraint moves; don't let the process built for the old one become the new one.
 
-5. **Repeat.** After elevating, the constraint moves. Never let inertia
-   become the constraint.
+### Subordination matrix
 
-**What each role does, based on the current constraint:**
-
-| Current constraint | Founder | Developer | Support/CS |
+| Constraint | Founder | Developer | Support/CS |
 |---|---|---|---|
-| Sales/Pipeline | 100% selling. Nothing else. | Build sales tools, demo flow, landing pages. | Case studies, FAQs, onboarding materials. |
-| Engineering | Write specs, do QA, handle support to shield the dev. | Protected focus. One task at a time. | QA, bug reports, documentation, workarounds. |
-| Onboarding | Help with onboarding calls. Pause selling if queue is full. | Build onboarding automation, setup wizards. | Protected focus on activating customers. |
+| Sales/Pipeline | 100% selling. Nothing else. | Sales tools, demo flow, landing pages. | Case studies, FAQs, onboarding material. |
+| Engineering | Specs, QA, absorb support to shield the dev. | Protected focus. One task. | QA, bug reports, docs, workarounds. |
+| Onboarding | Onboarding calls. Pause selling if the queue is full. | Onboarding automation, setup wizards. | Protected focus on activating customers. |
 | Awareness | Content, outreach, partnerships, speaking. | SEO pages, integrations directory, API docs. | Testimonials, case studies, social proof. |
 
-### The Customer Factory (Maurya)
+### The customer factory
 
-```
-Acquisition → Activation → Revenue → Retention → Referral
-```
+`Acquisition → Activation → Revenue → Retention → Referral`
 
-Each step has a conversion rate. The step with the lowest rate relative to
-your goal is your constraint. Fix that one. Ignore the others until it moves.
+Lowest conversion rate relative to your goal is the constraint. Fix that one.
+Ignore the rest until it moves.
 
-**Key rules:**
-
-- **Throughput > Activity.** Measure deals closed, customers activated —
-  not hours worked or tasks in progress.
-- **WIP is inventory, and inventory is liability.** A half-built feature
-  consumes resources and generates zero revenue.
-- **"Stop starting, start finishing."** Nobody begins new work until current
-  work is done. If blocked, help someone else finish theirs.
-- **Local optimization ≠ global optimization.** Marketing generating more
-  leads while activation is broken = pouring water through a sieve.
+- Measure throughput (customers created), never activity.
+- A half-built feature is inventory generating zero revenue.
+- **Stop starting, start finishing.** Blocked? Help someone else finish.
+- More leads while activation is broken is water through a sieve.
 
 ---
 
-## The Execution Loop: GOLEAN
+## Managing work against the constraint
 
-Identifying the constraint tells you *where* to focus. GOLEAN tells you
-*how to run the sprint*. Use it as a 2-week cycle:
+### Check the team's state first
 
-1. **Go** — State the constraint. Set a goal with four numbers: **target**
-   (where you want to be), **baseline** (where you are now), **trend**
-   (which direction it's moving), and **timeframe** (this cycle). Example:
-   "Increase trial signups from 200/mo (baseline, flat trend) to 280/mo
-   by end of cycle." Not "work on acquisition."
+Before planning anything, ask what state they're in:
 
-2. **Observe** — Measure the constraint's current performance. What are the
-   numbers right now? What does the funnel look like? Baseline before you act.
+- **Falling behind** — backlog grows weekly, morale dropping. Cut scope or add
+  capacity before anything else.
+- **Treading water** — critical work happens, nothing improves. The fix is focus:
+  cut WIP, finish things.
+- **Repaying debt** — momentum building. Protect it. Don't interrupt with new priorities.
+- **Innovating** — low debt, high morale. Maintain slack. Prevent over-commitment.
 
-3. **Learn** — Run 1-2 focused experiments that target the constraint. Not
-   five. Not a roadmap. One or two bets, sized to complete within the cycle.
+### Size tasks to the constraint
 
-4. **Evaluate** — Did throughput increase? Not "did we ship the thing" — did
-   the constraint actually move? Check the numbers, not the activity log.
+Every task passes one test: **"Does finishing this directly increase throughput at
+the constraint?"** "Indirectly" or "eventually" means backlog.
 
-5. **Analyze** — What worked? What didn't? Systemize what worked so you
-   don't lose it. Kill what didn't so you don't repeat it.
+**Longer than 3 days = too big. Split it.** Big tasks become WIP; WIP becomes inventory.
 
-6. **Next** — If the constraint broke (throughput increased and the
-   bottleneck visibly shifted), identify the new constraint. If not, run
-   another experiment on the same one. Return to Go.
-
-**Cycle length:** 2 weeks. Fast enough to learn, slow enough to execute
-meaningfully. If 2 weeks feels too long, shorten to 1 week but never run
-more than 2 experiments per cycle.
-
----
-
-## Managing Projects Against the Constraint
-
-### Check your team's state first
-
-Before planning the sprint, ask: **what state is the team in?**
-
-- **Falling behind** — backlog grows every week, morale dropping. Reduce
-  scope or add capacity before doing anything else.
-- **Treading water** — critical work gets done but nothing improves. Reduce
-  WIP, consolidate effort, finish things. The fix is focus, not more work.
-- **Repaying debt** — momentum is building, compound improvements emerging.
-  Protect this time. Don't interrupt with new priorities.
-- **Innovating** — low debt, high morale, new value being created. Maintain
-  slack. Prevent over-commitment.
-
-### Break priorities into constraint-sized tasks
-
-After the weekly review produces your top 3 priorities, break each one into
-tasks that can be completed in 1-3 days. Every task should pass the
-constraint test: **"Does completing this task directly increase throughput
-at the constraint?"** If the answer is "indirectly" or "eventually," it's
-backlog.
-
-**Sizing rule:** If a task will take longer than 3 days, it's too big.
-Split it. Big tasks become WIP. WIP becomes inventory.
-
-**Start from the epicenter.** Build the thing it cannot function without
-first. A blog page starts with the post, not the sidebar. An onboarding
-flow starts with the aha moment, not the welcome email.
+**Start from the epicenter** — the thing it cannot function without. A blog page
+starts with the post, not the sidebar. Onboarding starts with the aha moment, not
+the welcome email.
 
 ### WIP limits are non-negotiable
 
-Set your WIP limit to team size. A three-person team has 3 slots for
-in-progress work. That's it. Nobody starts new work until a slot opens.
-If you're blocked, help someone else finish theirs. In simulations, teams
-with strong WIP limits finished **200x more projects** than teams without
-them.
+**WIP limit = team size.** Three people, three slots. Nobody starts new work until
+a slot opens. Blocked? Help someone finish.
 
-When a founder says "but we need to get ahead on X," the answer is: "X is
-not the constraint. Starting X now increases WIP, extends lead time on
-constraint work, and slows throughput. X waits."
+When they say "but we need to get ahead on X": *"X isn't the constraint. Starting
+it now raises WIP, extends lead time on constraint work, and slows throughput. X waits."*
 
-### Feed the constraint buffer
+### Feed the buffer
 
-Maintain 2-3 tasks that are fully specified, unblocked, and ready to pull.
-The person or process at the constraint should never wait for their next
-piece of work. If the buffer drops below 2, refilling it is the team's
-top priority.
+Keep **2-3 tasks fully specified, unblocked, and ready to pull** in front of the
+constraint. It should never wait for work. Below 2 is the team's top priority.
+Non-constraint people fill it — spec, gather, prepare, unblock.
 
-**Who fills the buffer?** Non-constraint team members. Spec work, gather
-requirements, prepare assets, remove blockers — whatever the constraint
-needs to stay at full speed.
+### Track three numbers
 
-### Track throughput, not activity
+The board answers one question at a glance: **"Are we creating happy paying
+customers faster than last week?"**
 
-The board should answer one question at a glance: **"Are we creating happy
-paying customers faster than last week?"**
+- **Throughput** at the constraint (trials, activations, closes — whichever applies).
+- **Cycle time** — growing means WIP is creeping up.
+- **Buffer health** — consistently empty means the constraint is starving.
 
-Track these weekly:
-- **Throughput metric:** The number that measures output at the constraint
-  (trials generated, customers activated, deals closed — depends on where
-  the constraint is).
-- **Cycle time:** How long tasks spend in progress. If cycle time is
-  growing, WIP is creeping up.
-- **Buffer health:** How many ready items sit before the constraint. If
-  it's consistently empty, the constraint is starving.
+Not tasks completed, story points, or hours logged. Those measure motion.
 
-Don't track vanity metrics (tasks completed, story points burned, hours
-logged). They measure motion, not progress.
+### Blockers
 
-### Handle blockers by severity
-
-- **Constraint blocker:** Drop everything. Clear it now. Every hour the
-  constraint is blocked is an hour of lost throughput for the entire company.
-- **Non-constraint blocker:** Note it, move on. Work on something else that
-  feeds the constraint.
+Constraint blocker → drop everything, clear it now. Every blocked hour is lost
+throughput for the whole company. Non-constraint blocker → note it, move on.
 
 ### Respect the delay
 
-Most constraint work has a feedback delay. A content strategy takes 4-8
-weeks to show up in acquisition. An onboarding improvement takes 2-3
-cohorts to show up in activation. Set a minimum evaluation window (usually
-one GOLEAN cycle) and don't judge results before it closes.
+Content takes 4-8 weeks to reach acquisition. Onboarding changes take 2-3 cohorts
+to reach activation. Set the evaluation window (usually one GOLEAN cycle) and
+refuse to judge before it closes.
 
-### Estimate time honestly
+### Estimate honestly
 
-**The quick protocol** (strip safety from tasks, pool into project buffer):
-1. Get the **focused estimate** for each task — "How long with no
-   interruptions?" (50% confidence.)
-2. Use the focused estimate as the task duration.
-3. Add up the longest dependent chain of tasks. That's the critical chain.
-4. **Buffer = critical chain × 0.4.** Add this to the end.
-5. The buffer end date is the only date you commit to externally.
+1. **Focused estimate** per task — "how long with no interruptions?" (~50% confidence).
+2. Use it as the duration. **Do not pad tasks.**
+3. Sum the longest dependent chain.
+4. **Buffer = chain × 0.4**, at the end.
+5. **The buffer end date is the only date you commit to externally.**
 
-A 20-day chain gets an 8-day buffer. Commit date = day 28. 0.4 works
-for almost everything.
-
-**When to estimate vs. measure vs. time-box:**
+20-day chain → 8-day buffer → commit day 28.
 
 | Situation | Method |
 |---|---|
-| Novel work, external commitment | Focused estimates + pooled buffer |
-| Ongoing work with 3+ weeks of data | Cycle time measurement (median and 85th percentile) |
-| Experiments, learning, customer discovery | Time-box at 2 weeks (GOLEAN cycle) |
-| Quick internal sizing | T-shirt: S (hours), M (1-2 days), L (3-5 days). XL = break it down. |
+| Novel work with an external commitment | Focused estimates + pooled buffer |
+| Ongoing work, 3+ weeks of data | Measure cycle time (median + 85th percentile) |
+| Experiments, discovery | Time-box to the 2-week cycle |
+| Quick internal sizing | T-shirt: S=hours, M=1-2d, L=3-5d. XL → break it down. |
 
-**The two-question filter:** Before estimating anything, ask "Is this work
-on the constraint?" If yes, estimate carefully. If no, T-shirt size it.
+**Two-question filter:** is this work on the constraint? Yes → estimate carefully.
+No → T-shirt it and move on.
 
-See `references/estimation.md` for why pooled buffers work, calibration
-exercises, and alternative sizing methods for edge cases.
+Theory, calibration, alternative methods → `references/estimation.md`.
 
-### Monitor with the fever chart
+### Fever chart
 
-Track two numbers weekly: **% of work completed** vs. **% of buffer
-consumed.**
+Weekly: % work complete vs. % buffer consumed.
 
-- **Green (buffer < 1/3 consumed):** On track. Don't fill the slack with
-  scope creep.
-- **Yellow (buffer 1/3 to 2/3 consumed):** Plan a recovery option. The
-  buffer is doing its job.
-- **Red (buffer > 2/3 consumed):** Act now. Fix time and budget, flex
-  scope. Cut features to fit the deadline. Redirect non-constraint
-  capacity to help.
+- **Green** (<1/3) — on track. Don't fill slack with scope.
+- **Yellow** (1/3-2/3) — plan a recovery option. This is the buffer working, not failing.
+- **Red** (>2/3) — act now. Fix time and budget, flex scope. Redirect
+  non-constraint capacity.
 
-### Run the relay race
+### Relay race
 
-When someone finishes a task, the next person starts **immediately** — not
-on the scheduled date. Early finishes evaporate in traditional project
-management. In the relay race, they propagate forward.
+When someone finishes, the next person starts **immediately** — not on the
+scheduled date. That's the only way early finishes survive.
 
-### Communicate timelines honestly
+### Communicating timelines
 
-Never give a point estimate externally. Always give a range.
-
-**To a customer or stakeholder:** "We expect to deliver between [focused
-estimate date] and [buffer end date]." The buffer end date is the only
-commitment.
-
-**To the team:** Communicate buffer status, not individual task deadlines.
-"We've consumed 40% of buffer with 60% of work done — we're healthy."
-
-**If someone demands a single date:** Give the buffer end date. That's
-what the buffer is for.
+**Never a point estimate externally. Always a range.** "Between [focused date] and
+[buffer end date]" — and only the buffer end date is a commitment. To the team,
+communicate buffer status, not task deadlines. If someone demands one date, give
+the buffer end date. That's what it's for.
 
 ---
 
-## JTBD in the Weekly Rhythm
+## JTBD in the weekly rhythm
 
-**After every conversation:** Fill in the 5-minute canvas (see
-`stages/pre-revenue.md`). Every sales call, demo, support ticket, and
-churn conversation is JTBD data.
+**After every conversation** — fill the 5-minute canvas (→ `stages/pre-revenue.md`).
+Every sales call, demo, support ticket, and churn conversation is data.
 
-**During the weekly review:** Review the week's canvases. Do the forces
-match your constraint diagnosis? Three canvases showing the same anxiety
-might mean your highest-leverage move isn't a feature — it's a guarantee,
-a testimonial, or a simpler onboarding. Update the running pattern: which
-pushes, pulls, anxieties, and habits keep appearing?
+**Weekly** — do the forces match the constraint diagnosis? Three canvases showing
+the same anxiety usually means the highest-leverage move is a guarantee, a
+testimonial, or simpler onboarding — not a feature.
 
-**Monthly:** Review all canvases. Have your assumptions about the forces
-changed? Should your messaging change? Should your constraint diagnosis
-change?
+**Monthly** — have the forces shifted? Should the messaging change? Should the
+diagnosis?
 
-**Mine what you already have:** Lost deal notes, churn conversations,
-and support tickets already contain JTBD data. For lost deals: "What did
-you go with instead?" For churned customers: "What are you using now?"
+**Mine what exists** — lost deals ("what did you go with instead?") and churn
+("what are you using now?") are free JTBD data.
 
 ---
 
-## Worked Example: Growth Stall
+## Weekly constraint review (10 min)
 
-**ConvoAI — AI meeting summaries, B2B SaaS, 8-person team, $40K MRR.**
-
-The founder asks: "Growth has stalled for 3 months. We think we need Slack
-integration and CRM sync to compete. What should we work on?"
-
-**Step 1: Triage.**
-
-| Question | Answer |
-|---|---|
-| Enough people finding you? | ~200 trials/month, mostly from one viral blog post 6 months ago. Pipeline is thin. |
-| Do signups reach the aha moment? | Yes — 60% activate within the first week. |
-| Do activated users pay? | Yes — 35% convert to paid. |
-| Do paying customers stay? | Yes — 90% monthly retention. |
-| Is the team finishing things? | Mostly, though 2 engineers are split across 3 projects. |
-
-**Diagnosis:** Activation, Revenue, and Retention are healthy. Acquisition
-is the constraint. Almost no one is entering the funnel.
-
-**Step 2: Run the "Before You Build" check.**
-
-Users who try ConvoAI love it. Retention is 90%. The product works.
-Building Slack integration and CRM sync is optimizing a non-constraint.
-It will not move the $40K MRR number.
-
-**Step 3: Exploit the constraint.**
-
-The founder redirects effort to distribution with existing resources:
-
-- Founder spends mornings on outreach, partnerships, and content instead
-  of product reviews.
-- One engineer moves from CRM sync to building SEO landing pages and an
-  integrations directory.
-- The CS person collects testimonials and case studies.
-- The two engineers on 3 projects drop to 1 project each — finishing >
-  starting.
-
-**Step 4: Subordinate.**
-
-Slack integration and CRM sync go on ice. They'll matter later when
-acquisition is no longer the bottleneck. Right now they're inventory.
-
-**Step 5: What changes.**
-
-The team's weekly review metric shifts from "features shipped" to "new
-trials generated." When trials climb from 200/month to 500/month and the
-funnel backs up at activation or revenue, the constraint has moved.
+→ `references/weekly-review.md`, Growth section. Run it now.
 
 ---
 
-## Worked Example: The Constraint Shifts
+## Graduate to `stages/scaling.md` when
 
-**ConvoAI — 3 months later. Trials now at 500/month.**
-
-The acquisition work paid off: SEO pages, partnerships, and founder-led
-content tripled top-of-funnel. But the weekly review reveals a new problem.
-
-| Metric | Before | Now |
-|---|---|---|
-| Trials/month | 200 | 500 |
-| Activation rate | 60% | 35% |
-| Activated → Paid | 35% | 34% |
-| Retention | 90% | 88% |
-
-Activation has dropped from 60% to 35%. The new users from SEO and
-partnerships are less hand-held than the old ones — they don't get the
-"aha moment" without help, and there's no concierge capacity for 500
-trials a month.
-
-**The constraint has moved from Acquisition to Activation.**
-
-**Step 1: Name it explicitly.** The founder says in the weekly review:
-"Our constraint has moved from acquisition to activation. Starting now,
-everything serves activation."
-
-**Step 2: Reassign subordination roles.**
-
-| Role | Was doing (acquisition) | Now doing (activation) |
-|---|---|---|
-| Founder | Content, outreach, partnerships | Onboarding calls for high-value trials. Pause outreach if queue is full. |
-| Engineer A | SEO pages, integrations directory | In-app onboarding wizard, setup health check. |
-| Engineer B | Landing page experiments | Fix the 3 drop-off points in trial-to-active flow. |
-| CS person | Testimonials, case studies | Protected focus: activate every trial. Track time-to-value. |
-
-**Step 3: Don't abandon acquisition.** The SEO pages and partnerships
-that tripled trials don't need daily attention anymore. Put the content
-calendar on autopilot (1 post/week, scheduled). Monitor trials weekly —
-if they start declining, investigate, but don't redirect capacity back
-unless they drop below 400.
-
-**Step 4: Set the new GOLEAN goal.** "Increase activation rate from 35%
-(baseline, declining trend) to 50% by end of cycle." Two experiments:
-(a) an in-app setup wizard that guides new users to their first meeting
-summary in under 3 minutes, (b) a triggered email sequence for users who
-sign up but don't import their first meeting within 24 hours.
-
-**Step 5: Update the board.** Buffer column now feeds activation work.
-WIP tags shift. The throughput metric changes from "trials generated" to
-"users activated."
-
----
-
-## The Weekly Constraint Review (10 minutes)
-
-See `references/weekly-review.md` — Growth section. Run it now.
-
----
-
-## When to Graduate
-
-You're ready for `stages/scaling.md` when:
-
-- You have 10+ people, or multiple workstreams across teams.
-- $1M+ ARR (or equivalent traction for your model).
-- The constraint keeps showing up as a **coordination problem** rather
-  than a capacity problem — priorities conflict across teams, people
-  disagree on the diagnosis, or the triage points to a funnel step but
-  fixing it doesn't move throughput.
-
+- 10+ people, or multiple workstreams across teams.
+- $100K+ MRR (or equivalent for the model).
+- The constraint keeps showing up as a **coordination** problem rather than a
+  capacity one — priorities conflict across teams, people disagree on the
+  diagnosis, or fixing the named funnel step doesn't move throughput.

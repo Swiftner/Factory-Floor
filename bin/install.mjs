@@ -19,8 +19,7 @@ mkdirSync(join(target, 'scripts'), { recursive: true })
 const files = [
   'SKILL.md',
   'references/intake.md',
-  'references/misdiagnoses.md',
-  'references/coaching-patterns.md',
+  'references/probes.md',
   'references/state.md',
   'references/pillar-goldratt.md',
   'references/pillar-maurya.md',
@@ -30,7 +29,6 @@ const files = [
   'references/jtbd.md',
   'references/weekly-review.md',
   'references/pillar-strategy.md',
-  'references/weekly-diagrams.md',
   'stages/pre-revenue.md',
   'stages/restart.md',
   'stages/growth.md',

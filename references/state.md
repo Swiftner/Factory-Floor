@@ -1,26 +1,54 @@
-# State Persistence — Write Protocol, Bootstrap, Examples, Edge Cases
+# State — Write Protocol, Bootstrap, Edge Cases
 
-Load this file when about to write to `.factory/` after a ritual completion, or when bootstrapping `.factory/` for the first time. The **read** protocol and state file schema live in `SKILL.md` and do not require this file.
+Load before **writing** to `.factory/`, or when bootstrapping it. The read protocol
+and schema are in `SKILL.md` and don't need this file.
 
-## 1. Write protocol
+**The mindset:** state is the founder's record, not yours. Write only on a real
+trigger, say one word about it, and never rewrite something they wrote by hand.
+When in doubt, ask — never auto-correct.
 
-Claude writes to state ONLY when one of these triggers fires during the conversation. Each trigger has a specific detection rule and write action.
+---
 
-### Trigger table
+## 1. Write triggers
 
-| # | Trigger | Detection rule | Write action |
+Write ONLY when one of these fires.
+
+| # | Trigger | Detection | Write |
 |---|---|---|---|
-| 1 | Weekly review complete | Founder ran the weekly review protocol to its end — all stage-specific questions answered AND the "one thing we will NOT do next week" question answered | Append `## YYYY-MM-DD — Weekly review (<stage>)` entry to `.factory/journal.md` with the sub-sections for the founder's current stage |
-| 2 | Experiment committed | Founder explicitly accepts an assigned experiment with affirmative language: "ok I'll do that", "yes, let's run it", "sure, this week", "I'll try that", or similar | Append `## YYYY-MM-DD — Experiment committed` entry to `.factory/journal.md` AND update `## Current experiment` section in `.factory/context.md` |
-| 3 | Diagnosis accepted | Claude named the constraint (in customer-factory vocabulary) AND the founder affirmed explicitly ("yes that's it", "agreed", "makes sense") OR the founder immediately accepted a proposed experiment attacking that constraint (in which case both Diagnosis and Experiment committed writes fire) | Append `## YYYY-MM-DD — Diagnosis` entry to `.factory/journal.md` AND update `## Current constraint` in `.factory/context.md`. Entry MUST include both the founder's initial framing and the actual diagnosis. When both Diagnosis and Experiment committed fire from the same exchange, write the Diagnosis entry first, then the Experiment committed entry — both dated today. |
-| 4 | Experiment outcome reported | Founder reports back at or after the experiment's deadline on a prior experiment's results. If the founder's report is ambiguous about which experiment, ask before writing; default assumption is the most recent `## Current experiment` from `context.md`. | Append `## YYYY-MM-DD — Experiment outcome` entry to `.factory/journal.md` |
-| 5 | Experiment killed early | Founder says they stopped an experiment before its deadline | Append `## YYYY-MM-DD — Kill decision` entry to `.factory/journal.md` AND clear `## Current experiment` in `.factory/context.md` (set to empty or "none active") |
-| 6 | Stage transition confirmed | Customer/MRR/team numbers changed enough to shift stage (per thresholds in `SKILL.md` decision tree) AND founder confirms the stage change | Update `## Stage` in `.factory/context.md` AND append `## YYYY-MM-DD — Stage change` entry to `.factory/journal.md` |
-| 7 | Numbers change mentioned | Founder presents a number as a status update (not a passing aside) — e.g., any integer change to customer count, or a >10% change in MRR/ARR, team size changes, runway changes. | Update `## Numbers` in `.factory/context.md`. **No journal entry** — Numbers churn freely and don't need historical logging. |
+| 1 | Weekly review complete | Ran to the end — all stage questions answered AND the "one thing we will NOT do" question answered | Append `## YYYY-MM-DD — Weekly review (<stage>)` to `journal.md` |
+| 2 | Experiment committed | Explicit affirmative to an assigned experiment: "ok I'll do that", "yes, let's run it", "sure, this week", "I'll try that" | Append `## YYYY-MM-DD — Experiment committed` to `journal.md` AND update `## Current experiment` in `context.md` |
+| 3 | Diagnosis accepted | You named the constraint in customer-factory vocabulary AND they affirmed ("yes that's it", "agreed", "makes sense") OR immediately accepted an experiment attacking it | Append `## YYYY-MM-DD — Diagnosis` to `journal.md` AND update `## Current constraint` in `context.md` |
+| 4 | Experiment outcome | They report results at or after the deadline. Ambiguous which experiment? Ask; default to the current one in `context.md` | Append `## YYYY-MM-DD — Experiment outcome` to `journal.md` |
+| 5 | Experiment killed early | They stopped it before the deadline | Append `## YYYY-MM-DD — Kill decision` to `journal.md` AND clear `## Current experiment` |
+| 6 | Stage transition | Numbers crossed a threshold in the `SKILL.md` router AND they confirm | Update `## Stage` in `context.md` AND append `## YYYY-MM-DD — Stage change` |
+| 7 | Numbers changed | Presented as a status update, not a passing aside — any integer change to customer count, >10% MRR/ARR change, team size, runway | Update `## Numbers` in `context.md`. **No journal entry** — Numbers churn freely |
 
-### Sub-section templates
+**Trigger 3 detail:** the entry MUST include both the founder's initial framing and
+the actual diagnosis. When 3 and 2 fire from the same exchange, write Diagnosis
+first, then Experiment committed — both dated today.
 
-**Weekly review (pre-revenue):**
+### After writing
+
+Say **"Logged."** One word. Don't list what was written — the file is right there.
+
+### Founder override
+
+If they say "don't log this" / "don't write to my factory" / "keep this off the
+record" / "don't save this" or any clear equivalent:
+
+Reply with exactly **"OK, not logging this one."** Then coach normally for the rest
+of the session and write **nothing** — no journal entries, no context updates —
+until they explicitly re-authorize ("actually, log it"). Don't raise it again.
+
+### Write failure
+
+If a write fails (disk, permissions, directory not writable), tell the founder
+exactly what would have been written, in a code block, and keep coaching. Don't
+retry silently. **Never claim a write succeeded when it didn't.**
+
+---
+
+## 2. Entry templates
 
 ```markdown
 ## YYYY-MM-DD — Weekly review (pre-revenue)
@@ -31,61 +59,49 @@ Claude writes to state ONLY when one of these triggers fires during the conversa
 **One thing we will NOT do:** <what's tempting but off-limits>
 ```
 
-**Weekly review (growth):**
-
 ```markdown
 ## YYYY-MM-DD — Weekly review (growth)
 **Constraint:** <factory step + movement this week>
 **Numbers:** <found / activated / paid / churned>
-**Work pile:** <what's in progress, what shipped, what's stuck >2 weeks>
+**Work pile:** <in progress, shipped, stuck >2 weeks>
 **Next week's 3 priorities:** <three bullets, each serving the constraint>
 **One thing we will NOT do:** <what's tempting but off-limits>
 ```
 
-**Weekly review (scaling):**
-
 ```markdown
 ## YYYY-MM-DD — Weekly review (scaling)
-**Funnel snapshot:** <step with biggest drop-off, vs last week>
-**Buffer/flow:** <where work is piling up, where capacity is idle>
+**Funnel snapshot:** <biggest drop-off, vs last week>
+**Buffer/flow:** <where work piles up, where capacity is idle>
 **Initiative traffic lights:** <🟢/🟡/🔴 per initiative>
 **Policy constraint scan:** <rule/process/habit slowing things down, if any>
-**Next week's focus:** <one thing the team is rallying around>
+**Next week's focus:** <one thing the team rallies around>
 **One thing we will NOT do:** <what's tempting but off-limits>
 ```
 
-**Diagnosis:**
-
 ```markdown
 ## YYYY-MM-DD — Diagnosis
-**Founder's initial framing:** <what the founder thought the problem was — verbatim quote where possible>
-**Symptom probed:** <what Claude asked to surface the real constraint>
-**Diagnosis:** <customer-factory step + magnitude — e.g. "Activation — 7-day rate at 18%">
-**Why not the others:** <brief rule-out of the other factory steps>
+**Founder's initial framing:** <what they thought it was — verbatim where possible>
+**Symptom probed:** <what you asked to surface the real constraint>
+**Diagnosis:** <factory step + magnitude — e.g. "Activation — 7-day rate at 18%">
+**Why not the others:** <brief rule-out of the other steps>
 **Confidence:** <High / Medium / Low>
 ```
-
-**Experiment committed:**
 
 ```markdown
 ## YYYY-MM-DD — Experiment committed
 **Experiment:** <what's being run>
 **Constraint it attacks:** <which factory step>
-**Metric:** <what number to watch — with current baseline>
+**Metric:** <what number to watch — with baseline>
 **Deadline:** <YYYY-MM-DD>
 ```
 
-**Experiment outcome:**
-
 ```markdown
 ## YYYY-MM-DD — Experiment outcome
-**Experiment:** <reference to what was run>
+**Experiment:** <what was run>
 **Did the metric move?** <yes / no / partially, with numbers>
 **What we learned:** <one or two key learnings>
-**Next:** <keep going, kill it, try something new — decided here or deferred>
+**Next:** <keep going, kill it, try something new>
 ```
-
-**Kill decision:**
 
 ```markdown
 ## YYYY-MM-DD — Kill decision
@@ -95,85 +111,60 @@ Claude writes to state ONLY when one of these triggers fires during the conversa
 **What we'll try instead:** <next experiment, or "nothing — refocus on X">
 ```
 
-**Stage change:**
-
 ```markdown
 ## YYYY-MM-DD — Stage change
 **From:** <old stage>
 **To:** <new stage>
-**Trigger:** <what changed — first paying customer, crossed $100K MRR, lost all customers, etc.>
-**What changes about how we work:** <brief — the new stage file has the full guidance>
+**Trigger:** <first paying customer, crossed $100K MRR, lost all customers, etc.>
+**What changes about how we work:** <brief — the stage file has the full guidance>
 ```
 
-### Founder override rule
+---
 
-If the founder says any of these phrases, skip writes for that session and do not bring it up again unless the founder re-authorizes:
+## 3. Bootstrap
 
-- "don't log this"
-- "don't write to my factory"
-- "keep this off the record"
-- "don't save this"
-- or any clearly equivalent opt-out
+Runs when `.factory/` doesn't exist AND intake has surfaced enough to populate
+`context.md`: stage, customer count, team size, and the problem they brought.
+**Don't offer before that bar.**
 
-Acknowledge with exactly: **"OK, not logging this one."**
+Offer **once per session**, after the funnel break scan or the minimum-fields bar:
 
-After an override, Claude continues coaching normally for the rest of the session but writes nothing — neither journal entries nor context.md updates — until the founder explicitly re-authorizes ("actually, log it" / "on second thought, go ahead and write it").
+> "Want me to set up `.factory/` for this company? I'll create a `context.md` from
+> what we just discussed and start a `journal.md`. It lives in this directory. The
+> journal stays local (gitignored)."
 
-### Announcement after writing
+**Declined?** Don't offer again this session. Don't nag.
 
-After writing, Claude says **"Logged."** (one word, not a wall of text) so the founder knows state was updated. Do not list what was written — the file is right there if the founder wants to see it.
+**Consented?** In order:
 
-### Write failure handling
-
-If a file write fails (disk full, permission denied, directory not writable, etc.), tell the founder exactly what would have been written (in a markdown code block) and continue coaching. Do not retry silently. Do not claim a write succeeded when it didn't.
-
-## 2. Bootstrap protocol
-
-Runs when `.factory/` does not exist in CWD AND the current intake conversation has surfaced enough information to populate `context.md`.
-
-"Enough information" means the founder has answered at least: stage (via the paying-customers question), customer count, team size, AND the primary problem they're bringing. Don't offer bootstrap before this bar is reached.
-
-### Offer text
-
-Offer once per session, after intake has reached the funnel break scan OR the minimum-fields bar above:
-
-> "Want me to set up `.factory/` for this company? I'll create a `context.md` from what we just discussed and start a `journal.md`. It lives in this directory. The journal stays local (gitignored)."
-
-### If founder declines
-
-Don't offer again this session. Don't nag. The founder can ask later if they change their mind.
-
-### If founder consents
-
-Execute these steps in order:
-
-**Step 1 — Ask the bootstrap-only Identity question:**
+**Step 1 — ask the one bootstrap-only question:**
 
 > "Before I scaffold, in one sentence — what does this company do and who for?"
 
-This populates `## Identity`. Intake starts with "do you have paying customers" and never captures identity explicitly, so this gap is filled at bootstrap time only.
+This fills `## Identity`. Intake never captures it, so this is the only chance.
 
-**Step 2 — Create `.factory/` directory in CWD.**
+**Step 2 — create `.factory/` in CWD.**
 
-**Step 3 — Write `.factory/context.md`** with content derived from intake answers:
+**Step 3 — write `.factory/context.md`:**
 
 ```markdown
-# <Company name if known, otherwise leave title empty>
+# <Company name if known, otherwise leave the title empty>
 
 ## Identity
-<Answer to the bootstrap-only question>
+<Answer to the bootstrap question>
 
 ## Numbers
-<From intake: customer count, MRR/ARR if mentioned, team size, runway if mentioned>
+<From intake: customers, MRR/ARR, team size, runway if mentioned>
 
 ## Stage
-<Stage decided from intake routing> — <one-line justification from intake>
+<Stage from routing> — <one-line justification>
 
 ## JTBD
-<If JTBD came up in intake, write it here. Otherwise: "TBD — capture in a future session">
+<If it came up in intake. Otherwise: "TBD — capture in a future session">
 
 ## Current constraint
-<If the funnel break scan ran and found a constraint, write it using customer-factory vocabulary. Otherwise: "TBD — run the funnel break scan next session">
+<If the funnel break scan found one, in customer-factory vocabulary.
+Otherwise: "TBD — run the funnel break scan next session">
 
 ## Current experiment
 
@@ -182,30 +173,28 @@ This populates `## Identity`. Intake starts with "do you have paying customers" 
 
 ```
 
-**Step 4 — Write `.factory/journal.md`** with only the title line:
+**Step 4 — write `.factory/journal.md`** containing only `# Journal`.
 
-```markdown
-# Journal
-```
+**Step 5 — gitignore the journal.** If `.gitignore` exists, append
+`.factory/journal.md` on a new line unless already present. If not, create it with
+that one line. **Never modify, reorder, or delete existing lines.** No `.git/`
+directory → skip silently and warn in Step 6.
 
-**Step 5 — Append `.factory/journal.md` to project `.gitignore`:**
+**Step 6 — confirm:**
 
-- If `.gitignore` exists in CWD: check if `.factory/journal.md` is already listed. If not, append it on a new line at the end of the file.
-- If `.gitignore` does not exist: create it with just the line `.factory/journal.md`.
-- Never modify, reorder, or delete existing lines in `.gitignore`.
-- If CWD is not a git repository (no `.git/` directory), skip this step silently but warn the founder in Step 6.
+> "Done. `.factory/context.md` is committable (team can share the truth);
+> `.factory/journal.md` is gitignored (personal coaching log). Edit them by hand
+> any time."
 
-**Step 6 — Confirm to founder:**
+Not a git repo:
 
-If `.gitignore` was updated successfully:
-> "Done. `.factory/context.md` is committable (team can share the truth); `.factory/journal.md` is gitignored (personal coaching log). Edit them by hand any time."
+> "Done. `.factory/context.md` and `.factory/journal.md` are in place. Heads-up:
+> this directory isn't a git repository, so I couldn't gitignore the journal. If
+> you initialize git later, add `.factory/journal.md` to `.gitignore`."
 
-If CWD is not a git repo:
-> "Done. `.factory/context.md` and `.factory/journal.md` are in place. Heads-up: this directory isn't a git repository, so I couldn't gitignore the journal. If you initialize git later, add `.factory/journal.md` to `.gitignore` to keep the personal log out of the repo."
+---
 
-## 3. Examples
-
-### Example `.factory/context.md`
+## 4. Example `context.md`
 
 ```markdown
 # Swiftner
@@ -217,16 +206,18 @@ Sales-call analytics for inside sales teams at B2B SaaS companies of 10-50 reps.
 14 paying customers · $4.2K MRR · team of 2 · runway 9 months
 
 ## Stage
-growth — first paying customers, product-market fit signals, focus is on repeatable sales
+growth — first paying customers, product-market fit signals, focus is repeatable sales
 
 ## JTBD
-When sales reps join a new company, they want to ramp up faster, so they can hit quota in Q1 instead of Q2.
+When sales reps join a new company, they want to ramp faster, so they can hit quota
+in Q1 instead of Q2.
 
 ## Current constraint
 Activation — 7-day rate at 18%. Diagnosed 2026-03-24.
 
 ## Current experiment
-Rewrite onboarding email sequence to pull users to first "aha" in <10 min. Metric: 7-day activation rate. Deadline: 2026-04-14.
+Rewrite onboarding email sequence to pull users to first "aha" in <10 min.
+Metric: 7-day activation rate. Deadline: 2026-04-14.
 
 ## Notes
 - ICP: inside-sales leaders at Norwegian B2B SaaS, 10-50 reps
@@ -234,68 +225,34 @@ Rewrite onboarding email sequence to pull users to first "aha" in <10 min. Metri
 - Brand codes: orange, conversational tone, "sales reality" not "sales theater"
 ```
 
-### Example `.factory/journal.md`
+---
 
-```markdown
-# Journal
+## 5. Edge cases
 
-## 2026-03-24 — Diagnosis
-**Founder's initial framing:** "We need more features."
-**Symptom probed:** Do customers who activate stay? → 92% retention at 90 days.
-**Diagnosis:** Activation — 7-day activation rate at 18%. Not a product problem.
-**Why not the others:** Acquisition is fine (signups growing 12% mo/mo). Retention is fine (92%). Revenue converts when activated users see value.
-**Confidence:** High.
+**Partial `.factory/`.** Only `context.md` → read it, skip the journal tail; the
+first write that needs `journal.md` creates it with `# Journal`. Only `journal.md`
+→ read the tail and offer: *"I see a journal but no context file. Want me to
+recreate `context.md` from the last few entries?"*
 
-## 2026-04-04 — Experiment committed
-**Experiment:** Rewrite onboarding email sequence to pull users to first "aha" in <10 min.
-**Constraint it attacks:** Activation.
-**Metric:** 7-day activation rate (currently 18%).
-**Deadline:** 2026-04-14.
+**Missing header.** Ask the founder for that field, then write the answer under a
+freshly added section. **Never refuse to proceed over a missing header.**
 
-## 2026-04-07 — Weekly review (growth)
-**Constraint:** Activation (still). 7-day rate moved 18% → 21% — meaningful but small.
-**Numbers:** Found 142, activated 30, paid 4, churned 0.
-**Work pile:** Email sequence rewrite shipped Tuesday. Nothing else in progress.
-**Next week's 3 priorities:** (1) Ship signup form simplification, (2) Interview 3 users who activated last week, (3) Nothing else.
-**One thing we will NOT do:** Write any new blog content. Acquisition is not the constraint.
-```
+**Renamed header.** Ask: *"I see `## Current bottleneck` — should I treat that as
+`## Current constraint`?"* On confirmation, use their name for reads and writes
+this session. **Don't auto-rewrite the file.**
 
-## 4. Edge cases
+**State contradicts the founder.** Trust the founder. *"Sounds like the state is
+stale. Want me to log a Stage change and update context.md?"* Only on consent.
 
-Eight cases with precise behaviors. When in doubt, trust the founder and never auto-rewrite state.
+**Numbers older than 30 days.** Re-confirm before routing: *"Your Numbers say 14
+customers, $4.2K MRR — still right?"* Update `context.md` if changed. No journal entry.
 
-### 4.1 `.factory/` partial
+**Wrong `.factory/`.** If they say "that's not what we're working on": *"This
+`.factory/` says [identity]. Is this the wrong directory?"* **Never delete or
+overwrite without explicit consent.**
 
-If only `context.md` exists (no `journal.md`): read context normally, skip the journal-tail read. The first write that needs `journal.md` creates it with just `# Journal`.
+**No git repo.** Bootstrap still creates both files, skips gitignore, warns.
 
-If only `journal.md` exists (no `context.md`): rare and weird. Read the journal tail. Offer to reconstruct `context.md` from the most recent state implied by the journal: *"I see a journal but no context file. Want me to recreate `context.md` from the last few entries?"*
-
-### 4.2 Required header missing in `context.md`
-
-If a header Claude expects (e.g., `## Current constraint`) is missing entirely, ask the founder for that field. After they answer, write the answer under a freshly added `## Current constraint` section. Never refuse to proceed because of a missing header.
-
-### 4.3 Header renamed by founder
-
-If the founder has renamed a header (e.g., `## Current bottleneck` instead of `## Current constraint`), Claude cannot find the expected name. Ask: *"I see `## Current bottleneck` — should I treat that as `## Current constraint`?"* On confirmation, use the renamed header for reads and writes in this session. Do not auto-rewrite the file.
-
-### 4.4 State conflicts with founder's stated reality
-
-If `context.md` says `## Stage` is "growth" but the founder says "we just lost all our customers," trust the founder. Ask: *"Sounds like the state is stale. Want me to log a Stage change to restart and update context.md?"* Only update on consent.
-
-### 4.5 `## Numbers` older than 30 days
-
-If the most recent journal entry is >30 days ago (or the founder has explicitly annotated `## Numbers` with a date marker showing it's stale), re-confirm before routing: *"Your Numbers section says 14 customers, $4.2K MRR — is that still right?"* Update `context.md` if anything changed. Do NOT create a journal entry for the Numbers update — Numbers churn freely.
-
-### 4.6 Wrong-factory mismatch
-
-If a founder runs Factory Floor in a directory that has someone else's (or an abandoned) `.factory/`, Claude will read the saved state and open with an opening-line pattern that names the old state. If the founder says "wait, that's not what we're working on" or similar, ask: *"This `.factory/` says [identity]. Is this the wrong directory?"* Never delete or overwrite without explicit consent.
-
-### 4.7 Bootstrap can't gitignore
-
-If CWD is not a git repo (no `.git/` directory), bootstrap still creates `.factory/context.md` and `.factory/journal.md`, but skips the `.gitignore` step and warns the founder per §2 Step 6.
-
-### 4.8 Claude Desktop / no-CWD environments
-
-Claude Desktop has no filesystem access for auto-read/auto-write. The founder uploads `.factory/context.md` as project knowledge manually. Auto-write is disabled — at a ritual completion trigger, Claude tells the founder exactly what entry it *would have written* in a markdown code block, and the founder copy/pastes into their local `journal.md` themselves.
-
-This is a second-class experience deliberately. It is documented in the project README so the founder knows what to expect on Claude Desktop.
+**Claude Desktop / no filesystem.** Auto-write is off. At a trigger, show exactly
+what you *would* have written in a code block and let the founder paste it into
+their own `journal.md`. This is deliberately second-class and documented in the README.

@@ -1,100 +1,98 @@
-# Intake — First Conversation
+# Intake — The First Conversation
 
-Load this file when you don't have enough context to diagnose the founder's situation.
-Skip it if the conversation already contains clear answers to these questions.
+Load when you don't have enough context to diagnose. Skip anything the conversation
+already answered.
 
-## What to establish before diagnosing
+**The mindset:** you are establishing facts, not building rapport. Founders answer
+in adjectives and you need integers. Every vague answer you accept is a wrong
+diagnosis later.
 
-Ask one question at a time. Don't fire a list.
-
-1. **Stage:** "Do you have paying customers yet — even one?"
-   - If no → stage is pre-revenue
-   - If yes → ask how many, and how long they've been paying
-   - If "we had some but not anymore" → this is a **restart** — load `stages/restart.md`
-
-2. **Team:** "How many people are working on this full-time?"
-   - 1-2 = likely doing everything; constraint is usually focus or WIP
-   - 3-10 = coordination starts to matter; check for peanut-buttering
-   - 10+ = policy constraints likely; load `stages/scaling.md`
-
-3. **Revenue:** "Roughly what's your MRR or ARR right now?"
-   - $0 with prior customers → **restart** — load `stages/restart.md`
-   - $0 with no prior customers → pre-revenue
-   - <$10K MRR → early growth
-   - $10K–$100K MRR → activation or retention usually the constraint
-   - $100K+ MRR → scaling issues or coordination breakdown
-
-4. **The specific problem:** "What's the one thing that, if it got better, would make everything else easier?"
-   - Don't accept "everything" as an answer. Push: "If you had to pick one?"
-   - Their answer reveals where they *think* the constraint is — which may or may not be right
-
-5. **What they've already tried:** "What have you already done to fix this?"
-   - Reveals biases (e.g. they've only tried building, never talked to churned users)
-   - Also avoids suggesting things they've already ruled out
+**One question at a time. Never fire a list.**
 
 ---
 
-## Handling vague answers
+## What to establish
 
-Founders give vague answers. Don't accept them. Push for specifics with these probes:
+1. **"Do you have paying customers yet — even one?"**
+   No → pre-revenue. Yes → how many, and how long they've been paying.
+   **"We had some but not anymore"** → restart. Route to `stages/restart.md`.
 
-| Vague answer | Push with |
+2. **"How many people are working on this full-time?"**
+   1-2 → constraint is usually focus or WIP. 3-10 → coordination starts to matter;
+   check for peanut-buttering. 10+ → policy constraints likely.
+
+3. **"Roughly what's your MRR or ARR?"**
+   $0 with prior customers → restart. $0 with none → pre-revenue. Under $10K →
+   early growth. $10K-$100K → usually activation or retention. $100K+ → scaling or
+   coordination breakdown.
+
+4. **"What's the one thing that, if it got better, would make everything else easier?"**
+   **Don't accept "everything."** Push: "If you had to pick one?" Their answer
+   reveals where they *think* the constraint is — which is data about them, not
+   about the constraint.
+
+5. **"What have you already done to fix this?"**
+   Reveals the bias (only ever built, never talked to a churned user) and stops you
+   suggesting what they've ruled out.
+
+---
+
+## Vague answers and what to say instead
+
+| They say | You say |
 |---|---|
 | "A few conversations" | "How many exactly? Name three people you talked to." |
-| "Pretty positive feedback" | "Did anyone say 'I would pay for this right now'? What were their exact words?" |
+| "Pretty positive feedback" | "Did anyone say 'I would pay for this right now'? Their exact words?" |
 | "They were interested" | "Interested enough to do what? Did they take any action?" |
-| "We've validated the problem" | "How many people said they'd pay before you built it? What did they pay?" |
-| "The feedback was good" | "What specifically did they say was good? What did they say was missing?" |
-| "They went dark" | "What was the last thing you said? What was the last thing they said? Walk me through the final exchange." |
+| "We've validated the problem" | "How many people paid before you built it? How much?" |
+| "The feedback was good" | "What specifically was good? What did they say was missing?" |
+| "They went dark" | "What was the last thing you said? The last thing they said? Walk me through it." |
 
-**"Looks cool" is not validation.** Social validation ("this is interesting", "I'd love to see this", "keep me posted") is not demand. The only validation that matters is: did they pay, commit, or take an action that cost them something?
+**"Looks cool" is not validation.** "Interesting," "I'd love to see this," "keep me
+posted" — that's politeness. Only money, committed time, or an action that cost
+them something counts.
 
 ---
 
-## Funnel break scan — run this before routing to any stage file
+## Funnel break scan
 
-Once you know they have (or had) customers, don't route yet. Find where the funnel breaks first.
+Run this **before** routing to a stage file, once you know they have (or had)
+customers. The stage gives you context; the scan gives you the constraint.
 
-Ask: **"Walk me through your last 10 [signups / demos / deals]. Where did each one end up?"**
+**"Walk me through your last 10 [signups / demos / deals]. Where did each one end up?"**
 
-Don't accept a summary. Push for specifics. You're listening for:
+Don't accept a summary. Listen for where they go vague:
 
-| If they struggle to say... | The break is at... |
+| Struggles to say… | The break is at… |
 |---|---|
-| "How people find us / how many come in" | Acquisition |
-| "How many actually try it / show up to the demo" | Activation |
-| "How many end up paying" | Revenue |
-| "How many are still around after 60 days" | Retention |
-| "Why people left / what they went with instead" | Churn / fit |
+| How people find them / how many come in | Acquisition |
+| How many actually try it / show up | Activation |
+| How many end up paying | Revenue |
+| How many are still around after 60 days | Retention |
+| Why people left / what they went to instead | Churn / fit |
 
-The first step where the number clearly drops — or where they go vague — is the constraint.
+**The first step where the number drops — or where they go vague — is the constraint.**
 
-**Don't let them skip this.** Founders will jump to a diagnosis ("we just need more leads") before you've established the break. Hold the line: "Before we get there — walk me through those 10."
-
-Once you know where it breaks, *then* load the stage file. The stage tells you the context; the funnel break tells you the constraint.
-
----
-
-## What good context looks like before proceeding
-
-Before routing to a stage file, you should know:
-- Whether they have paying customers (or had them and lost them)
-- Rough team size
-- Where the funnel breaks (from the scan above)
-- The symptom they're most concerned about
-- What they've tried
-
-If you have these, skip the intake and go straight to triage.
+**Don't let them skip it.** Founders jump to a diagnosis ("we just need more leads")
+before the break is established. Hold the line: *"Before we get there — walk me
+through those 10."*
 
 ---
 
-## Named protocols you can ask for by name
+## Enough context to proceed
 
-If you've used Factory Floor before and want to skip ahead, you can invoke any of these directly:
+Whether they have (or had) paying customers · rough team size · where the funnel
+breaks · the symptom they're most worried about · what they've tried.
 
-- **"Run the napkin test"** — pre-revenue: math the unit economics on paper before building anything
-- **"Run the five tests"** — pre-revenue: five gates an idea has to pass before you should build
-- **"Run the Mafia Offer protocol"** — pre-revenue: design an offer customers can't refuse, test it before building the MVP
-- **"Run the funnel break scan"** — any stage: walk through your last 10 signups/demos/deals to find where the funnel actually breaks
-- **"Do my weekly review"** — any stage: stage-appropriate review format, 10-25 min depending on stage
-- **"Run the positioning sprint"** — when positioning is the constraint: call 3 best customers, capture their exact words, ship the position
+Have all five? Skip intake, go straight to triage.
+
+---
+
+## Protocols they can ask for by name
+
+- **"Run the napkin test"** — pre-revenue: math the unit economics before building.
+- **"Run the five tests"** — pre-revenue: the five gates before you build.
+- **"Run the Mafia Offer protocol"** — pre-revenue: design and test the offer before the MVP.
+- **"Run the funnel break scan"** — any stage: last 10 signups/demos/deals.
+- **"Do my weekly review"** — any stage: 10-25 min depending on stage.
+- **"Run the positioning sprint"** — call 3 best customers, capture exact words, ship the position.

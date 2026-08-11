@@ -1,155 +1,57 @@
-# Pillar 1: The Theory of Constraints (Goldratt) — Reference
+# Goldratt — Theory of Constraints
 
-## Contents
-- [The Five Focusing Steps — Startup Translation](#the-five-focusing-steps)
-- [Throughput Accounting for Startups](#throughput-accounting)
-- [Little's Law](#littles-law)
-- [Drum-Buffer-Rope (DBR)](#drum-buffer-rope)
-- [Context-Switching Tax](#context-switching-tax)
+Load when the constraint can't be identified, or when the founder is optimizing
+everywhere at once.
 
-## The Five Focusing Steps — Startup Translation
-
-### 1. Identify the Constraint
-
-In manufacturing, the constraint is the machine with the longest queue. In a
-startup, look for these signals:
-
-- **Where does work pile up?** Tickets waiting for engineering? Leads waiting
-  for the founder to demo? Signed customers waiting for onboarding?
-- **Where do downstream stages starve?** Engineering done but nothing to ship
-  because there are no customers? Customers ready but nothing new to show them?
-- **What is the team most often waiting on?** The answer reveals the bottleneck.
-
-Common startup constraints by function:
-
-| Function | Signals it's the constraint |
-|---|---|
-| Sales/Pipeline | Thin pipeline, sparse demos, deals stalling. Engineering and onboarding have spare capacity. |
-| Engineering/Product | Feature requests exceed dev capacity. Sales sells what can't be built. Half-built features accumulate. |
-| Onboarding/Activation | Deals close but customers can't go live. Churn starts before expansion. Support queue grows. |
-| Market/Awareness | Product works well for those who try it, but too few people enter the funnel. Growth is flat despite good retention. |
-
-Important: this is a self-correcting process. If you invest in the wrong area,
-the real constraint stays the same and nothing improves. That's your signal to
-re-identify.
-
-### 2. Exploit the Constraint
-
-Before spending money, squeeze maximum output from the bottleneck. The
-principle: make the constraint more productive with existing resources before
-investing new ones. Every minute the constraint spends on non-constraint
-work is lost throughput for the entire company.
-
-See the role-by-constraint table in `stages/growth.md` ("What each role does,
-based on the current constraint") for the startup-specific translation.
-
-### 3. Subordinate Everything Else
-
-This is the hardest step psychologically. The rules:
-
-- Non-constraints must serve the constraint, even when that means they appear
-  underutilized.
-- Idle capacity at a non-constraint is not waste — it's buffer. A highway needs
-  an emergency lane.
-- Non-constraint work that doesn't feed the constraint should stop.
-
-### 4. Elevate the Constraint
-
-Only after Steps 2 and 3. Now you invest: hire at the constraint, buy tools
-for the constraint, outsource non-constraint work to free capacity.
-
-Every unit of capacity added at the constraint = throughput of the whole
-company. A hire at a non-constraint adds cost without adding throughput.
-
-See `stages/scaling.md` for detailed guidance on hiring as elevation.
-
-### 5. Repeat (Prevent Inertia)
-
-After elevating, the constraint moves. The processes and policies built
-for the old constraint may now be counterproductive. Do not allow inertia
-to become the constraint.
-
-This is why the weekly constraint review exists. Every week, re-ask: "What is
-our constraint now?" If it has shifted, update subordination roles immediately.
-
-## Throughput Accounting for Startups
-
-Goldratt's three metrics, translated:
-
-| Manufacturing term | Startup equivalent |
-|---|---|
-| **Throughput (T)** | Revenue from happy paying customers. The rate of creating monetizable value. |
-| **Inventory (I)** | WIP — half-built features, unworked leads, unsigned proposals, customers in limbo. |
-| **Operating Expense (OE)** | Everything spent to run: salaries, cloud infra, tools, rent. Essentially fixed in the short term. |
-
-**The decision hierarchy:**
-1. Does this increase T? → Prioritize.
-2. Does this reduce I? → Do it next.
-3. Does this reduce OE? → Nice, but secondary.
-
-Most founders invert this and start with cost-cutting. TOC says maximize T
-first, always. The bigger potential is upside, not efficiency.
-
-## Little's Law
-
-WIP = Throughput × Lead Time. If WIP increases and Throughput holds constant, Lead Time must increase.
-
-**Finishing one thing is always better than starting two things.** A team completing one feature per week delivers more value than a team with five features "in progress" for three weeks each.
-
-## Drum-Buffer-Rope (DBR)
-
-Drum-Buffer-Rope is Goldratt's scheduling mechanism for managing flow through
-a system. Where the Five Focusing Steps tell you *what* to do about the
-constraint, DBR tells you *how to pace the whole system* around it.
-
-**Drum:** The constraint sets the pace. It determines the system's maximum
-throughput, so everything runs at the constraint's rhythm. In a startup, if
-engineering is the constraint and can ship one feature per week, the whole
-company operates on a one-feature-per-week drum. Marketing doesn't generate
-leads faster than sales can close them. Sales doesn't close deals faster than
-onboarding can absorb them. The constraint's capacity IS the tempo.
-
-**Buffer:** A time buffer placed in front of the constraint ensures it never
-starves. Work that feeds the constraint should arrive early enough that the
-constraint always has something ready to pull. In practice: 2-3 fully
-specified, unblocked tasks queued before the bottleneck person or process.
-If the buffer runs dry, the constraint sits idle and the entire system loses
-throughput.
-
-**Rope:** A signal that ties the start of new work to the constraint's
-consumption rate. New work enters the system only when the constraint pulls
-it — not when someone upstream is ready to push it. The rope prevents
-overproduction at non-constraints, which would pile up as WIP (inventory)
-without increasing throughput.
-
-### DBR in a startup
-
-| DBR element | Manufacturing | Startup equivalent |
-|---|---|---|
-| Drum | Bottleneck machine's cycle time | The constraint's capacity (demos/week, features/sprint, customers onboarded/week) |
-| Buffer | Queue of parts in front of the bottleneck | 2-3 ready tasks before the constraint; pre-qualified leads before the sales constraint; signed customers queued before onboarding |
-| Rope | Signal to release raw materials | WIP limit — nobody starts new work until the constraint pulls. New leads aren't generated faster than the constraint can process them. |
-
-**The practical rule:** Before starting any new initiative, ask: "Can the
-constraint absorb this?" If engineering can ship one thing per sprint,
-planning three things is creating inventory, not progress. The rope prevents
-this by tying intake to the constraint's actual throughput.
-
-DBR and the Five Focusing Steps work together: the Five Focusing Steps tell
-you WHERE to intervene (identify, exploit, subordinate, elevate). DBR tells
-you how to PACE the system so non-constraints don't overproduce and the
-constraint never starves. The weekly constraint review checks both: is the
-constraint identified correctly (Five Focusing Steps)? Is the buffer healthy
-and is WIP controlled (DBR)?
+You know TOC. This file is not a summary — it's how Factory Floor holds it.
 
 ---
 
-## Context-Switching Tax
+## The mindset
 
-Each additional parallel project costs ~20% in lost
-productivity from context-switching.
+- **There is exactly one constraint.** Not three priorities. Not a balanced
+  scorecard. One. If a founder names three, they haven't found it yet.
+- **An improvement anywhere else is worth zero.** Not "less valuable" — zero. Say
+  it in those terms; the harshness is the point.
+- **Idle capacity at a non-constraint is buffer, not waste.** Founders will try to
+  fill it. That is the instinct you are fighting.
+- **The process is self-correcting.** Invest in the wrong place and nothing
+  improves — which is a cheap, fast signal to re-identify, not a failure.
+- **After you elevate, the constraint moves.** The systems built for the old one
+  become the new one if nobody re-asks the question.
+- **Throughput first, then inventory, then cost.** Founders invert this and start
+  with cost-cutting. The upside is always on the throughput side; cost has a floor.
 
-| Simultaneous projects | % of time available per project | % lost to switching |
+---
+
+## Identifying it
+
+Three questions, in this order:
+
+1. **Where does work pile up?** Tickets waiting on engineering, leads waiting on
+   the founder, signed customers waiting on onboarding.
+2. **Where do downstream stages starve?** Engineering shipping with nothing to sell
+   into. Customers ready with nothing new to show them.
+3. **What is the team most often waiting on?** The answer is usually the answer.
+
+| Function | Signals it's the constraint |
+|---|---|
+| Sales / pipeline | Thin pipeline, sparse demos, deals stalling. Engineering and onboarding have spare capacity. |
+| Engineering / product | Requests exceed capacity. Sales sells what can't be built. Half-built features accumulate. |
+| Onboarding / activation | Deals close but customers can't go live. Churn starts before expansion. Support queue grows. |
+| Market / awareness | Works well for those who try it, too few enter the funnel. Flat growth despite good retention. |
+
+Operational translation per stage → `stages/growth.md` (subordination matrix),
+`stages/scaling.md` (policy constraints, hiring as elevation).
+
+---
+
+## The context-switching tax
+
+Roughly 20% lost per additional parallel project. Use the table — the numbers land
+harder than the principle.
+
+| Parallel projects | Time available per project | Lost to switching |
 |---|---|---|
 | 1 | 100% | 0% |
 | 2 | 40% | 20% |
@@ -157,5 +59,17 @@ productivity from context-switching.
 | 4 | 10% | 60% |
 | 5 | 5% | 75% |
 
-For a three-person startup, the practical limit is one active task per person.
-WIP limit = team size.
+**WIP limit = team size.** For a small startup that means one active task per person.
+
+---
+
+## Pacing the system
+
+The constraint sets the tempo for everyone. Marketing doesn't generate leads faster
+than sales closes them; sales doesn't close faster than onboarding absorbs them.
+
+Before any new initiative: **"Can the constraint absorb this?"** If engineering
+ships one thing per sprint, planning three is manufacturing inventory.
+
+Keep **2-3 ready, fully specified, unblocked items** in front of the constraint at
+all times. Below two, refilling is the team's top priority.

@@ -38,8 +38,7 @@ clawhub install factory-floor
    - `stages/growth.md`
    - `stages/scaling.md`
    - `references/intake.md`
-   - `references/misdiagnoses.md`
-   - `references/coaching-patterns.md`
+   - `references/probes.md`
    - `references/state.md`
 4. Optionally upload reference files for deeper dives:
    - `references/jtbd.md`
@@ -77,9 +76,9 @@ A quick triage loads the right playbook:
 
 | Stage | What it covers |
 |---|---|
-| **[Pre-revenue](stages/pre-revenue.md)** | No customers yet? Don't build. Five tests before you write code. Napkin math. The Mafia Offer. A worked example of killing a bad idea in 20 minutes. |
+| **[Pre-revenue](stages/pre-revenue.md)** | No customers yet? Don't build. Five tests before you write code. Napkin math. The Mafia Offer. |
 | **[Restart](stages/restart.md)** | Had customers, lost them. Forensics first — product failure, fit failure, or sales execution failure? Churned customer interviews. Restart sequence. |
-| **[Growth](stages/growth.md)** | Have customers, small team. Find the constraint, exploit it, run the system. GOLEAN sprints, WIP limits, brand building vs. activation. Two worked examples. |
+| **[Growth](stages/growth.md)** | Have customers, small team. Find the constraint, exploit it, run the system. GOLEAN sprints, WIP limits, brand building vs. activation. |
 | **[Scaling](stages/scaling.md)** | $100K+ MRR or 10+ people. Policy constraints, multi-team coordination, hiring as elevation, buffer management, timeline communication. |
 
 ## The six frameworks

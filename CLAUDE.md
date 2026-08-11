@@ -12,33 +12,46 @@ The skill is **decision-tree routed**: SKILL.md is a thin router (~130 lines) wi
 
 ### SKILL.md (the router)
 
-Contains: frontmatter, decision tree (stage routing + funnel break scan), symptom → constraint map, reference routing table, inline GOLEAN summary, and the core rule. **After triage, SKILL.md tells Claude to read one of the stage files.**
+Contains: frontmatter, the stance and "never" lists, the four-part response contract, decision tree (stage routing + funnel break scan), symptom → constraint map, reference routing table, GOLEAN + reflexes, the inline state read schema, and the core rule. **After triage, SKILL.md tells Claude to read one of the stage files.**
+
+### The editing principle: assume the model knows the theory
+
+**No file in this skill teaches a framework.** Goldratt, Maurya, Sharp, Ritson, Christensen, Moesta, Ulwick, Rumelt, Clausewitz, Dixit & Nalebuff, Binet & Field are all in the model's training data. Explaining Double Jeopardy, Little's Law, PERT, or the prisoner's dilemma spends context to tell the model what it already knows.
+
+What files carry instead, and what any edit must preserve:
+
+1. **Stance** — the opinionated posture we want the model in for this situation. Every file opens with one.
+2. **Refusals** — what this skill will not accept from a founder.
+3. **Protocols** — the specific sequences, questions, and verbatim phrasings.
+4. **Our numbers** — thresholds that are a judgment call, not a fact: buffer × 0.4, WIP = team size, 8-12 interviews, 3-5 conversations/week, 8-15 CEPs, 3x rule, 2-week cycles, 40-60% calibration band.
+5. **Routing** — which file to load, and when not to load one.
+
+If you can delete a passage and the model would still behave the same way, delete it. If a passage reads like a textbook summary, it is one.
 
 ### stages/
 
-Stage files are self-contained — each integrates the relevant parts of JTBD, Goldratt, Maurya, Sharp, and Ritson where they're needed, rather than referencing them as separate reading.
+Self-contained operational files — each applies the relevant pillars in place rather than sending Claude to read them separately. Each opens with the mindset for that stage and what to refuse.
 
-- `pre-revenue.md` — Day 1 through first paying customer. Problem validation, the five tests (not-not, job, Lean Canvas, napkin, Mafia Offer), JTBD basics (forces, canvas), solo-founder subordination, day-1 weekly review, worked example (killing an idea on the napkin).
-- `restart.md` — Had customers, lost them, now at zero. Forensics-first approach (product failure vs. fit failure vs. sales execution failure), churned customer interviews, restart sequence, graduation criteria.
-- `growth.md` — Post-revenue through ~$100K MRR, team under ~10. Full constraint cascade, "Before You Build" check (Sharp + Ritson integrated), brand building vs. activation, Goldratt's five steps + subordination matrix, customer factory, GOLEAN, WIP/buffer/estimation, JTBD in the weekly rhythm, two worked examples (growth stall + constraint shift), light weekly review.
-- `scaling.md` — $100K+ MRR, 10+ people. Policy constraints, multi-team constraint work, hiring as elevation, multi-quarter initiatives, business model constraints, full CCPM + buffer management, timeline communication, worked example (hidden policy constraint), full weekly review.
+- `pre-revenue.md` — Day 1 to first paying customer. Job statement, 5-minute canvas, the five tests (not-not, job, Lean Canvas, napkin, Mafia Offer), what to do instead of building, solo-founder subordination, weekly review, graduation.
+- `restart.md` — Had customers, lost them. Forensics before anything (product vs. fit vs. sales execution failure), the four forensic questions, restart sequence, anti-patterns, graduation.
+- `growth.md` — Post-revenue to ~$100K MRR, team under 10. Instrumentation, "Before You Build" awareness check, brand vs. activation, awareness cadence, subordination matrix, customer factory, WIP/buffer/estimation, fever chart, JTBD rhythm, graduation.
+- `scaling.md` — $100K+ MRR or 10+ people. Policy constraints, awareness per segment, two-layer constraint work, hiring as elevation, multi-quarter initiatives, business-model constraints, CCPM and timeline communication, handling a constraint shift.
 
 ### references/
 
-Deep-dive concept files. Claude reads these when more detail is needed on a specific framework. Operational content (protocols, checklists, weekly routines) lives in the stage files; references hold theory, definitions, and methodology.
+Loaded on demand when the router points at one. Each is stance + protocol for a single pillar — never a summary of the source material.
 
-- `intake.md` — First conversation questions, funnel break scan protocol, vague-answer handling
-- `misdiagnoses.md` — Nine common wrong diagnoses and the questions that expose them
-- `coaching-patterns.md` — Diagnostic questions by situation, anti-patterns with probes, closing the loop
-- `pillar-goldratt.md` — Theory of Constraints (Five Focusing Steps, throughput accounting, Little's Law, Drum-Buffer-Rope, context-switching tax)
-- `pillar-maurya.md` — Customer Factory (blueprint, stage-constraint mapping, GOLEAN, referral loops, local vs. global optimization, Innovator's Bias/Gift)
-- `pillar-sharp.md` — Mental & Physical Availability (CEPs, distinctiveness, reach vs frequency, laws of brand growth, CEP mapping exercise, physical availability audit, operational protocol)
-- `pillar-ritson.md` — Marketing Strategy Discipline (Diagnosis → Strategy → Tactics, STP, positioning, differentiation + distinctiveness, Binet & Field budget allocation, brand codes, market orientation, positioning sprint)
-- `jtbd.md` — Jobs To Be Done (forces of progress, switch interviews, Ulwick's job map, opportunity scoring, positioning from JTBD, demand generation vs. capture, hiring/firing)
-- `pillar-strategy.md` — Strategic Thinking (Rumelt's kernel/crux/bad strategy signs, Clausewitz's fog/friction/center of gravity/culminating point, Dixit & Nalebuff's game theory for competitive dynamics)
-- `estimation.md` — Estimation theory (why estimates fail, CCPM method, PERT, cycle time, Monte Carlo, cone of uncertainty, buffer sizing methods)
-- `weekly-review.md` — Weekly review templates by stage
-- `weekly-diagrams.md` — Customer Factory Funnel diagram template for the weekly constraint review
+- `intake.md` — First-conversation questions, vague-answer probes, funnel break scan, named protocols
+- `probes.md` — The question behind the question, nine wrong diagnoses, probes by situation, anti-patterns
+- `pillar-goldratt.md` — Theory of Constraints: identifying it, signals by function, context-switching tax, pacing
+- `pillar-maurya.md` — Customer Factory: canonical vocabulary, constraint by maturity, repeatability, Innovator's Bias, referral gates
+- `pillar-sharp.md` — Mental & physical availability: the four-question diagnostic, CEP mapping exercise, physical availability audit
+- `pillar-ritson.md` — Marketing strategy discipline: the five-question diagnostic, positioning rules, differentiation vs. distinctiveness, budget split, positioning sprint
+- `jtbd.md` — Switch interviews (three layers of language, questions by force, sample size), deciding what to build, JTBD → positioning, demand generation vs. capture
+- `pillar-strategy.md` — Testing whether a plan is a strategy, coaching moves for fog/overextension/competition/negotiation, alignment replaces control
+- `estimation.md` — CCPM method and multipliers, estimate vs. measure vs. time-box, calibrating to 50%
+- `weekly-review.md` — Review format per stage, plus the Customer Factory funnel diagram template and rendering
+- `state.md` — Write triggers, entry templates, bootstrap, edge cases (a machine contract — keep it precise, not terse)
 
 ### scripts/
 
@@ -55,4 +68,18 @@ When editing, maintain this hierarchy. Changes to core concepts in one pillar sh
 
 ## Content Ownership
 
-Operational content (what to do, when, how) belongs in stage files. Conceptual content (theory, definitions, methodology, research) belongs in references. If content appears in both places, the stage file is the authoritative operational version and the reference is the authoritative conceptual version. Don't duplicate — cross-reference.
+Operational content (what to do, when, how) belongs in stage files. Pillar-specific stance and protocol belongs in references. If content appears in both, the stage file is authoritative for the operational version and the reference is authoritative for the protocol. **Don't duplicate — cross-reference.**
+
+Duplication is the failure mode this repo drifts toward. Before adding anything, grep for it. The GOLEAN cycle, the fever chart thresholds, the "looks cool isn't validation" rule, and the awareness diagnostic have each been written three or more times in past versions; each now has exactly one home:
+
+| Content | Single home |
+|---|---|
+| GOLEAN cycle + reflexes | `SKILL.md` |
+| Response contract, stance, refusals | `SKILL.md` (per-file stance blocks are stage/pillar-specific, not repeats) |
+| State read schema | `SKILL.md`; writes in `references/state.md` |
+| 5-minute canvas | `stages/pre-revenue.md` |
+| Subordination matrix, fever chart, WIP rules | `stages/growth.md` |
+| Awareness diagnostic (3 questions) | `stages/growth.md`; the per-segment version in `stages/scaling.md` |
+| CEP mapping, physical availability audit | `references/pillar-sharp.md` |
+| Buffer multipliers, calibration | `references/estimation.md` |
+| Weekly review formats + funnel diagram | `references/weekly-review.md` |

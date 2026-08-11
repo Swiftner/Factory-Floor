@@ -1,165 +1,119 @@
-# Restart: Had Customers, Lost Them — Now What?
+# Restart — Had Customers, Lost Them
 
-This stage is for founders who have proven the product works — someone paid,
-used it, maybe even loved it — but revenue is now zero or near zero. This is
-not pre-revenue. The product exists. The market signal existed. The question
-is: what broke?
+**The mindset:** this is a crime scene, not a blank page. Someone paid. The market
+signal was real. Something specific killed it, and the founder almost certainly
+doesn't know what — because they haven't asked.
 
-Don't treat this like a pre-revenue situation. The five tests and the napkin
-math are not the priority. The priority is **forensics**.
+Resist every instinct to rebuild. Rebuilding before forensics is how founders spend
+their remaining runway solving the wrong problem twice.
 
----
-
-## The critical question first
-
-Before any advice: **Why did the customers leave?**
-
-Not your hypothesis. Their actual words. If you don't know — that is your
-constraint. Everything else is guessing.
-
-Ask: "When was the last time you spoke to a customer who left? What did they
-tell you?"
-
-If they say "we haven't really talked to them" — that's the first task.
-Before outreach, before building, before hiring: talk to churned customers.
+**What you refuse to accept:** "we just need to relaunch," "the market wasn't
+ready," "we're going to rebuild it properly this time," and any plan that starts
+before they've talked to someone who left.
 
 ---
 
-## Restart forensics: four questions to answer
+## The question that comes first
 
-Work through these in order. Don't route to a solution until you've answered all four.
+**"When was the last time you spoke to a customer who left? What did they tell you?"**
 
-### 1. Was it a product failure, a fit failure, or a sales execution failure?
+Not their theory. The customer's words.
 
-- **Product failure:** Customers tried it, hit a wall, and left because it
-  didn't do what they needed.
-  - Signals: support tickets, "it doesn't do X," onboarding drop-off, short
-    tenure before churn.
-  - Diagnosis: the product didn't deliver on the promise.
+If the answer is "we haven't really talked to them" — **that is the constraint**,
+and the first task, before outreach, before building, before hiring.
 
-- **Fit failure:** The product worked, but you sold it to the wrong people.
-  They weren't the right segment, didn't have the job badly enough, or the
-  timing was wrong for them.
-  - Signals: customers who "liked it but couldn't justify the cost," trials
-    from large orgs that stalled in procurement, customers who signed up
-    for a different use case than you built for.
-  - Diagnosis: the product may be fine; the segment or positioning is wrong.
+---
 
-- **Sales execution failure:** The product worked, the segment was right, but
-  the deal died in the sales process.
-  - Signals: champion loved it but couldn't get sign-off, "not the right time"
-    or "budget issues" (polite rejections), no economic buyer involved,
-    trial ran but no urgency was created, procurement stalled indefinitely.
-  - Diagnosis: the product and fit may be fine; the sales motion is broken.
+## Forensics: four questions, in order
 
-**"Not the right time" is almost never the real reason.** When you hear
-"budget issues," "not a priority right now," or "let's revisit next quarter,"
-the stated reason is rarely the real one. Push: "If budget wasn't a constraint,
-would you have bought? What would have needed to be true for this to be a
-priority?" The real objection is usually: no champion, no urgency, or no
-clear ROI story.
+Don't route to any solution until all four are answered.
 
-Ask: "Of the customers you lost — did they fail *with* the product, did
-they quietly stop using it, or did the deal die before they really started?"
+### 1. Product failure, fit failure, or sales execution failure?
 
-### 2. Was there a struggling moment that's still real?
+- **Product** — they tried it, hit a wall, left. Signals: support tickets, "it
+  doesn't do X," onboarding drop-off, short tenure.
+- **Fit** — the product worked, sold to the wrong people. Signals: "liked it but
+  couldn't justify the cost," procurement stalls, signups for a use case you
+  didn't build.
+- **Sales execution** — right product, right segment, deal died in process.
+  Signals: champion with no sign-off, no economic buyer, no urgency created,
+  polite rejections.
 
-The struggling moment that brought them to you in the first place — does
-it still exist? Has the market changed?
+Ask: **"Did they fail *with* the product, quietly stop using it, or did the deal
+die before they really started?"**
 
-If the problem is still painful and real: the opportunity is intact.
-You lost customers for reasons you can fix.
+**"Not the right time" is almost never the real reason.** Push: "If budget weren't
+a constraint, would you have bought? What would have had to be true?" The real
+answer is usually no champion, no urgency, or no ROI story.
 
-If the market shifted (a competitor solved it, the problem went away, a
-macro change made it less urgent): you may need to reposition or pivot before
-restarting.
+### 2. Is the struggling moment still real?
 
-Ask: "Are your old customers still struggling with this problem — just without
-you?"
+**"Are your old customers still struggling with this — just without you?"**
 
-### 3. Did you lose them or did they outgrow you?
+Still painful → the opportunity is intact and the losses were fixable.
+Market shifted (someone solved it, the problem evaporated) → reposition or pivot
+before restarting.
 
-Some churn is success churn: customers got what they came for and moved on.
-This isn't a failure — but it tells you something about the job-to-be-done.
+### 3. Did you lose them, or did they outgrow you?
 
-Ask: "What were customers doing *after* they left? Did any of them tell you
-they'd solved the problem a different way?"
+**"What were they doing after they left?"**
 
-If they outgrew you: there's a product depth or expansion revenue problem to
-solve. If they left for a competitor: run competitive forensics. If they just
-quietly stopped: activation or value delivery was the constraint.
+Success churn isn't failure — but it tells you the job has a natural end. Left for
+a competitor → competitive forensics. Quietly stopped → activation or value
+delivery was the real constraint.
 
-### 4. What did you learn about the real customer?
+### 4. Who actually got value?
 
-After running trials or early customers, most founders discover the customer
-they built for is not quite the customer who got the most value. Early
-customers reveal the real ICP — often different from the assumed one.
+**"Who got the most value — not who you hoped would, who actually did?"**
 
-Ask: "Looking back — who got the most value out of this? Not who you hoped
-would, but who actually did?"
-
-That profile is your restart target. Not your original hypothesis. The data.
+That profile is the restart target. The data, not the original hypothesis. Early
+customers almost always reveal an ICP different from the assumed one.
 
 ---
 
 ## Restart is not a reset
 
-Do not treat this like starting over unless the forensics clearly point there.
+Do not let them start over unless the forensics point there. They have what a
+pre-revenue founder doesn't:
 
-What you have that pre-revenue founders don't:
-- Proof that someone found it valuable enough to pay
-- Churned customers who can tell you exactly what broke
-- A working product (or close to one)
-- Lessons about the real ICP
-- Credibility: you shipped something real
+proof someone paid · churned customers who can say exactly what broke · a working
+product · evidence about the real ICP · the credibility of having shipped.
 
-Use these. Don't discard them.
+Make them use it.
 
 ---
 
 ## The restart sequence
 
-Once you've answered the four forensics questions:
-
-1. **Identify the best-fit customers you had.** Who stayed longest? Who
-   got the most value? Who referred someone else, even once?
-
-2. **Run 3-5 churned customer interviews.** Use the JTBD switch interview
-   protocol (`references/jtbd.md`). Focus on: what triggered them to try
-   you, what job they hired you for, and what caused them to stop.
-
-3. **Write the revised job statement.** One sentence. In their words.
-   Not your words.
-
-4. **Identify 10 prospects who look exactly like your best-fit customers.**
-   Not a list of 100. Ten. With names.
-
-5. **Reach out with a specific, honest message.** Not a demo request.
-   Something like: "We worked with [similar company]. They were trying to
-   [specific job]. We helped them [specific outcome]. I think you might
-   have the same problem. Do you?"
-
-6. **Get one conversation.** Not a sale. A conversation. Then run the
-   intake questions again as if it's a new customer. You're validating
-   whether the forensics were right.
+1. **Name the best-fit customers you had.** Longest tenure, most value, anyone who
+   referred someone.
+2. **Interview 3-5 who churned.** Switch interview protocol → `references/jtbd.md`.
+   Focus on trigger, job hired for, and what caused the stop.
+3. **Rewrite the job statement.** One sentence, their words.
+4. **List 10 prospects who look exactly like the best-fit profile.** Ten, with
+   names. Not a hundred.
+5. **Reach out specifically and honestly.** Not a demo request: "We worked with
+   [similar company]. They were trying to [job]. We helped them [outcome]. I think
+   you might have the same problem. Do you?"
+6. **Get one conversation.** Not a sale — a conversation. Run intake on them as if
+   new. You're checking whether the forensics were right.
 
 ---
 
 ## Anti-patterns
 
-- Rebuilding before running forensics — the product may be fine
-- Pitching the same people who said no, without a genuinely different message
-- Raising on zero revenue to fund a rebuild — usually runway consumption, not leverage
-- Expanding the target — the ICP was almost certainly too broad, not too narrow
+- Rebuilding before forensics — the product may be fine.
+- Re-pitching the same people without a genuinely different message.
+- Raising on zero revenue to fund a rebuild. That's runway consumption, not leverage.
+- **Widening the target.** The ICP was almost certainly too broad, not too narrow.
 
 ---
 
-## When to graduate to growth.md
+## Graduate to `stages/growth.md` when
 
-You're ready for `stages/growth.md` when:
-- You have 1-2 new paying customers who weren't from your original cohort
-- You've validated that the job statement from your forensics is real
-- The funnel has at least one full cycle you can measure
+- 1-2 new paying customers from outside the original cohort.
+- The job statement from forensics has been validated on someone new.
+- The funnel has one full measurable cycle.
 
-Until then, stay in restart mode. The job is forensics and one new customer,
-not building a growth engine on a hypothesis you haven't re-validated.
+Until then, stay here. The job is forensics and one new customer — not a growth
+engine built on an unvalidated hypothesis.

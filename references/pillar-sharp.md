@@ -1,324 +1,114 @@
-# Pillar 3: Mental & Physical Availability (Byron Sharp) — Reference
+# Sharp — Mental & Physical Availability
 
-## Contents
-- [The Two Availabilities](#the-two-availabilities)
-- [Sharp's Laws — Startup Implications](#sharps-laws)
-- [The Sharp Diagnostic for Startups](#the-sharp-diagnostic)
-- [The CEP Mapping Exercise](#the-cep-mapping-exercise)
-- [The Physical Availability Audit](#the-physical-availability-audit)
-- [Building Mental Availability: The Operational Protocol](#the-operational-protocol)
-- [Connecting to Other Pillars](#connecting-to-other-pillars)
+Load when awareness or reach is the constraint: the product works for those who try
+it, but growth is flat.
 
-## The Two Availabilities
+You know *How Brands Grow*. This file is how Factory Floor holds it.
 
-### Mental Availability
+---
 
-The probability that your brand comes to mind in a buying situation.
+## The mindset
 
-Mental availability is NOT the same as "brand awareness" in the survey sense.
-It's about being linked in the buyer's memory to the right **Category Entry
-Points (CEPs)** — the situations, needs, occasions, and problems that trigger
-someone to look for a solution.
+- **Growth comes from penetration, not loyalty.** Founders want to delight their 10
+  power users. Point them at the 10,000 who've never heard of them. You cannot
+  loyalty your way to growth.
+- **Benchmark churn against the category, not against zero.** Every brand loses
+  customers, and small brands lose slightly more — that's structural, not a product
+  defect. Category-normal churn means the constraint is acquisition. Don't let them
+  build loyalty features when they need reach.
+- **Cast wider than feels sensible.** Tight ICP for sales qualification, yes. For
+  *awareness*, narrow targeting is hiding. Your next customer is a light buyer or a
+  non-buyer, not someone comparing five options in a spreadsheet.
+- **"Niche" is usually a rationalization for low penetration.** Genuinely niche
+  brands are vanishingly rare. Most small brands serve the same buyers as big ones,
+  just fewer of them.
+- **Reach beats frequency.** Seen once by 1,000 beats ten times by 100.
+- **Distinctiveness beats differentiation.** They don't need to be the different
+  one. They need to be the recognizable one.
+- **Advertising is a weak force, and that is the mechanism, not a failure of it.**
+  No single post, ad, or email produces results. Consistency compounds; virality
+  decays. Memory decays in the gaps — never go dark, never save it all for a launch.
+- **Measure reach, not engagement.** Engagement measures the people who already know
+  you. Reach measures whether you're growing.
 
-**Example CEPs for an AI sales coaching platform:**
-- "My cold calling team's conversion rate is terrible"
-- "I'm onboarding new SDRs and they need to ramp faster"
-- "I want to listen to sales calls but don't have time"
-- "I need data on what my top performers do differently"
-- "My team is using too many filler words on calls"
+---
 
-Each of these is a moment when a buyer might start looking. If your brand is
-linked to that moment in their memory, you're mentally available. If not,
-you're invisible — regardless of how good your product is.
+## The diagnostic
 
-**How to increase mental availability:**
-- Be consistently present where your buyers spend attention (content, events,
-  communities, partnerships).
-- Reach broadly. Successful advertising reaches millions of consumers
-  who have a very low probability of buying next week or month.
-- Build distinctive brand assets (logo, colors, tone, tagline) that are easy
-  to recognize and hard to confuse with competitors.
-- Associate your brand with as many relevant CEPs as possible.
-- Advertise continuously, not in bursts. Memory decays in gaps.
+Four questions, in order. Stop at the first "no."
 
-### Physical Availability
+1. **"Do enough of the right people know we exist?"** No → reach, content,
+   partnerships, presence at CEPs. **Do NOT build another feature.**
+2. **"Can they easily find, try, and buy us?"** No → distribution, signup friction,
+   pricing transparency, marketplace presence.
+3. **"Are we distinctive enough to be remembered?"** No → brand assets, applied
+   consistently.
+4. **"Are we linked to the right buying situations?"** Map the CEPs and check each.
 
-How easy it is to find, try, and buy your product when the buyer is ready.
+---
 
-**For a SaaS startup, physical availability means:**
-- Can they find you via the search terms they'd naturally use?
-- Is your pricing transparent or hidden behind "Contact Sales"?
-- Can they start a free trial without friction?
-- Are you present on the platforms and marketplaces where buyers look?
-- Do you integrate with the tools they already use?
-- Are you listed on relevant review sites, directories, and comparison pages?
+## CEP mapping
 
-**Low physical availability examples:**
-- Requiring a demo call before showing the product.
-- No pricing page.
-- Complex signup with multiple approval steps.
-- Not being on G2, Capterra, or relevant industry directories.
-- No integrations with common tools in the buyer's stack.
+A Category Entry Point is the situation that makes someone start looking. Mental
+availability is being the brand attached to those moments.
 
-## Sharp's Laws — Startup Implications
+**Step 1 — List them (30 min, once).** Pull from three sources: every struggling
+moment in your 5-minute canvases; your own observation of what triggers a search;
+the situations competitors' landing pages and case studies describe.
 
-### 1. Growth comes from penetration, not loyalty (Double Jeopardy)
+Aim for **8-15**. Fewer means too narrow; more means you're listing sub-variations.
 
-Big brands are big because they have more customers, not because their
-customers buy more often. Small brands suffer twice: fewer buyers AND
-slightly lower loyalty.
+**Format matters — a situation in the buyer's language, not a topic.** Not
+"pipeline management" but "realized we don't know which deals close this quarter."
+Not "team productivity" but "sprint review showed nothing shipped for the second
+week running." A trigger is not a job title: "quarterly board meeting reveals
+pipeline is thin" is a CEP; "VP of Sales" is not.
 
-**Startup implications:**
+**Step 2 — Score coverage (15 min, quarterly).**
 
-- **Don't over-invest in delighting your 10 power users.** Invest in reaching
-  the 10,000 people who've never heard of you. Your growth ceiling is set by
-  how many people know you exist.
-- **Some churn is structural, not a product problem.** Small brands naturally
-  have slightly lower repeat rates. If your churn is in the normal range for
-  your category, the fix is more customers (acquisition), not more retention
-  features. Don't build loyalty programs when you need reach.
-- **You can't loyalty your way to growth.** The data is unambiguous: brands
-  grow by increasing penetration (more buyers), not by increasing purchase
-  frequency among existing buyers. A startup that focuses all energy on
-  upselling and expanding 50 customers instead of acquiring 500 new ones is
-  fighting the math.
-- **Benchmark churn against the category, not against zero.** Every brand
-  loses customers. Sharp's data shows defection rates are remarkably similar
-  across brands in a category. If your churn looks like the category average,
-  the constraint is almost certainly acquisition, not retention.
-
-### 2. Light buyers and non-buyers are the growth engine
-
-Your next customer almost certainly doesn't use a competitor's product every
-day. They're a light buyer of the category, or they've never bought at all.
-They aren't evaluating 5 options in a spreadsheet. They'll buy whatever comes
-to mind and is easy to access.
-
-**Startup implication:** Your marketing should reach the broadest relevant
-audience, not just the people who match a hyper-specific ideal customer
-profile. This feels wrong to founders — "but we need to focus!" — but the
-data is clear: narrow targeting for awareness is a trap. You're hiding from
-the people who would buy if they knew you existed.
-
-**The uncomfortable truth:** Tight ICP for sales qualification, yes. But for
-awareness? Cast wider than feels sensible. Your growth comes from light buyers
-and non-buyers who haven't heard of you — not from delighting your power users.
-
-### 3. Duplication of Purchase Law
-
-Brands share customers with other brands roughly in proportion to market
-share. Your customers also buy from competitors — and competitors' customers
-are your potential buyers. There is no such thing as a walled-off loyal
-segment.
-
-**Startup implications:**
-
-- **Your competitors' customers are your market.** Don't differentiate *away*
-  from the category. Compete for the same buyers by being more mentally and
-  physically available.
-- **"Niche" is usually a rationalization for low penetration.** Sharp's data
-  shows that truly niche brands (serving a segment no one else serves) are
-  vanishingly rare. Most small brands are simply small — they serve the same
-  buyers as large brands, just fewer of them.
-- **Category conventions matter.** If every competitor has a free trial and
-  you require a demo call, you're reducing physical availability for the
-  shared buyer pool. Match category hygiene, then differentiate on
-  distinctiveness.
-
-### 4. Reach > Frequency
-
-Being seen once by 1,000 people beats being seen 10 times by 100 people.
-
-**Startup implication:** Diversify distribution. Don't put all content on one
-channel. Don't depend on one partnership. Each new channel = more reach =
-more people who know you exist.
-
-### 5. Distinctiveness > Differentiation
-
-You don't need to be "the differentiated brand." You need to be the one they
-can recognize. Distinctive brand assets (colors, logo, visual style, tone,
-tagline, sounds) compound over time.
-
-**Startup implication:** Pick your brand assets early and use them relentlessly.
-Consistency beats creativity. A founder who posts with the same visual style,
-tone, and topics every week builds more mental availability than one who
-reinvents their approach monthly.
-
-### 6. Advertising is a weak force — and that's the point
-
-**Startup implications:**
-
-- **Don't expect any single piece of content, ad, or outreach to produce
-  immediate results.** Founders who post "10 LinkedIn posts and got no leads"
-  misunderstand the mechanism. You're building mental availability, one tiny
-  nudge at a time.
-- **Consistency beats virality.** A viral post gives you a one-time spike that
-  decays. A consistent weekly cadence across 3 channels builds compounding
-  memory structures. The startup that posts every week for a year beats the
-  one that goes viral once and then goes silent.
-- **Continuity > bursts.** Memory decays during gaps. Sharp's data shows
-  brands that advertise continuously maintain mental availability; brands
-  that do big bursts with long gaps lose it between campaigns. For a startup,
-  this means: don't save content for a "launch." Publish steadily.
-- **Measure reach, not engagement.** Engagement metrics (likes, comments)
-  measure the small audience that already knows you. Reach metrics (unique
-  viewers, impressions across channels) measure whether you're expanding
-  mental availability. Optimize for reach.
-
-## The Sharp Diagnostic for Startups
-
-The operational version of this diagnostic (integrated into the constraint
-workflow) is in `stages/growth.md` under "Before You Build Anything."
-
-When a startup has good retention (users who activate tend to stay) but flat
-growth, apply this diagnostic:
-
-1. **"Do enough of the right people know we exist?"**
-   If no → the constraint is mental availability. Invest in reach, content,
-   partnerships, presence at CEPs. Do NOT build another feature.
-
-2. **"Can they easily find and try/buy us when they want to?"**
-   If no → the constraint is physical availability. Fix distribution, signup
-   friction, pricing transparency, marketplace presence.
-
-3. **"Are we distinctive enough to be remembered?"**
-   If no → invest in brand assets. Consistent visual identity, recognizable
-   tone, memorable positioning.
-
-4. **"Are we associated with the right buying situations?"**
-   Map your CEPs. For each one, ask: "Would someone in this situation think of
-   us?" If not, that's a gap to fill with content, advertising, or positioning.
-
-## The CEP Mapping Exercise
-
-Category Entry Points are the specific situations, needs, or triggers that
-cause someone to think about your product category. Mental availability means
-being the brand linked to those moments. This exercise maps your CEPs
-systematically so you know where you're strong, where you're invisible, and
-where to invest.
-
-### Step 1: List your CEPs (30 min, once)
-
-Pull from three sources:
-
-1. **JTBD interviews / 5-minute canvases.** Every struggling moment you've
-   recorded is a CEP. If you have 8-12 canvases, you already have the raw
-   material.
-2. **Your own experience and observation.** What situations cause someone in
-   your market to start looking for a solution? Think about triggers, not
-   demographics. "Quarterly board meeting reveals pipeline is thin" is a CEP.
-   "VP of Sales" is not.
-3. **Competitor messaging.** What situations do competitors' landing pages,
-   ads, and case studies describe? Those are CEPs they've identified.
-
-Aim for 8-15 CEPs. Fewer means you're too narrow; more means you're listing
-sub-variations. Group similar triggers.
-
-**CEP format:** A short situational phrase in the buyer's language.
-Not "pipeline management" — rather "realized we don't know which deals will
-close this quarter." Not "team productivity" — rather "sprint review showed
-nothing shipped for the second week in a row."
-
-### Step 2: Score your coverage (15 min, quarterly)
-
-For each CEP, score two things:
-
-| CEP | Frequency (how often does this trigger?) | Our association (would they think of us?) |
+| CEP | Frequency: how often does it fire? | Association: would they think of us? |
 |---|---|---|
-| _[situational trigger]_ | High / Medium / Low | Strong / Weak / None |
+| *[situational trigger]* | High / Medium / Low | Strong / Weak / None |
 
-**Frequency** estimates how often this trigger fires across your market. A
-CEP that happens weekly to thousands of people is more valuable than one
-that happens once a year to a few.
+Frequency is across the market — weekly-to-thousands beats yearly-to-a-few.
+Association is honest: **Strong** = published content, ads, or testimonials
+addressing that exact moment. **Weak** = tangential. **None** = invisible.
 
-**Association** is honest self-assessment: if someone experienced this trigger
-right now, would your brand come to mind? "Strong" = you've published content,
-run ads, or have testimonials directly addressing this moment. "Weak" = you
-address it tangentially. "None" = you're invisible here.
+**Step 3 — Prioritize (10 min).** **High frequency + Weak/None association = the
+biggest opportunities.** Pick 2-3 per quarter. Each gets one concrete action — a
+post, a landing page, a case study, a partnership, a talk.
 
-### Step 3: Prioritize gaps (10 min)
-
-**High-frequency CEPs where your association is Weak or None are your biggest
-opportunities.** These are the moments where lots of potential buyers are
-entering the category and you're not in the consideration set.
-
-Pick 2-3 gaps to close per quarter. For each one, define a concrete action:
-a content piece, a landing page, a case study, a partnership, a conference
-talk — something that puts your brand in front of people experiencing that
-trigger.
-
-### Step 4: Review quarterly
-
-Re-score the table. Did your association strengthen on the CEPs you targeted?
-Add any new CEPs that emerged from recent JTBD data. Remove any that turned
-out to be low-frequency.
+**Step 4 — Re-score quarterly.** Did association strengthen where you invested? Add
+CEPs surfaced by new JTBD data. Retire the ones that turned out to be rare.
 
 ---
 
-## The Physical Availability Audit
+## Physical availability audit
 
-Physical availability is how easy it is to find, try, and buy your product
-once someone wants to. Mental availability gets you into the consideration
-set; physical availability determines whether the buyer can act on it. Both
-must be present.
+Score each: Good / Needs work / Missing. **More than 3 gaps in any section makes
+that section the constraint.** Fix the highest-frequency gaps in the primary
+segment first.
 
-### The audit checklist
+**Findability** — do you rank for the words a buyer types when the struggling
+moment hits (the problem, not your brand name)? Listed on the review sites and
+directories for your category, with recent reviews? Present in the marketplaces and
+app stores your category uses? Showing up for "[category] vs [competitor]" and
+"best [category] tools"? Can an existing customer share you easily?
 
-Score each dimension: Good / Needs work / Missing.
+**Trial friction** — can they start in under 2 minutes with no human involved? How
+many minutes to first real value? Is pricing visible (hidden pricing loses buyers
+silently)? Is there any way to experience it before paying?
 
-**Findability — can they get to you?**
+**Purchase** — can they enter a card without a sales call? Do you integrate with
+what's already in their stack? For enterprise: SSO, SOC 2, standard MSAs,
+procurement portals.
 
-| Dimension | What to check |
-|---|---|
-| Search terms | Do you rank for the terms a buyer would naturally type when the struggling moment hits? Not your brand name — the problem description. |
-| Review sites & directories | Are you listed on G2, Capterra, Product Hunt, or the relevant vertical directories for your category? Are reviews recent? |
-| Marketplace presence | If your category has marketplaces or app stores (Shopify App Store, Salesforce AppExchange, etc.), are you present? |
-| Comparison pages | When someone searches "[your category] vs [competitor]" or "best [category] tools," do you appear? |
-| Referral paths | Can an existing customer easily share or recommend you? Is there a referral link, a shareable report, an embeddable widget? |
-
-**Trial friction — can they try you?**
-
-| Dimension | What to check |
-|---|---|
-| Signup flow | Can they start in under 2 minutes with no human involvement? Every required field, approval step, or "Contact Sales" gate is friction. |
-| Time to value | How long from signup to the first moment of real value? Measure this in minutes, not days. |
-| Pricing transparency | Is pricing visible on the website? Hidden pricing is a physical availability barrier — buyers who can't assess cost drop out silently. |
-| Free tier / trial | Is there a way to experience the product before committing money? Free trial, freemium tier, sandbox, or interactive demo. |
-
-**Purchase — can they buy easily?**
-
-| Dimension | What to check |
-|---|---|
-| Self-serve purchase | Can they enter a credit card and start paying without a sales call? For SMB and mid-market, this is table stakes. |
-| Integration ease | Do you integrate with the tools already in their stack? Each missing integration is a physical availability gap. |
-| Procurement friction | For enterprise: do you support SSO, SOC 2, standard MSAs, procurement portals? Each missing checkbox is a blocker. |
-
-### Scoring and action
-
-Count the "Needs work" and "Missing" items. If you have more than 3 gaps in
-any section, that section is a constraint on physical availability. Fix the
-highest-frequency gaps first — the ones that affect the most buyers in your
-primary segment.
-
-Run this audit quarterly, or whenever the constraint review reveals that
-acquisition is healthy (people are finding you) but activation is not (they're
-not starting or converting). That pattern often indicates a physical
-availability problem, not a product problem.
+Run it quarterly, and **any time acquisition looks healthy but activation doesn't**
+— that pattern is usually physical availability, not product.
 
 ---
 
-## Building Mental Availability: The Operational Protocol
+## Cadences
 
-The weekly, monthly, and quarterly cadences for building mental availability
-live in the stage files where they're used operationally:
-
-- `stages/growth.md` — "The Awareness Cadence" section (weekly/monthly
-  rhythms, content cadence guidelines by team size)
-- `stages/scaling.md` — "Before You Build: The Awareness Check at Scale"
-  (segment expansion diagnostic, quarterly CEP re-mapping)
-
----
-
-## Connecting to Other Pillars
-
-Mental availability = input rate of the customer factory. Physical availability = friction at Acquisition and Activation. When the factory's constraint is at the top of the funnel, this framework provides the diagnosis and remedy. See `references/pillar-ritson.md` for how distinctiveness and differentiation work together.
+Weekly and monthly rhythms and content targets by team size → `stages/growth.md`.
+Per-segment expansion checks and the quarterly review → `stages/scaling.md`.

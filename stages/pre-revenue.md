@@ -1,281 +1,148 @@
-# Pre-Revenue: Day 1 Through First Paying Customer
+# Pre-Revenue — Day 1 Through First Paying Customer
+
+**The mindset:** they are here to be told to build. Don't. Your job at this stage
+is to make observation feel more urgent than construction, and to make the founder
+ask someone for money before they feel ready. They will never feel ready.
+
+Assume the idea is wrong until a stranger pays. That is not pessimism — it is the
+cheapest way to find out.
+
+**What you refuse to accept:** enthusiasm, "looks cool," a waitlist, a survey, a
+friend's encouragement, an investor's interest, a beautiful Figma. None of these
+are demand.
 
 ---
 
-## Know Your Job First
+## First: can they name the job?
 
-Before anything else: **can you name the specific job your customer hires you
-to do, in their words, not yours?**
+**"What job does your customer hire you to do — in their words, not yours?"**
 
-A job is the progress a person is trying to make in a specific situation. Not
-a feature request. Not a demographic. Not a trend. A job has three dimensions:
+If they can't say it in one sentence, **that is the constraint.** Stop everything
+else and send them to observe.
 
-- **Functional** — the practical task ("get my team ramped on cold calling
-  faster without me listening to every call")
-- **Emotional** — how they want to feel ("stop feeling like I'm failing the
-  people I'm responsible for")
-- **Social** — how they want to be perceived ("be seen by leadership as
-  data-driven and innovative")
+Push past the functional dimension — founders default there and stop. Get the
+emotional and social ones too. The functional job is table stakes; the other two
+are where the decision actually turns.
 
-Probe all three dimensions. Founders default to functional only.
+Then get the **struggling moment**: the concrete event that made someone start
+looking. Not "they were frustrated" — a specific event, with a date. Aim for the
+3-5 that repeat. Those are also the Category Entry Points you'll later need to own.
 
-If you can't state the job in one sentence, **that is your constraint.** Stop
-building and start observing.
+## The 5-minute canvas
 
-### The forces behind every deal
-
-Four forces govern every purchase:
-
-- **Push**: What's painful about the current situation (creates demand)
-- **Pull**: What's attractive about the new solution (creates demand)
-- **Anxiety**: Fear about switching — will it work? what's the risk? (kills demand)
-- **Habit**: Comfort with the status quo — inertia, sunk costs (kills demand)
-
-**A purchase happens only when Push + Pull > Anxiety + Habit.** If you're
-losing deals, don't assume the product is wrong. Check the forces: maybe
-the push is weak (not painful enough), anxiety is high (they don't trust you),
-or habit is strong (the old way is "good enough").
-
-Sometimes the highest-leverage move is not a better feature but a better
-guarantee, a simpler onboarding, or a testimonial from someone like them.
-
-### Struggling moments
-
-The struggling moment is the concrete event that triggers someone to seek a new solution — a metric drops, a key person quits, leadership asks uncomfortable questions.
-
-Identify the 3-5 struggling moments that bring customers to your door. These
-are also your Category Entry Points (Sharp) — the situations where your brand
-needs to come to mind.
-
-### The 5-minute canvas
-
-After every meaningful customer or prospect conversation, spend 5 minutes:
+After **every** meaningful conversation, 5 minutes, no exceptions:
 
 ```
 JOB:         [What progress are they trying to make?]
 TRIGGER:     [What specific event caused them to look?]
 OLD WAY:     [What are they "hiring" today?]
 ─────────────────────────────────────────────────
-PUSH:        [Top struggles with current situation]
+PUSH:        [Top struggles with the current situation]
 PULL:        [What attracted them to us?]
 ANXIETY:     [What worries them about switching?]
 HABIT:       [What keeps them on the old way?]
 ─────────────────────────────────────────────────
-OUTCOME:     [What does success look like in their words?]
-EMOTIONAL:   [How do they want to feel?]
-SOCIAL:      [How do they want to be perceived?]
+OUTCOME:     [Success in their words]
+EMOTIONAL:   [How they want to feel]
+SOCIAL:      [How they want to be perceived]
 ```
 
-After 8-12 canvases, patterns emerge. That's enough signal to act. If the
-patterns don't match your assumptions, change your assumptions — not the data.
+8-12 canvases and the patterns are real. If the patterns contradict the founder's
+assumptions, the assumptions change — never the data.
 
-See `references/jtbd.md` for the full framework: switch interviews, job
-mapping, outcome statements, opportunity scoring, and positioning.
+Deep interview protocol → `references/jtbd.md`.
 
 ---
 
 ## The Five Tests
 
-These are your gates. Pass all five before writing code.
+Gates. All five before a line of code. Name the protocol out loud when you run it.
 
-### 1. The Not-Not Test
+**1. Not-Not.** "Is it not okay for your customer to NOT have this?"
+If they can shrug, it's a nice-to-have. Nice-to-haves die on contact with a budget.
 
-"Is it not okay for your target customer to NOT have this?"
+**2. Job.** "Can you name the job in the customer's exact words?"
+Paraphrase means they haven't listened closely enough.
 
-If they can shrug, you don't have authentic demand. You have a nice-to-have.
-Nice-to-haves don't survive contact with budgets, procurement, or inertia.
+**3. Lean Canvas.** Run it in risk order, starting from **existing alternatives**
+(what customers use today) — not from the idea. The riskiest assumption is almost
+always "does anyone have this badly enough to pay?" Test that one first.
 
-### 2. The Job Test
+**4. Napkin.** Five minutes, on paper:
 
-"Can you name the specific job, in the customer's words?"
+1. 3-year revenue goal. Honest minimum to be worth doing.
+2. Annual revenue per customer. Price × frequency.
+3. Required customers = goal ÷ revenue per customer.
+4. Realistic reachable market — not TAM fantasy. People with this job, in
+   segments they can actually reach, at that price.
 
-Not your words. Not your investor's words. The exact language a customer used
-to describe the progress they're trying to make. If you're paraphrasing, you
-haven't listened closely enough.
+**Required > reachable = the model is dead.** Don't soften it. The fix is never
+"market harder" — it's the price, the segment, or the model. Change one and re-run
+the math in front of them.
 
-### 3. The Lean Canvas Test
+**5. Mafia Offer.** Before building:
 
-Answer these questions, ordered by risk:
+> "We help [segment] achieve [outcome] within [timeframe], unlike [existing
+> alternative] which [limitation]. [Price]. If we don't deliver, [risk reversal]."
 
-1. **Problem:** Top 3 problems. How do customers solve them today?
-2. **Customer segments:** Who has this most acutely? Name specific people.
-3. **Unique value proposition:** One sentence — why different AND worth
-   paying attention to? (Not "better" — different.)
-4. **Solution:** What is the simplest thing you could build to test whether
-   you've got the problem right? Not the product vision — the smallest test.
-5. **Channels:** How will these customers find you? Where do they already
-   look when this problem hits?
-6. **Revenue:** Will they pay? How much? Have you tested price before
-   building?
-7. **Cost structure:** What does it cost to acquire, activate, and serve one
-   customer? Can you survive long enough to learn?
-8. **Key metric:** One number that tells you whether this is working.
-9. **Unfair advantage:** What can't be easily copied? (Most startups don't
-   have one yet. That's fine — but know it.)
+Must clear **3x** better than the existing alternative on the dimension the
+customer cares most about. Not 10% — obviously, dramatically better. Less won't
+beat switching costs.
 
-Test the riskiest assumption first — usually "does anyone have this problem badly enough to pay?"
+Then test it with a real ask: a deposit, a pre-order, an LOI. Not "would you buy
+this?" — "here's the invoice."
 
-### 4. The Napkin Test
-
-Five-minute viability check:
-
-1. Set your 3-year minimum success criteria (revenue goal). Be honest.
-2. Calculate annual revenue per customer. Price x frequency. Round clean.
-3. Divide. Required customers = Goal / Revenue per customer.
-4. Check the market. Does your addressable market have that many? Not the
-   TAM fantasy — the realistic number of people who have the job you're
-   solving, in the segments you can reach.
-
-If Required Customers > Addressable Market, the model is dead. Don't build
-it. Change the price (charge more), the segment (target one that pays more),
-or the model (recurring vs. one-time, platform vs. product).
-
-**Your pricing model determines your customers and market viability.** A VR platform needing 10,000 developers in a market of
-2,200 is dead on arrival. The same product targeting architects at $50K/year
-needs only 200 firms. Same idea, different model, viable business.
-
-### 5. The Mafia Offer
-
-Before building anything, craft an offer so good customers can't refuse:
-
-**Desired outcome + specific metric + timeframe + price + risk reversal.**
-
-Example: "We'll get your new SDRs booking qualified meetings within 2 weeks,
-or you pay nothing."
-
-**"Looks cool" is not validation.** When someone says "this looks cool," "I'd
-love to try this," or "keep me posted," they are being polite. Social validation
-feels like demand but isn't. The only signals that matter:
-- They paid money (even a small amount)
-- They committed time (scheduled a call, did a trial, signed an LOI)
-- They took an action that cost them something
-
-If you have 20 "looks cool" conversations and zero commitments, you don't
-have validation. You have politeness.
-
-**The 3x rule:** The offer must promise at least a 3x improvement over the
-existing alternative on the dimension the customer cares about most. Not 10%
-better — dramatically, obviously better. Anything less won't overcome
-switching costs and inertia.
-
-**Template:** "We help [specific customer segment] achieve [desired outcome]
-within [timeframe], unlike [existing alternative] which [key limitation].
-[Price]. If we don't deliver, [risk reversal]."
-
-Test it by asking for **real commitment** — a deposit, a pre-order, a letter
-of intent. Not "would you buy this?" but "here's the invoice." If people
-won't commit to the offer, building the product is waste.
-
-The MVP is what you build to deliver on a validated offer, not the other way
-around. The offer comes first. The product serves it. Sequence:
-**Desirability → Feasibility → Viability.** Test whether people want this
-before testing whether you can build it.
+**Sequence: Desirability → Feasibility → Viability.** The MVP is what you build to
+deliver a validated offer. The offer comes first.
 
 ---
 
-## What to Do Instead of Building
+## What to do instead of building
 
-Your job at this stage is **observation, not construction.**
+- **Watch them work.** What they do, not what they say. The workarounds they've
+  built are the spec.
+- **Switch interviews** with anyone who recently adopted or abandoned something in
+  this space. → `references/jtbd.md`
+- **Mine what exists.** Lost deal notes, support tickets, churn threads are already
+  JTBD data. "What did you go with instead?" reveals the real competitive set —
+  usually a spreadsheet, not a competitor.
+- **Non-consumption is the biggest competitor.** Most people have accepted the
+  problem is unsolvable.
 
-- **Watch customers in their real context.** What they do, not what they say.
-  Where they struggle. What workarounds they've built. Where they waste time.
-- **Run switch interviews.** Talk to people who recently switched solutions
-  (or recently quit using one). Reconstruct the buying timeline. Find the
-  forces. See `references/jtbd.md` for the full protocol.
-- **Mine what you already have.** Lost deal notes, support tickets, and
-  churn conversations already contain JTBD data. For lost deals: "What did
-  you go with instead and why?" For churned customers: "What are you using
-  now?" The answer reveals the real competitive set.
-- **Beware the Innovator's Bias.** When you've decided you want to build a
-  hammer, everything looks like a nail. Start with existing alternatives
-  (what customers use today), not your idea.
-
----
-
-## Solo-Founder Subordination
-
-If you're solo, subordination means **your calendar.**
-
-Block time for the constraint — at this stage, that means customer
-conversations, observation, and running the five tests. Everything else
-gets the scraps: building, admin, fundraising decks, logo design.
-
-If you're spending more than 30% of your time building before you've
-validated the problem, you're subordinating wrong. The code can wait.
-The market signal can't.
+**Watch for the Innovator's Bias.** Once they've decided to build a hammer,
+everything looks like a nail — and smart founders rationalize better, not more
+honestly. Awareness doesn't fix it. Only starting from the existing alternative does.
 
 ---
 
-## Worked Example: Killing an Idea on the Napkin
+## Solo-founder subordination
 
-**Mira — solo founder, idea for an AI-powered recipe app for people with
-dietary restrictions. Subscription model, $9.99/month.**
+Subordination means **the calendar.** Constraint work is customer conversations,
+observation, and the five tests. Building, admin, decks, and logos get the scraps.
 
-Mira is excited. She's been celiac for 10 years and hates existing recipe
-apps. She's ready to build.
-
-**Step 1: The napkin test.**
-
-- 3-year revenue goal: $500K ARR (minimum to be worth doing full-time).
-- Revenue per customer: $9.99/mo = ~$120/year.
-- Required customers: $500K / $120 = ~4,200 paying subscribers.
-- Market check: How many people (a) have dietary restrictions, (b) actively
-  use recipe apps, (c) are willing to pay monthly, (d) she can reach?
-
-She researches. ~32M Americans have food allergies. But the overlap with
-"uses recipe apps" and "will pay $10/mo for one" is much smaller. Comparable
-apps (Yummly, Paprika) convert free users to paid at 2-5%. She'd need
-84,000-210,000 free users to get 4,200 paid. With no distribution channel
-and no marketing budget, that's not realistic in 3 years.
-
-**Step 2: The model is dead. Change the model, not the dream.**
-
-Options:
-- **Charge more.** Target professional dietitians who manage multiple
-  clients. $49/mo per practice. Now she needs 850 customers from a pool
-  of ~100,000 practicing dietitians. Plausible.
-- **Change the segment.** Target restaurants that need to comply with
-  allergen labeling laws. B2B, $200/mo. Now she needs 210 customers.
-  Different product, same domain knowledge.
-- **Change the model entirely.** License the dietary restriction engine to
-  existing recipe platforms. One API deal at $100K/year means she needs 5
-  clients. Different business, much higher bar per deal.
-
-Mira hasn't written a line of code. She's killed the consumer model and
-found two viable alternatives in 20 minutes. Now she picks one and runs
-the other four tests.
+**More than 30% of time on building before the problem is validated = subordinating
+wrong.** Say it plainly. The code can wait; the market signal can't.
 
 ---
 
-## The Pre-Revenue Weekly Review (10 minutes)
+## Weekly review (10 min)
 
-You don't have funnel metrics yet. Your review is different:
+No funnel metrics yet, so:
 
-1. **How many customer conversations this week?** (2 min)
-   Target: 3-5 per week minimum. If zero, that's the problem — not the
-   product idea.
+1. **Conversations this week?** Target 3-5. Zero conversations is the problem —
+   not the idea.
+2. **What did we learn?** Review the week's canvases. Which patterns repeat?
+3. **Did the hypothesis survive?** Do the five tests still pass?
+4. **One action for next week.** Usually "talk to 3 more people matching pattern X"
+   or "test the offer on segment Y."
 
-2. **What did we learn?** (3 min)
-   Review any 5-minute canvases from the week. What patterns are emerging?
-   Are the struggling moments consistent? Are the forces shifting?
-
-3. **Has our hypothesis survived?** (3 min)
-   Do the five tests still pass? Has anything we learned this week
-   challenged the not-not test, the job test, or the napkin math?
-
-4. **One action for next week.** (2 min)
-   The single most important thing to do. Usually: "talk to 3 more people
-   who match pattern X" or "test the offer with segment Y."
+Full format → `references/weekly-review.md`.
 
 ---
 
-## When to Graduate
+## Graduate to `stages/growth.md` when
 
-You're ready for `stages/growth.md` when:
-
-- You have paying customers who weren't friends-and-family.
-- You can name the job they hired you for, in their words.
+- Paying customers who aren't friends or family.
+- They can name the job in the customer's words.
 - The napkin math works.
-- At least one person committed to the Mafia Offer (or equivalent signal
-  of real demand).
-
+- At least one real commitment to the Mafia Offer.
