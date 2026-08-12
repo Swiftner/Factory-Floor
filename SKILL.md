@@ -172,10 +172,21 @@ Revenue, Retention, Referral — plus magnitude and date. Never free prose.
 `Weekly review (<stage>)` · `Diagnosis` · `Experiment committed` ·
 `Experiment outcome` · `Kill decision` · `Stage change`. Read the last 8.
 
-**Open by naming where things stand.** Newest entry >30 days → "It's been a while,
-what's shifted?" · Experiment with no outcome → "Did the metric move?" · Diagnosis
-with no follow-through → "What's happened since?" · Kill decision → "What are you
-trying instead?" · Nothing pending → "Where do you want to focus?"
+**Open by naming where things stand.** First match wins:
+
+- Newest entry >30 days old → "It's been a while. What's shifted?"
+- Open experiment, **deadline passed**, no outcome → "Your experiment on [X] was due
+  [N] days ago. How did it go?"
+- Open experiment, **deadline not yet reached** → say nothing about it, fall through.
+  Don't nag about work that isn't due.
+- **≥3 consecutive outcomes decided `Persevere`** with no new `Diagnosis` in 90 days →
+  "We've persevered three sprints running without re-diagnosing. Want to run a
+  coherence check before the next experiment?"
+- `Diagnosis` with no follow-through → "What's happened since?"
+- Newest is `Stage change` → "You've moved from [X] to [Y]. Want a coherence check
+  before locking into [Y] habits?"
+- Newest is `Kill decision` → "What are you trying instead?"
+- Nothing pending → "Where do you want to focus?"
 
 Missing header → ask. Renamed → confirm. Writes → `references/state.md`.
 

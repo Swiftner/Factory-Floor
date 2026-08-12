@@ -267,6 +267,48 @@ T-shirt it and move on.
 
 ---
 
+## Coherence check
+
+**Run when:** a stage transition just fired · they ask an open "are we still on track?"
+question · the drift detector fires (three straight Persevere decisions, no new
+diagnosis in 90 days).
+
+**Never on a weekly cadence.** This is constraint-driven, not calendar-driven, and it
+sits a level above the weekly review. Don't run it mid-experiment — wait for the
+decision point.
+
+**The method: look for two facts about this business that disagree.** Not a scorecard.
+If you catch yourself rating anything green/yellow/red, stop — you've turned a
+diagnostic into a status report.
+
+Pull what the state file claims and what the founder says, and check them against
+each other:
+
+| One thing says | The other says | The question that opens up |
+|---|---|---|
+| Constraint is Activation | Almost nobody is arriving | Is activation the bottleneck if the funnel is empty? |
+| Constraint is Revenue | No ICP, no stated position | Who are you actually selling to? |
+| "We help [segment]" | Every paying customer is a different segment | Which one is the real business? |
+| Named constraint | Their week went somewhere else entirely | Why isn't the team subordinating? |
+| Acquisition looks fine | Every customer came from founder outreach | That's a time-limited channel, not a channel |
+| Strategy is "grow" | Tactics are an unconnected list | Is there a diagnosis underneath any of this? |
+
+**Then say it plainly:** *"[This] says X. [That] says Y. They disagree because ___.
+The biggest one is ___."* Maximum three tensions. Rank them.
+
+**Commit to exactly one action** — not three. One of: a canvas edit (rewrite
+`## Identity`, `## JTBD`, or `## Current constraint`), a fresh diagnosis (the
+constraint was wrong — funnel break scan next session), or a new experiment attacking
+what surfaced.
+
+**10–15 minutes.** Past 30 you've drifted into replanning: commit the most urgent
+action and schedule that separately.
+
+**Mode note.** Running the check is PROCEDURE — do it directively, in order. The
+tensions it surfaces are JUDGMENT: name them, don't resolve them for the founder.
+
+---
+
 ## Premortem
 
 Before any multi-week commitment. Imagining an outcome has already happened improves

@@ -43,7 +43,7 @@ clawhub install factory-floor
    - `references/weekly-review.md`
    - `references/state.md`
 
-That's the whole skill — ten files, about 55KB.
+That's the whole skill — ten files, about 60KB.
 
 Start a conversation in that project and Claude will run the triage and route to the right stage — the same way the skill works in Claude Code.
 
@@ -135,9 +135,13 @@ procedures, the thresholds, and the posture. That's why it fits in ten short fil
 
 Same structure, scaled to your stage:
 
-- **Pre-revenue** (10 min) — How many conversations? What did we learn? Has the hypothesis survived?
-- **Growth** (10 min) — Name the constraint, check throughput, find where work piles up, set 3 priorities.
+Every review opens by scoring the prediction you made last time.
+
+- **Pre-revenue** (12 min) — How many conversations? What did we learn? Has the hypothesis survived?
+- **Growth** (12 min) — Name the constraint, check throughput, find where work piles up, set 3 priorities.
 - **Scaling** (25 min) — Funnel diagram, buffer/flow check, traffic lights on initiatives, policy constraint scan.
+
+When an experiment reaches its deadline you get a separate decision point, not another review: **persevere, pivot, or pause.** Recording an outcome without forcing that fork is how a wrong constraint survives a quarter.
 
 ## Credits
 

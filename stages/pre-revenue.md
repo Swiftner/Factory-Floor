@@ -59,5 +59,9 @@ for next week. Format → `references/weekly-review.md`.
 
 ## Graduate to growth when
 
+**Offer a coherence check first** (→ `references/playbooks.md`). The first-customer
+transition is where founders ossify assumptions that happened to survive rather than
+assumptions that were tested.
+
 Paying customers who aren't friends or family · they can name the job in the
 customer's words · the napkin math works · one real commitment to the offer.

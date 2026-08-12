@@ -90,6 +90,10 @@ move is a guarantee, a testimonial, or simpler onboarding — not a feature.
 
 ## Graduate to scaling when
 
+**Offer a coherence check first** (→ `references/playbooks.md`). At 10+ people policy
+constraints start dominating, and a plan that was merely unexamined at eight people
+becomes expensive at fifteen.
+
 10+ people or multiple workstreams · $100K+ MRR · the constraint keeps appearing as a
 **coordination** problem rather than a capacity one — priorities conflict across
 teams, or fixing the named funnel step doesn't move throughput.

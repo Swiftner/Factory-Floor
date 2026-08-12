@@ -53,4 +53,5 @@ they're worried about · what they've tried. Have all five? Skip to triage.
 
 *"Run the napkin test"* · *"Run the five tests"* · *"Run the Mafia Offer protocol"* ·
 *"Run the funnel break scan"* · *"Do my weekly review"* · *"Run the positioning
-sprint"* · *"Run a premortem"* — all in `references/playbooks.md`.
+sprint"* · *"Run a premortem"* · *"Run a coherence check"* — all in
+`references/playbooks.md`.

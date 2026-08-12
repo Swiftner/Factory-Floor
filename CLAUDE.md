@@ -8,7 +8,7 @@ A Claude Code skill called **Factory Floor** — a startup operating system for 
 
 ## Architecture
 
-The skill is **decision-tree routed**: SKILL.md is a thin router that sorts the request into one of two modes, identifies the startup's stage and constraint, then loads one file. Ten files, ~55KB total. Context stays lean — a day-1 founder never sees fever charts, and a year-3 company doesn't re-read the napkin test.
+The skill is **decision-tree routed**: SKILL.md is a thin router that sorts the request into one of two modes, identifies the startup's stage and constraint, then loads one file. Ten files, ~60KB total. Context stays lean — a day-1 founder never sees fever charts, and a year-3 company doesn't re-read the napkin test.
 
 ### SKILL.md (the router)
 
@@ -59,7 +59,7 @@ Mindset + refusals + the stage-specific sequence. Each opens with the posture fo
 
 - `intake.md` — First conversation, vague-answer probes, what's enough to proceed
 - `probes.md` — The question behind the question, nine usually-wrong diagnoses with their "it's right when" row, anti-patterns
-- `playbooks.md` — **Every mechanical procedure in one file.** Funnel scan, napkin test, five tests, Mafia Offer, switch interviews, CEP mapping, physical availability audit, positioning sprint, awareness check, estimation and buffers, premortem, calibration scoring
+- `playbooks.md` — **Every mechanical procedure in one file.** Funnel scan, napkin test, five tests, Mafia Offer, switch interviews, CEP mapping, physical availability audit, positioning sprint, awareness check, estimation and buffers, coherence check, premortem, calibration scoring
 - `weekly-review.md` — Format per stage, prediction scoring, funnel diagram
 - `state.md` — Write triggers, templates, bootstrap, edge cases (a machine contract — precise, not terse)
 
@@ -93,3 +93,5 @@ Duplication is the failure mode this repo drifts toward. Before adding anything,
 | Every mechanical procedure | `references/playbooks.md` |
 | Buffer multipliers, calibration scoring | `references/playbooks.md` |
 | Weekly review formats, prediction scoring, funnel diagram | `references/weekly-review.md` |
+| Coherence check, and every other named protocol | `references/playbooks.md` |
+| Persevere/Pivot/Pause, opening-line patterns | `references/state.md` trigger #4; patterns in `SKILL.md` |

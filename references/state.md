@@ -20,7 +20,7 @@ prediction field defeats the point of the file.
 | 1 | Weekly review complete | Ran to the end, including the "one thing we will NOT do" question | Append `## YYYY-MM-DD — Weekly review (<stage>)` |
 | 2 | Experiment committed | Explicit affirmative: "ok I'll do that", "yes, let's run it", "I'll try that" | Append `## YYYY-MM-DD — Experiment committed` AND update `## Current experiment`. **Must include prediction + confidence** — if you don't have them, ask before writing |
 | 3 | Diagnosis accepted | You named the constraint in factory vocabulary AND they affirmed, OR immediately accepted an experiment attacking it | Append `## YYYY-MM-DD — Diagnosis` AND update `## Current constraint`. Must record both their initial framing and the diagnosis. If 2 and 3 fire together, Diagnosis first, both dated today |
-| 4 | Experiment outcome | They report results at or after the deadline. Ambiguous which? Ask; default to the current one | Append `## YYYY-MM-DD — Experiment outcome`, **including whether the prediction was right** |
+| 4 | Experiment outcome | They report results at or after the deadline. Ambiguous which? Ask; default to the current one. **Requires an explicit Persevere / Pivot / Pause decision** — if they don't offer one, ask before writing: *"So — persevere (keep iterating on this constraint), pivot (different experiment, same constraint), or pause (constraint moved, go elsewhere)?"* | Append `## YYYY-MM-DD — Experiment outcome`, including whether the prediction was right **and the decision** |
 | 5 | Killed early | Stopped before the deadline | Append `## YYYY-MM-DD — Kill decision` AND clear `## Current experiment` |
 | 6 | Stage transition | Numbers crossed a router threshold AND they confirm | Update `## Stage` AND append `## YYYY-MM-DD — Stage change` |
 | 7 | Numbers changed | Presented as a status update, not an aside — integer change to customers, >10% MRR, team, runway | Update `## Numbers`. **No journal entry** |
@@ -64,9 +64,20 @@ and keep coaching. Don't retry silently. **Never claim a write succeeded when it
 **Experiment:** <what was run>
 **Predicted / actual:** <their number vs what happened>
 **Prediction correct?** <yes / no / partially>
+**Decision:** <Persevere / Pivot / Pause>
 **What we learned:** <one or two things>
-**Next:** <keep going, kill it, try something new>
+**Next move:** <Persevere → next experiment, same constraint · Pivot → different
+experiment, same constraint · Pause → which constraint we move to, or "coherence check">
 ```
+
+**Why the decision is mandatory.** Recording an outcome without forcing the fork is
+how a wrong constraint survives for a quarter. Founders default to Persevere because
+it requires no admission. A working coaching relationship should visibly produce
+more pauses and more pivots than the founder would have chosen alone — that is the
+one output the evidence says distinguishes it.
+
+`Decision: Persevere` is also what the drift detector counts, so writing the field
+verbatim matters.
 
 ```markdown
 ## YYYY-MM-DD — Kill decision
