@@ -14,7 +14,7 @@ Growth-stage founder running a diagnosis for the first time in Factory Floor. Th
 > "We're not converting demos. I think we need to train the sales team better."
 
 ## Expected behaviors
-1. Claude recognizes this as a potential misdiagnosis (the founder's framing is "sales training") and probes deeper (per `references/misdiagnoses.md`): "What do people say when they don't buy? Do you believe them?"
+1. Claude recognizes this as a potential misdiagnosis (the founder's framing is "sales training") and probes deeper (per `references/probes.md`): "What do people say when they don't buy? Do you believe them?"
 2. Through dialogue, Claude and the founder land on a diagnosis — let's assume the real constraint is Revenue (close rate because the ICP isn't targeted).
 3. Claude names the constraint to the founder in customer-factory vocabulary: "Your constraint is **Revenue** — specifically close rate. Not sales training."
 4. Founder affirms the diagnosis.

@@ -1,81 +1,99 @@
 # Weekly Review
 
-Load this file when the founder asks for a weekly review, check-in, or wants to review the week.
-Run the format for their stage. Keep it tight — 10-25 minutes max depending on stage.
+**Mindset:** not a status meeting, not a morale exercise. It exists to re-confirm or
+move the constraint and leave with one clear priority. If everyone feels good and
+nothing was named, it failed.
+
+This is **PROCEDURE mode** — run the format, in order, directively. But take each
+number *before* you comment on it. Their read first, then yours.
+
+**Rules:** go in order · a missing number is recorded as unknown, never estimated ·
+keep to the time budget.
+
+**Always end with:** *"What is the one thing we will NOT do next week that we might
+be tempted to do?"*
 
 ---
 
-## Pre-revenue (10 min)
+**Step 1 is always the same:** pull the open prediction from `## Current experiment`
+and score it before discussing anything else. Ask for their number first, then read
+out what they predicted. Without this the founder is working in an environment that
+never tells them whether they were right — which is the whole reason the journal
+exists.
 
-**1. Conversations (5 min)**
-- How many real conversations with potential customers this week?
-- What did you learn that you didn't know on Monday?
-- Did anything surprise you — positive or negative?
+## Pre-revenue — 12 min
 
-**2. Hypothesis check (3 min)**
-- State the current hypothesis in one sentence: *"[Customer] struggles with [problem] and will pay for [solution]."*
-- Is this still what you believe? What evidence pushed it forward or back?
+1. **Score the prediction (2).** What did you expect? What happened?
+2. **Conversations (5).** How many real ones? What do you know now that you didn't
+   on Monday? Anything surprise you?
+3. **Hypothesis (3).** State it: *"[Customer] struggles with [problem] and will pay
+   for [solution]."* Still believed? What moved it?
+4. **One thing (2).** The single most important thing to **learn or test**. Not build.
 
-**3. Next week's one thing (2 min)**
-- What is the single most important thing to learn or test next week?
-- Not build. Learn or test.
+## Growth — 12 min
 
----
+1. **Score the prediction (2).** What did you expect? What happened?
+2. **Constraint (2).** Name the step. Did it move — up, down, flat?
+3. **Numbers (3).** Found ___ · Activated ___ · Paid ___ · Churned ___ · Biggest drop-off?
+4. **Work pile (3).** What's in progress? Anything over 2 weeks — why? What shipped?
+5. **Three priorities (2).** Only things serving the constraint. One named owner each.
 
-## Growth (10 min)
+## Scaling — 25 min
 
-**1. Constraint (2 min)**
-- Name the current constraint: acquisition / activation / revenue / retention / referral.
-- Did it move this week? Throughput up, down, or flat?
+1. **Score the prediction (3).** What did you expect? What happened?
+2. **Funnel snapshot (5).** Draw it, mark the biggest drop-off. Same as last week?
+3. **Buffer and flow (5).** Where is work piling up? Where is capacity idle? Anything
+   "almost done" for over 2 weeks?
+4. **Traffic lights (8).** 🟢 on track · 🟡 at risk, needs attention this week ·
+   🔴 stalled, consider killing.
+5. **Policy scan (2).** Any rule that made sense 6 months ago and now slows things
+   down? Usual culprits: approval chains, meeting load, hiring process, release gates.
+6. **Focus (2).** One thing the team rallies around. What does done look like?
 
-**2. Numbers (3 min)**
-- New people found you this week: ___
-- Activated (reached aha moment): ___
-- Paid: ___
-- Churned: ___
-- Where is the biggest drop-off?
+The closing question is part of the final step — don't run over to fit it in, cut the
+step short instead.
 
-**3. Work pile (3 min)**
-- What's currently in progress? (List it)
-- Anything that's been in progress for >2 weeks? Why?
-- What got finished and shipped?
+No open prediction (first review, or the last experiment was killed)? Skip step 1 and
+say so, then make sure this review's experiment leaves with one.
 
-**4. Next week's 3 priorities (2 min)**
-- Only things that serve the constraint.
-- Name them. One person owns each.
-
----
-
-## Scaling (25 min)
-
-**1. Funnel snapshot (5 min)**
-Draw the funnel: Awareness → Acquisition → Activation → Revenue → Retention
-Mark the step with the biggest drop-off. Is it the same as last week?
-
-**2. Buffer and flow (5 min)**
-- Where is work piling up right now?
-- Where is capacity idle?
-- Any projects that have been "almost done" for >2 weeks?
-
-**3. Initiative traffic lights (10 min)**
-For each active initiative, assign:
-- 🟢 On track — constraint is being served, throughput moving
-- 🟡 At risk — behind or blocked, needs attention this week
-- 🔴 Stalled — not moving, consider pausing or killing
-
-**4. Policy constraint scan (3 min)**
-- Is there a rule, process, or habit that made sense 6 months ago but is now slowing things down?
-- Common culprits: approval chains, meeting schedules, hiring process, release gates.
-
-**5. Next week's focus (2 min)**
-- One thing the team is rallying around.
-- What does "done" look like?
+Quarterly, show the tally — 40–60% right is calibrated, over 70% means they're only
+predicting safe things, under 30% means overconfident. Details →
+`references/playbooks.md`.
 
 ---
 
-## How to run the review
+## Funnel diagram
 
-- Go in order. Don't skip steps.
-- If a number is missing, note it as unknown — don't estimate.
-- The goal isn't to feel good about the week. It's to name the constraint and set one clear priority.
-- End every review with: "What is the one thing we will not do next week that we might be tempted to do?"
+Write as `.mmd`, render with `scripts/render-diagram.mjs`.
+
+```mermaid
+graph TD
+    UV["Unaware Visitors<br/><b>~10,000/mo</b>"] -->|"Acquisition · 3%"| IP["Interested Prospects<br/><b>~300/mo</b>"]
+    IP -->|"Activation · 40%"| AU["Active Users<br/><b>~120/mo</b>"]
+    AU -->|"Revenue · 25%"| PC["Paying Customers<br/><b>~30/mo</b>"]
+    PC -->|"Retention · 85%"| RC["Retained Customers<br/><b>~25/mo</b>"]
+    RC -->|"Referral · 10%"| UV
+
+    style AU fill:#ff6b6b,stroke:#c0392b,stroke-width:3px,color:#fff
+```
+
+Replace with their numbers. Highlight the constraint node in red; if the constraint
+is a conversion rate, highlight both adjacent nodes. Add a line naming it in plain
+language.
+
+Install the renderer once:
+
+```bash
+cd scripts && npm install
+```
+
+Then render from the repository root:
+
+```bash
+node scripts/render-diagram.mjs funnel.mmd funnel.svg
+node scripts/render-diagram.mjs funnel.mmd funnel.svg --theme brand-light
+```
+
+Themes: `brand-dark` (default), `brand-light`, `zinc-dark`, `tokyo-night`,
+`catppuccin-mocha`, `nord`, `dracula`, `github-dark`, `zinc-light`,
+`tokyo-night-light`, `catppuccin-latte`, `github-light`.
